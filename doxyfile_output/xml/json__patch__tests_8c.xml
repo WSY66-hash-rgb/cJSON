@@ -1,0 +1,540 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="json__patch__tests_8c" kind="file" language="C++">
+    <compoundname>json_patch_tests.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes refid="unity__config_8h" local="yes">unity/examples/unity_config.h</includes>
+    <includes refid="unity_8h" local="yes">unity/src/unity.h</includes>
+    <includes refid="common_8h" local="yes">common.h</includes>
+    <includes refid="cJSON__Utils_8h" local="yes">../cJSON_Utils.h</includes>
+    <incdepgraph>
+      <node id="18">
+        <label>../cJSON_Utils.h</label>
+        <link refid="cJSON__Utils_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>float.h</label>
+      </node>
+      <node id="13">
+        <label>../cJSON.c</label>
+        <link refid="cJSON_8c"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>cJSON.h</label>
+        <link refid="cJSON_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>stdint.h</label>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="8">
+        <label>setjmp.h</label>
+      </node>
+      <node id="1">
+        <label>tests/json_patch_tests.c</label>
+        <link refid="json__patch__tests_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>stddef.h</label>
+      </node>
+      <node id="11">
+        <label>limits.h</label>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+      <node id="5">
+        <label>unity/examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="9">
+        <label>math.h</label>
+      </node>
+      <node id="7">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>unity/src/unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>ctype.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="json__patch__tests_8c_1a9ae7df22687b441f77b603d26e50cf93" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *</type>
+        <definition>static cJSON* parse_test_file</definition>
+        <argsstring>(const char *const filename)</argsstring>
+        <name>parse_test_file</name>
+        <param>
+          <type>const char *const</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/json_patch_tests.c" line="32" column="14" bodyfile="tests/json_patch_tests.c" bodystart="32" bodyend="47"/>
+        <references refid="cJSON_8c_1a3e8d0723e3be479074c45008f5cd3497" compoundref="cJSON_8c" startline="2947" endline="2955">cJSON_IsArray</references>
+        <references refid="cJSON_8c_1ad3df5f943457d4befebe4109d48e4a50" compoundref="cJSON_8c" startline="1171" endline="1174">cJSON_Parse</references>
+        <references refid="common_8h_1ab5e8b6289c8d0f065872cbe531443692" compoundref="common_8h" startline="47" endline="100">read_file</references>
+        <referencedby refid="json__patch__tests_8c_1abbc693b8de514de60a2b6f29595b5bec" compoundref="json__patch__tests_8c" startline="217" endline="232">cjson_utils_should_pass_json_patch_test_cjson_utils_tests</referencedby>
+        <referencedby refid="json__patch__tests_8c_1a8ed8babcc021e552bdbad201bd00eb07" compoundref="json__patch__tests_8c" startline="200" endline="215">cjson_utils_should_pass_json_patch_test_spec_tests</referencedby>
+        <referencedby refid="json__patch__tests_8c_1a80ff9086f3f44fd28e13e55ecf5378c6" compoundref="json__patch__tests_8c" startline="183" endline="198">cjson_utils_should_pass_json_patch_test_tests</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="json__patch__tests_8c_1a3ae4cfc74fe6a5fac249299f229e8ab7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="cJSON_8h_1aea0a1491f73d98b7cc4b8b791c408a4a" kindref="member">cJSON_bool</ref></type>
+        <definition>static cJSON_bool test_apply_patch</definition>
+        <argsstring>(const cJSON *const test)</argsstring>
+        <name>test_apply_patch</name>
+        <param>
+          <type>const <ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>test</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/json_patch_tests.c" line="49" column="19" bodyfile="tests/json_patch_tests.c" bodystart="49" bodyend="120"/>
+        <references refid="cJSON_8c_1a42801ee95f281ee07fe132dee8abce6b" compoundref="cJSON_8c" startline="2977" endline="3100">cJSON_Compare</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a010fe0dd2606bdfafc7eb0123b20222e" compoundref="cJSON_8c" startline="2697" endline="2778">cJSON_Duplicate</references>
+        <references refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" compoundref="cJSON_8c" startline="1913" endline="1916">cJSON_GetObjectItemCaseSensitive</references>
+        <references refid="cJSON_8c_1a87b7cb8032c9a552995e006f65f49cb5" compoundref="cJSON_8c" startline="2937" endline="2945">cJSON_IsString</references>
+        <references refid="cJSON_8c_1a4ad6de706aeece32cdb6348ba3e390f7" compoundref="cJSON_8c" startline="2897" endline="2905">cJSON_IsTrue</references>
+        <references refid="cJSON__Utils_8c_1aedc0555c83da63f2cf2418ed371cfcab" compoundref="cJSON__Utils_8c" startline="1067" endline="1094">cJSONUtils_ApplyPatchesCaseSensitive</references>
+        <references refid="structcJSON_1ad43f8de2571e504c4c5ce0a36990e6e1" compoundref="cJSON_8h" startline="115">cJSON::valuestring</references>
+        <referencedby refid="json__patch__tests_8c_1abbc693b8de514de60a2b6f29595b5bec" compoundref="json__patch__tests_8c" startline="217" endline="232">cjson_utils_should_pass_json_patch_test_cjson_utils_tests</referencedby>
+        <referencedby refid="json__patch__tests_8c_1a8ed8babcc021e552bdbad201bd00eb07" compoundref="json__patch__tests_8c" startline="200" endline="215">cjson_utils_should_pass_json_patch_test_spec_tests</referencedby>
+        <referencedby refid="json__patch__tests_8c_1a80ff9086f3f44fd28e13e55ecf5378c6" compoundref="json__patch__tests_8c" startline="183" endline="198">cjson_utils_should_pass_json_patch_test_tests</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="json__patch__tests_8c_1aa59e85969b210bbc43f2105bb522c73a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="cJSON_8h_1aea0a1491f73d98b7cc4b8b791c408a4a" kindref="member">cJSON_bool</ref></type>
+        <definition>static cJSON_bool test_generate_test</definition>
+        <argsstring>(cJSON *test)</argsstring>
+        <name>test_generate_test</name>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *</type>
+          <declname>test</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/json_patch_tests.c" line="122" column="19" bodyfile="tests/json_patch_tests.c" bodystart="122" bodyend="181"/>
+        <references refid="cJSON_8c_1a42801ee95f281ee07fe132dee8abce6b" compoundref="cJSON_8c" startline="2977" endline="3100">cJSON_Compare</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a010fe0dd2606bdfafc7eb0123b20222e" compoundref="cJSON_8c" startline="2697" endline="2778">cJSON_Duplicate</references>
+        <references refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" compoundref="cJSON_8c" startline="1913" endline="1916">cJSON_GetObjectItemCaseSensitive</references>
+        <references refid="cJSON_8c_1a4ad6de706aeece32cdb6348ba3e390f7" compoundref="cJSON_8c" startline="2897" endline="2905">cJSON_IsTrue</references>
+        <references refid="cJSON_8c_1ae2177acac9871b89531e722b49f14925" compoundref="cJSON_8c" startline="1248" endline="1251">cJSON_Print</references>
+        <references refid="cJSON__Utils_8c_1aedc0555c83da63f2cf2418ed371cfcab" compoundref="cJSON__Utils_8c" startline="1067" endline="1094">cJSONUtils_ApplyPatchesCaseSensitive</references>
+        <references refid="cJSON__Utils_8c_1ae6ffc4b4590ab520f4d44fccfcf79323" compoundref="cJSON__Utils_8c" startline="1296" endline="1309">cJSONUtils_GeneratePatchesCaseSensitive</references>
+        <referencedby refid="json__patch__tests_8c_1abbc693b8de514de60a2b6f29595b5bec" compoundref="json__patch__tests_8c" startline="217" endline="232">cjson_utils_should_pass_json_patch_test_cjson_utils_tests</referencedby>
+        <referencedby refid="json__patch__tests_8c_1a8ed8babcc021e552bdbad201bd00eb07" compoundref="json__patch__tests_8c" startline="200" endline="215">cjson_utils_should_pass_json_patch_test_spec_tests</referencedby>
+        <referencedby refid="json__patch__tests_8c_1a80ff9086f3f44fd28e13e55ecf5378c6" compoundref="json__patch__tests_8c" startline="183" endline="198">cjson_utils_should_pass_json_patch_test_tests</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="json__patch__tests_8c_1a80ff9086f3f44fd28e13e55ecf5378c6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_utils_should_pass_json_patch_test_tests</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_utils_should_pass_json_patch_test_tests</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/json_patch_tests.c" line="183" column="13" bodyfile="tests/json_patch_tests.c" bodystart="183" bodyend="198"/>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="json__patch__tests_8c_1a9ae7df22687b441f77b603d26e50cf93" compoundref="json__patch__tests_8c" startline="32" endline="47">parse_test_file</references>
+        <references refid="json__patch__tests_8c_1a3ae4cfc74fe6a5fac249299f229e8ab7" compoundref="json__patch__tests_8c" startline="49" endline="120">test_apply_patch</references>
+        <references refid="json__patch__tests_8c_1aa59e85969b210bbc43f2105bb522c73a" compoundref="json__patch__tests_8c" startline="122" endline="181">test_generate_test</references>
+        <referencedby refid="json__patch__tests_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="json__patch__tests_8c" startline="234" endline="243">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="json__patch__tests_8c_1a8ed8babcc021e552bdbad201bd00eb07" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_utils_should_pass_json_patch_test_spec_tests</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_utils_should_pass_json_patch_test_spec_tests</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/json_patch_tests.c" line="200" column="13" bodyfile="tests/json_patch_tests.c" bodystart="200" bodyend="215"/>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="json__patch__tests_8c_1a9ae7df22687b441f77b603d26e50cf93" compoundref="json__patch__tests_8c" startline="32" endline="47">parse_test_file</references>
+        <references refid="json__patch__tests_8c_1a3ae4cfc74fe6a5fac249299f229e8ab7" compoundref="json__patch__tests_8c" startline="49" endline="120">test_apply_patch</references>
+        <references refid="json__patch__tests_8c_1aa59e85969b210bbc43f2105bb522c73a" compoundref="json__patch__tests_8c" startline="122" endline="181">test_generate_test</references>
+        <referencedby refid="json__patch__tests_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="json__patch__tests_8c" startline="234" endline="243">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="json__patch__tests_8c_1abbc693b8de514de60a2b6f29595b5bec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_utils_should_pass_json_patch_test_cjson_utils_tests</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_utils_should_pass_json_patch_test_cjson_utils_tests</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/json_patch_tests.c" line="217" column="13" bodyfile="tests/json_patch_tests.c" bodystart="217" bodyend="232"/>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="json__patch__tests_8c_1a9ae7df22687b441f77b603d26e50cf93" compoundref="json__patch__tests_8c" startline="32" endline="47">parse_test_file</references>
+        <references refid="json__patch__tests_8c_1a3ae4cfc74fe6a5fac249299f229e8ab7" compoundref="json__patch__tests_8c" startline="49" endline="120">test_apply_patch</references>
+        <references refid="json__patch__tests_8c_1aa59e85969b210bbc43f2105bb522c73a" compoundref="json__patch__tests_8c" startline="122" endline="181">test_generate_test</references>
+        <referencedby refid="json__patch__tests_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="json__patch__tests_8c" startline="234" endline="243">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="json__patch__tests_8c_1a840291bc02cba5474a4cb46a9b9566fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(void)</argsstring>
+        <name>main</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/json_patch_tests.c" line="234" column="5" bodyfile="tests/json_patch_tests.c" bodystart="234" bodyend="243"/>
+        <references refid="json__patch__tests_8c_1abbc693b8de514de60a2b6f29595b5bec" compoundref="json__patch__tests_8c" startline="217" endline="232">cjson_utils_should_pass_json_patch_test_cjson_utils_tests</references>
+        <references refid="json__patch__tests_8c_1a8ed8babcc021e552bdbad201bd00eb07" compoundref="json__patch__tests_8c" startline="200" endline="215">cjson_utils_should_pass_json_patch_test_spec_tests</references>
+        <references refid="json__patch__tests_8c_1a80ff9086f3f44fd28e13e55ecf5378c6" compoundref="json__patch__tests_8c" startline="183" endline="198">cjson_utils_should_pass_json_patch_test_tests</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/>Copyright<sp/>(c)<sp/>2009-2017<sp/>Dave<sp/>Gamble<sp/>and<sp/>cJSON<sp/>contributors</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"></highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity__config_8h" kindref="compound">unity/examples/unity_config.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity_8h" kindref="compound">unity/src/unity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="common_8h" kindref="compound">common.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../cJSON_Utils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="json__patch__tests_8c_1a9ae7df22687b441f77b603d26e50cf93" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<ref refid="json__patch__tests_8c_1a9ae7df22687b441f77b603d26e50cf93" kindref="member">parse_test_file</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>filename)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<ref refid="readme__examples_8c_1a4dd85a1ffd4add568eb3b646e857eadc" kindref="member">json</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>file<sp/>=<sp/><ref refid="common_8h_1ab5e8b6289c8d0f065872cbe531443692" kindref="member">read_file</ref>(filename);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" kindref="member">TEST_ASSERT_NOT_NULL_MESSAGE</ref>(file,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>read<sp/>file.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="readme__examples_8c_1a4dd85a1ffd4add568eb3b646e857eadc" kindref="member">json</ref><sp/>=<sp/><ref refid="cJSON_8c_1ad3df5f943457d4befebe4109d48e4a50" kindref="member">cJSON_Parse</ref>(file);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" kindref="member">TEST_ASSERT_NOT_NULL_MESSAGE</ref>(<ref refid="readme__examples_8c_1a4dd85a1ffd4add568eb3b646e857eadc" kindref="member">json</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>parse<sp/>test<sp/>json.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ae92bec0a6b42edae91cce2726e34145c" kindref="member">TEST_ASSERT_TRUE_MESSAGE</ref>(<ref refid="cJSON_8c_1a3e8d0723e3be479074c45008f5cd3497" kindref="member">cJSON_IsArray</ref>(<ref refid="readme__examples_8c_1a4dd85a1ffd4add568eb3b646e857eadc" kindref="member">json</ref>),<sp/></highlight><highlight class="stringliteral">&quot;Json<sp/>is<sp/>not<sp/>an<sp/>array.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(file);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="readme__examples_8c_1a4dd85a1ffd4add568eb3b646e857eadc" kindref="member">json</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="json__patch__tests_8c_1a3ae4cfc74fe6a5fac249299f229e8ab7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="cJSON_8h_1aea0a1491f73d98b7cc4b8b791c408a4a" kindref="member">cJSON_bool</ref><sp/><ref refid="json__patch__tests_8c_1a3ae4cfc74fe6a5fac249299f229e8ab7" kindref="member">test_apply_patch</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>test)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*doc<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*patch<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*expected<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*error_element<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*comment<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*disabled<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8h_1aea0a1491f73d98b7cc4b8b791c408a4a" kindref="member">cJSON_bool</ref><sp/>successful<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>extract<sp/>all<sp/>the<sp/>data<sp/>out<sp/>of<sp/>the<sp/>test<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>comment<sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(test,<sp/></highlight><highlight class="stringliteral">&quot;comment&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="cJSON_8c_1a87b7cb8032c9a552995e006f65f49cb5" kindref="member">cJSON_IsString</ref>(comment))</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Testing<sp/>\&quot;%s\&quot;\n&quot;</highlight><highlight class="normal">,<sp/>comment-&gt;<ref refid="structcJSON_1ad43f8de2571e504c4c5ce0a36990e6e1" kindref="member">valuestring</ref>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Testing<sp/>unkown\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>disabled<sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(test,<sp/></highlight><highlight class="stringliteral">&quot;disabled&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="cJSON_8c_1a4ad6de706aeece32cdb6348ba3e390f7" kindref="member">cJSON_IsTrue</ref>(disabled))</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;SKIPPED\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>doc<sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(test,<sp/></highlight><highlight class="stringliteral">&quot;doc&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" kindref="member">TEST_ASSERT_NOT_NULL_MESSAGE</ref>(doc,<sp/></highlight><highlight class="stringliteral">&quot;No<sp/>\&quot;doc\&quot;<sp/>in<sp/>the<sp/>test.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>patch<sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(test,<sp/></highlight><highlight class="stringliteral">&quot;patch&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" kindref="member">TEST_ASSERT_NOT_NULL_MESSAGE</ref>(patch,<sp/></highlight><highlight class="stringliteral">&quot;No<sp/>\&quot;patch\&quot;in<sp/>the<sp/>test.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Make<sp/>a<sp/>working<sp/>copy<sp/>of<sp/>&apos;doc&apos;<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>=<sp/><ref refid="cJSON_8c_1a010fe0dd2606bdfafc7eb0123b20222e" kindref="member">cJSON_Duplicate</ref>(doc,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1afae78efdc83dcc60f08347b8390525b9" kindref="member">TEST_ASSERT_NOT_NULL</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>expected<sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(test,<sp/></highlight><highlight class="stringliteral">&quot;expected&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>error_element<sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(test,<sp/></highlight><highlight class="stringliteral">&quot;error&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(error_element<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>excepting<sp/>an<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ae92bec0a6b42edae91cce2726e34145c" kindref="member">TEST_ASSERT_TRUE_MESSAGE</ref>(0<sp/>!=<sp/><ref refid="cJSON__Utils_8c_1aedc0555c83da63f2cf2418ed371cfcab" kindref="member">cJSONUtils_ApplyPatchesCaseSensitive</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/>patch),<sp/></highlight><highlight class="stringliteral">&quot;Test<sp/>didn&apos;t<sp/>fail<sp/>as<sp/>it&apos;s<sp/>supposed<sp/>to.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>successful<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>apply<sp/>the<sp/>patch<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4e28bf15bdeb7296c8625a019a22d096" kindref="member">TEST_ASSERT_EQUAL_INT_MESSAGE</ref>(0,<sp/><ref refid="cJSON__Utils_8c_1aedc0555c83da63f2cf2418ed371cfcab" kindref="member">cJSONUtils_ApplyPatchesCaseSensitive</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/>patch),<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>apply<sp/>patches.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>successful<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(expected<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>successful<sp/>=<sp/><ref refid="cJSON_8c_1a42801ee95f281ee07fe132dee8abce6b" kindref="member">cJSON_Compare</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/>expected,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(successful)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;OK\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;FAILED\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>successful;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="json__patch__tests_8c_1aa59e85969b210bbc43f2105bb522c73a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="cJSON_8h_1aea0a1491f73d98b7cc4b8b791c408a4a" kindref="member">cJSON_bool</ref><sp/><ref refid="json__patch__tests_8c_1aa59e85969b210bbc43f2105bb522c73a" kindref="member">test_generate_test</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*test)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*doc<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*patch<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*expected<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*disabled<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8h_1aea0a1491f73d98b7cc4b8b791c408a4a" kindref="member">cJSON_bool</ref><sp/>successful<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*printed_patch<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>disabled<sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(test,<sp/></highlight><highlight class="stringliteral">&quot;disabled&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="cJSON_8c_1a4ad6de706aeece32cdb6348ba3e390f7" kindref="member">cJSON_IsTrue</ref>(disabled))</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;SKIPPED\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>doc<sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(test,<sp/></highlight><highlight class="stringliteral">&quot;doc&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" kindref="member">TEST_ASSERT_NOT_NULL_MESSAGE</ref>(doc,<sp/></highlight><highlight class="stringliteral">&quot;No<sp/>\&quot;doc\&quot;<sp/>in<sp/>the<sp/>test.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Make<sp/>a<sp/>working<sp/>copy<sp/>of<sp/>&apos;doc&apos;<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>=<sp/><ref refid="cJSON_8c_1a010fe0dd2606bdfafc7eb0123b20222e" kindref="member">cJSON_Duplicate</ref>(doc,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1afae78efdc83dcc60f08347b8390525b9" kindref="member">TEST_ASSERT_NOT_NULL</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>expected<sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(test,<sp/></highlight><highlight class="stringliteral">&quot;expected&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(expected<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>if<sp/>there<sp/>is<sp/>no<sp/>expected<sp/>output,<sp/>this<sp/>test<sp/>doesn&apos;t<sp/>make<sp/>sense<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>patch<sp/>=<sp/><ref refid="cJSON__Utils_8c_1ae6ffc4b4590ab520f4d44fccfcf79323" kindref="member">cJSONUtils_GeneratePatchesCaseSensitive</ref>(doc,<sp/>expected);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" kindref="member">TEST_ASSERT_NOT_NULL_MESSAGE</ref>(patch,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>generate<sp/>patches.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>printed_patch<sp/>=<sp/><ref refid="cJSON_8c_1ae2177acac9871b89531e722b49f14925" kindref="member">cJSON_Print</ref>(patch);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,<sp/>printed_patch);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(printed_patch);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>apply<sp/>the<sp/>generated<sp/>patch<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4e28bf15bdeb7296c8625a019a22d096" kindref="member">TEST_ASSERT_EQUAL_INT_MESSAGE</ref>(0,<sp/><ref refid="cJSON__Utils_8c_1aedc0555c83da63f2cf2418ed371cfcab" kindref="member">cJSONUtils_ApplyPatchesCaseSensitive</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/>patch),<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>apply<sp/>generated<sp/>patch.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>successful<sp/>=<sp/><ref refid="cJSON_8c_1a42801ee95f281ee07fe132dee8abce6b" kindref="member">cJSON_Compare</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/>expected,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(patch);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(successful)</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;generated<sp/>patch:<sp/>OK\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;generated<sp/>patch:<sp/>FAILED\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>successful;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="json__patch__tests_8c_1a80ff9086f3f44fd28e13e55ecf5378c6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="json__patch__tests_8c_1a80ff9086f3f44fd28e13e55ecf5378c6" kindref="member">cjson_utils_should_pass_json_patch_test_tests</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="184"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*tests<sp/>=<sp/><ref refid="json__patch__tests_8c_1a9ae7df22687b441f77b603d26e50cf93" kindref="member">parse_test_file</ref>(</highlight><highlight class="stringliteral">&quot;json-patch-tests/tests.json&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*test<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8h_1aea0a1491f73d98b7cc4b8b791c408a4a" kindref="member">cJSON_bool</ref><sp/>failed<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8h_1ac3d6e5782fb4bb3c7a25c7c5b1868f06" kindref="member">cJSON_ArrayForEach</ref>(test,<sp/>tests)</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>failed<sp/>|=<sp/>!<ref refid="json__patch__tests_8c_1a3ae4cfc74fe6a5fac249299f229e8ab7" kindref="member">test_apply_patch</ref>(test);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>failed<sp/>|=<sp/>!<ref refid="json__patch__tests_8c_1aa59e85969b210bbc43f2105bb522c73a" kindref="member">test_generate_test</ref>(test);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(tests);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a823e5a92ae440c2c31a623ca18ceb4d0" kindref="member">TEST_ASSERT_FALSE_MESSAGE</ref>(failed,<sp/></highlight><highlight class="stringliteral">&quot;Some<sp/>tests<sp/>failed.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="json__patch__tests_8c_1a8ed8babcc021e552bdbad201bd00eb07" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="json__patch__tests_8c_1a8ed8babcc021e552bdbad201bd00eb07" kindref="member">cjson_utils_should_pass_json_patch_test_spec_tests</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="201"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*tests<sp/>=<sp/><ref refid="json__patch__tests_8c_1a9ae7df22687b441f77b603d26e50cf93" kindref="member">parse_test_file</ref>(</highlight><highlight class="stringliteral">&quot;json-patch-tests/spec_tests.json&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*test<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8h_1aea0a1491f73d98b7cc4b8b791c408a4a" kindref="member">cJSON_bool</ref><sp/>failed<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8h_1ac3d6e5782fb4bb3c7a25c7c5b1868f06" kindref="member">cJSON_ArrayForEach</ref>(test,<sp/>tests)</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>failed<sp/>|=<sp/>!<ref refid="json__patch__tests_8c_1a3ae4cfc74fe6a5fac249299f229e8ab7" kindref="member">test_apply_patch</ref>(test);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>failed<sp/>|=<sp/>!<ref refid="json__patch__tests_8c_1aa59e85969b210bbc43f2105bb522c73a" kindref="member">test_generate_test</ref>(test);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(tests);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a823e5a92ae440c2c31a623ca18ceb4d0" kindref="member">TEST_ASSERT_FALSE_MESSAGE</ref>(failed,<sp/></highlight><highlight class="stringliteral">&quot;Some<sp/>tests<sp/>failed.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="json__patch__tests_8c_1abbc693b8de514de60a2b6f29595b5bec" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="json__patch__tests_8c_1abbc693b8de514de60a2b6f29595b5bec" kindref="member">cjson_utils_should_pass_json_patch_test_cjson_utils_tests</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="218"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*tests<sp/>=<sp/><ref refid="json__patch__tests_8c_1a9ae7df22687b441f77b603d26e50cf93" kindref="member">parse_test_file</ref>(</highlight><highlight class="stringliteral">&quot;json-patch-tests/cjson-utils-tests.json&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*test<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8h_1aea0a1491f73d98b7cc4b8b791c408a4a" kindref="member">cJSON_bool</ref><sp/>failed<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8h_1ac3d6e5782fb4bb3c7a25c7c5b1868f06" kindref="member">cJSON_ArrayForEach</ref>(test,<sp/>tests)</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>failed<sp/>|=<sp/>!<ref refid="json__patch__tests_8c_1a3ae4cfc74fe6a5fac249299f229e8ab7" kindref="member">test_apply_patch</ref>(test);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>failed<sp/>|=<sp/>!<ref refid="json__patch__tests_8c_1aa59e85969b210bbc43f2105bb522c73a" kindref="member">test_generate_test</ref>(test);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(tests);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a823e5a92ae440c2c31a623ca18ceb4d0" kindref="member">TEST_ASSERT_FALSE_MESSAGE</ref>(failed,<sp/></highlight><highlight class="stringliteral">&quot;Some<sp/>tests<sp/>failed.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="json__patch__tests_8c_1a840291bc02cba5474a4cb46a9b9566fe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="json__patch__tests_8c_1a840291bc02cba5474a4cb46a9b9566fe" kindref="member">main</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="235"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__internals_8h_1aaad15a5d10e50a412d0a6851d0e5091a" kindref="member">UNITY_BEGIN</ref>();</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="json__patch__tests_8c_1a80ff9086f3f44fd28e13e55ecf5378c6" kindref="member">cjson_utils_should_pass_json_patch_test_tests</ref>);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="json__patch__tests_8c_1a8ed8babcc021e552bdbad201bd00eb07" kindref="member">cjson_utils_should_pass_json_patch_test_spec_tests</ref>);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="json__patch__tests_8c_1abbc693b8de514de60a2b6f29595b5bec" kindref="member">cjson_utils_should_pass_json_patch_test_cjson_utils_tests</ref>);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="unity__internals_8h_1aa519129d3af737eb796fc91720fae26a" kindref="member">UNITY_END</ref>();</highlight></codeline>
+<codeline lineno="243"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="tests/json_patch_tests.c"/>
+  </compounddef>
+</doxygen>

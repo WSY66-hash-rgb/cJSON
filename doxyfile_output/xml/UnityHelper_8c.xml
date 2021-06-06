@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="UnityHelper_8c" kind="file" language="C++">
+    <compoundname>UnityHelper.c</compoundname>
+    <includes refid="unity_8h" local="yes">unity.h</includes>
+    <includes refid="UnityHelper_8h" local="yes">UnityHelper.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">string.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>tests/unity/examples/example_3/helper/UnityHelper.c</label>
+        <link refid="UnityHelper_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>UnityHelper.h</label>
+        <link refid="UnityHelper_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>setjmp.h</label>
+      </node>
+      <node id="8">
+        <label>limits.h</label>
+      </node>
+      <node id="12">
+        <label>string.h</label>
+      </node>
+      <node id="4">
+        <label>../examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="6">
+        <label>math.h</label>
+      </node>
+      <node id="3">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Types.h</label>
+      </node>
+      <node id="9">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="UnityHelper_8c_1a3a03336c76d85e5d21de18b32a63710d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AssertEqualExampleStruct</definition>
+        <argsstring>(const EXAMPLE_STRUCT_T expected, const EXAMPLE_STRUCT_T actual, const unsigned short line)</argsstring>
+        <name>AssertEqualExampleStruct</name>
+        <param>
+          <type>const EXAMPLE_STRUCT_T</type>
+          <declname>expected</declname>
+        </param>
+        <param>
+          <type>const EXAMPLE_STRUCT_T</type>
+          <declname>actual</declname>
+        </param>
+        <param>
+          <type>const unsigned short</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_3/helper/UnityHelper.c" line="6" column="6" bodyfile="tests/unity/examples/example_3/helper/UnityHelper.c" bodystart="6" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity_8h" kindref="compound">unity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="UnityHelper_8h" kindref="compound">UnityHelper.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="UnityHelper_8c_1a3a03336c76d85e5d21de18b32a63710d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="UnityHelper_8c_1a3a03336c76d85e5d21de18b32a63710d" kindref="member">AssertEqualExampleStruct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>EXAMPLE_STRUCT_T<sp/>expected,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>EXAMPLE_STRUCT_T<sp/>actual,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>line)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__internals_8h_1ad87ea08d8da69e64c215f430e31e0e5c" kindref="member">UNITY_TEST_ASSERT_EQUAL_INT</ref>(expected.x,<sp/>actual.x,<sp/>line,<sp/></highlight><highlight class="stringliteral">&quot;Example<sp/>Struct<sp/>Failed<sp/>For<sp/>Field<sp/>x&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__internals_8h_1ad87ea08d8da69e64c215f430e31e0e5c" kindref="member">UNITY_TEST_ASSERT_EQUAL_INT</ref>(expected.y,<sp/>actual.y,<sp/>line,<sp/></highlight><highlight class="stringliteral">&quot;Example<sp/>Struct<sp/>Failed<sp/>For<sp/>Field<sp/>y&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/examples/example_3/helper/UnityHelper.c"/>
+  </compounddef>
+</doxygen>

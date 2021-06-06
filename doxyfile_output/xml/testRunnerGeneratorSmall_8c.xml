@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="testRunnerGeneratorSmall_8c" kind="file" language="C++">
+    <compoundname>testRunnerGeneratorSmall.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes refid="unity_8h" local="yes">unity.h</includes>
+    <includes refid="Defs_8h" local="yes">Defs.h</includes>
+    <incdepgraph>
+      <node id="8">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>setjmp.h</label>
+      </node>
+      <node id="9">
+        <label>limits.h</label>
+      </node>
+      <node id="10">
+        <label>Defs.h</label>
+        <link refid="Defs_8h"/>
+      </node>
+      <node id="5">
+        <label>../examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="7">
+        <label>math.h</label>
+      </node>
+      <node id="4">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>tests/unity/test/testdata/testRunnerGeneratorSmall.c</label>
+        <link refid="testRunnerGeneratorSmall_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="testRunnerGeneratorSmall_8c_1aa826c094f2f975b00964be23c7aa0679" prot="public" static="no">
+        <name>TEST_CASE</name>
+        <param><defname>a</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorSmall.c" line="15" column="9"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="testRunnerGeneratorSmall_8c_1afe25120e9defbbe8fc91169e8f11353e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CounterSetup</definition>
+        <argsstring></argsstring>
+        <name>CounterSetup</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorSmall.c" line="19" column="5" bodyfile="tests/unity/test/testdata/testRunnerGeneratorSmall.c" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="testRunnerGeneratorSmall_8c_1ae468c72913886501eac24474b7881c5c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CounterTeardown</definition>
+        <argsstring></argsstring>
+        <name>CounterTeardown</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorSmall.c" line="20" column="5" bodyfile="tests/unity/test/testdata/testRunnerGeneratorSmall.c" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="testRunnerGeneratorSmall_8c_1ae7510955a9f7e6ad7fa44be751c82cbe" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CounterSuiteSetup</definition>
+        <argsstring></argsstring>
+        <name>CounterSuiteSetup</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorSmall.c" line="21" column="5" bodyfile="tests/unity/test/testdata/testRunnerGeneratorSmall.c" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="testRunnerGeneratorSmall_8c_1a25e51ea8cf1175e2e085df0cb77e4237" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_FILE</definition>
+        <argsstring>(&quot;some_file.c&quot;)</argsstring>
+        <name>TEST_FILE</name>
+        <param>
+          <type>&quot;some_file.c&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorSmall.c" line="7" column="1" bodyfile="tests/unity/test/testdata/testRunnerGeneratorSmall.c" bodystart="7" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorSmall_8c_1a95c834d6178047ce9e1bce7cbfea2836" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void setUp</definition>
+        <argsstring>(void)</argsstring>
+        <name>setUp</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorSmall.c" line="23" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorSmall.c" bodystart="23" bodyend="26"/>
+        <references refid="testRunnerGenerator_8c_1afe25120e9defbbe8fc91169e8f11353e" compoundref="testRunnerGenerator_8c" startline="27">CounterSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorSmall_8c_1a9909011e5fea0c018842eec4d93d0662" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tearDown</definition>
+        <argsstring>(void)</argsstring>
+        <name>tearDown</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorSmall.c" line="28" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorSmall.c" bodystart="28" bodyend="31"/>
+        <references refid="testRunnerGenerator_8c_1ae468c72913886501eac24474b7881c5c" compoundref="testRunnerGenerator_8c" startline="28">CounterTeardown</references>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorSmall_8c_1afb9ff5b0d6bf2b8202e054cc7c0924a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void custom_setup</definition>
+        <argsstring>(void)</argsstring>
+        <name>custom_setup</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorSmall.c" line="33" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorSmall.c" bodystart="33" bodyend="36"/>
+        <references refid="testRunnerGenerator_8c_1afe25120e9defbbe8fc91169e8f11353e" compoundref="testRunnerGenerator_8c" startline="27">CounterSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorSmall_8c_1ac3ced78b5f4eaa15ede48fc45a84b2c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void custom_teardown</definition>
+        <argsstring>(void)</argsstring>
+        <name>custom_teardown</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorSmall.c" line="38" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorSmall.c" bodystart="38" bodyend="41"/>
+        <references refid="testRunnerGenerator_8c_1ae468c72913886501eac24474b7881c5c" compoundref="testRunnerGenerator_8c" startline="28">CounterTeardown</references>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorSmall_8c_1a7410370d8407091ad780305f42297907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void test_ThisTestAlwaysPasses</definition>
+        <argsstring>(void)</argsstring>
+        <name>test_ThisTestAlwaysPasses</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorSmall.c" line="43" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorSmall.c" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorSmall_8c_1a34db98b3ff242f5f55f7cbb1e6464980" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void test_ThisTestAlwaysFails</definition>
+        <argsstring>(void)</argsstring>
+        <name>test_ThisTestAlwaysFails</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorSmall.c" line="48" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorSmall.c" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorSmall_8c_1a0bfa4f034e65b67ac4292e2dab9699c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void test_ThisTestAlwaysIgnored</definition>
+        <argsstring>(void)</argsstring>
+        <name>test_ThisTestAlwaysIgnored</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorSmall.c" line="53" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorSmall.c" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorSmall_8c_1affb80298154fec0b2f52a3ac9d2dad60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void spec_ThisTestPassesWhenNormalSetupRan</definition>
+        <argsstring>(void)</argsstring>
+        <name>spec_ThisTestPassesWhenNormalSetupRan</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorSmall.c" line="58" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorSmall.c" bodystart="58" bodyend="61"/>
+        <references refid="testRunnerGenerator_8c_1afe25120e9defbbe8fc91169e8f11353e" compoundref="testRunnerGenerator_8c" startline="27">CounterSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorSmall_8c_1a3612dc4df8dbad4757848da022721fe0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void spec_ThisTestPassesWhenNormalTeardownRan</definition>
+        <argsstring>(void)</argsstring>
+        <name>spec_ThisTestPassesWhenNormalTeardownRan</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorSmall.c" line="63" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorSmall.c" bodystart="63" bodyend="66"/>
+        <references refid="testRunnerGenerator_8c_1ae468c72913886501eac24474b7881c5c" compoundref="testRunnerGenerator_8c" startline="28">CounterTeardown</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>This<sp/>Test<sp/>File<sp/>Is<sp/>Used<sp/>To<sp/>Verify<sp/>Many<sp/>Combinations<sp/>Of<sp/>Using<sp/>the<sp/>Generate<sp/>Test<sp/>Runner<sp/>Script<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity_8h" kindref="compound">unity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Defs_8h" kindref="compound">Defs.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="testRunnerGeneratorSmall_8c_1a25e51ea8cf1175e2e085df0cb77e4237" refkind="member"><highlight class="normal"><ref refid="testRunnerGeneratorSmall_8c_1a25e51ea8cf1175e2e085df0cb77e4237" kindref="member">TEST_FILE</ref>(</highlight><highlight class="stringliteral">&quot;some_file.c&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Notes<sp/>about<sp/>prefixes:</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/><sp/>test<sp/><sp/><sp/><sp/><sp/>-<sp/>normal<sp/>default<sp/>prefix.<sp/>these<sp/>are<sp/>&quot;always<sp/>run&quot;<sp/>tests<sp/>for<sp/>this<sp/>procedure</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/><sp/>spec<sp/><sp/><sp/><sp/><sp/>-<sp/>normal<sp/>default<sp/>prefix.<sp/>required<sp/>to<sp/>run<sp/>default<sp/>setup/teardown<sp/>calls.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Support<sp/>for<sp/>Meta<sp/>Test<sp/>Rig<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEST_CASE(a)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGenerator_8c_1a08a0cd52d73781ede109f0c6da276031" kindref="member">putcharSpy</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c)<sp/>{<sp/>(void)putchar(c);}<sp/></highlight><highlight class="comment">//<sp/>include<sp/>passthrough<sp/>for<sp/>linking<sp/>tests</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Global<sp/>Variables<sp/>Used<sp/>During<sp/>These<sp/>Tests<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="testRunnerGeneratorSmall_8c_1afe25120e9defbbe8fc91169e8f11353e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorSmall_8c_1afe25120e9defbbe8fc91169e8f11353e" kindref="member">CounterSetup</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="20" refid="testRunnerGeneratorSmall_8c_1ae468c72913886501eac24474b7881c5c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorSmall_8c_1ae468c72913886501eac24474b7881c5c" kindref="member">CounterTeardown</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="21" refid="testRunnerGeneratorSmall_8c_1ae7510955a9f7e6ad7fa44be751c82cbe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorSmall_8c_1ae7510955a9f7e6ad7fa44be751c82cbe" kindref="member">CounterSuiteSetup</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="testRunnerGeneratorSmall_8c_1a95c834d6178047ce9e1bce7cbfea2836" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorSmall_8c_1a95c834d6178047ce9e1bce7cbfea2836" kindref="member">setUp</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testRunnerGeneratorSmall_8c_1afe25120e9defbbe8fc91169e8f11353e" kindref="member">CounterSetup</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="testRunnerGeneratorSmall_8c_1a9909011e5fea0c018842eec4d93d0662" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorSmall_8c_1a9909011e5fea0c018842eec4d93d0662" kindref="member">tearDown</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testRunnerGeneratorSmall_8c_1ae468c72913886501eac24474b7881c5c" kindref="member">CounterTeardown</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="testRunnerGeneratorSmall_8c_1afb9ff5b0d6bf2b8202e054cc7c0924a0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorSmall_8c_1afb9ff5b0d6bf2b8202e054cc7c0924a0" kindref="member">custom_setup</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testRunnerGeneratorSmall_8c_1afe25120e9defbbe8fc91169e8f11353e" kindref="member">CounterSetup</ref><sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="testRunnerGeneratorSmall_8c_1ac3ced78b5f4eaa15ede48fc45a84b2c2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorSmall_8c_1ac3ced78b5f4eaa15ede48fc45a84b2c2" kindref="member">custom_teardown</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testRunnerGeneratorSmall_8c_1ae468c72913886501eac24474b7881c5c" kindref="member">CounterTeardown</ref><sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="testRunnerGeneratorSmall_8c_1a7410370d8407091ad780305f42297907" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorSmall_8c_1a7410370d8407091ad780305f42297907" kindref="member">test_ThisTestAlwaysPasses</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a5aa825b3ae9d49df46cd6e452cff7a1b" kindref="member">TEST_PASS</ref>();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="testRunnerGeneratorSmall_8c_1a34db98b3ff242f5f55f7cbb1e6464980" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorSmall_8c_1a34db98b3ff242f5f55f7cbb1e6464980" kindref="member">test_ThisTestAlwaysFails</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a0482e12e17ae7cbfb8116ed6b1ed10ed" kindref="member">TEST_FAIL_MESSAGE</ref>(</highlight><highlight class="stringliteral">&quot;This<sp/>Test<sp/>Should<sp/>Fail&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="testRunnerGeneratorSmall_8c_1a0bfa4f034e65b67ac4292e2dab9699c4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorSmall_8c_1a0bfa4f034e65b67ac4292e2dab9699c4" kindref="member">test_ThisTestAlwaysIgnored</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1aca1a170cd0581bacd7c918574f6838de" kindref="member">TEST_IGNORE_MESSAGE</ref>(</highlight><highlight class="stringliteral">&quot;This<sp/>Test<sp/>Should<sp/>Be<sp/>Ignored&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="testRunnerGeneratorSmall_8c_1affb80298154fec0b2f52a3ac9d2dad60" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorSmall_8c_1affb80298154fec0b2f52a3ac9d2dad60" kindref="member">spec_ThisTestPassesWhenNormalSetupRan</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a967e59fb3e825d8341c41cb954e890c5" kindref="member">TEST_ASSERT_EQUAL_MESSAGE</ref>(1,<sp/><ref refid="testRunnerGeneratorSmall_8c_1afe25120e9defbbe8fc91169e8f11353e" kindref="member">CounterSetup</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Normal<sp/>Setup<sp/>Wasn&apos;t<sp/>Run&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="testRunnerGeneratorSmall_8c_1a3612dc4df8dbad4757848da022721fe0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorSmall_8c_1a3612dc4df8dbad4757848da022721fe0" kindref="member">spec_ThisTestPassesWhenNormalTeardownRan</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a967e59fb3e825d8341c41cb954e890c5" kindref="member">TEST_ASSERT_EQUAL_MESSAGE</ref>(1,<sp/><ref refid="testRunnerGeneratorSmall_8c_1ae468c72913886501eac24474b7881c5c" kindref="member">CounterTeardown</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Normal<sp/>Teardown<sp/>Wasn&apos;t<sp/>Run&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/test/testdata/testRunnerGeneratorSmall.c"/>
+  </compounddef>
+</doxygen>

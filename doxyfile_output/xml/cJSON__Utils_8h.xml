@@ -1,0 +1,504 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="cJSON__Utils_8h" kind="file" language="C++">
+    <compoundname>cJSON_Utils.h</compoundname>
+    <includes refid="cJSON_8h" local="yes">cJSON.h</includes>
+    <includedby refid="cJSON__Utils_8c" local="yes">cJSON_Utils.c</includedby>
+    <includedby refid="json__patch__tests_8c" local="yes">tests/json_patch_tests.c</includedby>
+    <includedby refid="misc__utils__tests_8c" local="yes">tests/misc_utils_tests.c</includedby>
+    <includedby refid="old__utils__tests_8c" local="yes">tests/old_utils_tests.c</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>cJSON_Utils.h</label>
+        <link refid="cJSON__Utils_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cJSON.h</label>
+        <link refid="cJSON_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>cJSON_Utils.c</label>
+        <link refid="cJSON__Utils_8c"/>
+      </node>
+      <node id="1">
+        <label>cJSON_Utils.h</label>
+        <link refid="cJSON__Utils_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tests/json_patch_tests.c</label>
+        <link refid="json__patch__tests_8c"/>
+      </node>
+      <node id="5">
+        <label>tests/old_utils_tests.c</label>
+        <link refid="old__utils__tests_8c"/>
+      </node>
+      <node id="4">
+        <label>tests/misc_utils_tests.c</label>
+        <link refid="misc__utils__tests_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="cJSON__Utils_8h_1a08336023772bc23fe9957c285446ab90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *</type>
+        <definition>cJSON* cJSONUtils_GetPointer</definition>
+        <argsstring>(cJSON *const object, const char *pointer)</argsstring>
+        <name>cJSONUtils_GetPointer</name>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>pointer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON_Utils.h" line="34" column="10" bodyfile="cJSON_Utils.c" bodystart="348" bodyend="351" declfile="cJSON_Utils.h" declline="34" declcolumn="10"/>
+        <references refid="cJSON__Utils_8c_1a3a675e027f14a993c43dd5397897798b" compoundref="cJSON__Utils_8c" startline="301" endline="346">get_item_from_pointer</references>
+        <referencedby refid="misc__utils__tests_8c_1a78a9e6deb564e73bdb8d641a59456898" compoundref="misc__utils__tests_8c" startline="32" endline="71">cjson_utils_functions_shouldnt_crash_with_null_pointers</referencedby>
+        <referencedby refid="old__utils__tests_8c_1a5b450637565a7e09b4fc5cbf6bad28e2" compoundref="old__utils__tests_8c" startline="52" endline="86">json_pointer_tests</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cJSON__Utils_8h_1a7a6b41024e0ea635bd14451d68870db2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *</type>
+        <definition>cJSON* cJSONUtils_GetPointerCaseSensitive</definition>
+        <argsstring>(cJSON *const object, const char *pointer)</argsstring>
+        <name>cJSONUtils_GetPointerCaseSensitive</name>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>pointer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON_Utils.h" line="35" column="10" bodyfile="cJSON_Utils.c" bodystart="353" bodyend="356" declfile="cJSON_Utils.h" declline="35" declcolumn="10"/>
+        <references refid="cJSON__Utils_8c_1a3a675e027f14a993c43dd5397897798b" compoundref="cJSON__Utils_8c" startline="301" endline="346">get_item_from_pointer</references>
+        <referencedby refid="misc__utils__tests_8c_1a78a9e6deb564e73bdb8d641a59456898" compoundref="misc__utils__tests_8c" startline="32" endline="71">cjson_utils_functions_shouldnt_crash_with_null_pointers</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cJSON__Utils_8h_1a33b9d8e8460ad8334278651727a27866" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *</type>
+        <definition>cJSON* cJSONUtils_GeneratePatches</definition>
+        <argsstring>(cJSON *const from, cJSON *const to)</argsstring>
+        <name>cJSONUtils_GeneratePatches</name>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON_Utils.h" line="39" column="10" bodyfile="cJSON_Utils.c" bodystart="1281" bodyend="1294" declfile="cJSON_Utils.h" declline="39" declcolumn="10"/>
+        <references refid="cJSON_8c_1a29e5808c66c1cf1f3edbf117babe07b3" compoundref="cJSON_8c" startline="2513" endline="2522">cJSON_CreateArray</references>
+        <references refid="cJSON__Utils_8c_1ac9c69681d59c2d18501cbf05dc93b52a" compoundref="cJSON__Utils_8c" startline="1141" endline="1279">create_patches</references>
+        <referencedby refid="misc__utils__tests_8c_1a78a9e6deb564e73bdb8d641a59456898" compoundref="misc__utils__tests_8c" startline="32" endline="71">cjson_utils_functions_shouldnt_crash_with_null_pointers</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cJSON__Utils_8h_1ae6ffc4b4590ab520f4d44fccfcf79323" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *</type>
+        <definition>cJSON* cJSONUtils_GeneratePatchesCaseSensitive</definition>
+        <argsstring>(cJSON *const from, cJSON *const to)</argsstring>
+        <name>cJSONUtils_GeneratePatchesCaseSensitive</name>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON_Utils.h" line="40" column="10" bodyfile="cJSON_Utils.c" bodystart="1296" bodyend="1309" declfile="cJSON_Utils.h" declline="40" declcolumn="10"/>
+        <references refid="cJSON_8c_1a29e5808c66c1cf1f3edbf117babe07b3" compoundref="cJSON_8c" startline="2513" endline="2522">cJSON_CreateArray</references>
+        <references refid="cJSON__Utils_8c_1ac9c69681d59c2d18501cbf05dc93b52a" compoundref="cJSON__Utils_8c" startline="1141" endline="1279">create_patches</references>
+        <referencedby refid="misc__utils__tests_8c_1a78a9e6deb564e73bdb8d641a59456898" compoundref="misc__utils__tests_8c" startline="32" endline="71">cjson_utils_functions_shouldnt_crash_with_null_pointers</referencedby>
+        <referencedby refid="json__patch__tests_8c_1aa59e85969b210bbc43f2105bb522c73a" compoundref="json__patch__tests_8c" startline="122" endline="181">test_generate_test</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cJSON__Utils_8h_1a9df65351d73c14fff4c7c3717b03a222" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cJSONUtils_AddPatchToArray</definition>
+        <argsstring>(cJSON *const array, const char *const operation, const char *const path, const cJSON *const value)</argsstring>
+        <name>cJSONUtils_AddPatchToArray</name>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>const char *const</type>
+          <declname>operation</declname>
+        </param>
+        <param>
+          <type>const char *const</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON_Utils.h" line="42" column="8" bodyfile="cJSON_Utils.c" bodystart="1136" bodyend="1139" declfile="cJSON_Utils.h" declline="42" declcolumn="8"/>
+        <references refid="cJSON__Utils_8c_1af8cba403c61c1c77c2904176b90a1252" compoundref="cJSON__Utils_8c" startline="1096" endline="1134">compose_patch</references>
+        <referencedby refid="misc__utils__tests_8c_1a78a9e6deb564e73bdb8d641a59456898" compoundref="misc__utils__tests_8c" startline="32" endline="71">cjson_utils_functions_shouldnt_crash_with_null_pointers</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cJSON__Utils_8h_1a641cb4552c85b29763cd604be0b3e2e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int cJSONUtils_ApplyPatches</definition>
+        <argsstring>(cJSON *const object, const cJSON *const patches)</argsstring>
+        <name>cJSONUtils_ApplyPatches</name>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>patches</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON_Utils.h" line="44" column="7" bodyfile="cJSON_Utils.c" bodystart="1038" bodyend="1065" declfile="cJSON_Utils.h" declline="44" declcolumn="7"/>
+        <references refid="cJSON__Utils_8c_1ae7f4ca7c392e544cb2fb6ff04af7a7ab" compoundref="cJSON__Utils_8c" startline="807" endline="1036">apply_patch</references>
+        <references refid="structcJSON_1a401b274c2da358dac5c23ab8b2c71f85" compoundref="cJSON_8h" startline="109">cJSON::child</references>
+        <references refid="cJSON_8c_1a3e8d0723e3be479074c45008f5cd3497" compoundref="cJSON_8c" startline="2947" endline="2955">cJSON_IsArray</references>
+        <references refid="structcJSON_1ade862b880379b5e2a591f7326401fa8d" compoundref="cJSON_8h" startline="106">cJSON::next</references>
+        <referencedby refid="misc__utils__tests_8c_1a78a9e6deb564e73bdb8d641a59456898" compoundref="misc__utils__tests_8c" startline="32" endline="71">cjson_utils_functions_shouldnt_crash_with_null_pointers</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cJSON__Utils_8h_1aedc0555c83da63f2cf2418ed371cfcab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int cJSONUtils_ApplyPatchesCaseSensitive</definition>
+        <argsstring>(cJSON *const object, const cJSON *const patches)</argsstring>
+        <name>cJSONUtils_ApplyPatchesCaseSensitive</name>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>patches</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON_Utils.h" line="45" column="7" bodyfile="cJSON_Utils.c" bodystart="1067" bodyend="1094" declfile="cJSON_Utils.h" declline="45" declcolumn="7"/>
+        <references refid="cJSON__Utils_8c_1ae7f4ca7c392e544cb2fb6ff04af7a7ab" compoundref="cJSON__Utils_8c" startline="807" endline="1036">apply_patch</references>
+        <references refid="structcJSON_1a401b274c2da358dac5c23ab8b2c71f85" compoundref="cJSON_8h" startline="109">cJSON::child</references>
+        <references refid="cJSON_8c_1a3e8d0723e3be479074c45008f5cd3497" compoundref="cJSON_8c" startline="2947" endline="2955">cJSON_IsArray</references>
+        <references refid="structcJSON_1ade862b880379b5e2a591f7326401fa8d" compoundref="cJSON_8h" startline="106">cJSON::next</references>
+        <referencedby refid="misc__utils__tests_8c_1a78a9e6deb564e73bdb8d641a59456898" compoundref="misc__utils__tests_8c" startline="32" endline="71">cjson_utils_functions_shouldnt_crash_with_null_pointers</referencedby>
+        <referencedby refid="json__patch__tests_8c_1a3ae4cfc74fe6a5fac249299f229e8ab7" compoundref="json__patch__tests_8c" startline="49" endline="120">test_apply_patch</referencedby>
+        <referencedby refid="json__patch__tests_8c_1aa59e85969b210bbc43f2105bb522c73a" compoundref="json__patch__tests_8c" startline="122" endline="181">test_generate_test</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cJSON__Utils_8h_1a2020aa55140d2520acafb82b5b2e3145" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *</type>
+        <definition>cJSON* cJSONUtils_MergePatch</definition>
+        <argsstring>(cJSON *target, const cJSON *const patch)</argsstring>
+        <name>cJSONUtils_MergePatch</name>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>patch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON_Utils.h" line="70" column="10" bodyfile="cJSON_Utils.c" bodystart="1380" bodyend="1383" declfile="cJSON_Utils.h" declline="70" declcolumn="10"/>
+        <references refid="cJSON__Utils_8c_1a0a9688491653ffc21762a397ee028693" compoundref="cJSON__Utils_8c" startline="1321" endline="1378">merge_patch</references>
+        <referencedby refid="misc__utils__tests_8c_1a78a9e6deb564e73bdb8d641a59456898" compoundref="misc__utils__tests_8c" startline="32" endline="71">cjson_utils_functions_shouldnt_crash_with_null_pointers</referencedby>
+        <referencedby refid="old__utils__tests_8c_1adb6b0c8e83b5b398535412ed78af6616" compoundref="old__utils__tests_8c" startline="192" endline="212">generate_merge_tests</referencedby>
+        <referencedby refid="old__utils__tests_8c_1aa1bbd39feda45d95a138a2ad6f7ee52b" compoundref="old__utils__tests_8c" startline="168" endline="190">merge_tests</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cJSON__Utils_8h_1a8a3c24bc764ddcb255995dca6f148236" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *</type>
+        <definition>cJSON* cJSONUtils_MergePatchCaseSensitive</definition>
+        <argsstring>(cJSON *target, const cJSON *const patch)</argsstring>
+        <name>cJSONUtils_MergePatchCaseSensitive</name>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>patch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON_Utils.h" line="71" column="10" bodyfile="cJSON_Utils.c" bodystart="1385" bodyend="1388" declfile="cJSON_Utils.h" declline="71" declcolumn="10"/>
+        <references refid="cJSON__Utils_8c_1a0a9688491653ffc21762a397ee028693" compoundref="cJSON__Utils_8c" startline="1321" endline="1378">merge_patch</references>
+        <referencedby refid="misc__utils__tests_8c_1a78a9e6deb564e73bdb8d641a59456898" compoundref="misc__utils__tests_8c" startline="32" endline="71">cjson_utils_functions_shouldnt_crash_with_null_pointers</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cJSON__Utils_8h_1a111512642cc5cc37cae52bbe44f6da3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *</type>
+        <definition>cJSON* cJSONUtils_GenerateMergePatch</definition>
+        <argsstring>(cJSON *const from, cJSON *const to)</argsstring>
+        <name>cJSONUtils_GenerateMergePatch</name>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON_Utils.h" line="74" column="10" bodyfile="cJSON_Utils.c" bodystart="1472" bodyend="1475" declfile="cJSON_Utils.h" declline="74" declcolumn="10"/>
+        <references refid="cJSON__Utils_8c_1aadd3bcea1f78c5f4cd4e0b794b62806f" compoundref="cJSON__Utils_8c" startline="1390" endline="1470">generate_merge_patch</references>
+        <referencedby refid="cJSON__Utils_8c_1aadd3bcea1f78c5f4cd4e0b794b62806f" compoundref="cJSON__Utils_8c" startline="1390" endline="1470">generate_merge_patch</referencedby>
+        <referencedby refid="old__utils__tests_8c_1adb6b0c8e83b5b398535412ed78af6616" compoundref="old__utils__tests_8c" startline="192" endline="212">generate_merge_tests</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cJSON__Utils_8h_1a91f150fcbf0bca40f59eee03ddc8b5f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *</type>
+        <definition>cJSON* cJSONUtils_GenerateMergePatchCaseSensitive</definition>
+        <argsstring>(cJSON *const from, cJSON *const to)</argsstring>
+        <name>cJSONUtils_GenerateMergePatchCaseSensitive</name>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON_Utils.h" line="75" column="10" bodyfile="cJSON_Utils.c" bodystart="1477" bodyend="1480" declfile="cJSON_Utils.h" declline="75" declcolumn="10"/>
+        <references refid="cJSON__Utils_8c_1aadd3bcea1f78c5f4cd4e0b794b62806f" compoundref="cJSON__Utils_8c" startline="1390" endline="1470">generate_merge_patch</references>
+      </memberdef>
+      <memberdef kind="function" id="cJSON__Utils_8h_1a77e7485a5ded70768f9deb7ccde950bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* cJSONUtils_FindPointerFromObjectTo</definition>
+        <argsstring>(const cJSON *const object, const cJSON *const target)</argsstring>
+        <name>cJSONUtils_FindPointerFromObjectTo</name>
+        <param>
+          <type>const <ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON_Utils.h" line="78" column="9" bodyfile="cJSON_Utils.c" bodystart="198" bodyend="259" declfile="cJSON_Utils.h" declline="78" declcolumn="9"/>
+        <references refid="structcJSON_1a401b274c2da358dac5c23ab8b2c71f85" compoundref="cJSON_8h" startline="109">cJSON::child</references>
+        <references refid="cJSON_8c_1aed268df09d4cf0d685d0c035a7453fd5" compoundref="cJSON_8c" startline="3107" endline="3110">cJSON_free</references>
+        <references refid="cJSON_8c_1a3e8d0723e3be479074c45008f5cd3497" compoundref="cJSON_8c" startline="2947" endline="2955">cJSON_IsArray</references>
+        <references refid="cJSON_8c_1a23baebcbfa93b56edb9e6b6f303f521b" compoundref="cJSON_8c" startline="2957" endline="2965">cJSON_IsObject</references>
+        <references refid="cJSON_8c_1aeb5d79aa96b3440181bfe67323239770" compoundref="cJSON_8c" startline="3102" endline="3105">cJSON_malloc</references>
+        <references refid="cJSON__Utils_8c_1a77e7485a5ded70768f9deb7ccde950bd" compoundref="cJSON__Utils_8c" startline="198" endline="259">cJSONUtils_FindPointerFromObjectTo</references>
+        <references refid="cJSON__Utils_8c_1ae9902c3fd7daebe10107208317f4175a" compoundref="cJSON__Utils_8c" startline="66" endline="80">cJSONUtils_strdup</references>
+        <references refid="cJSON__Utils_8c_1a0b170971d040585b100449879d486d5a" compoundref="cJSON__Utils_8c" startline="173" endline="196">encode_string_as_pointer</references>
+        <references refid="structcJSON_1ade862b880379b5e2a591f7326401fa8d" compoundref="cJSON_8h" startline="106">cJSON::next</references>
+        <references refid="cJSON__Utils_8c_1a5a0a233320cc7d0e9aa61314c5f87d19" compoundref="cJSON__Utils_8c" startline="157" endline="170">pointer_encoded_length</references>
+        <references refid="structcJSON_1aa6b47e9a4b0e0a26f519b1a2b6739983" compoundref="cJSON_8h" startline="122">cJSON::string</references>
+        <referencedby refid="misc__utils__tests_8c_1a78a9e6deb564e73bdb8d641a59456898" compoundref="misc__utils__tests_8c" startline="32" endline="71">cjson_utils_functions_shouldnt_crash_with_null_pointers</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a77e7485a5ded70768f9deb7ccde950bd" compoundref="cJSON__Utils_8c" startline="198" endline="259">cJSONUtils_FindPointerFromObjectTo</referencedby>
+        <referencedby refid="old__utils__tests_8c_1a5eef89c8012b160e542da762a24a15a1" compoundref="old__utils__tests_8c" startline="88" endline="136">misc_tests</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cJSON__Utils_8h_1a405a912a1ac38c57ce587e25e68c1fea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cJSONUtils_SortObject</definition>
+        <argsstring>(cJSON *const object)</argsstring>
+        <name>cJSONUtils_SortObject</name>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON_Utils.h" line="81" column="8" bodyfile="cJSON_Utils.c" bodystart="1311" bodyend="1314" declfile="cJSON_Utils.h" declline="81" declcolumn="8"/>
+        <references refid="cJSON__Utils_8c_1a3fde69b6cea66c36ab8605e8bdcd883b" compoundref="cJSON__Utils_8c" startline="595" endline="602">sort_object</references>
+        <referencedby refid="misc__utils__tests_8c_1a78a9e6deb564e73bdb8d641a59456898" compoundref="misc__utils__tests_8c" startline="32" endline="71">cjson_utils_functions_shouldnt_crash_with_null_pointers</referencedby>
+        <referencedby refid="old__utils__tests_8c_1ac65d33ddd0ff0a5284ecbbd589bcb6ce" compoundref="old__utils__tests_8c" startline="138" endline="166">sort_tests</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cJSON__Utils_8h_1a0b653f6de92e7b51100457251ab15402" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cJSONUtils_SortObjectCaseSensitive</definition>
+        <argsstring>(cJSON *const object)</argsstring>
+        <name>cJSONUtils_SortObjectCaseSensitive</name>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *const</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON_Utils.h" line="82" column="8" bodyfile="cJSON_Utils.c" bodystart="1316" bodyend="1319" declfile="cJSON_Utils.h" declline="82" declcolumn="8"/>
+        <references refid="cJSON__Utils_8c_1a3fde69b6cea66c36ab8605e8bdcd883b" compoundref="cJSON__Utils_8c" startline="595" endline="602">sort_object</references>
+        <referencedby refid="misc__utils__tests_8c_1a78a9e6deb564e73bdb8d641a59456898" compoundref="misc__utils__tests_8c" startline="32" endline="71">cjson_utils_functions_shouldnt_crash_with_null_pointers</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/>Copyright<sp/>(c)<sp/>2009-2017<sp/>Dave<sp/>Gamble<sp/>and<sp/>cJSON<sp/>contributors</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"></highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>cJSON_Utils__h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>cJSON_Utils__h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cJSON_8h" kindref="compound">cJSON.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Implement<sp/>RFC6901<sp/>(https://tools.ietf.org/html/rfc6901)<sp/>JSON<sp/>Pointer<sp/>spec.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><ref refid="cJSON_8h_1a70709a6f2a7e45debe4f5abe345fcb86" kindref="member">CJSON_PUBLIC</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*)<sp/><ref refid="cJSON__Utils_8h_1a08336023772bc23fe9957c285446ab90" kindref="member">cJSONUtils_GetPointer</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*pointer);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><ref refid="cJSON_8h_1a70709a6f2a7e45debe4f5abe345fcb86" kindref="member">CJSON_PUBLIC</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*)<sp/><ref refid="cJSON__Utils_8h_1a7a6b41024e0ea635bd14451d68870db2" kindref="member">cJSONUtils_GetPointerCaseSensitive</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*pointer);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Implement<sp/>RFC6902<sp/>(https://tools.ietf.org/html/rfc6902)<sp/>JSON<sp/>Patch<sp/>spec.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>NOTE:<sp/>This<sp/>modifies<sp/>objects<sp/>in<sp/>&apos;from&apos;<sp/>and<sp/>&apos;to&apos;<sp/>by<sp/>sorting<sp/>the<sp/>elements<sp/>by<sp/>their<sp/>key<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><ref refid="cJSON_8h_1a70709a6f2a7e45debe4f5abe345fcb86" kindref="member">CJSON_PUBLIC</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*)<sp/><ref refid="cJSON__Utils_8h_1a33b9d8e8460ad8334278651727a27866" kindref="member">cJSONUtils_GeneratePatches</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>from,<sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>to);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><ref refid="cJSON_8h_1a70709a6f2a7e45debe4f5abe345fcb86" kindref="member">CJSON_PUBLIC</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*)<sp/><ref refid="cJSON__Utils_8h_1ae6ffc4b4590ab520f4d44fccfcf79323" kindref="member">cJSONUtils_GeneratePatchesCaseSensitive</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>from,<sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>to);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Utility<sp/>for<sp/>generating<sp/>patch<sp/>array<sp/>entries.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><ref refid="cJSON_8h_1a70709a6f2a7e45debe4f5abe345fcb86" kindref="member">CJSON_PUBLIC</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/><ref refid="cJSON__Utils_8h_1a9df65351d73c14fff4c7c3717b03a222" kindref="member">cJSONUtils_AddPatchToArray</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>array,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>operation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Returns<sp/>0<sp/>for<sp/>success.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><ref refid="cJSON_8h_1a70709a6f2a7e45debe4f5abe345fcb86" kindref="member">CJSON_PUBLIC</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/><ref refid="cJSON__Utils_8h_1a641cb4552c85b29763cd604be0b3e2e1" kindref="member">cJSONUtils_ApplyPatches</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>patches);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><ref refid="cJSON_8h_1a70709a6f2a7e45debe4f5abe345fcb86" kindref="member">CJSON_PUBLIC</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/><ref refid="cJSON__Utils_8h_1aedc0555c83da63f2cf2418ed371cfcab" kindref="member">cJSONUtils_ApplyPatchesCaseSensitive</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>patches);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="48"><highlight class="comment">//<sp/>Note<sp/>that<sp/>ApplyPatches<sp/>is<sp/>NOT<sp/>atomic<sp/>on<sp/>failure.<sp/>To<sp/>implement<sp/>an<sp/>atomic<sp/>ApplyPatches,<sp/>use:</highlight></codeline>
+<codeline lineno="49"><highlight class="comment">//int<sp/>cJSONUtils_AtomicApplyPatches(cJSON<sp/>**object,<sp/>cJSON<sp/>*patches)</highlight></codeline>
+<codeline lineno="50"><highlight class="comment">//{</highlight></codeline>
+<codeline lineno="51"><highlight class="comment">//<sp/><sp/><sp/><sp/>cJSON<sp/>*modme<sp/>=<sp/>cJSON_Duplicate(*object,<sp/>1);</highlight></codeline>
+<codeline lineno="52"><highlight class="comment">//<sp/><sp/><sp/><sp/>int<sp/>error<sp/>=<sp/>cJSONUtils_ApplyPatches(modme,<sp/>patches);</highlight></codeline>
+<codeline lineno="53"><highlight class="comment">//<sp/><sp/><sp/><sp/>if<sp/>(!error)</highlight></codeline>
+<codeline lineno="54"><highlight class="comment">//<sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cJSON_Delete(*object);</highlight></codeline>
+<codeline lineno="56"><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*object<sp/>=<sp/>modme;</highlight></codeline>
+<codeline lineno="57"><highlight class="comment">//<sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="comment">//<sp/><sp/><sp/><sp/>else</highlight></codeline>
+<codeline lineno="59"><highlight class="comment">//<sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cJSON_Delete(modme);</highlight></codeline>
+<codeline lineno="61"><highlight class="comment">//<sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="comment">//</highlight></codeline>
+<codeline lineno="63"><highlight class="comment">//<sp/><sp/><sp/><sp/>return<sp/>error;</highlight></codeline>
+<codeline lineno="64"><highlight class="comment">//}</highlight></codeline>
+<codeline lineno="65"><highlight class="comment">//<sp/>Code<sp/>not<sp/>added<sp/>to<sp/>library<sp/>since<sp/>this<sp/>strategy<sp/>is<sp/>a<sp/>LOT<sp/>slower.</highlight></codeline>
+<codeline lineno="66"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Implement<sp/>RFC7386<sp/>(https://tools.ietf.org/html/rfc7396)<sp/>JSON<sp/>Merge<sp/>Patch<sp/>spec.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>target<sp/>will<sp/>be<sp/>modified<sp/>by<sp/>patch.<sp/>return<sp/>value<sp/>is<sp/>new<sp/>ptr<sp/>for<sp/>target.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><ref refid="cJSON_8h_1a70709a6f2a7e45debe4f5abe345fcb86" kindref="member">CJSON_PUBLIC</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*)<sp/><ref refid="cJSON__Utils_8h_1a2020aa55140d2520acafb82b5b2e3145" kindref="member">cJSONUtils_MergePatch</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*target,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>patch);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><ref refid="cJSON_8h_1a70709a6f2a7e45debe4f5abe345fcb86" kindref="member">CJSON_PUBLIC</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*)<sp/><ref refid="cJSON__Utils_8h_1a8a3c24bc764ddcb255995dca6f148236" kindref="member">cJSONUtils_MergePatchCaseSensitive</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*target,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>patch);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>generates<sp/>a<sp/>patch<sp/>to<sp/>move<sp/>from<sp/>-&gt;<sp/>to<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>NOTE:<sp/>This<sp/>modifies<sp/>objects<sp/>in<sp/>&apos;from&apos;<sp/>and<sp/>&apos;to&apos;<sp/>by<sp/>sorting<sp/>the<sp/>elements<sp/>by<sp/>their<sp/>key<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><ref refid="cJSON_8h_1a70709a6f2a7e45debe4f5abe345fcb86" kindref="member">CJSON_PUBLIC</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*)<sp/><ref refid="cJSON__Utils_8h_1a111512642cc5cc37cae52bbe44f6da3b" kindref="member">cJSONUtils_GenerateMergePatch</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>from,<sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>to);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><ref refid="cJSON_8h_1a70709a6f2a7e45debe4f5abe345fcb86" kindref="member">CJSON_PUBLIC</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*)<sp/><ref refid="cJSON__Utils_8h_1a91f150fcbf0bca40f59eee03ddc8b5f2" kindref="member">cJSONUtils_GenerateMergePatchCaseSensitive</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>from,<sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>to);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Given<sp/>a<sp/>root<sp/>object<sp/>and<sp/>a<sp/>target<sp/>object,<sp/>construct<sp/>a<sp/>pointer<sp/>from<sp/>one<sp/>to<sp/>the<sp/>other.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><ref refid="cJSON_8h_1a70709a6f2a7e45debe4f5abe345fcb86" kindref="member">CJSON_PUBLIC</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)<sp/><ref refid="cJSON__Utils_8h_1a77e7485a5ded70768f9deb7ccde950bd" kindref="member">cJSONUtils_FindPointerFromObjectTo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>target);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Sorts<sp/>the<sp/>members<sp/>of<sp/>the<sp/>object<sp/>into<sp/>alphabetical<sp/>order.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><ref refid="cJSON_8h_1a70709a6f2a7e45debe4f5abe345fcb86" kindref="member">CJSON_PUBLIC</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/><ref refid="cJSON__Utils_8h_1a405a912a1ac38c57ce587e25e68c1fea" kindref="member">cJSONUtils_SortObject</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><ref refid="cJSON_8h_1a70709a6f2a7e45debe4f5abe345fcb86" kindref="member">CJSON_PUBLIC</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/><ref refid="cJSON__Utils_8h_1a0b653f6de92e7b51100457251ab15402" kindref="member">cJSONUtils_SortObjectCaseSensitive</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="cJSON_Utils.h"/>
+  </compounddef>
+</doxygen>

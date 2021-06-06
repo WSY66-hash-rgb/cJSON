@@ -1,0 +1,542 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unity__fixture_8h" kind="file" language="C++">
+    <compoundname>unity_fixture.h</compoundname>
+    <includes refid="unity_8h" local="yes">unity.h</includes>
+    <includes refid="unity__internals_8h" local="yes">unity_internals.h</includes>
+    <includes refid="unity__fixture__malloc__overrides_8h" local="yes">unity_fixture_malloc_overrides.h</includes>
+    <includes refid="unity__fixture__internals_8h" local="yes">unity_fixture_internals.h</includes>
+    <includedby refid="all__tests_8c" local="yes">tests/unity/examples/example_2/test/test_runners/all_tests.c</includedby>
+    <includedby refid="example__2_2test_2test__runners_2TestProductionCode2__Runner_8c" local="yes">tests/unity/examples/example_2/test/test_runners/TestProductionCode2_Runner.c</includedby>
+    <includedby refid="example__2_2test_2test__runners_2TestProductionCode__Runner_8c" local="yes">tests/unity/examples/example_2/test/test_runners/TestProductionCode_Runner.c</includedby>
+    <includedby refid="example__2_2test_2TestProductionCode_8c" local="yes">tests/unity/examples/example_2/test/TestProductionCode.c</includedby>
+    <includedby refid="example__2_2test_2TestProductionCode2_8c" local="yes">tests/unity/examples/example_2/test/TestProductionCode2.c</includedby>
+    <includedby refid="unity__fixture_8c" local="yes">tests/unity/extras/fixture/src/unity_fixture.c</includedby>
+    <includedby refid="AllTests_8c" local="yes">tests/unity/extras/fixture/test/main/AllTests.c</includedby>
+    <includedby refid="template__fixture__tests_8c" local="yes">tests/unity/extras/fixture/test/template_fixture_tests.c</includedby>
+    <includedby refid="unity__fixture__Test_8c" local="yes">tests/unity/extras/fixture/test/unity_fixture_Test.c</includedby>
+    <includedby refid="unity__fixture__TestRunner_8c" local="yes">tests/unity/extras/fixture/test/unity_fixture_TestRunner.c</includedby>
+    <includedby refid="unity__output__Spy_8c" local="yes">tests/unity/extras/fixture/test/unity_output_Spy.c</includedby>
+    <incdepgraph>
+      <node id="7">
+        <label>stdint.h</label>
+      </node>
+      <node id="12">
+        <label>stdlib.h</label>
+      </node>
+      <node id="5">
+        <label>setjmp.h</label>
+      </node>
+      <node id="11">
+        <label>stddef.h</label>
+      </node>
+      <node id="8">
+        <label>limits.h</label>
+      </node>
+      <node id="10">
+        <label>unity_fixture_malloc_overrides.h</label>
+        <link refid="unity__fixture__malloc__overrides_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>unity_fixture_internals.h</label>
+        <link refid="unity__fixture__internals_8h"/>
+      </node>
+      <node id="4">
+        <label>../examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="6">
+        <label>math.h</label>
+      </node>
+      <node id="3">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>stdio.h</label>
+      </node>
+      <node id="1">
+        <label>tests/unity/extras/fixture/src/unity_fixture.h</label>
+        <link refid="unity__fixture_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>tests/unity/examples/example_2/test/test_runners/TestProductionCode_Runner.c</label>
+        <link refid="example__2_2test_2test__runners_2TestProductionCode__Runner_8c"/>
+      </node>
+      <node id="8">
+        <label>tests/unity/extras/fixture/test/main/AllTests.c</label>
+        <link refid="AllTests_8c"/>
+      </node>
+      <node id="2">
+        <label>tests/unity/examples/example_2/test/test_runners/all_tests.c</label>
+        <link refid="all__tests_8c"/>
+      </node>
+      <node id="11">
+        <label>tests/unity/extras/fixture/test/unity_fixture_TestRunner.c</label>
+        <link refid="unity__fixture__TestRunner_8c"/>
+      </node>
+      <node id="3">
+        <label>tests/unity/examples/example_2/test/test_runners/TestProductionCode2_Runner.c</label>
+        <link refid="example__2_2test_2test__runners_2TestProductionCode2__Runner_8c"/>
+      </node>
+      <node id="9">
+        <label>tests/unity/extras/fixture/test/template_fixture_tests.c</label>
+        <link refid="template__fixture__tests_8c"/>
+      </node>
+      <node id="12">
+        <label>tests/unity/extras/fixture/test/unity_output_Spy.c</label>
+        <link refid="unity__output__Spy_8c"/>
+      </node>
+      <node id="6">
+        <label>tests/unity/examples/example_2/test/TestProductionCode2.c</label>
+        <link refid="example__2_2test_2TestProductionCode2_8c"/>
+      </node>
+      <node id="10">
+        <label>tests/unity/extras/fixture/test/unity_fixture_Test.c</label>
+        <link refid="unity__fixture__Test_8c"/>
+      </node>
+      <node id="5">
+        <label>tests/unity/examples/example_2/test/TestProductionCode.c</label>
+        <link refid="example__2_2test_2TestProductionCode_8c"/>
+      </node>
+      <node id="7">
+        <label>tests/unity/extras/fixture/src/unity_fixture.c</label>
+        <link refid="unity__fixture_8c"/>
+      </node>
+      <node id="1">
+        <label>tests/unity/extras/fixture/src/unity_fixture.h</label>
+        <link refid="unity__fixture_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="unity__fixture_8h_1a02031df3be87951aa6aa3f92ac2f72b9" prot="public" static="no">
+        <name>TEST_GROUP</name>
+        <param><defname>group</defname></param>
+        <initializer>    static const char* TEST_GROUP_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref> = #<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.h" line="19" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="unity__fixture_8h_1a213d1795588db5f14467a3046bcf2dc7" prot="public" static="no">
+        <name>TEST_SETUP</name>
+        <param><defname>group</defname></param>
+        <initializer>    void TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_SETUP(void);\
+    void TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_SETUP(void)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.h" line="22" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="unity__fixture_8h_1ad711f3c4f776e7cfdbc1db91a4ab13e7" prot="public" static="no">
+        <name>TEST_TEAR_DOWN</name>
+        <param><defname>group</defname></param>
+        <initializer>    void TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_TEAR_DOWN(void);\
+    void TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_TEAR_DOWN(void)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.h" line="25" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="unity__fixture_8h_1a63862f8a42d6bee21007a3764e6c003c" prot="public" static="no">
+        <name>TEST</name>
+        <param><defname>group</defname></param>
+        <param><defname>name</defname></param>
+        <initializer>    void TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_##<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref>##_(void);\
+    void TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_##<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref>##_run(void);\
+    void TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_##<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref>##_run(void)\
+    {\
+        <ref refid="unity__fixture_8c_1a5d76db431eacd889a636a2a49e2d6077" kindref="member">UnityTestRunner</ref>(TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_SETUP,\
+            TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_##<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref>##_,\
+            TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_TEAR_DOWN,\
+            &quot;TEST(&quot; #group &quot;, &quot; #<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref> &quot;)&quot;,\
+            TEST_GROUP_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>, #<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref>,\
+            __FILE__, __LINE__);\
+    }\
+    void  TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_##<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref>##_(void)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.h" line="29" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="unity__fixture_8h_1a97738beabc7ea4629b5e4ec529af6f35" prot="public" static="no">
+        <name>IGNORE_TEST</name>
+        <param><defname>group</defname></param>
+        <param><defname>name</defname></param>
+        <initializer>    void TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_##<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref>##_(void);\
+    void TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_##<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref>##_run(void);\
+    void TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_##<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref>##_run(void)\
+    {\
+        <ref refid="unity__fixture_8c_1a0979b54fd6b64e3d44c2adc91fe2c80e" kindref="member">UnityIgnoreTest</ref>(&quot;IGNORE_TEST(&quot; #group &quot;, &quot; #<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref> &quot;)&quot;, TEST_GROUP_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>, #<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref>);\
+    }\
+    void TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_##<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref>##_(void)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.h" line="43" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="unity__fixture_8h_1adc2b732a34781cebd1432e413f4ccfbc" prot="public" static="no">
+        <name>RUN_TEST_CASE</name>
+        <param><defname>group</defname></param>
+        <param><defname>name</defname></param>
+        <initializer>    { void TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_##<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref>##_run(void);\
+      TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_##<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref>##_run(); }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.h" line="53" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="unity__fixture_8h_1a4fb025e4925ae24f78f2c1260d706603" prot="public" static="no">
+        <name>TEST_GROUP_RUNNER</name>
+        <param><defname>group</defname></param>
+        <initializer>    void TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_GROUP_RUNNER(void);\
+    void TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_GROUP_RUNNER(void)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.h" line="58" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="unity__fixture_8h_1a7fc679775ab3aaf4dd7302a0a4118202" prot="public" static="no">
+        <name>RUN_TEST_GROUP</name>
+        <param><defname>group</defname></param>
+        <initializer>    { void TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_GROUP_RUNNER(void);\
+      TEST_##<ref refid="unity__fixture__Test_8c_1aed0f0a476b6440526e5fd67097fd799c" kindref="member">group</ref>##_GROUP_RUNNER(); }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.h" line="63" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="unity__fixture_8h_1a0003ececb011f12f7879197951045a03" prot="public" static="no">
+        <name>UT_PTR_SET</name>
+        <param><defname>ptr</defname></param>
+        <param><defname>newPointerValue</defname></param>
+        <initializer><ref refid="unity__fixture_8c_1ac29ad7cc4430309e0abfdfda6ad34635" kindref="member">UnityPointer_Set</ref>((void**)&amp;(ptr), (void*)(newPointerValue), __LINE__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.h" line="70" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="unity__fixture_8h_1a1a2c87adc40e6a7001318e8fe2de85ad" prot="public" static="no">
+        <name>TEST_ASSERT_POINTERS_EQUAL</name>
+        <param><defname>expected</defname></param>
+        <param><defname>actual</defname></param>
+        <initializer><ref refid="unity_8h_1a765240c346d79b58ef22d81982aced18" kindref="member">TEST_ASSERT_EQUAL_PTR</ref>((expected), (actual))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.h" line="71" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="unity__fixture_8h_1af7e73d50de1639d4ea2c8e8af94e2704" prot="public" static="no">
+        <name>TEST_ASSERT_BYTES_EQUAL</name>
+        <param><defname>expected</defname></param>
+        <param><defname>actual</defname></param>
+        <initializer><ref refid="unity_8h_1a6d23ada42f10735d2e7abc0ecc757b4f" kindref="member">TEST_ASSERT_EQUAL_HEX8</ref>(0xff &amp; (expected), 0xff &amp; (actual))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.h" line="72" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="unity__fixture_8h_1a8afdb63dd7f053446aa1a5ce66e55651" prot="public" static="no">
+        <name>FAIL</name>
+        <param><defname>message</defname></param>
+        <initializer><ref refid="unity_8h_1a0482e12e17ae7cbfb8116ed6b1ed10ed" kindref="member">TEST_FAIL_MESSAGE</ref>((message))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.h" line="73" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="unity__fixture_8h_1a3e1cfef60e774a81f30eaddf26a3a274" prot="public" static="no">
+        <name>CHECK</name>
+        <param><defname>condition</defname></param>
+        <initializer><ref refid="unity_8h_1a6a0527f090dfc0b5ce9724415e51ebe5" kindref="member">TEST_ASSERT_TRUE</ref>((condition))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.h" line="74" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="unity__fixture_8h_1a7921a0c4f152a7879e78fe6fc2905590" prot="public" static="no">
+        <name>LONGS_EQUAL</name>
+        <param><defname>expected</defname></param>
+        <param><defname>actual</defname></param>
+        <initializer><ref refid="unity_8h_1af52a321a93c580a6213fef3e0f85c237" kindref="member">TEST_ASSERT_EQUAL_INT</ref>((expected), (actual))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.h" line="75" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="unity__fixture_8h_1ade1dda09c948fee9ceb853bc6dd5f3cb" prot="public" static="no">
+        <name>STRCMP_EQUAL</name>
+        <param><defname>expected</defname></param>
+        <param><defname>actual</defname></param>
+        <initializer><ref refid="unity_8h_1a1432f008fb6fb923371d4d0402571bf6" kindref="member">TEST_ASSERT_EQUAL_STRING</ref>((expected), (actual))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.h" line="76" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="unity__fixture_8h_1a38ae20f3915215f63e66e49fa11a4617" prot="public" static="no">
+        <name>DOUBLES_EQUAL</name>
+        <param><defname>expected</defname></param>
+        <param><defname>actual</defname></param>
+        <param><defname>delta</defname></param>
+        <initializer><ref refid="unity_8h_1ab2392984572bbbab42898384470b8d06" kindref="member">TEST_ASSERT_DOUBLE_WITHIN</ref>((delta), (expected), (actual))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.h" line="77" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="unity__fixture_8h_1a58ec279183697abbd5d3efea3442d4e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int UnityMain</definition>
+        <argsstring>(int argc, const char *argv[], void(*runAllTests)(void))</argsstring>
+        <name>UnityMain</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>argv</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>void(*)(void)</type>
+          <declname>runAllTests</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.h" line="16" column="5" bodyfile="tests/unity/extras/fixture/src/unity_fixture.c" bodystart="32" bodyend="49" declfile="tests/unity/extras/fixture/src/unity_fixture.h" declline="16" declcolumn="5"/>
+        <references refid="unity__fixture_8c_1ac54f18088c1ed178f3c602b868014f5d" compoundref="unity__fixture_8c" startline="23" endline="30">announceTestRun</references>
+        <references refid="structUNITY__FIXTURE__T_1aaa9feba9c4991248a4107098e40813ac" compoundref="unity__fixture__internals_8h" startline="19">UNITY_FIXTURE_T::RepeatCount</references>
+        <references refid="AllTests_8c_1a7f649b562ed3d6a869db371002a27075" compoundref="AllTests_8c" startline="10" endline="16">runAllTests</references>
+        <references refid="structUNITY__STORAGE__T_1a2b309a6c4639312ba6f3b030cfd55ce4" compoundref="unity__internals_8h" startline="393">UNITY_STORAGE_T::TestFailures</references>
+        <references refid="unity__internals_8h_1aad738f665f16eb2336b8bc33f432d0da" compoundref="unity_8c" startline="21">Unity</references>
+        <references refid="unity__internals_8h_1a9e38369f7998441218877815228db8e3" compoundref="unity__internals_8h" startline="275">UNITY_PRINT_EOL</references>
+        <references refid="unity__internals_8h_1aed50601fbdaea8fc0fef0c61cf877809" compoundref="unity_8c" startline="1349" endline="1362">UnityBegin</references>
+        <references refid="unity__internals_8h_1a4820ba04ff5e9a474fe38ab6633d30a0" compoundref="unity_8c" startline="1365" endline="1392">UnityEnd</references>
+        <references refid="unity__fixture__internals_8h_1a7bb0ff1b1e2f4e56979878609016c11e" compoundref="unity__fixture_8c" startline="12">UnityFixture</references>
+        <references refid="unity__fixture__internals_8h_1a898356b51b63100ec321e05d2e5f2d55" compoundref="unity__fixture_8c" startline="347" endline="407">UnityGetCommandLineOptions</references>
+        <references refid="structUNITY__FIXTURE__T_1ae5650e8bb94e0d9c75913a112277e445" compoundref="unity__fixture__internals_8h" startline="18">UNITY_FIXTURE_T::Verbose</references>
+        <referencedby refid="all__tests_8c_1ac0f2228420376f4db7e1274f2b41667c" compoundref="all__tests_8c" startline="9" endline="12">main</referencedby>
+        <referencedby refid="unity__fixture__Test_8c_1a9bf8a28dfb9a0a218a8878a399a42160" compoundref="unity__fixture__Test_8c" startline="295" endline="300">TEST</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="unity__fixture_8h_1a7d3b04cbb7731cdf0c033d4c3a822d2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityMalloc_MakeMallocFailAfterCount</definition>
+        <argsstring>(int count)</argsstring>
+        <name>UnityMalloc_MakeMallocFailAfterCount</name>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.h" line="81" column="6" bodyfile="tests/unity/extras/fixture/src/unity_fixture.c" bodystart="153" bodyend="156" declfile="tests/unity/extras/fixture/src/unity_fixture.h" declline="81" declcolumn="6"/>
+        <references refid="unity__fixture_8c_1ab7fc308c8a9a276ee6c3b12483663d31" compoundref="unity__fixture_8c" startline="136">malloc_fail_countdown</references>
+        <referencedby refid="unity__fixture__Test_8c_1abd69643a685b46777bd9a2ba39338b20" compoundref="unity__fixture__Test_8c" startline="47" endline="57">TEST</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>Copyright<sp/>(c)<sp/>2010<sp/>James<sp/>Grenning<sp/>and<sp/>Contributed<sp/>to<sp/>Unity<sp/>Project</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>==========================================</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/>Unity<sp/>Project<sp/>-<sp/>A<sp/>Test<sp/>Framework<sp/>for<sp/>C</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Copyright<sp/>(c)<sp/>2007<sp/>Mike<sp/>Karlesky,<sp/>Mark<sp/>VanderVoord,<sp/>Greg<sp/>Williams</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/>[Released<sp/>under<sp/>MIT<sp/>License.<sp/>Please<sp/>refer<sp/>to<sp/>license.txt<sp/>for<sp/>details]</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>==========================================<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>UNITY_FIXTURE_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UNITY_FIXTURE_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity_8h" kindref="compound">unity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity__internals_8h" kindref="compound">unity_internals.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity__fixture__malloc__overrides_8h" kindref="compound">unity_fixture_malloc_overrides.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity__fixture__internals_8h" kindref="compound">unity_fixture_internals.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="unity__fixture_8h_1a58ec279183697abbd5d3efea3442d4e5" kindref="member">UnityMain</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>argv[],<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*<ref refid="AllTests_8c_1a7f649b562ed3d6a869db371002a27075" kindref="member">runAllTests</ref>)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="unity__fixture_8h_1a02031df3be87951aa6aa3f92ac2f72b9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEST_GROUP(group)\</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>static<sp/>const<sp/>char*<sp/>TEST_GROUP_##group<sp/>=<sp/>#group</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="unity__fixture_8h_1a213d1795588db5f14467a3046bcf2dc7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEST_SETUP(group)<sp/>void<sp/>TEST_##group##_SETUP(void);\</highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>void<sp/>TEST_##group##_SETUP(void)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="unity__fixture_8h_1ad711f3c4f776e7cfdbc1db91a4ab13e7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEST_TEAR_DOWN(group)<sp/>void<sp/>TEST_##group##_TEAR_DOWN(void);\</highlight></codeline>
+<codeline lineno="26"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>void<sp/>TEST_##group##_TEAR_DOWN(void)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="unity__fixture_8h_1a63862f8a42d6bee21007a3764e6c003c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEST(group,<sp/>name)<sp/>\</highlight></codeline>
+<codeline lineno="30"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>void<sp/>TEST_##group##_##name##_(void);\</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>void<sp/>TEST_##group##_##name##_run(void);\</highlight></codeline>
+<codeline lineno="32"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>void<sp/>TEST_##group##_##name##_run(void)\</highlight></codeline>
+<codeline lineno="33"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>{\</highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UnityTestRunner(TEST_##group##_SETUP,\</highlight></codeline>
+<codeline lineno="35"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEST_##group##_##name##_,\</highlight></codeline>
+<codeline lineno="36"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEST_##group##_TEAR_DOWN,\</highlight></codeline>
+<codeline lineno="37"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;TEST(&quot;</highlight><highlight class="normal"><sp/>#group<sp/>&quot;,<sp/>&quot;<sp/>#name<sp/>&quot;)&quot;,\</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEST_GROUP_##group,<sp/>#name,\</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__FILE__,<sp/>__LINE__);\</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}\</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/><sp/>TEST_##group##_##name##_(void)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="unity__fixture_8h_1a97738beabc7ea4629b5e4ec529af6f35" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IGNORE_TEST(group,<sp/>name)<sp/>\</highlight></codeline>
+<codeline lineno="44"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>void<sp/>TEST_##group##_##name##_(void);\</highlight></codeline>
+<codeline lineno="45"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>void<sp/>TEST_##group##_##name##_run(void);\</highlight></codeline>
+<codeline lineno="46"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>void<sp/>TEST_##group##_##name##_run(void)\</highlight></codeline>
+<codeline lineno="47"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>{\</highlight></codeline>
+<codeline lineno="48"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UnityIgnoreTest(&quot;IGNORE_TEST(&quot;</highlight><highlight class="normal"><sp/>#group<sp/>&quot;,<sp/>&quot;<sp/>#name<sp/>&quot;)&quot;,<sp/>TEST_GROUP_##group,<sp/>#name);\</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}\</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>TEST_##group##_##name##_(void)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Call<sp/>this<sp/>for<sp/>each<sp/>test,<sp/>insider<sp/>the<sp/>group<sp/>runner<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="unity__fixture_8h_1adc2b732a34781cebd1432e413f4ccfbc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RUN_TEST_CASE(group,<sp/>name)<sp/>\</highlight></codeline>
+<codeline lineno="54"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>{<sp/>void<sp/>TEST_##group##_##name##_run(void);\</highlight></codeline>
+<codeline lineno="55"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>TEST_##group##_##name##_run();<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>This<sp/>goes<sp/>at<sp/>the<sp/>bottom<sp/>of<sp/>each<sp/>test<sp/>file<sp/>or<sp/>in<sp/>a<sp/>separate<sp/>c<sp/>file<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="unity__fixture_8h_1a4fb025e4925ae24f78f2c1260d706603" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEST_GROUP_RUNNER(group)\</highlight></codeline>
+<codeline lineno="59"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>void<sp/>TEST_##group##_GROUP_RUNNER(void);\</highlight></codeline>
+<codeline lineno="60"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>void<sp/>TEST_##group##_GROUP_RUNNER(void)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Call<sp/>this<sp/>from<sp/>main<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="unity__fixture_8h_1a7fc679775ab3aaf4dd7302a0a4118202" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RUN_TEST_GROUP(group)\</highlight></codeline>
+<codeline lineno="64"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>{<sp/>void<sp/>TEST_##group##_GROUP_RUNNER(void);\</highlight></codeline>
+<codeline lineno="65"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>TEST_##group##_GROUP_RUNNER();<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>CppUTest<sp/>Compatibility<sp/>Macros<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>UNITY_EXCLUDE_CPPUTEST_ASSERTS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Sets<sp/>a<sp/>pointer<sp/>and<sp/>automatically<sp/>restores<sp/>it<sp/>to<sp/>its<sp/>old<sp/>value<sp/>after<sp/>teardown<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="unity__fixture_8h_1a0003ececb011f12f7879197951045a03" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UT_PTR_SET(ptr,<sp/>newPointerValue)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UnityPointer_Set((void**)&amp;(ptr),<sp/>(void*)(newPointerValue),<sp/>__LINE__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="unity__fixture_8h_1a1a2c87adc40e6a7001318e8fe2de85ad" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEST_ASSERT_POINTERS_EQUAL(expected,<sp/>actual)<sp/><sp/><sp/>TEST_ASSERT_EQUAL_PTR((expected),<sp/>(actual))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="unity__fixture_8h_1af7e73d50de1639d4ea2c8e8af94e2704" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEST_ASSERT_BYTES_EQUAL(expected,<sp/>actual)<sp/><sp/><sp/><sp/><sp/><sp/>TEST_ASSERT_EQUAL_HEX8(0xff<sp/>&amp;<sp/>(expected),<sp/>0xff<sp/>&amp;<sp/>(actual))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="unity__fixture_8h_1a8afdb63dd7f053446aa1a5ce66e55651" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FAIL(message)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEST_FAIL_MESSAGE((message))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="unity__fixture_8h_1a3e1cfef60e774a81f30eaddf26a3a274" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CHECK(condition)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEST_ASSERT_TRUE((condition))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="unity__fixture_8h_1a7921a0c4f152a7879e78fe6fc2905590" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LONGS_EQUAL(expected,<sp/>actual)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEST_ASSERT_EQUAL_INT((expected),<sp/>(actual))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="unity__fixture_8h_1ade1dda09c948fee9ceb853bc6dd5f3cb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STRCMP_EQUAL(expected,<sp/>actual)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEST_ASSERT_EQUAL_STRING((expected),<sp/>(actual))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="unity__fixture_8h_1a38ae20f3915215f63e66e49fa11a4617" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DOUBLES_EQUAL(expected,<sp/>actual,<sp/>delta)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEST_ASSERT_DOUBLE_WITHIN((delta),<sp/>(expected),<sp/>(actual))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>You<sp/>must<sp/>compile<sp/>with<sp/>malloc<sp/>replacement,<sp/>as<sp/>defined<sp/>in<sp/>unity_fixture_malloc_overrides.h<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="unity__fixture_8h_1a7d3b04cbb7731cdf0c033d4c3a822d2b" kindref="member">UnityMalloc_MakeMallocFailAfterCount</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="unity__output__Spy_8c_1ad43c3812e6d13e0518d9f8b8f463ffcf" kindref="member">count</ref>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>UNITY_FIXTURE_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/extras/fixture/src/unity_fixture.h"/>
+  </compounddef>
+</doxygen>

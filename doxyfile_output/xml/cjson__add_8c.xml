@@ -1,0 +1,1371 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="cjson__add_8c" kind="file" language="C++">
+    <compoundname>cjson_add.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes refid="unity__config_8h" local="yes">unity/examples/unity_config.h</includes>
+    <includes refid="unity_8h" local="yes">unity/src/unity.h</includes>
+    <includes refid="common_8h" local="yes">common.h</includes>
+    <incdepgraph>
+      <node id="15">
+        <label>float.h</label>
+      </node>
+      <node id="13">
+        <label>../cJSON.c</label>
+        <link refid="cJSON_8c"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>cJSON.h</label>
+        <link refid="cJSON_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>stdint.h</label>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="8">
+        <label>setjmp.h</label>
+      </node>
+      <node id="12">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>stddef.h</label>
+      </node>
+      <node id="1">
+        <label>tests/cjson_add.c</label>
+        <link refid="cjson__add_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>limits.h</label>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+      <node id="5">
+        <label>unity/examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="9">
+        <label>math.h</label>
+      </node>
+      <node id="7">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>unity/src/unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>ctype.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" prot="public" static="yes" mutable="no">
+        <type><ref refid="structcJSON__Hooks" kindref="compound">cJSON_Hooks</ref></type>
+        <definition>cJSON_Hooks failing_hooks</definition>
+        <argsstring></argsstring>
+        <name>failing_hooks</name>
+        <initializer>= {
+    <ref refid="cjson__add_8c_1a24ea6f6e3b14ce44e3690a590cf915dd" kindref="member">failing_malloc</ref>,
+    <ref refid="cjson__add_8c_1a08756e23992776080c1ec3bd5e98e72c" kindref="member">normal_free</ref>
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="43" column="20" bodyfile="tests/cjson_add.c" bodystart="43" bodyend="-1"/>
+        <referencedby refid="cjson__add_8c_1a008722fbefd317869e031ebbabf574df" compoundref="cjson__add_8c" startline="412" endline="423">cjson_add_array_should_fail_on_allocation_failure</referencedby>
+        <referencedby refid="cjson__add_8c_1ad60f93569585858a582867bac944cc29" compoundref="cjson__add_8c" startline="229" endline="240">cjson_add_bool_should_fail_on_allocation_failure</referencedby>
+        <referencedby refid="cjson__add_8c_1aa6f2cab70fbe47fe7006420d79fa76a6" compoundref="cjson__add_8c" startline="187" endline="198">cjson_add_false_should_fail_on_allocation_failure</referencedby>
+        <referencedby refid="cjson__add_8c_1aebf28b3f89ed1b346bd8aab639c6372c" compoundref="cjson__add_8c" startline="71" endline="82">cjson_add_null_should_fail_on_allocation_failure</referencedby>
+        <referencedby refid="cjson__add_8c_1acf27b6aa94c2c8d2b29152bcafd0fb89" compoundref="cjson__add_8c" startline="268" endline="279">cjson_add_number_should_fail_on_allocation_failure</referencedby>
+        <referencedby refid="cjson__add_8c_1a185a89f8e24cac97d1cb2e4a1a8278db" compoundref="cjson__add_8c" startline="377" endline="388">cjson_add_object_should_fail_on_allocation_failure</referencedby>
+        <referencedby refid="cjson__add_8c_1af6881b7e57f75a6ff44ec50b2939d2da" compoundref="cjson__add_8c" startline="342" endline="353">cjson_add_raw_should_fail_on_allocation_failure</referencedby>
+        <referencedby refid="cjson__add_8c_1a9332b1a2d2ad53a70d56eb65e5f50c8e" compoundref="cjson__add_8c" startline="305" endline="316">cjson_add_string_should_fail_on_allocation_failure</referencedby>
+        <referencedby refid="cjson__add_8c_1ae9470b7ad04d9da4f6ab52d2ed0222fa" compoundref="cjson__add_8c" startline="107" endline="118">cjson_add_true_should_fail_on_allocation_failure</referencedby>
+        <referencedby refid="cjson__add_8c_1a6a356f38f42a1e49ba155273a48e9160" compoundref="cjson__add_8c" startline="142" endline="151">cjson_create_double_array_should_fail_on_allocation_failure</referencedby>
+        <referencedby refid="cjson__add_8c_1a959d654b8a9d7d7ca6d5af0355419ed0" compoundref="cjson__add_8c" startline="131" endline="140">cjson_create_float_array_should_fail_on_allocation_failure</referencedby>
+        <referencedby refid="cjson__add_8c_1a2345e8af2c128cd86a05fa37591e81ae" compoundref="cjson__add_8c" startline="120" endline="129">cjson_create_int_array_should_fail_on_allocation_failure</referencedby>
+        <referencedby refid="cjson__add_8c_1a5fccd141f29329062e01226286a9d4ee" compoundref="cjson__add_8c" startline="153" endline="162">cjson_create_string_array_should_fail_on_allocation_failure</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="cjson__add_8c_1a24ea6f6e3b14ce44e3690a590cf915dd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>static void* failing_malloc</definition>
+        <argsstring>(size_t size)</argsstring>
+        <name>failing_malloc</name>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="31" column="17" bodyfile="tests/cjson_add.c" bodystart="31" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a08756e23992776080c1ec3bd5e98e72c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void normal_free</definition>
+        <argsstring>(void *pointer)</argsstring>
+        <name>normal_free</name>
+        <param>
+          <type>void *</type>
+          <declname>pointer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="38" column="16" bodyfile="tests/cjson_add.c" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a31a2dc3dfe049283ebaea153555f443f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_null_should_add_null</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_null_should_add_null</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="48" column="13" bodyfile="tests/cjson_add.c" bodystart="48" bodyend="59"/>
+        <references refid="cJSON_8c_1a6e425c8aa8e9577cb4511a6be0959d9a" compoundref="cJSON_8c" startline="2075" endline="2085">cJSON_AddNullToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" compoundref="cJSON_8c" startline="1913" endline="1916">cJSON_GetObjectItemCaseSensitive</references>
+        <references refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" compoundref="cJSON_8h" startline="112">cJSON::type</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a52b973a8a39fce650a2dd3fb80ee5bab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_null_should_fail_with_null_pointers</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_null_should_fail_with_null_pointers</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="61" column="13" bodyfile="tests/cjson_add.c" bodystart="61" bodyend="69"/>
+        <references refid="cJSON_8c_1a6e425c8aa8e9577cb4511a6be0959d9a" compoundref="cJSON_8c" startline="2075" endline="2085">cJSON_AddNullToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1aebf28b3f89ed1b346bd8aab639c6372c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_null_should_fail_on_allocation_failure</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_null_should_fail_on_allocation_failure</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="71" column="13" bodyfile="tests/cjson_add.c" bodystart="71" bodyend="82"/>
+        <references refid="cJSON_8c_1a6e425c8aa8e9577cb4511a6be0959d9a" compoundref="cJSON_8c" startline="2075" endline="2085">cJSON_AddNullToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" compoundref="cJSON_8c" startline="209" endline="238">cJSON_InitHooks</references>
+        <references refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" compoundref="cjson__add_8c" startline="43">failing_hooks</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a2f02038182067b35da56b958618caa6f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_true_should_add_true</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_true_should_add_true</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="84" column="13" bodyfile="tests/cjson_add.c" bodystart="84" bodyend="95"/>
+        <references refid="cJSON_8c_1a08bd4e0d459e39b20ad737acdb110adc" compoundref="cJSON_8c" startline="2087" endline="2097">cJSON_AddTrueToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" compoundref="cJSON_8c" startline="1913" endline="1916">cJSON_GetObjectItemCaseSensitive</references>
+        <references refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" compoundref="cJSON_8h" startline="112">cJSON::type</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a617f9dc0ec20654d1a6be0650907f3ae" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_true_should_fail_with_null_pointers</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_true_should_fail_with_null_pointers</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="97" column="13" bodyfile="tests/cjson_add.c" bodystart="97" bodyend="105"/>
+        <references refid="cJSON_8c_1a08bd4e0d459e39b20ad737acdb110adc" compoundref="cJSON_8c" startline="2087" endline="2097">cJSON_AddTrueToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1ae9470b7ad04d9da4f6ab52d2ed0222fa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_true_should_fail_on_allocation_failure</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_true_should_fail_on_allocation_failure</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="107" column="13" bodyfile="tests/cjson_add.c" bodystart="107" bodyend="118"/>
+        <references refid="cJSON_8c_1a08bd4e0d459e39b20ad737acdb110adc" compoundref="cJSON_8c" startline="2087" endline="2097">cJSON_AddTrueToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" compoundref="cJSON_8c" startline="209" endline="238">cJSON_InitHooks</references>
+        <references refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" compoundref="cjson__add_8c" startline="43">failing_hooks</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a2345e8af2c128cd86a05fa37591e81ae" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_create_int_array_should_fail_on_allocation_failure</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_create_int_array_should_fail_on_allocation_failure</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="120" column="13" bodyfile="tests/cjson_add.c" bodystart="120" bodyend="129"/>
+        <references refid="cJSON_8c_1a12576edcea9baca64be6fe7a6ae8d4fa" compoundref="cJSON_8c" startline="2536" endline="2574">cJSON_CreateIntArray</references>
+        <references refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" compoundref="cJSON_8c" startline="209" endline="238">cJSON_InitHooks</references>
+        <references refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" compoundref="cjson__add_8c" startline="43">failing_hooks</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a959d654b8a9d7d7ca6d5af0355419ed0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_create_float_array_should_fail_on_allocation_failure</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_create_float_array_should_fail_on_allocation_failure</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="131" column="13" bodyfile="tests/cjson_add.c" bodystart="131" bodyend="140"/>
+        <references refid="cJSON_8c_1a328fe12c04efcf2073b218bbf35ac6ec" compoundref="cJSON_8c" startline="2576" endline="2614">cJSON_CreateFloatArray</references>
+        <references refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" compoundref="cJSON_8c" startline="209" endline="238">cJSON_InitHooks</references>
+        <references refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" compoundref="cjson__add_8c" startline="43">failing_hooks</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a6a356f38f42a1e49ba155273a48e9160" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_create_double_array_should_fail_on_allocation_failure</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_create_double_array_should_fail_on_allocation_failure</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="142" column="13" bodyfile="tests/cjson_add.c" bodystart="142" bodyend="151"/>
+        <references refid="cJSON_8c_1a04cb41ee475a68bd2ee63e92d8534049" compoundref="cJSON_8c" startline="2616" endline="2654">cJSON_CreateDoubleArray</references>
+        <references refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" compoundref="cJSON_8c" startline="209" endline="238">cJSON_InitHooks</references>
+        <references refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" compoundref="cjson__add_8c" startline="43">failing_hooks</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a5fccd141f29329062e01226286a9d4ee" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_create_string_array_should_fail_on_allocation_failure</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_create_string_array_should_fail_on_allocation_failure</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="153" column="13" bodyfile="tests/cjson_add.c" bodystart="153" bodyend="162"/>
+        <references refid="cJSON_8c_1a1419ae039480a44d0bf2fcfe30d75cc6" compoundref="cJSON_8c" startline="2656" endline="2694">cJSON_CreateStringArray</references>
+        <references refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" compoundref="cJSON_8c" startline="209" endline="238">cJSON_InitHooks</references>
+        <references refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" compoundref="cjson__add_8c" startline="43">failing_hooks</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1ae7ee5f05d3311d2480865aaa71c128f0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_false_should_add_false</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_false_should_add_false</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="164" column="13" bodyfile="tests/cjson_add.c" bodystart="164" bodyend="175"/>
+        <references refid="cJSON_8c_1ad162d48e83915525082bcbeed6262d91" compoundref="cJSON_8c" startline="2099" endline="2109">cJSON_AddFalseToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" compoundref="cJSON_8c" startline="1913" endline="1916">cJSON_GetObjectItemCaseSensitive</references>
+        <references refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" compoundref="cJSON_8h" startline="112">cJSON::type</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a84a509f291b16c31518e35506cdafe99" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_false_should_fail_with_null_pointers</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_false_should_fail_with_null_pointers</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="177" column="13" bodyfile="tests/cjson_add.c" bodystart="177" bodyend="185"/>
+        <references refid="cJSON_8c_1ad162d48e83915525082bcbeed6262d91" compoundref="cJSON_8c" startline="2099" endline="2109">cJSON_AddFalseToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1aa6f2cab70fbe47fe7006420d79fa76a6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_false_should_fail_on_allocation_failure</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_false_should_fail_on_allocation_failure</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="187" column="13" bodyfile="tests/cjson_add.c" bodystart="187" bodyend="198"/>
+        <references refid="cJSON_8c_1ad162d48e83915525082bcbeed6262d91" compoundref="cJSON_8c" startline="2099" endline="2109">cJSON_AddFalseToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" compoundref="cJSON_8c" startline="209" endline="238">cJSON_InitHooks</references>
+        <references refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" compoundref="cjson__add_8c" startline="43">failing_hooks</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a906dee347b143ba380bd5c35dd2b5c11" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_bool_should_add_bool</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_bool_should_add_bool</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="200" column="13" bodyfile="tests/cjson_add.c" bodystart="200" bodyend="217"/>
+        <references refid="cJSON_8c_1a421ba4c0e845aff2e4c8efcbd70d75d4" compoundref="cJSON_8c" startline="2111" endline="2121">cJSON_AddBoolToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" compoundref="cJSON_8c" startline="1913" endline="1916">cJSON_GetObjectItemCaseSensitive</references>
+        <references refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" compoundref="cJSON_8h" startline="112">cJSON::type</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a216505e918c4eefab3ce964655506947" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_bool_should_fail_with_null_pointers</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_bool_should_fail_with_null_pointers</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="219" column="13" bodyfile="tests/cjson_add.c" bodystart="219" bodyend="227"/>
+        <references refid="cJSON_8c_1a421ba4c0e845aff2e4c8efcbd70d75d4" compoundref="cJSON_8c" startline="2111" endline="2121">cJSON_AddBoolToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1ad60f93569585858a582867bac944cc29" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_bool_should_fail_on_allocation_failure</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_bool_should_fail_on_allocation_failure</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="229" column="13" bodyfile="tests/cjson_add.c" bodystart="229" bodyend="240"/>
+        <references refid="cJSON_8c_1a421ba4c0e845aff2e4c8efcbd70d75d4" compoundref="cJSON_8c" startline="2111" endline="2121">cJSON_AddBoolToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" compoundref="cJSON_8c" startline="209" endline="238">cJSON_InitHooks</references>
+        <references refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" compoundref="cjson__add_8c" startline="43">failing_hooks</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a90630b9261ccf9f102de52bb85d1dda3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_number_should_add_number</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_number_should_add_number</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="242" column="13" bodyfile="tests/cjson_add.c" bodystart="242" bodyend="256"/>
+        <references refid="cJSON_8c_1a27a7a4fb786cb7fa289dbf83889f3c99" compoundref="cJSON_8c" startline="2123" endline="2133">cJSON_AddNumberToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" compoundref="cJSON_8c" startline="1913" endline="1916">cJSON_GetObjectItemCaseSensitive</references>
+        <references refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" compoundref="cJSON_8h" startline="112">cJSON::type</references>
+        <references refid="structcJSON_1a4b21817d0fd2919901abadac73214e7f" compoundref="cJSON_8h" startline="119">cJSON::valuedouble</references>
+        <references refid="structcJSON_1a369cea49494eb5d4409d532a731a0fbf" compoundref="cJSON_8h" startline="117">cJSON::valueint</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a83921007d8ad36822427034ca1d6aa11" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_number_should_fail_with_null_pointers</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_number_should_fail_with_null_pointers</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="258" column="13" bodyfile="tests/cjson_add.c" bodystart="258" bodyend="266"/>
+        <references refid="cJSON_8c_1a27a7a4fb786cb7fa289dbf83889f3c99" compoundref="cJSON_8c" startline="2123" endline="2133">cJSON_AddNumberToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1acf27b6aa94c2c8d2b29152bcafd0fb89" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_number_should_fail_on_allocation_failure</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_number_should_fail_on_allocation_failure</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="268" column="13" bodyfile="tests/cjson_add.c" bodystart="268" bodyend="279"/>
+        <references refid="cJSON_8c_1a27a7a4fb786cb7fa289dbf83889f3c99" compoundref="cJSON_8c" startline="2123" endline="2133">cJSON_AddNumberToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" compoundref="cJSON_8c" startline="209" endline="238">cJSON_InitHooks</references>
+        <references refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" compoundref="cjson__add_8c" startline="43">failing_hooks</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a79abc4fe5667eded0df91b5320edbf85" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_string_should_add_string</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_string_should_add_string</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="281" column="13" bodyfile="tests/cjson_add.c" bodystart="281" bodyend="293"/>
+        <references refid="cJSON_8c_1aec47eaefc2d022a9d53d172899e27a2e" compoundref="cJSON_8c" startline="2135" endline="2145">cJSON_AddStringToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" compoundref="cJSON_8c" startline="1913" endline="1916">cJSON_GetObjectItemCaseSensitive</references>
+        <references refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" compoundref="cJSON_8h" startline="112">cJSON::type</references>
+        <references refid="structcJSON_1ad43f8de2571e504c4c5ce0a36990e6e1" compoundref="cJSON_8h" startline="115">cJSON::valuestring</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a33ebaa2876583bc1ccb1641addc9c20f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_string_should_fail_with_null_pointers</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_string_should_fail_with_null_pointers</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="295" column="13" bodyfile="tests/cjson_add.c" bodystart="295" bodyend="303"/>
+        <references refid="cJSON_8c_1aec47eaefc2d022a9d53d172899e27a2e" compoundref="cJSON_8c" startline="2135" endline="2145">cJSON_AddStringToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a9332b1a2d2ad53a70d56eb65e5f50c8e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_string_should_fail_on_allocation_failure</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_string_should_fail_on_allocation_failure</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="305" column="13" bodyfile="tests/cjson_add.c" bodystart="305" bodyend="316"/>
+        <references refid="cJSON_8c_1aec47eaefc2d022a9d53d172899e27a2e" compoundref="cJSON_8c" startline="2135" endline="2145">cJSON_AddStringToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" compoundref="cJSON_8c" startline="209" endline="238">cJSON_InitHooks</references>
+        <references refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" compoundref="cjson__add_8c" startline="43">failing_hooks</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1aad320d705b69a79d3797b02db41b8335" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_raw_should_add_raw</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_raw_should_add_raw</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="318" column="13" bodyfile="tests/cjson_add.c" bodystart="318" bodyend="330"/>
+        <references refid="cJSON_8c_1a20d19c3672d259d001dbc352b02539e9" compoundref="cJSON_8c" startline="2147" endline="2157">cJSON_AddRawToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" compoundref="cJSON_8c" startline="1913" endline="1916">cJSON_GetObjectItemCaseSensitive</references>
+        <references refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" compoundref="cJSON_8h" startline="112">cJSON::type</references>
+        <references refid="structcJSON_1ad43f8de2571e504c4c5ce0a36990e6e1" compoundref="cJSON_8h" startline="115">cJSON::valuestring</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a47ed6a71469c72ca1b91613b7a0babd9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_raw_should_fail_with_null_pointers</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_raw_should_fail_with_null_pointers</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="332" column="13" bodyfile="tests/cjson_add.c" bodystart="332" bodyend="340"/>
+        <references refid="cJSON_8c_1a20d19c3672d259d001dbc352b02539e9" compoundref="cJSON_8c" startline="2147" endline="2157">cJSON_AddRawToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1af6881b7e57f75a6ff44ec50b2939d2da" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_raw_should_fail_on_allocation_failure</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_raw_should_fail_on_allocation_failure</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="342" column="13" bodyfile="tests/cjson_add.c" bodystart="342" bodyend="353"/>
+        <references refid="cJSON_8c_1a20d19c3672d259d001dbc352b02539e9" compoundref="cJSON_8c" startline="2147" endline="2157">cJSON_AddRawToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" compoundref="cJSON_8c" startline="209" endline="238">cJSON_InitHooks</references>
+        <references refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" compoundref="cjson__add_8c" startline="43">failing_hooks</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a9098c85ee9dd963cfc682ab328932707" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cJSON_add_object_should_add_object</definition>
+        <argsstring>(void)</argsstring>
+        <name>cJSON_add_object_should_add_object</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="355" column="13" bodyfile="tests/cjson_add.c" bodystart="355" bodyend="365"/>
+        <references refid="cJSON_8c_1a7fedf1f410515d88917f6086048d3064" compoundref="cJSON_8c" startline="2159" endline="2169">cJSON_AddObjectToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" compoundref="cJSON_8c" startline="1913" endline="1916">cJSON_GetObjectItemCaseSensitive</references>
+        <references refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" compoundref="cJSON_8h" startline="112">cJSON::type</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a8022426b2f978e4a9191fc8d817c2040" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_object_should_fail_with_null_pointers</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_object_should_fail_with_null_pointers</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="367" column="13" bodyfile="tests/cjson_add.c" bodystart="367" bodyend="375"/>
+        <references refid="cJSON_8c_1a7fedf1f410515d88917f6086048d3064" compoundref="cJSON_8c" startline="2159" endline="2169">cJSON_AddObjectToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a185a89f8e24cac97d1cb2e4a1a8278db" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_object_should_fail_on_allocation_failure</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_object_should_fail_on_allocation_failure</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="377" column="13" bodyfile="tests/cjson_add.c" bodystart="377" bodyend="388"/>
+        <references refid="cJSON_8c_1a7fedf1f410515d88917f6086048d3064" compoundref="cJSON_8c" startline="2159" endline="2169">cJSON_AddObjectToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" compoundref="cJSON_8c" startline="209" endline="238">cJSON_InitHooks</references>
+        <references refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" compoundref="cjson__add_8c" startline="43">failing_hooks</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a68aad8702c7daab6b0aced5ed76a15bf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cJSON_add_array_should_add_array</definition>
+        <argsstring>(void)</argsstring>
+        <name>cJSON_add_array_should_add_array</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="390" column="13" bodyfile="tests/cjson_add.c" bodystart="390" bodyend="400"/>
+        <references refid="cJSON_8c_1a9aee370d9aa8997e5a39f76a643792ed" compoundref="cJSON_8c" startline="2171" endline="2181">cJSON_AddArrayToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" compoundref="cJSON_8c" startline="1913" endline="1916">cJSON_GetObjectItemCaseSensitive</references>
+        <references refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" compoundref="cJSON_8h" startline="112">cJSON::type</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1ad268e05d4df8d72c3c2a96d528b403b1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_array_should_fail_with_null_pointers</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_array_should_fail_with_null_pointers</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="402" column="13" bodyfile="tests/cjson_add.c" bodystart="402" bodyend="410"/>
+        <references refid="cJSON_8c_1a9aee370d9aa8997e5a39f76a643792ed" compoundref="cJSON_8c" startline="2171" endline="2181">cJSON_AddArrayToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a008722fbefd317869e031ebbabf574df" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_add_array_should_fail_on_allocation_failure</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_add_array_should_fail_on_allocation_failure</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="412" column="13" bodyfile="tests/cjson_add.c" bodystart="412" bodyend="423"/>
+        <references refid="cJSON_8c_1a9aee370d9aa8997e5a39f76a643792ed" compoundref="cJSON_8c" startline="2171" endline="2181">cJSON_AddArrayToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" compoundref="cJSON_8c" startline="209" endline="238">cJSON_InitHooks</references>
+        <references refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" compoundref="cjson__add_8c" startline="43">failing_hooks</references>
+        <referencedby refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="cjson__add_8c" startline="425" endline="471">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(void)</argsstring>
+        <name>main</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/cjson_add.c" line="425" column="8" bodyfile="tests/cjson_add.c" bodystart="425" bodyend="471"/>
+        <references refid="cjson__add_8c_1a68aad8702c7daab6b0aced5ed76a15bf" compoundref="cjson__add_8c" startline="390" endline="400">cJSON_add_array_should_add_array</references>
+        <references refid="cjson__add_8c_1a008722fbefd317869e031ebbabf574df" compoundref="cjson__add_8c" startline="412" endline="423">cjson_add_array_should_fail_on_allocation_failure</references>
+        <references refid="cjson__add_8c_1ad268e05d4df8d72c3c2a96d528b403b1" compoundref="cjson__add_8c" startline="402" endline="410">cjson_add_array_should_fail_with_null_pointers</references>
+        <references refid="cjson__add_8c_1a906dee347b143ba380bd5c35dd2b5c11" compoundref="cjson__add_8c" startline="200" endline="217">cjson_add_bool_should_add_bool</references>
+        <references refid="cjson__add_8c_1ad60f93569585858a582867bac944cc29" compoundref="cjson__add_8c" startline="229" endline="240">cjson_add_bool_should_fail_on_allocation_failure</references>
+        <references refid="cjson__add_8c_1a216505e918c4eefab3ce964655506947" compoundref="cjson__add_8c" startline="219" endline="227">cjson_add_bool_should_fail_with_null_pointers</references>
+        <references refid="cjson__add_8c_1ae7ee5f05d3311d2480865aaa71c128f0" compoundref="cjson__add_8c" startline="164" endline="175">cjson_add_false_should_add_false</references>
+        <references refid="cjson__add_8c_1aa6f2cab70fbe47fe7006420d79fa76a6" compoundref="cjson__add_8c" startline="187" endline="198">cjson_add_false_should_fail_on_allocation_failure</references>
+        <references refid="cjson__add_8c_1a84a509f291b16c31518e35506cdafe99" compoundref="cjson__add_8c" startline="177" endline="185">cjson_add_false_should_fail_with_null_pointers</references>
+        <references refid="cjson__add_8c_1a31a2dc3dfe049283ebaea153555f443f" compoundref="cjson__add_8c" startline="48" endline="59">cjson_add_null_should_add_null</references>
+        <references refid="cjson__add_8c_1aebf28b3f89ed1b346bd8aab639c6372c" compoundref="cjson__add_8c" startline="71" endline="82">cjson_add_null_should_fail_on_allocation_failure</references>
+        <references refid="cjson__add_8c_1a52b973a8a39fce650a2dd3fb80ee5bab" compoundref="cjson__add_8c" startline="61" endline="69">cjson_add_null_should_fail_with_null_pointers</references>
+        <references refid="cjson__add_8c_1a90630b9261ccf9f102de52bb85d1dda3" compoundref="cjson__add_8c" startline="242" endline="256">cjson_add_number_should_add_number</references>
+        <references refid="cjson__add_8c_1acf27b6aa94c2c8d2b29152bcafd0fb89" compoundref="cjson__add_8c" startline="268" endline="279">cjson_add_number_should_fail_on_allocation_failure</references>
+        <references refid="cjson__add_8c_1a83921007d8ad36822427034ca1d6aa11" compoundref="cjson__add_8c" startline="258" endline="266">cjson_add_number_should_fail_with_null_pointers</references>
+        <references refid="cjson__add_8c_1a9098c85ee9dd963cfc682ab328932707" compoundref="cjson__add_8c" startline="355" endline="365">cJSON_add_object_should_add_object</references>
+        <references refid="cjson__add_8c_1a185a89f8e24cac97d1cb2e4a1a8278db" compoundref="cjson__add_8c" startline="377" endline="388">cjson_add_object_should_fail_on_allocation_failure</references>
+        <references refid="cjson__add_8c_1a8022426b2f978e4a9191fc8d817c2040" compoundref="cjson__add_8c" startline="367" endline="375">cjson_add_object_should_fail_with_null_pointers</references>
+        <references refid="cjson__add_8c_1aad320d705b69a79d3797b02db41b8335" compoundref="cjson__add_8c" startline="318" endline="330">cjson_add_raw_should_add_raw</references>
+        <references refid="cjson__add_8c_1af6881b7e57f75a6ff44ec50b2939d2da" compoundref="cjson__add_8c" startline="342" endline="353">cjson_add_raw_should_fail_on_allocation_failure</references>
+        <references refid="cjson__add_8c_1a47ed6a71469c72ca1b91613b7a0babd9" compoundref="cjson__add_8c" startline="332" endline="340">cjson_add_raw_should_fail_with_null_pointers</references>
+        <references refid="cjson__add_8c_1a79abc4fe5667eded0df91b5320edbf85" compoundref="cjson__add_8c" startline="281" endline="293">cjson_add_string_should_add_string</references>
+        <references refid="cjson__add_8c_1a9332b1a2d2ad53a70d56eb65e5f50c8e" compoundref="cjson__add_8c" startline="305" endline="316">cjson_add_string_should_fail_on_allocation_failure</references>
+        <references refid="cjson__add_8c_1a33ebaa2876583bc1ccb1641addc9c20f" compoundref="cjson__add_8c" startline="295" endline="303">cjson_add_string_should_fail_with_null_pointers</references>
+        <references refid="cjson__add_8c_1a2f02038182067b35da56b958618caa6f" compoundref="cjson__add_8c" startline="84" endline="95">cjson_add_true_should_add_true</references>
+        <references refid="cjson__add_8c_1ae9470b7ad04d9da4f6ab52d2ed0222fa" compoundref="cjson__add_8c" startline="107" endline="118">cjson_add_true_should_fail_on_allocation_failure</references>
+        <references refid="cjson__add_8c_1a617f9dc0ec20654d1a6be0650907f3ae" compoundref="cjson__add_8c" startline="97" endline="105">cjson_add_true_should_fail_with_null_pointers</references>
+        <references refid="cjson__add_8c_1a6a356f38f42a1e49ba155273a48e9160" compoundref="cjson__add_8c" startline="142" endline="151">cjson_create_double_array_should_fail_on_allocation_failure</references>
+        <references refid="cjson__add_8c_1a959d654b8a9d7d7ca6d5af0355419ed0" compoundref="cjson__add_8c" startline="131" endline="140">cjson_create_float_array_should_fail_on_allocation_failure</references>
+        <references refid="cjson__add_8c_1a2345e8af2c128cd86a05fa37591e81ae" compoundref="cjson__add_8c" startline="120" endline="129">cjson_create_int_array_should_fail_on_allocation_failure</references>
+        <references refid="cjson__add_8c_1a5fccd141f29329062e01226286a9d4ee" compoundref="cjson__add_8c" startline="153" endline="162">cjson_create_string_array_should_fail_on_allocation_failure</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/>Copyright<sp/>(c)<sp/>2009-2017<sp/>Dave<sp/>Gamble<sp/>and<sp/>cJSON<sp/>contributors</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"></highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity__config_8h" kindref="compound">unity/examples/unity_config.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity_8h" kindref="compound">unity/src/unity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="common_8h" kindref="compound">common.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="cjson__add_8c_1a24ea6f6e3b14ce44e3690a590cf915dd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/><ref refid="cJSON_8h_1a79203c3ba406ffd5736627cc1e082e38" kindref="member">CJSON_CDECL</ref><sp/><ref refid="cjson__add_8c_1a24ea6f6e3b14ce44e3690a590cf915dd" kindref="member">failing_malloc</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" kindref="member">size</ref>)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>(void)<ref refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" kindref="member">size</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>work<sp/>around<sp/>MSVC<sp/>error<sp/>C2322:<sp/>&apos;...&apos;<sp/>address<sp/>of<sp/>dillimport<sp/>&apos;...&apos;<sp/>is<sp/>not<sp/>static<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="cjson__add_8c_1a08756e23992776080c1ec3bd5e98e72c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cJSON_8h_1a79203c3ba406ffd5736627cc1e082e38" kindref="member">CJSON_CDECL</ref><sp/><ref refid="cjson__add_8c_1a08756e23992776080c1ec3bd5e98e72c" kindref="member">normal_free</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*pointer)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(pointer);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structcJSON__Hooks" kindref="compound">cJSON_Hooks</ref><sp/><ref refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" kindref="member">failing_hooks</ref><sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cjson__add_8c_1a24ea6f6e3b14ce44e3690a590cf915dd" kindref="member">failing_malloc</ref>,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cjson__add_8c_1a08756e23992776080c1ec3bd5e98e72c" kindref="member">normal_free</ref></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="cjson__add_8c_1a31a2dc3dfe049283ebaea153555f443f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a31a2dc3dfe049283ebaea153555f443f" kindref="member">cjson_add_null_should_add_null</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*</highlight><highlight class="keyword">null</highlight><highlight class="normal"><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a6e425c8aa8e9577cb4511a6be0959d9a" kindref="member">cJSON_AddNullToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;null&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1afae78efdc83dcc60f08347b8390525b9" kindref="member">TEST_ASSERT_NOT_NULL</ref>(</highlight><highlight class="keyword">null</highlight><highlight class="normal"><sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;null&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1af52a321a93c580a6213fef3e0f85c237" kindref="member">TEST_ASSERT_EQUAL_INT</ref>(null-&gt;type,<sp/><ref refid="cJSON_8h_1aeadaba63ddb68aaa518528595d503dcd" kindref="member">cJSON_NULL</ref>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="cjson__add_8c_1a52b973a8a39fce650a2dd3fb80ee5bab" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a52b973a8a39fce650a2dd3fb80ee5bab" kindref="member">cjson_add_null_should_fail_with_null_pointers</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a6e425c8aa8e9577cb4511a6be0959d9a" kindref="member">cJSON_AddNullToObject</ref>(NULL,<sp/></highlight><highlight class="stringliteral">&quot;null&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a6e425c8aa8e9577cb4511a6be0959d9a" kindref="member">cJSON_AddNullToObject</ref>(root,<sp/>NULL));</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="cjson__add_8c_1aebf28b3f89ed1b346bd8aab639c6372c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1aebf28b3f89ed1b346bd8aab639c6372c" kindref="member">cjson_add_null_should_fail_on_allocation_failure</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(&amp;<ref refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" kindref="member">failing_hooks</ref>);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a6e425c8aa8e9577cb4511a6be0959d9a" kindref="member">cJSON_AddNullToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;null&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(NULL);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="cjson__add_8c_1a2f02038182067b35da56b958618caa6f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a2f02038182067b35da56b958618caa6f" kindref="member">cjson_add_true_should_add_true</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*true_item<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a08bd4e0d459e39b20ad737acdb110adc" kindref="member">cJSON_AddTrueToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1afae78efdc83dcc60f08347b8390525b9" kindref="member">TEST_ASSERT_NOT_NULL</ref>(true_item<sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1af52a321a93c580a6213fef3e0f85c237" kindref="member">TEST_ASSERT_EQUAL_INT</ref>(true_item-&gt;<ref refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" kindref="member">type</ref>,<sp/><ref refid="cJSON_8h_1aad4e442b8095939decddfb67d87d9324" kindref="member">cJSON_True</ref>);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="cjson__add_8c_1a617f9dc0ec20654d1a6be0650907f3ae" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a617f9dc0ec20654d1a6be0650907f3ae" kindref="member">cjson_add_true_should_fail_with_null_pointers</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a08bd4e0d459e39b20ad737acdb110adc" kindref="member">cJSON_AddTrueToObject</ref>(NULL,<sp/></highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a08bd4e0d459e39b20ad737acdb110adc" kindref="member">cJSON_AddTrueToObject</ref>(root,<sp/>NULL));</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="cjson__add_8c_1ae9470b7ad04d9da4f6ab52d2ed0222fa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1ae9470b7ad04d9da4f6ab52d2ed0222fa" kindref="member">cjson_add_true_should_fail_on_allocation_failure</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(&amp;<ref refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" kindref="member">failing_hooks</ref>);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a08bd4e0d459e39b20ad737acdb110adc" kindref="member">cJSON_AddTrueToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(NULL);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="cjson__add_8c_1a2345e8af2c128cd86a05fa37591e81ae" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a2345e8af2c128cd86a05fa37591e81ae" kindref="member">cjson_create_int_array_should_fail_on_allocation_failure</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numbers[]<sp/>=<sp/>{1,<sp/>2,<sp/>3};</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(&amp;<ref refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" kindref="member">failing_hooks</ref>);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a12576edcea9baca64be6fe7a6ae8d4fa" kindref="member">cJSON_CreateIntArray</ref>(numbers,<sp/>3));</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(NULL);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="cjson__add_8c_1a959d654b8a9d7d7ca6d5af0355419ed0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a959d654b8a9d7d7ca6d5af0355419ed0" kindref="member">cjson_create_float_array_should_fail_on_allocation_failure</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>numbers[]<sp/>=<sp/>{1.0f,<sp/>2.0f,<sp/>3.0f};</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(&amp;<ref refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" kindref="member">failing_hooks</ref>);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a328fe12c04efcf2073b218bbf35ac6ec" kindref="member">cJSON_CreateFloatArray</ref>(numbers,<sp/>3));</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(NULL);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="cjson__add_8c_1a6a356f38f42a1e49ba155273a48e9160" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a6a356f38f42a1e49ba155273a48e9160" kindref="member">cjson_create_double_array_should_fail_on_allocation_failure</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>numbers[]<sp/>=<sp/>{1.0,<sp/>2.0,<sp/>3.0};</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(&amp;<ref refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" kindref="member">failing_hooks</ref>);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a04cb41ee475a68bd2ee63e92d8534049" kindref="member">cJSON_CreateDoubleArray</ref>(numbers,<sp/>3));</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(NULL);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="cjson__add_8c_1a5fccd141f29329062e01226286a9d4ee" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a5fccd141f29329062e01226286a9d4ee" kindref="member">cjson_create_string_array_should_fail_on_allocation_failure</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="154"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>strings[]<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;2&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;3&quot;</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(&amp;<ref refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" kindref="member">failing_hooks</ref>);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a1419ae039480a44d0bf2fcfe30d75cc6" kindref="member">cJSON_CreateStringArray</ref>(strings,<sp/>3));</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(NULL);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="cjson__add_8c_1ae7ee5f05d3311d2480865aaa71c128f0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1ae7ee5f05d3311d2480865aaa71c128f0" kindref="member">cjson_add_false_should_add_false</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*false_item<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1ad162d48e83915525082bcbeed6262d91" kindref="member">cJSON_AddFalseToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;false&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1afae78efdc83dcc60f08347b8390525b9" kindref="member">TEST_ASSERT_NOT_NULL</ref>(false_item<sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;false&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1af52a321a93c580a6213fef3e0f85c237" kindref="member">TEST_ASSERT_EQUAL_INT</ref>(false_item-&gt;<ref refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" kindref="member">type</ref>,<sp/><ref refid="cJSON_8h_1a2d240682316354b5748f909ad220184b" kindref="member">cJSON_False</ref>);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="cjson__add_8c_1a84a509f291b16c31518e35506cdafe99" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a84a509f291b16c31518e35506cdafe99" kindref="member">cjson_add_false_should_fail_with_null_pointers</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="178"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1ad162d48e83915525082bcbeed6262d91" kindref="member">cJSON_AddFalseToObject</ref>(NULL,<sp/></highlight><highlight class="stringliteral">&quot;false&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1ad162d48e83915525082bcbeed6262d91" kindref="member">cJSON_AddFalseToObject</ref>(root,<sp/>NULL));</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="cjson__add_8c_1aa6f2cab70fbe47fe7006420d79fa76a6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1aa6f2cab70fbe47fe7006420d79fa76a6" kindref="member">cjson_add_false_should_fail_on_allocation_failure</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="188"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(&amp;<ref refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" kindref="member">failing_hooks</ref>);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1ad162d48e83915525082bcbeed6262d91" kindref="member">cJSON_AddFalseToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;false&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(NULL);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="cjson__add_8c_1a906dee347b143ba380bd5c35dd2b5c11" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a906dee347b143ba380bd5c35dd2b5c11" kindref="member">cjson_add_bool_should_add_bool</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="201"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*true_item<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*false_item<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>true<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a421ba4c0e845aff2e4c8efcbd70d75d4" kindref="member">cJSON_AddBoolToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1afae78efdc83dcc60f08347b8390525b9" kindref="member">TEST_ASSERT_NOT_NULL</ref>(true_item<sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1af52a321a93c580a6213fef3e0f85c237" kindref="member">TEST_ASSERT_EQUAL_INT</ref>(true_item-&gt;<ref refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" kindref="member">type</ref>,<sp/><ref refid="cJSON_8h_1aad4e442b8095939decddfb67d87d9324" kindref="member">cJSON_True</ref>);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>false<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a421ba4c0e845aff2e4c8efcbd70d75d4" kindref="member">cJSON_AddBoolToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;false&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1afae78efdc83dcc60f08347b8390525b9" kindref="member">TEST_ASSERT_NOT_NULL</ref>(false_item<sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;false&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1af52a321a93c580a6213fef3e0f85c237" kindref="member">TEST_ASSERT_EQUAL_INT</ref>(false_item-&gt;<ref refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" kindref="member">type</ref>,<sp/><ref refid="cJSON_8h_1a2d240682316354b5748f909ad220184b" kindref="member">cJSON_False</ref>);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="cjson__add_8c_1a216505e918c4eefab3ce964655506947" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a216505e918c4eefab3ce964655506947" kindref="member">cjson_add_bool_should_fail_with_null_pointers</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="220"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a421ba4c0e845aff2e4c8efcbd70d75d4" kindref="member">cJSON_AddBoolToObject</ref>(NULL,<sp/></highlight><highlight class="stringliteral">&quot;false&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a421ba4c0e845aff2e4c8efcbd70d75d4" kindref="member">cJSON_AddBoolToObject</ref>(root,<sp/>NULL,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="cjson__add_8c_1ad60f93569585858a582867bac944cc29" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1ad60f93569585858a582867bac944cc29" kindref="member">cjson_add_bool_should_fail_on_allocation_failure</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="230"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(&amp;<ref refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" kindref="member">failing_hooks</ref>);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a421ba4c0e845aff2e4c8efcbd70d75d4" kindref="member">cJSON_AddBoolToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;false&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(NULL);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="cjson__add_8c_1a90630b9261ccf9f102de52bb85d1dda3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a90630b9261ccf9f102de52bb85d1dda3" kindref="member">cjson_add_number_should_add_number</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="243"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*number<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a27a7a4fb786cb7fa289dbf83889f3c99" kindref="member">cJSON_AddNumberToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;number&quot;</highlight><highlight class="normal">,<sp/>42);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1afae78efdc83dcc60f08347b8390525b9" kindref="member">TEST_ASSERT_NOT_NULL</ref>(number<sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;number&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1af52a321a93c580a6213fef3e0f85c237" kindref="member">TEST_ASSERT_EQUAL_INT</ref>(number-&gt;<ref refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" kindref="member">type</ref>,<sp/><ref refid="cJSON_8h_1a15e77e2f6457dc9b19c10ddb032af971" kindref="member">cJSON_Number</ref>);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ae0a2c6258810a0cdee35e24502b66eaa" kindref="member">TEST_ASSERT_EQUAL_DOUBLE</ref>(number-&gt;<ref refid="structcJSON_1a4b21817d0fd2919901abadac73214e7f" kindref="member">valuedouble</ref>,<sp/>42);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1af52a321a93c580a6213fef3e0f85c237" kindref="member">TEST_ASSERT_EQUAL_INT</ref>(number-&gt;<ref refid="structcJSON_1a369cea49494eb5d4409d532a731a0fbf" kindref="member">valueint</ref>,<sp/>42);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="cjson__add_8c_1a83921007d8ad36822427034ca1d6aa11" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a83921007d8ad36822427034ca1d6aa11" kindref="member">cjson_add_number_should_fail_with_null_pointers</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="259"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a27a7a4fb786cb7fa289dbf83889f3c99" kindref="member">cJSON_AddNumberToObject</ref>(NULL,<sp/></highlight><highlight class="stringliteral">&quot;number&quot;</highlight><highlight class="normal">,<sp/>42));</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a27a7a4fb786cb7fa289dbf83889f3c99" kindref="member">cJSON_AddNumberToObject</ref>(root,<sp/>NULL,<sp/>42));</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268" refid="cjson__add_8c_1acf27b6aa94c2c8d2b29152bcafd0fb89" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1acf27b6aa94c2c8d2b29152bcafd0fb89" kindref="member">cjson_add_number_should_fail_on_allocation_failure</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="269"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(&amp;<ref refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" kindref="member">failing_hooks</ref>);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a27a7a4fb786cb7fa289dbf83889f3c99" kindref="member">cJSON_AddNumberToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;number&quot;</highlight><highlight class="normal">,<sp/>42));</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(NULL);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281" refid="cjson__add_8c_1a79abc4fe5667eded0df91b5320edbf85" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a79abc4fe5667eded0df91b5320edbf85" kindref="member">cjson_add_string_should_add_string</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="282"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1aec47eaefc2d022a9d53d172899e27a2e" kindref="member">cJSON_AddStringToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Hello<sp/>World!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1afae78efdc83dcc60f08347b8390525b9" kindref="member">TEST_ASSERT_NOT_NULL</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1af52a321a93c580a6213fef3e0f85c237" kindref="member">TEST_ASSERT_EQUAL_INT</ref>(string-&gt;<ref refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" kindref="member">type</ref>,<sp/><ref refid="cJSON_8h_1aa2cb4765308e2bbdf01988b2acdf92d9" kindref="member">cJSON_String</ref>);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a1432f008fb6fb923371d4d0402571bf6" kindref="member">TEST_ASSERT_EQUAL_STRING</ref>(string-&gt;<ref refid="structcJSON_1ad43f8de2571e504c4c5ce0a36990e6e1" kindref="member">valuestring</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Hello<sp/>World!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295" refid="cjson__add_8c_1a33ebaa2876583bc1ccb1641addc9c20f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a33ebaa2876583bc1ccb1641addc9c20f" kindref="member">cjson_add_string_should_fail_with_null_pointers</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="296"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1aec47eaefc2d022a9d53d172899e27a2e" kindref="member">cJSON_AddStringToObject</ref>(NULL,<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1aec47eaefc2d022a9d53d172899e27a2e" kindref="member">cJSON_AddStringToObject</ref>(root,<sp/>NULL,<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="303"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305" refid="cjson__add_8c_1a9332b1a2d2ad53a70d56eb65e5f50c8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a9332b1a2d2ad53a70d56eb65e5f50c8e" kindref="member">cjson_add_string_should_fail_on_allocation_failure</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="306"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(&amp;<ref refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" kindref="member">failing_hooks</ref>);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1aec47eaefc2d022a9d53d172899e27a2e" kindref="member">cJSON_AddStringToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;string&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(NULL);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="316"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="cjson__add_8c_1aad320d705b69a79d3797b02db41b8335" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1aad320d705b69a79d3797b02db41b8335" kindref="member">cjson_add_raw_should_add_raw</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="319"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*raw<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20d19c3672d259d001dbc352b02539e9" kindref="member">cJSON_AddRawToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;raw&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;{}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1afae78efdc83dcc60f08347b8390525b9" kindref="member">TEST_ASSERT_NOT_NULL</ref>(raw<sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;raw&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1af52a321a93c580a6213fef3e0f85c237" kindref="member">TEST_ASSERT_EQUAL_INT</ref>(raw-&gt;<ref refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" kindref="member">type</ref>,<sp/><ref refid="cJSON_8h_1ae9ddc931ea84908d12f48c5b7f8731a1" kindref="member">cJSON_Raw</ref>);</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a1432f008fb6fb923371d4d0402571bf6" kindref="member">TEST_ASSERT_EQUAL_STRING</ref>(raw-&gt;<ref refid="structcJSON_1ad43f8de2571e504c4c5ce0a36990e6e1" kindref="member">valuestring</ref>,<sp/></highlight><highlight class="stringliteral">&quot;{}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="330"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="cjson__add_8c_1a47ed6a71469c72ca1b91613b7a0babd9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a47ed6a71469c72ca1b91613b7a0babd9" kindref="member">cjson_add_raw_should_fail_with_null_pointers</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="333"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a20d19c3672d259d001dbc352b02539e9" kindref="member">cJSON_AddRawToObject</ref>(NULL,<sp/></highlight><highlight class="stringliteral">&quot;raw&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;{}&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a20d19c3672d259d001dbc352b02539e9" kindref="member">cJSON_AddRawToObject</ref>(root,<sp/>NULL,<sp/></highlight><highlight class="stringliteral">&quot;{}&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="340"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="cjson__add_8c_1af6881b7e57f75a6ff44ec50b2939d2da" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1af6881b7e57f75a6ff44ec50b2939d2da" kindref="member">cjson_add_raw_should_fail_on_allocation_failure</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="343"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(&amp;<ref refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" kindref="member">failing_hooks</ref>);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a20d19c3672d259d001dbc352b02539e9" kindref="member">cJSON_AddRawToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;raw&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;{}&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(NULL);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="353"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="cjson__add_8c_1a9098c85ee9dd963cfc682ab328932707" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a9098c85ee9dd963cfc682ab328932707" kindref="member">cJSON_add_object_should_add_object</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="356"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a7fedf1f410515d88917f6086048d3064" kindref="member">cJSON_AddObjectToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;object&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1afae78efdc83dcc60f08347b8390525b9" kindref="member">TEST_ASSERT_NOT_NULL</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;object&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1af52a321a93c580a6213fef3e0f85c237" kindref="member">TEST_ASSERT_EQUAL_INT</ref>(object-&gt;<ref refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" kindref="member">type</ref>,<sp/><ref refid="cJSON_8h_1a22c6e13481c090629afbd77b7cebd24c" kindref="member">cJSON_Object</ref>);</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="365"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight></codeline>
+<codeline lineno="367" refid="cjson__add_8c_1a8022426b2f978e4a9191fc8d817c2040" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a8022426b2f978e4a9191fc8d817c2040" kindref="member">cjson_add_object_should_fail_with_null_pointers</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="368"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a7fedf1f410515d88917f6086048d3064" kindref="member">cJSON_AddObjectToObject</ref>(NULL,<sp/></highlight><highlight class="stringliteral">&quot;object&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a7fedf1f410515d88917f6086048d3064" kindref="member">cJSON_AddObjectToObject</ref>(root,<sp/>NULL));</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"></highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="375"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight></codeline>
+<codeline lineno="377" refid="cjson__add_8c_1a185a89f8e24cac97d1cb2e4a1a8278db" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a185a89f8e24cac97d1cb2e4a1a8278db" kindref="member">cjson_add_object_should_fail_on_allocation_failure</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="378"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"></highlight></codeline>
+<codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(&amp;<ref refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" kindref="member">failing_hooks</ref>);</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"></highlight></codeline>
+<codeline lineno="383"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a7fedf1f410515d88917f6086048d3064" kindref="member">cJSON_AddObjectToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;object&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"></highlight></codeline>
+<codeline lineno="385"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(NULL);</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"></highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="388"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"></highlight></codeline>
+<codeline lineno="390" refid="cjson__add_8c_1a68aad8702c7daab6b0aced5ed76a15bf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a68aad8702c7daab6b0aced5ed76a15bf" kindref="member">cJSON_add_array_should_add_array</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="391"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*array<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"></highlight></codeline>
+<codeline lineno="395"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a9aee370d9aa8997e5a39f76a643792ed" kindref="member">cJSON_AddArrayToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;array&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1afae78efdc83dcc60f08347b8390525b9" kindref="member">TEST_ASSERT_NOT_NULL</ref>(array<sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;array&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1af52a321a93c580a6213fef3e0f85c237" kindref="member">TEST_ASSERT_EQUAL_INT</ref>(array-&gt;<ref refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" kindref="member">type</ref>,<sp/><ref refid="cJSON_8h_1a57cffa126740a8efcdcb7bcef80e8897" kindref="member">cJSON_Array</ref>);</highlight></codeline>
+<codeline lineno="398"><highlight class="normal"></highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="400"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"></highlight></codeline>
+<codeline lineno="402" refid="cjson__add_8c_1ad268e05d4df8d72c3c2a96d528b403b1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1ad268e05d4df8d72c3c2a96d528b403b1" kindref="member">cjson_add_array_should_fail_with_null_pointers</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="403"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="404"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="405"><highlight class="normal"></highlight></codeline>
+<codeline lineno="406"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a9aee370d9aa8997e5a39f76a643792ed" kindref="member">cJSON_AddArrayToObject</ref>(NULL,<sp/></highlight><highlight class="stringliteral">&quot;array&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a9aee370d9aa8997e5a39f76a643792ed" kindref="member">cJSON_AddArrayToObject</ref>(root,<sp/>NULL));</highlight></codeline>
+<codeline lineno="408"><highlight class="normal"></highlight></codeline>
+<codeline lineno="409"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="410"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"></highlight></codeline>
+<codeline lineno="412" refid="cjson__add_8c_1a008722fbefd317869e031ebbabf574df" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cjson__add_8c_1a008722fbefd317869e031ebbabf574df" kindref="member">cjson_add_array_should_fail_on_allocation_failure</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="413"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="414"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="415"><highlight class="normal"></highlight></codeline>
+<codeline lineno="416"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(&amp;<ref refid="cjson__add_8c_1a3078c3067e1a3c4064a5edaa4e55438c" kindref="member">failing_hooks</ref>);</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"></highlight></codeline>
+<codeline lineno="418"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON_8c_1a9aee370d9aa8997e5a39f76a643792ed" kindref="member">cJSON_AddArrayToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;array&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="419"><highlight class="normal"></highlight></codeline>
+<codeline lineno="420"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" kindref="member">cJSON_InitHooks</ref>(NULL);</highlight></codeline>
+<codeline lineno="421"><highlight class="normal"></highlight></codeline>
+<codeline lineno="422"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="423"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="424"><highlight class="normal"></highlight></codeline>
+<codeline lineno="425" refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="cJSON_8h_1a79203c3ba406ffd5736627cc1e082e38" kindref="member">CJSON_CDECL</ref><sp/><ref refid="cjson__add_8c_1a840291bc02cba5474a4cb46a9b9566fe" kindref="member">main</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="426"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="427"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__internals_8h_1aaad15a5d10e50a412d0a6851d0e5091a" kindref="member">UNITY_BEGIN</ref>();</highlight></codeline>
+<codeline lineno="428"><highlight class="normal"></highlight></codeline>
+<codeline lineno="429"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a31a2dc3dfe049283ebaea153555f443f" kindref="member">cjson_add_null_should_add_null</ref>);</highlight></codeline>
+<codeline lineno="430"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a52b973a8a39fce650a2dd3fb80ee5bab" kindref="member">cjson_add_null_should_fail_with_null_pointers</ref>);</highlight></codeline>
+<codeline lineno="431"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1aebf28b3f89ed1b346bd8aab639c6372c" kindref="member">cjson_add_null_should_fail_on_allocation_failure</ref>);</highlight></codeline>
+<codeline lineno="432"><highlight class="normal"></highlight></codeline>
+<codeline lineno="433"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a2f02038182067b35da56b958618caa6f" kindref="member">cjson_add_true_should_add_true</ref>);</highlight></codeline>
+<codeline lineno="434"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a617f9dc0ec20654d1a6be0650907f3ae" kindref="member">cjson_add_true_should_fail_with_null_pointers</ref>);</highlight></codeline>
+<codeline lineno="435"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1ae9470b7ad04d9da4f6ab52d2ed0222fa" kindref="member">cjson_add_true_should_fail_on_allocation_failure</ref>);</highlight></codeline>
+<codeline lineno="436"><highlight class="normal"></highlight></codeline>
+<codeline lineno="437"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a2345e8af2c128cd86a05fa37591e81ae" kindref="member">cjson_create_int_array_should_fail_on_allocation_failure</ref>);</highlight></codeline>
+<codeline lineno="438"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a959d654b8a9d7d7ca6d5af0355419ed0" kindref="member">cjson_create_float_array_should_fail_on_allocation_failure</ref>);</highlight></codeline>
+<codeline lineno="439"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a6a356f38f42a1e49ba155273a48e9160" kindref="member">cjson_create_double_array_should_fail_on_allocation_failure</ref>);</highlight></codeline>
+<codeline lineno="440"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a5fccd141f29329062e01226286a9d4ee" kindref="member">cjson_create_string_array_should_fail_on_allocation_failure</ref>);</highlight></codeline>
+<codeline lineno="441"><highlight class="normal"></highlight></codeline>
+<codeline lineno="442"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1ae7ee5f05d3311d2480865aaa71c128f0" kindref="member">cjson_add_false_should_add_false</ref>);</highlight></codeline>
+<codeline lineno="443"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a84a509f291b16c31518e35506cdafe99" kindref="member">cjson_add_false_should_fail_with_null_pointers</ref>);</highlight></codeline>
+<codeline lineno="444"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1aa6f2cab70fbe47fe7006420d79fa76a6" kindref="member">cjson_add_false_should_fail_on_allocation_failure</ref>);</highlight></codeline>
+<codeline lineno="445"><highlight class="normal"></highlight></codeline>
+<codeline lineno="446"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a906dee347b143ba380bd5c35dd2b5c11" kindref="member">cjson_add_bool_should_add_bool</ref>);</highlight></codeline>
+<codeline lineno="447"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a216505e918c4eefab3ce964655506947" kindref="member">cjson_add_bool_should_fail_with_null_pointers</ref>);</highlight></codeline>
+<codeline lineno="448"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1ad60f93569585858a582867bac944cc29" kindref="member">cjson_add_bool_should_fail_on_allocation_failure</ref>);</highlight></codeline>
+<codeline lineno="449"><highlight class="normal"></highlight></codeline>
+<codeline lineno="450"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a90630b9261ccf9f102de52bb85d1dda3" kindref="member">cjson_add_number_should_add_number</ref>);</highlight></codeline>
+<codeline lineno="451"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a83921007d8ad36822427034ca1d6aa11" kindref="member">cjson_add_number_should_fail_with_null_pointers</ref>);</highlight></codeline>
+<codeline lineno="452"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1acf27b6aa94c2c8d2b29152bcafd0fb89" kindref="member">cjson_add_number_should_fail_on_allocation_failure</ref>);</highlight></codeline>
+<codeline lineno="453"><highlight class="normal"></highlight></codeline>
+<codeline lineno="454"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a79abc4fe5667eded0df91b5320edbf85" kindref="member">cjson_add_string_should_add_string</ref>);</highlight></codeline>
+<codeline lineno="455"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a33ebaa2876583bc1ccb1641addc9c20f" kindref="member">cjson_add_string_should_fail_with_null_pointers</ref>);</highlight></codeline>
+<codeline lineno="456"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a9332b1a2d2ad53a70d56eb65e5f50c8e" kindref="member">cjson_add_string_should_fail_on_allocation_failure</ref>);</highlight></codeline>
+<codeline lineno="457"><highlight class="normal"></highlight></codeline>
+<codeline lineno="458"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1aad320d705b69a79d3797b02db41b8335" kindref="member">cjson_add_raw_should_add_raw</ref>);</highlight></codeline>
+<codeline lineno="459"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a47ed6a71469c72ca1b91613b7a0babd9" kindref="member">cjson_add_raw_should_fail_with_null_pointers</ref>);</highlight></codeline>
+<codeline lineno="460"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1af6881b7e57f75a6ff44ec50b2939d2da" kindref="member">cjson_add_raw_should_fail_on_allocation_failure</ref>);</highlight></codeline>
+<codeline lineno="461"><highlight class="normal"></highlight></codeline>
+<codeline lineno="462"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a9098c85ee9dd963cfc682ab328932707" kindref="member">cJSON_add_object_should_add_object</ref>);</highlight></codeline>
+<codeline lineno="463"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a8022426b2f978e4a9191fc8d817c2040" kindref="member">cjson_add_object_should_fail_with_null_pointers</ref>);</highlight></codeline>
+<codeline lineno="464"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a185a89f8e24cac97d1cb2e4a1a8278db" kindref="member">cjson_add_object_should_fail_on_allocation_failure</ref>);</highlight></codeline>
+<codeline lineno="465"><highlight class="normal"></highlight></codeline>
+<codeline lineno="466"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a68aad8702c7daab6b0aced5ed76a15bf" kindref="member">cJSON_add_array_should_add_array</ref>);</highlight></codeline>
+<codeline lineno="467"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1ad268e05d4df8d72c3c2a96d528b403b1" kindref="member">cjson_add_array_should_fail_with_null_pointers</ref>);</highlight></codeline>
+<codeline lineno="468"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="cjson__add_8c_1a008722fbefd317869e031ebbabf574df" kindref="member">cjson_add_array_should_fail_on_allocation_failure</ref>);</highlight></codeline>
+<codeline lineno="469"><highlight class="normal"></highlight></codeline>
+<codeline lineno="470"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="unity__internals_8h_1aa519129d3af737eb796fc91720fae26a" kindref="member">UNITY_END</ref>();</highlight></codeline>
+<codeline lineno="471"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="tests/cjson_add.c"/>
+  </compounddef>
+</doxygen>

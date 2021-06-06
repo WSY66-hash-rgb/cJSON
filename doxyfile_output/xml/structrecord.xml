@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structrecord" kind="struct" language="C++" prot="public">
+    <compoundname>record</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structrecord_1a1a2c753f8662ba3b36c6724bd68a79e6" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* record::precision</definition>
+        <argsstring></argsstring>
+        <name>precision</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.c" line="31" column="16" bodyfile="test.c" bodystart="31" bodyend="-1"/>
+        <referencedby refid="test_8c_1af04b0068a43be07ead5dcfb1f3f01aed" compoundref="test_8c" startline="109" endline="257">create_objects</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structrecord_1aead5d6a207526cb625d716c030fa3d4d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double record::lat</definition>
+        <argsstring></argsstring>
+        <name>lat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.c" line="32" column="12" bodyfile="test.c" bodystart="32" bodyend="-1"/>
+        <referencedby refid="test_8c_1af04b0068a43be07ead5dcfb1f3f01aed" compoundref="test_8c" startline="109" endline="257">create_objects</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structrecord_1a36c8c25419ba59e1288560da3dd6bfd0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double record::lon</definition>
+        <argsstring></argsstring>
+        <name>lon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.c" line="33" column="12" bodyfile="test.c" bodystart="33" bodyend="-1"/>
+        <referencedby refid="test_8c_1af04b0068a43be07ead5dcfb1f3f01aed" compoundref="test_8c" startline="109" endline="257">create_objects</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structrecord_1abfdcc46d8017e680b8dc1bc373cc988e" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* record::address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.c" line="34" column="16" bodyfile="test.c" bodystart="34" bodyend="-1"/>
+        <referencedby refid="test_8c_1af04b0068a43be07ead5dcfb1f3f01aed" compoundref="test_8c" startline="109" endline="257">create_objects</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structrecord_1a14039bf4a0520076003f1494832f7776" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* record::city</definition>
+        <argsstring></argsstring>
+        <name>city</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.c" line="35" column="16" bodyfile="test.c" bodystart="35" bodyend="-1"/>
+        <referencedby refid="test_8c_1af04b0068a43be07ead5dcfb1f3f01aed" compoundref="test_8c" startline="109" endline="257">create_objects</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structrecord_1a5c25c1774d401255c03eddb9476bd3f4" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* record::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.c" line="36" column="16" bodyfile="test.c" bodystart="36" bodyend="-1"/>
+        <referencedby refid="test_8c_1af04b0068a43be07ead5dcfb1f3f01aed" compoundref="test_8c" startline="109" endline="257">create_objects</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structrecord_1a351a82e368a89d7ff90ef9ece2520aa8" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* record::zip</definition>
+        <argsstring></argsstring>
+        <name>zip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.c" line="37" column="16" bodyfile="test.c" bodystart="37" bodyend="-1"/>
+        <referencedby refid="test_8c_1af04b0068a43be07ead5dcfb1f3f01aed" compoundref="test_8c" startline="109" endline="257">create_objects</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structrecord_1afcec0e174404ecb1d9f60b0796bdb316" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* record::country</definition>
+        <argsstring></argsstring>
+        <name>country</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.c" line="38" column="16" bodyfile="test.c" bodystart="38" bodyend="-1"/>
+        <referencedby refid="test_8c_1af04b0068a43be07ead5dcfb1f3f01aed" compoundref="test_8c" startline="109" endline="257">create_objects</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>record</label>
+        <link refid="structrecord"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>lat</edgelabel>
+          <edgelabel>lon</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>address</edgelabel>
+          <edgelabel>city</edgelabel>
+          <edgelabel>country</edgelabel>
+          <edgelabel>precision</edgelabel>
+          <edgelabel>state</edgelabel>
+          <edgelabel>zip</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>double</label>
+      </node>
+      <node id="3">
+        <label>const char *</label>
+      </node>
+    </collaborationgraph>
+    <location file="test.c" line="29" column="1" bodyfile="test.c" bodystart="30" bodyend="39"/>
+    <listofallmembers>
+      <member refid="structrecord_1abfdcc46d8017e680b8dc1bc373cc988e" prot="public" virt="non-virtual"><scope>record</scope><name>address</name></member>
+      <member refid="structrecord_1a14039bf4a0520076003f1494832f7776" prot="public" virt="non-virtual"><scope>record</scope><name>city</name></member>
+      <member refid="structrecord_1afcec0e174404ecb1d9f60b0796bdb316" prot="public" virt="non-virtual"><scope>record</scope><name>country</name></member>
+      <member refid="structrecord_1aead5d6a207526cb625d716c030fa3d4d" prot="public" virt="non-virtual"><scope>record</scope><name>lat</name></member>
+      <member refid="structrecord_1a36c8c25419ba59e1288560da3dd6bfd0" prot="public" virt="non-virtual"><scope>record</scope><name>lon</name></member>
+      <member refid="structrecord_1a1a2c753f8662ba3b36c6724bd68a79e6" prot="public" virt="non-virtual"><scope>record</scope><name>precision</name></member>
+      <member refid="structrecord_1a5c25c1774d401255c03eddb9476bd3f4" prot="public" virt="non-virtual"><scope>record</scope><name>state</name></member>
+      <member refid="structrecord_1a351a82e368a89d7ff90ef9ece2520aa8" prot="public" virt="non-virtual"><scope>record</scope><name>zip</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

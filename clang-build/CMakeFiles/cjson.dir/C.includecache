@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/IdeaProjects/data/testbin/projects/cJSON/cJSON.c
+string.h
+-
+stdio.h
+-
+math.h
+-
+stdlib.h
+-
+limits.h
+-
+ctype.h
+-
+float.h
+-
+locale.h
+-
+cJSON.h
+/home/ubuntu/IdeaProjects/data/testbin/projects/cJSON/cJSON.h
+
+/home/ubuntu/IdeaProjects/data/testbin/projects/cJSON/cJSON.h
+stddef.h
+-
+

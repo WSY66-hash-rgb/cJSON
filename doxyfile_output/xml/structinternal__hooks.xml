@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structinternal__hooks" kind="struct" language="C++" prot="public">
+    <compoundname>internal_hooks</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structinternal__hooks_1ad1a502782955f6cceb0b75fb16cb6f92" prot="public" static="no" mutable="no">
+        <type>void *(*</type>
+        <definition>void*( * internal_hooks::allocate) (size_t size)</definition>
+        <argsstring>)(size_t size)</argsstring>
+        <name>allocate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.c" line="158" column="5" bodyfile="cJSON.c" bodystart="158" bodyend="-1"/>
+        <referencedby refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" compoundref="cJSON_8c" startline="209" endline="238">cJSON_InitHooks</referencedby>
+        <referencedby refid="cJSON_8c_1aeb5d79aa96b3440181bfe67323239770" compoundref="cJSON_8c" startline="3102" endline="3105">cJSON_malloc</referencedby>
+        <referencedby refid="cJSON_8c_1a8f447c625af025c35d0ec59032ad6473" compoundref="cJSON_8c" startline="241" endline="250">cJSON_New_Item</referencedby>
+        <referencedby refid="cJSON_8c_1a318ef2c8804675893ed66dd28149cb12" compoundref="cJSON_8c" startline="1258" endline="1286">cJSON_PrintBuffered</referencedby>
+        <referencedby refid="cJSON_8c_1a5da7bd9b4622e97e7e19c36017410252" compoundref="cJSON_8c" startline="188" endline="207">cJSON_strdup</referencedby>
+        <referencedby refid="cJSON_8c_1a3faa1600bc8001eaed05f16060668ce6" compoundref="cJSON_8c" startline="439" endline="522">ensure</referencedby>
+        <referencedby refid="cJSON_8c_1adf47b520af96d1bbefa2390016fbdb51" compoundref="cJSON_8c" startline="769" endline="895">parse_string</referencedby>
+        <referencedby refid="cJSON_8c_1ae71e2aec89bf140e6430cb7d5ca417c5" compoundref="cJSON_8c" startline="1183" endline="1245">print</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structinternal__hooks_1a183ba09ef4a15f75fec90d3a14ff587e" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void( * internal_hooks::deallocate) (void *pointer)</definition>
+        <argsstring>)(void *pointer)</argsstring>
+        <name>deallocate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.c" line="159" column="5" bodyfile="cJSON.c" bodystart="159" bodyend="-1"/>
+        <referencedby refid="cJSON_8c_1acc48bef0e1b495898d9489e577b91d5c" compoundref="cJSON_8c" startline="2007" endline="2042">add_item_to_object</referencedby>
+        <referencedby refid="parse__string_8c_1aebe3846b5d833bb64c6ece9513489d57" compoundref="parse__string_8c" startline="46" endline="58">assert_parse_string</referencedby>
+        <referencedby refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</referencedby>
+        <referencedby refid="cJSON_8c_1aed268df09d4cf0d685d0c035a7453fd5" compoundref="cJSON_8c" startline="3107" endline="3110">cJSON_free</referencedby>
+        <referencedby refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" compoundref="cJSON_8c" startline="209" endline="238">cJSON_InitHooks</referencedby>
+        <referencedby refid="cJSON_8c_1a318ef2c8804675893ed66dd28149cb12" compoundref="cJSON_8c" startline="1258" endline="1286">cJSON_PrintBuffered</referencedby>
+        <referencedby refid="cJSON_8c_1a3faa1600bc8001eaed05f16060668ce6" compoundref="cJSON_8c" startline="439" endline="522">ensure</referencedby>
+        <referencedby refid="cJSON_8c_1adf47b520af96d1bbefa2390016fbdb51" compoundref="cJSON_8c" startline="769" endline="895">parse_string</referencedby>
+        <referencedby refid="cJSON_8c_1ae71e2aec89bf140e6430cb7d5ca417c5" compoundref="cJSON_8c" startline="1183" endline="1245">print</referencedby>
+        <referencedby refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" compoundref="common_8h" startline="29" endline="44">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structinternal__hooks_1a96d3980642593c6960af75e29925b5d7" prot="public" static="no" mutable="no">
+        <type>void *(*</type>
+        <definition>void*( * internal_hooks::reallocate) (void *pointer, size_t size)</definition>
+        <argsstring>)(void *pointer, size_t size)</argsstring>
+        <name>reallocate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.c" line="160" column="5" bodyfile="cJSON.c" bodystart="160" bodyend="-1"/>
+        <referencedby refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" compoundref="cJSON_8c" startline="209" endline="238">cJSON_InitHooks</referencedby>
+        <referencedby refid="cJSON_8c_1a3faa1600bc8001eaed05f16060668ce6" compoundref="cJSON_8c" startline="439" endline="522">ensure</referencedby>
+        <referencedby refid="cJSON_8c_1ae71e2aec89bf140e6430cb7d5ca417c5" compoundref="cJSON_8c" startline="1183" endline="1245">print</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>void *(*)(void *pointer, size_t size)</label>
+      </node>
+      <node id="3">
+        <label>void *(*)(size_t size)</label>
+      </node>
+      <node id="4">
+        <label>void(*)(void *pointer)</label>
+      </node>
+      <node id="1">
+        <label>internal_hooks</label>
+        <link refid="structinternal__hooks"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>reallocate</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>allocate</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>deallocate</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cJSON.c" line="156" column="1" bodyfile="cJSON.c" bodystart="157" bodyend="161"/>
+    <listofallmembers>
+      <member refid="structinternal__hooks_1ad1a502782955f6cceb0b75fb16cb6f92" prot="public" virt="non-virtual"><scope>internal_hooks</scope><name>allocate</name></member>
+      <member refid="structinternal__hooks_1a183ba09ef4a15f75fec90d3a14ff587e" prot="public" virt="non-virtual"><scope>internal_hooks</scope><name>deallocate</name></member>
+      <member refid="structinternal__hooks_1a96d3980642593c6960af75e29925b5d7" prot="public" virt="non-virtual"><scope>internal_hooks</scope><name>reallocate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structprintbuffer" kind="struct" language="C++" prot="public">
+    <compoundname>printbuffer</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structprintbuffer_1a754f63618e91db99f7ab6cfc4e629013" prot="public" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* printbuffer::buffer</definition>
+        <argsstring></argsstring>
+        <name>buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.c" line="429" column="19" bodyfile="cJSON.c" bodystart="429" bodyend="-1"/>
+        <referencedby refid="print__array_8c_1a81b9f9d0a07e1c254db1710201c08eb7" compoundref="print__array_8c" startline="27" endline="68">assert_print_array</referencedby>
+        <referencedby refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" compoundref="print__number_8c" startline="27" endline="63">assert_print_number</referencedby>
+        <referencedby refid="print__object_8c_1a91697b5911579b3ff34114ad9b914f4b" compoundref="print__object_8c" startline="27" endline="69">assert_print_object</referencedby>
+        <referencedby refid="print__string_8c_1a10810e1b6b0a21085f01010807e3088a" compoundref="print__string_8c" startline="27" endline="39">assert_print_string</referencedby>
+        <referencedby refid="print__value_8c_1abfbe32805a2d50bc6a85c911525f152d" compoundref="print__value_8c" startline="31" endline="55">assert_print_value</referencedby>
+        <referencedby refid="cJSON_8c_1a318ef2c8804675893ed66dd28149cb12" compoundref="cJSON_8c" startline="1258" endline="1286">cJSON_PrintBuffered</referencedby>
+        <referencedby refid="cJSON_8c_1afc7c06663cbfb2acf82d6db5f1436fbd" compoundref="cJSON_8c" startline="1288" endline="1305">cJSON_PrintPreallocated</referencedby>
+        <referencedby refid="cJSON_8c_1a3faa1600bc8001eaed05f16060668ce6" compoundref="cJSON_8c" startline="439" endline="522">ensure</referencedby>
+        <referencedby refid="misc__tests_8c_1a742891f0f9814d7a149121d59da5bb11" compoundref="misc__tests_8c" startline="445" endline="452">ensure_should_fail_on_failed_realloc</referencedby>
+        <referencedby refid="cJSON_8c_1ae71e2aec89bf140e6430cb7d5ca417c5" compoundref="cJSON_8c" startline="1183" endline="1245">print</referencedby>
+        <referencedby refid="cJSON_8c_1af5fb173126786c1e3f90b6df6e2500c5" compoundref="cJSON_8c" startline="525" endline="535">update_offset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structprintbuffer_1a1a679f8b6fe9b413fb3a87203b0f5bc8" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t printbuffer::length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.c" line="430" column="12" bodyfile="cJSON.c" bodystart="430" bodyend="-1"/>
+        <referencedby refid="print__array_8c_1a81b9f9d0a07e1c254db1710201c08eb7" compoundref="print__array_8c" startline="27" endline="68">assert_print_array</referencedby>
+        <referencedby refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" compoundref="print__number_8c" startline="27" endline="63">assert_print_number</referencedby>
+        <referencedby refid="print__object_8c_1a91697b5911579b3ff34114ad9b914f4b" compoundref="print__object_8c" startline="27" endline="69">assert_print_object</referencedby>
+        <referencedby refid="print__string_8c_1a10810e1b6b0a21085f01010807e3088a" compoundref="print__string_8c" startline="27" endline="39">assert_print_string</referencedby>
+        <referencedby refid="print__value_8c_1abfbe32805a2d50bc6a85c911525f152d" compoundref="print__value_8c" startline="31" endline="55">assert_print_value</referencedby>
+        <referencedby refid="cJSON_8c_1a318ef2c8804675893ed66dd28149cb12" compoundref="cJSON_8c" startline="1258" endline="1286">cJSON_PrintBuffered</referencedby>
+        <referencedby refid="cJSON_8c_1afc7c06663cbfb2acf82d6db5f1436fbd" compoundref="cJSON_8c" startline="1288" endline="1305">cJSON_PrintPreallocated</referencedby>
+        <referencedby refid="cJSON_8c_1a3faa1600bc8001eaed05f16060668ce6" compoundref="cJSON_8c" startline="439" endline="522">ensure</referencedby>
+        <referencedby refid="cJSON_8c_1ae71e2aec89bf140e6430cb7d5ca417c5" compoundref="cJSON_8c" startline="1183" endline="1245">print</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structprintbuffer_1a3ed6f9d24d6591047680492a962dc7c9" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t printbuffer::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.c" line="431" column="12" bodyfile="cJSON.c" bodystart="431" bodyend="-1"/>
+        <referencedby refid="print__array_8c_1a81b9f9d0a07e1c254db1710201c08eb7" compoundref="print__array_8c" startline="27" endline="68">assert_print_array</referencedby>
+        <referencedby refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" compoundref="print__number_8c" startline="27" endline="63">assert_print_number</referencedby>
+        <referencedby refid="print__object_8c_1a91697b5911579b3ff34114ad9b914f4b" compoundref="print__object_8c" startline="27" endline="69">assert_print_object</referencedby>
+        <referencedby refid="print__string_8c_1a10810e1b6b0a21085f01010807e3088a" compoundref="print__string_8c" startline="27" endline="39">assert_print_string</referencedby>
+        <referencedby refid="print__value_8c_1abfbe32805a2d50bc6a85c911525f152d" compoundref="print__value_8c" startline="31" endline="55">assert_print_value</referencedby>
+        <referencedby refid="cJSON_8c_1a318ef2c8804675893ed66dd28149cb12" compoundref="cJSON_8c" startline="1258" endline="1286">cJSON_PrintBuffered</referencedby>
+        <referencedby refid="cJSON_8c_1afc7c06663cbfb2acf82d6db5f1436fbd" compoundref="cJSON_8c" startline="1288" endline="1305">cJSON_PrintPreallocated</referencedby>
+        <referencedby refid="cJSON_8c_1a3faa1600bc8001eaed05f16060668ce6" compoundref="cJSON_8c" startline="439" endline="522">ensure</referencedby>
+        <referencedby refid="cJSON_8c_1ae71e2aec89bf140e6430cb7d5ca417c5" compoundref="cJSON_8c" startline="1183" endline="1245">print</referencedby>
+        <referencedby refid="cJSON_8c_1ae84642817f3965a85c7c617663250c16" compoundref="cJSON_8c" startline="1535" endline="1594">print_array</referencedby>
+        <referencedby refid="cJSON_8c_1ad93d84de08872da0eaa6624be0e74a68" compoundref="cJSON_8c" startline="545" endline="608">print_number</referencedby>
+        <referencedby refid="cJSON_8c_1a3d742f5c68799bca291432a9cd72f8dd" compoundref="cJSON_8c" startline="1710" endline="1821">print_object</referencedby>
+        <referencedby refid="cJSON_8c_1af5fb173126786c1e3f90b6df6e2500c5" compoundref="cJSON_8c" startline="525" endline="535">update_offset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structprintbuffer_1aa7311b5da38ff8d1737824c611b48732" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t printbuffer::depth</definition>
+        <argsstring></argsstring>
+        <name>depth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.c" line="432" column="12" bodyfile="cJSON.c" bodystart="432" bodyend="-1"/>
+        <referencedby refid="cJSON_8c_1ae84642817f3965a85c7c617663250c16" compoundref="cJSON_8c" startline="1535" endline="1594">print_array</referencedby>
+        <referencedby refid="cJSON_8c_1a3d742f5c68799bca291432a9cd72f8dd" compoundref="cJSON_8c" startline="1710" endline="1821">print_object</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structprintbuffer_1aa2a7966b71dc3535e4e3789c33ec5368" prot="public" static="no" mutable="no">
+        <type><ref refid="cJSON_8h_1aea0a1491f73d98b7cc4b8b791c408a4a" kindref="member">cJSON_bool</ref></type>
+        <definition>cJSON_bool printbuffer::noalloc</definition>
+        <argsstring></argsstring>
+        <name>noalloc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.c" line="433" column="16" bodyfile="cJSON.c" bodystart="433" bodyend="-1"/>
+        <referencedby refid="print__array_8c_1a81b9f9d0a07e1c254db1710201c08eb7" compoundref="print__array_8c" startline="27" endline="68">assert_print_array</referencedby>
+        <referencedby refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" compoundref="print__number_8c" startline="27" endline="63">assert_print_number</referencedby>
+        <referencedby refid="print__object_8c_1a91697b5911579b3ff34114ad9b914f4b" compoundref="print__object_8c" startline="27" endline="69">assert_print_object</referencedby>
+        <referencedby refid="print__string_8c_1a10810e1b6b0a21085f01010807e3088a" compoundref="print__string_8c" startline="27" endline="39">assert_print_string</referencedby>
+        <referencedby refid="print__value_8c_1abfbe32805a2d50bc6a85c911525f152d" compoundref="print__value_8c" startline="31" endline="55">assert_print_value</referencedby>
+        <referencedby refid="cJSON_8c_1a318ef2c8804675893ed66dd28149cb12" compoundref="cJSON_8c" startline="1258" endline="1286">cJSON_PrintBuffered</referencedby>
+        <referencedby refid="cJSON_8c_1afc7c06663cbfb2acf82d6db5f1436fbd" compoundref="cJSON_8c" startline="1288" endline="1305">cJSON_PrintPreallocated</referencedby>
+        <referencedby refid="cJSON_8c_1a3faa1600bc8001eaed05f16060668ce6" compoundref="cJSON_8c" startline="439" endline="522">ensure</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structprintbuffer_1a75d3f480f5308e7f4afecf30e11277ef" prot="public" static="no" mutable="no">
+        <type><ref refid="cJSON_8h_1aea0a1491f73d98b7cc4b8b791c408a4a" kindref="member">cJSON_bool</ref></type>
+        <definition>cJSON_bool printbuffer::format</definition>
+        <argsstring></argsstring>
+        <name>format</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.c" line="434" column="16" bodyfile="cJSON.c" bodystart="434" bodyend="-1"/>
+        <referencedby refid="print__array_8c_1a81b9f9d0a07e1c254db1710201c08eb7" compoundref="print__array_8c" startline="27" endline="68">assert_print_array</referencedby>
+        <referencedby refid="print__object_8c_1a91697b5911579b3ff34114ad9b914f4b" compoundref="print__object_8c" startline="27" endline="69">assert_print_object</referencedby>
+        <referencedby refid="cJSON_8c_1a318ef2c8804675893ed66dd28149cb12" compoundref="cJSON_8c" startline="1258" endline="1286">cJSON_PrintBuffered</referencedby>
+        <referencedby refid="cJSON_8c_1afc7c06663cbfb2acf82d6db5f1436fbd" compoundref="cJSON_8c" startline="1288" endline="1305">cJSON_PrintPreallocated</referencedby>
+        <referencedby refid="cJSON_8c_1ae71e2aec89bf140e6430cb7d5ca417c5" compoundref="cJSON_8c" startline="1183" endline="1245">print</referencedby>
+        <referencedby refid="cJSON_8c_1ae84642817f3965a85c7c617663250c16" compoundref="cJSON_8c" startline="1535" endline="1594">print_array</referencedby>
+        <referencedby refid="cJSON_8c_1a3d742f5c68799bca291432a9cd72f8dd" compoundref="cJSON_8c" startline="1710" endline="1821">print_object</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structprintbuffer_1a43a8b3bcc644432f12f5aed5159d2520" prot="public" static="no" mutable="no">
+        <type><ref refid="structinternal__hooks" kindref="compound">internal_hooks</ref></type>
+        <definition>internal_hooks printbuffer::hooks</definition>
+        <argsstring></argsstring>
+        <name>hooks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.c" line="435" column="20" bodyfile="cJSON.c" bodystart="435" bodyend="-1"/>
+        <referencedby refid="print__array_8c_1a81b9f9d0a07e1c254db1710201c08eb7" compoundref="print__array_8c" startline="27" endline="68">assert_print_array</referencedby>
+        <referencedby refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" compoundref="print__number_8c" startline="27" endline="63">assert_print_number</referencedby>
+        <referencedby refid="print__object_8c_1a91697b5911579b3ff34114ad9b914f4b" compoundref="print__object_8c" startline="27" endline="69">assert_print_object</referencedby>
+        <referencedby refid="print__string_8c_1a10810e1b6b0a21085f01010807e3088a" compoundref="print__string_8c" startline="27" endline="39">assert_print_string</referencedby>
+        <referencedby refid="print__value_8c_1abfbe32805a2d50bc6a85c911525f152d" compoundref="print__value_8c" startline="31" endline="55">assert_print_value</referencedby>
+        <referencedby refid="cJSON_8c_1a318ef2c8804675893ed66dd28149cb12" compoundref="cJSON_8c" startline="1258" endline="1286">cJSON_PrintBuffered</referencedby>
+        <referencedby refid="cJSON_8c_1afc7c06663cbfb2acf82d6db5f1436fbd" compoundref="cJSON_8c" startline="1288" endline="1305">cJSON_PrintPreallocated</referencedby>
+        <referencedby refid="cJSON_8c_1a3faa1600bc8001eaed05f16060668ce6" compoundref="cJSON_8c" startline="439" endline="522">ensure</referencedby>
+        <referencedby refid="cJSON_8c_1ae71e2aec89bf140e6430cb7d5ca417c5" compoundref="cJSON_8c" startline="1183" endline="1245">print</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="6">
+        <label>void *(*)(void *pointer, size_t size)</label>
+      </node>
+      <node id="2">
+        <label>size_t</label>
+      </node>
+      <node id="7">
+        <label>void *(*)(size_t size)</label>
+      </node>
+      <node id="8">
+        <label>void(*)(void *pointer)</label>
+      </node>
+      <node id="4">
+        <label>unsigned char *</label>
+      </node>
+      <node id="3">
+        <label>int</label>
+      </node>
+      <node id="1">
+        <label>printbuffer</label>
+        <link refid="structprintbuffer"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>depth</edgelabel>
+          <edgelabel>length</edgelabel>
+          <edgelabel>offset</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>format</edgelabel>
+          <edgelabel>noalloc</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>buffer</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>hooks</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>internal_hooks</label>
+        <link refid="structinternal__hooks"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>reallocate</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>allocate</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>deallocate</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cJSON.c" line="427" column="1" bodyfile="cJSON.c" bodystart="428" bodyend="436"/>
+    <listofallmembers>
+      <member refid="structprintbuffer_1a754f63618e91db99f7ab6cfc4e629013" prot="public" virt="non-virtual"><scope>printbuffer</scope><name>buffer</name></member>
+      <member refid="structprintbuffer_1aa7311b5da38ff8d1737824c611b48732" prot="public" virt="non-virtual"><scope>printbuffer</scope><name>depth</name></member>
+      <member refid="structprintbuffer_1a75d3f480f5308e7f4afecf30e11277ef" prot="public" virt="non-virtual"><scope>printbuffer</scope><name>format</name></member>
+      <member refid="structprintbuffer_1a43a8b3bcc644432f12f5aed5159d2520" prot="public" virt="non-virtual"><scope>printbuffer</scope><name>hooks</name></member>
+      <member refid="structprintbuffer_1a1a679f8b6fe9b413fb3a87203b0f5bc8" prot="public" virt="non-virtual"><scope>printbuffer</scope><name>length</name></member>
+      <member refid="structprintbuffer_1aa2a7966b71dc3535e4e3789c33ec5368" prot="public" virt="non-virtual"><scope>printbuffer</scope><name>noalloc</name></member>
+      <member refid="structprintbuffer_1a3ed6f9d24d6591047680492a962dc7c9" prot="public" virt="non-virtual"><scope>printbuffer</scope><name>offset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

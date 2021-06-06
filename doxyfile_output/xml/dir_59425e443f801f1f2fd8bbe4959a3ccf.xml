@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_59425e443f801f1f2fd8bbe4959a3ccf" kind="dir">
+    <compoundname>tests</compoundname>
+    <innerdir refid="dir_00c8a277f9d4de97a1c64a6317278b31">tests/unity</innerdir>
+    <innerfile refid="cjson__add_8c">cjson_add.c</innerfile>
+    <innerfile refid="common_8h">common.h</innerfile>
+    <innerfile refid="compare__tests_8c">compare_tests.c</innerfile>
+    <innerfile refid="json__patch__tests_8c">json_patch_tests.c</innerfile>
+    <innerfile refid="minify__tests_8c">minify_tests.c</innerfile>
+    <innerfile refid="misc__tests_8c">misc_tests.c</innerfile>
+    <innerfile refid="misc__utils__tests_8c">misc_utils_tests.c</innerfile>
+    <innerfile refid="old__utils__tests_8c">old_utils_tests.c</innerfile>
+    <innerfile refid="parse__array_8c">parse_array.c</innerfile>
+    <innerfile refid="parse__examples_8c">parse_examples.c</innerfile>
+    <innerfile refid="parse__hex4_8c">parse_hex4.c</innerfile>
+    <innerfile refid="parse__number_8c">parse_number.c</innerfile>
+    <innerfile refid="parse__object_8c">parse_object.c</innerfile>
+    <innerfile refid="parse__string_8c">parse_string.c</innerfile>
+    <innerfile refid="parse__value_8c">parse_value.c</innerfile>
+    <innerfile refid="parse__with__opts_8c">parse_with_opts.c</innerfile>
+    <innerfile refid="print__array_8c">print_array.c</innerfile>
+    <innerfile refid="print__number_8c">print_number.c</innerfile>
+    <innerfile refid="print__object_8c">print_object.c</innerfile>
+    <innerfile refid="print__string_8c">print_string.c</innerfile>
+    <innerfile refid="print__value_8c">print_value.c</innerfile>
+    <innerfile refid="readme__examples_8c">readme_examples.c</innerfile>
+    <innerfile refid="unity__setup_8c">unity_setup.c</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="tests/"/>
+  </compounddef>
+</doxygen>

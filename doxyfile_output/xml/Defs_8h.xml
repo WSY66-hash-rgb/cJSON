@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="Defs_8h" kind="file" language="C++">
+    <compoundname>Defs.h</compoundname>
+    <includedby refid="testRunnerGenerator_8c" local="yes">tests/unity/test/testdata/testRunnerGenerator.c</includedby>
+    <includedby refid="testRunnerGeneratorSmall_8c" local="yes">tests/unity/test/testdata/testRunnerGeneratorSmall.c</includedby>
+    <includedby refid="testRunnerGeneratorWithMocks_8c" local="yes">tests/unity/test/testdata/testRunnerGeneratorWithMocks.c</includedby>
+    <invincdepgraph>
+      <node id="4">
+        <label>tests/unity/test/testdata/testRunnerGeneratorWithMocks.c</label>
+        <link refid="testRunnerGeneratorWithMocks_8c"/>
+      </node>
+      <node id="1">
+        <label>tests/unity/test/testdata/Defs.h</label>
+        <link refid="Defs_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tests/unity/test/testdata/testRunnerGenerator.c</label>
+        <link refid="testRunnerGenerator_8c"/>
+      </node>
+      <node id="3">
+        <label>tests/unity/test/testdata/testRunnerGeneratorSmall.c</label>
+        <link refid="testRunnerGeneratorSmall_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="Defs_8h_1a9225b9e41d47d095544e76ba47a06237" prot="public" static="no">
+        <name>EXTERN_DECL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/Defs.h" line="4" column="9" bodyfile="tests/unity/test/testdata/Defs.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="Defs_8h_1ae7510955a9f7e6ad7fa44be751c82cbe" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CounterSuiteSetup</definition>
+        <argsstring></argsstring>
+        <name>CounterSuiteSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/Defs.h" line="6" column="12" bodyfile="tests/unity/test/testdata/testRunnerGenerator.c" bodystart="29" bodyend="-1" declfile="tests/unity/test/testdata/Defs.h" declline="6" declcolumn="12"/>
+        <referencedby refid="testRunnerGenerator_8c_1a9c39d3ac539b82f6c759e8947be2cf13" compoundref="testRunnerGenerator_8c" startline="83" endline="86">spec_ThisTestPassesWhenNormalSuiteSetupAndTeardownRan</referencedby>
+        <referencedby refid="testRunnerGenerator_8c_1a41accb21748a1e2f7812ca9983703a5c" compoundref="testRunnerGenerator_8c" startline="178" endline="181">suitetest_ThisTestPassesWhenCustomSuiteSetupAndTeardownRan</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>DEF_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEF_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="Defs_8h_1a9225b9e41d47d095544e76ba47a06237" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXTERN_DECL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="Defs_8h_1ae7510955a9f7e6ad7fa44be751c82cbe" kindref="member">CounterSuiteSetup</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//DEF_H</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/test/testdata/Defs.h"/>
+  </compounddef>
+</doxygen>

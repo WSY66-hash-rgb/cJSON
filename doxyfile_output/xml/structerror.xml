@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structerror" kind="struct" language="C++" prot="public">
+    <compoundname>error</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structerror_1a9b123855d5dd48e86de846588462b39f" prot="public" static="no" mutable="no">
+        <type>const unsigned char *</type>
+        <definition>const unsigned char* error::json</definition>
+        <argsstring></argsstring>
+        <name>json</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.c" line="89" column="25" bodyfile="cJSON.c" bodystart="89" bodyend="-1"/>
+        <referencedby refid="cJSON_8c_1a5e81ffc372644963c759103865b0cad1" compoundref="cJSON_8c" startline="94" endline="97">cJSON_GetErrorPtr</referencedby>
+        <referencedby refid="cJSON_8c_1af72a0b4e3c59e7053859c0c0fe4fcda3" compoundref="cJSON_8c" startline="1091" endline="1168">cJSON_ParseWithLengthOpts</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structerror_1a24de70a4d517ab351d80c18582cadb66" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t error::position</definition>
+        <argsstring></argsstring>
+        <name>position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.c" line="90" column="12" bodyfile="cJSON.c" bodystart="90" bodyend="-1"/>
+        <referencedby refid="cJSON_8c_1a5e81ffc372644963c759103865b0cad1" compoundref="cJSON_8c" startline="94" endline="97">cJSON_GetErrorPtr</referencedby>
+        <referencedby refid="cJSON_8c_1af72a0b4e3c59e7053859c0c0fe4fcda3" compoundref="cJSON_8c" startline="1091" endline="1168">cJSON_ParseWithLengthOpts</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>size_t</label>
+      </node>
+      <node id="2">
+        <label>const unsigned char *</label>
+      </node>
+      <node id="1">
+        <label>error</label>
+        <link refid="structerror"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>json</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>position</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cJSON.c" line="88" column="1" bodyfile="cJSON.c" bodystart="88" bodyend="91"/>
+    <listofallmembers>
+      <member refid="structerror_1a9b123855d5dd48e86de846588462b39f" prot="public" virt="non-virtual"><scope>error</scope><name>json</name></member>
+      <member refid="structerror_1a24de70a4d517ab351d80c18582cadb66" prot="public" virt="non-virtual"><scope>error</scope><name>position</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

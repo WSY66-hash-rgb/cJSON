@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structcJSON" kind="struct" language="C++" prot="public">
+    <compoundname>cJSON</compoundname>
+    <includes local="no">cJSON.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcJSON_1ade862b880379b5e2a591f7326401fa8d" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structcJSON" kindref="compound">cJSON</ref> *</type>
+        <definition>struct cJSON* cJSON::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.h" line="106" column="16" bodyfile="cJSON.h" bodystart="106" bodyend="-1"/>
+        <referencedby refid="cJSON_8c_1a816d10c908af6be844a1f8277363e2f1" compoundref="cJSON_8c" startline="1952" endline="1983">add_item_to_array</referencedby>
+        <referencedby refid="misc__tests_8c_1a977120abd2eed5dfb81a88cd71be2766" compoundref="misc__tests_8c" startline="32" endline="58">cjson_array_foreach_should_loop_over_arrays</referencedby>
+        <referencedby refid="cJSON_8c_1a42801ee95f281ee07fe132dee8abce6b" compoundref="cJSON_8c" startline="2977" endline="3100">cJSON_Compare</referencedby>
+        <referencedby refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</referencedby>
+        <referencedby refid="misc__tests_8c_1afdb14ab4e6cc2f99f9928c8d6f08c794" compoundref="misc__tests_8c" startline="243" endline="281">cjson_detach_item_via_pointer_should_detach_items</referencedby>
+        <referencedby refid="cJSON_8c_1ae9c7ddde95571ef5027da5007281a4b4" compoundref="cJSON_8c" startline="2183" endline="2217">cJSON_DetachItemViaPointer</referencedby>
+        <referencedby refid="cJSON_8c_1a010fe0dd2606bdfafc7eb0123b20222e" compoundref="cJSON_8c" startline="2697" endline="2778">cJSON_Duplicate</referencedby>
+        <referencedby refid="cJSON_8c_1a3ed7a207e8a936fd77f6a1c1d517f458" compoundref="cJSON_8c" startline="1824" endline="1845">cJSON_GetArraySize</referencedby>
+        <referencedby refid="cJSON_8c_1a252642dc04a9af897c35286536fec267" compoundref="cJSON_8c" startline="2259" endline="2286">cJSON_InsertItemInArray</referencedby>
+        <referencedby refid="misc__tests_8c_1ac96bb79bdea45dc66f6d11a70f8f4e15" compoundref="misc__tests_8c" startline="283" endline="328">cjson_replace_item_via_pointer_should_replace_items</referencedby>
+        <referencedby refid="cJSON_8c_1a47bb96e61883eafa3f5d359ce5dd6509" compoundref="cJSON_8c" startline="2288" endline="2335">cJSON_ReplaceItemViaPointer</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a641cb4552c85b29763cd604be0b3e2e1" compoundref="cJSON__Utils_8c" startline="1038" endline="1065">cJSONUtils_ApplyPatches</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1aedc0555c83da63f2cf2418ed371cfcab" compoundref="cJSON__Utils_8c" startline="1067" endline="1094">cJSONUtils_ApplyPatchesCaseSensitive</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a77e7485a5ded70768f9deb7ccde950bd" compoundref="cJSON__Utils_8c" startline="198" endline="259">cJSONUtils_FindPointerFromObjectTo</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a3cd12de610e736cb58466b6172628377" compoundref="cJSON__Utils_8c" startline="604" endline="690">compare_json</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1ac9c69681d59c2d18501cbf05dc93b52a" compoundref="cJSON__Utils_8c" startline="1141" endline="1279">create_patches</referencedby>
+        <referencedby refid="cJSON_8c_1ac06bbc307a6f39fe58aafbcb82fbf4b3" compoundref="cJSON_8c" startline="1931" endline="1950">create_reference</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a282a449e93fcd1614a0ef5b47ab99626" compoundref="cJSON__Utils_8c" startline="393" endline="427">detach_item_from_array</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1aadd3bcea1f78c5f4cd4e0b794b62806f" compoundref="cJSON__Utils_8c" startline="1390" endline="1470">generate_merge_patch</referencedby>
+        <referencedby refid="cJSON_8c_1a82f460889bcb63ee840fc821feef5aa5" compoundref="cJSON_8c" startline="1847" endline="1864">get_array_item</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a3a675e027f14a993c43dd5397897798b" compoundref="cJSON__Utils_8c" startline="301" endline="346">get_item_from_pointer</referencedby>
+        <referencedby refid="cJSON_8c_1a768303890e9be802d51b0e0a110302f4" compoundref="cJSON_8c" startline="1876" endline="1906">get_object_item</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1aa6cc1d0d8a5424cc0d480fa655234ca1" compoundref="cJSON__Utils_8c" startline="693" endline="728">insert_item_in_array</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a0a9688491653ffc21762a397ee028693" compoundref="cJSON__Utils_8c" startline="1321" endline="1378">merge_patch</referencedby>
+        <referencedby refid="cJSON_8c_1a367cc7ac5a592211d9f18dc02dd23069" compoundref="cJSON_8c" startline="1437" endline="1532">parse_array</referencedby>
+        <referencedby refid="parse__array_8c_1a5f15cf96ecc1d962b9ac16cc1ec6396e" compoundref="parse__array_8c" startline="104" endline="143">parse_array_should_parse_arrays_with_multiple_elements</referencedby>
+        <referencedby refid="cJSON_8c_1a1472ac5d1becd7d9a5e558b4c053b06a" compoundref="cJSON_8c" startline="1597" endline="1707">parse_object</referencedby>
+        <referencedby refid="parse__object_8c_1a615b678c5f8dde5fe3b6c7740191415e" compoundref="parse__object_8c" startline="107" endline="152">parse_object_should_parse_objects_with_multiple_elements</referencedby>
+        <referencedby refid="cJSON_8c_1ae84642817f3965a85c7c617663250c16" compoundref="cJSON_8c" startline="1535" endline="1594">print_array</referencedby>
+        <referencedby refid="cJSON_8c_1a3d742f5c68799bca291432a9cd72f8dd" compoundref="cJSON_8c" startline="1710" endline="1821">print_object</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1acc6f9b671251aed5b9880b6d117037c9" compoundref="cJSON__Utils_8c" startline="484" endline="593">sort_list</referencedby>
+        <referencedby refid="old__utils__tests_8c_1ac65d33ddd0ff0a5284ecbbd589bcb6ce" compoundref="old__utils__tests_8c" startline="138" endline="166">sort_tests</referencedby>
+        <referencedby refid="cJSON_8c_1a5d61bcc0045ace88c2ae04f0928eeace" compoundref="cJSON_8c" startline="1924" endline="1928">suffix_object</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structcJSON_1a488a393f610347821fce8e985e79fc2f" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structcJSON" kindref="compound">cJSON</ref> *</type>
+        <definition>struct cJSON* cJSON::prev</definition>
+        <argsstring></argsstring>
+        <name>prev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.h" line="107" column="16" bodyfile="cJSON.h" bodystart="107" bodyend="-1"/>
+        <referencedby refid="cJSON_8c_1a816d10c908af6be844a1f8277363e2f1" compoundref="cJSON_8c" startline="1952" endline="1983">add_item_to_array</referencedby>
+        <referencedby refid="misc__tests_8c_1a977120abd2eed5dfb81a88cd71be2766" compoundref="misc__tests_8c" startline="32" endline="58">cjson_array_foreach_should_loop_over_arrays</referencedby>
+        <referencedby refid="cJSON_8c_1a04cb41ee475a68bd2ee63e92d8534049" compoundref="cJSON_8c" startline="2616" endline="2654">cJSON_CreateDoubleArray</referencedby>
+        <referencedby refid="cJSON_8c_1a328fe12c04efcf2073b218bbf35ac6ec" compoundref="cJSON_8c" startline="2576" endline="2614">cJSON_CreateFloatArray</referencedby>
+        <referencedby refid="cJSON_8c_1a12576edcea9baca64be6fe7a6ae8d4fa" compoundref="cJSON_8c" startline="2536" endline="2574">cJSON_CreateIntArray</referencedby>
+        <referencedby refid="cJSON_8c_1a1419ae039480a44d0bf2fcfe30d75cc6" compoundref="cJSON_8c" startline="2656" endline="2694">cJSON_CreateStringArray</referencedby>
+        <referencedby refid="misc__tests_8c_1afdb14ab4e6cc2f99f9928c8d6f08c794" compoundref="misc__tests_8c" startline="243" endline="281">cjson_detach_item_via_pointer_should_detach_items</referencedby>
+        <referencedby refid="cJSON_8c_1ae9c7ddde95571ef5027da5007281a4b4" compoundref="cJSON_8c" startline="2183" endline="2217">cJSON_DetachItemViaPointer</referencedby>
+        <referencedby refid="cJSON_8c_1a010fe0dd2606bdfafc7eb0123b20222e" compoundref="cJSON_8c" startline="2697" endline="2778">cJSON_Duplicate</referencedby>
+        <referencedby refid="cJSON_8c_1a252642dc04a9af897c35286536fec267" compoundref="cJSON_8c" startline="2259" endline="2286">cJSON_InsertItemInArray</referencedby>
+        <referencedby refid="misc__tests_8c_1ac96bb79bdea45dc66f6d11a70f8f4e15" compoundref="misc__tests_8c" startline="283" endline="328">cjson_replace_item_via_pointer_should_replace_items</referencedby>
+        <referencedby refid="cJSON_8c_1a47bb96e61883eafa3f5d359ce5dd6509" compoundref="cJSON_8c" startline="2288" endline="2335">cJSON_ReplaceItemViaPointer</referencedby>
+        <referencedby refid="cJSON_8c_1ac06bbc307a6f39fe58aafbcb82fbf4b3" compoundref="cJSON_8c" startline="1931" endline="1950">create_reference</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a282a449e93fcd1614a0ef5b47ab99626" compoundref="cJSON__Utils_8c" startline="393" endline="427">detach_item_from_array</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1aa6cc1d0d8a5424cc0d480fa655234ca1" compoundref="cJSON__Utils_8c" startline="693" endline="728">insert_item_in_array</referencedby>
+        <referencedby refid="cJSON_8c_1a367cc7ac5a592211d9f18dc02dd23069" compoundref="cJSON_8c" startline="1437" endline="1532">parse_array</referencedby>
+        <referencedby refid="cJSON_8c_1a1472ac5d1becd7d9a5e558b4c053b06a" compoundref="cJSON_8c" startline="1597" endline="1707">parse_object</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1acc6f9b671251aed5b9880b6d117037c9" compoundref="cJSON__Utils_8c" startline="484" endline="593">sort_list</referencedby>
+        <referencedby refid="old__utils__tests_8c_1ac65d33ddd0ff0a5284ecbbd589bcb6ce" compoundref="old__utils__tests_8c" startline="138" endline="166">sort_tests</referencedby>
+        <referencedby refid="cJSON_8c_1a5d61bcc0045ace88c2ae04f0928eeace" compoundref="cJSON_8c" startline="1924" endline="1928">suffix_object</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structcJSON_1a401b274c2da358dac5c23ab8b2c71f85" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structcJSON" kindref="compound">cJSON</ref> *</type>
+        <definition>struct cJSON* cJSON::child</definition>
+        <argsstring></argsstring>
+        <name>child</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.h" line="109" column="16" bodyfile="cJSON.h" bodystart="109" bodyend="-1"/>
+        <referencedby refid="cJSON_8c_1a816d10c908af6be844a1f8277363e2f1" compoundref="cJSON_8c" startline="1952" endline="1983">add_item_to_array</referencedby>
+        <referencedby refid="misc__tests_8c_1a977120abd2eed5dfb81a88cd71be2766" compoundref="misc__tests_8c" startline="32" endline="58">cjson_array_foreach_should_loop_over_arrays</referencedby>
+        <referencedby refid="cJSON_8c_1a42801ee95f281ee07fe132dee8abce6b" compoundref="cJSON_8c" startline="2977" endline="3100">cJSON_Compare</referencedby>
+        <referencedby refid="misc__tests_8c_1aabf3532394819d472abff8f322670832" compoundref="misc__tests_8c" startline="532" endline="547">cjson_create_array_reference_should_create_an_array_reference</referencedby>
+        <referencedby refid="misc__tests_8c_1a0ae3705414c90d50e3c2a19ea636f144" compoundref="misc__tests_8c" startline="514" endline="530">cjson_create_object_reference_should_create_an_object_reference</referencedby>
+        <referencedby refid="cJSON_8c_1a1f44bc9691c8766252b5bddaae04ffc2" compoundref="cJSON_8c" startline="2486" endline="2494">cJSON_CreateArrayReference</referencedby>
+        <referencedby refid="cJSON_8c_1a04cb41ee475a68bd2ee63e92d8534049" compoundref="cJSON_8c" startline="2616" endline="2654">cJSON_CreateDoubleArray</referencedby>
+        <referencedby refid="cJSON_8c_1a328fe12c04efcf2073b218bbf35ac6ec" compoundref="cJSON_8c" startline="2576" endline="2614">cJSON_CreateFloatArray</referencedby>
+        <referencedby refid="cJSON_8c_1a12576edcea9baca64be6fe7a6ae8d4fa" compoundref="cJSON_8c" startline="2536" endline="2574">cJSON_CreateIntArray</referencedby>
+        <referencedby refid="cJSON_8c_1a3c3b40420dd74cc7fbbc355628239aa1" compoundref="cJSON_8c" startline="2475" endline="2484">cJSON_CreateObjectReference</referencedby>
+        <referencedby refid="cJSON_8c_1a1419ae039480a44d0bf2fcfe30d75cc6" compoundref="cJSON_8c" startline="2656" endline="2694">cJSON_CreateStringArray</referencedby>
+        <referencedby refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</referencedby>
+        <referencedby refid="misc__tests_8c_1afdb14ab4e6cc2f99f9928c8d6f08c794" compoundref="misc__tests_8c" startline="243" endline="281">cjson_detach_item_via_pointer_should_detach_items</referencedby>
+        <referencedby refid="cJSON_8c_1ae9c7ddde95571ef5027da5007281a4b4" compoundref="cJSON_8c" startline="2183" endline="2217">cJSON_DetachItemViaPointer</referencedby>
+        <referencedby refid="cJSON_8c_1a010fe0dd2606bdfafc7eb0123b20222e" compoundref="cJSON_8c" startline="2697" endline="2778">cJSON_Duplicate</referencedby>
+        <referencedby refid="cJSON_8c_1a3ed7a207e8a936fd77f6a1c1d517f458" compoundref="cJSON_8c" startline="1824" endline="1845">cJSON_GetArraySize</referencedby>
+        <referencedby refid="cJSON_8c_1a252642dc04a9af897c35286536fec267" compoundref="cJSON_8c" startline="2259" endline="2286">cJSON_InsertItemInArray</referencedby>
+        <referencedby refid="misc__tests_8c_1a2625be0fc51f0e946d292e1d37505ce4" compoundref="misc__tests_8c" startline="330" endline="350">cjson_replace_item_in_object_should_preserve_name</referencedby>
+        <referencedby refid="misc__tests_8c_1ac96bb79bdea45dc66f6d11a70f8f4e15" compoundref="misc__tests_8c" startline="283" endline="328">cjson_replace_item_via_pointer_should_replace_items</referencedby>
+        <referencedby refid="cJSON_8c_1a47bb96e61883eafa3f5d359ce5dd6509" compoundref="cJSON_8c" startline="2288" endline="2335">cJSON_ReplaceItemViaPointer</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a641cb4552c85b29763cd604be0b3e2e1" compoundref="cJSON__Utils_8c" startline="1038" endline="1065">cJSONUtils_ApplyPatches</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1aedc0555c83da63f2cf2418ed371cfcab" compoundref="cJSON__Utils_8c" startline="1067" endline="1094">cJSONUtils_ApplyPatchesCaseSensitive</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a77e7485a5ded70768f9deb7ccde950bd" compoundref="cJSON__Utils_8c" startline="198" endline="259">cJSONUtils_FindPointerFromObjectTo</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a3cd12de610e736cb58466b6172628377" compoundref="cJSON__Utils_8c" startline="604" endline="690">compare_json</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1ac9c69681d59c2d18501cbf05dc93b52a" compoundref="cJSON__Utils_8c" startline="1141" endline="1279">create_patches</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a282a449e93fcd1614a0ef5b47ab99626" compoundref="cJSON__Utils_8c" startline="393" endline="427">detach_item_from_array</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1aadd3bcea1f78c5f4cd4e0b794b62806f" compoundref="cJSON__Utils_8c" startline="1390" endline="1470">generate_merge_patch</referencedby>
+        <referencedby refid="cJSON_8c_1a82f460889bcb63ee840fc821feef5aa5" compoundref="cJSON_8c" startline="1847" endline="1864">get_array_item</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a3a675e027f14a993c43dd5397897798b" compoundref="cJSON__Utils_8c" startline="301" endline="346">get_item_from_pointer</referencedby>
+        <referencedby refid="cJSON_8c_1a768303890e9be802d51b0e0a110302f4" compoundref="cJSON_8c" startline="1876" endline="1906">get_object_item</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1aa6cc1d0d8a5424cc0d480fa655234ca1" compoundref="cJSON__Utils_8c" startline="693" endline="728">insert_item_in_array</referencedby>
+        <referencedby refid="old__utils__tests_8c_1a5b450637565a7e09b4fc5cbf6bad28e2" compoundref="old__utils__tests_8c" startline="52" endline="86">json_pointer_tests</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a0a9688491653ffc21762a397ee028693" compoundref="cJSON__Utils_8c" startline="1321" endline="1378">merge_patch</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1acf685df049535cc95f2e66759cfe057e" compoundref="cJSON__Utils_8c" startline="784" endline="805">overwrite_item</referencedby>
+        <referencedby refid="cJSON_8c_1a367cc7ac5a592211d9f18dc02dd23069" compoundref="cJSON_8c" startline="1437" endline="1532">parse_array</referencedby>
+        <referencedby refid="parse__array_8c_1a5f15cf96ecc1d962b9ac16cc1ec6396e" compoundref="parse__array_8c" startline="104" endline="143">parse_array_should_parse_arrays_with_multiple_elements</referencedby>
+        <referencedby refid="parse__array_8c_1a70a390289c7d6092fedaab0dc681fe95" compoundref="parse__array_8c" startline="77" endline="102">parse_array_should_parse_arrays_with_one_element</referencedby>
+        <referencedby refid="cJSON_8c_1a1472ac5d1becd7d9a5e558b4c053b06a" compoundref="cJSON_8c" startline="1597" endline="1707">parse_object</referencedby>
+        <referencedby refid="parse__object_8c_1a615b678c5f8dde5fe3b6c7740191415e" compoundref="parse__object_8c" startline="107" endline="152">parse_object_should_parse_objects_with_multiple_elements</referencedby>
+        <referencedby refid="parse__object_8c_1abec8d9fed0cc2ebae8156df16b448e2f" compoundref="parse__object_8c" startline="87" endline="105">parse_object_should_parse_objects_with_one_element</referencedby>
+        <referencedby refid="cJSON_8c_1ae84642817f3965a85c7c617663250c16" compoundref="cJSON_8c" startline="1535" endline="1594">print_array</referencedby>
+        <referencedby refid="cJSON_8c_1a3d742f5c68799bca291432a9cd72f8dd" compoundref="cJSON_8c" startline="1710" endline="1821">print_object</referencedby>
+        <referencedby refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" compoundref="common_8h" startline="29" endline="44">reset</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a3fde69b6cea66c36ab8605e8bdcd883b" compoundref="cJSON__Utils_8c" startline="595" endline="602">sort_object</referencedby>
+        <referencedby refid="old__utils__tests_8c_1ac65d33ddd0ff0a5284ecbbd589bcb6ce" compoundref="old__utils__tests_8c" startline="138" endline="166">sort_tests</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int cJSON::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.h" line="112" column="9" bodyfile="cJSON.h" bodystart="112" bodyend="-1"/>
+        <referencedby refid="cJSON_8c_1acc48bef0e1b495898d9489e577b91d5c" compoundref="cJSON_8c" startline="2007" endline="2042">add_item_to_object</referencedby>
+        <referencedby refid="parse__object_8c_1a2be7c5d36f1f84d4ae7601af1e9ad53a" compoundref="parse__object_8c" startline="45" endline="51">assert_is_child</referencedby>
+        <referencedby refid="cjson__add_8c_1a68aad8702c7daab6b0aced5ed76a15bf" compoundref="cjson__add_8c" startline="390" endline="400">cJSON_add_array_should_add_array</referencedby>
+        <referencedby refid="cjson__add_8c_1a906dee347b143ba380bd5c35dd2b5c11" compoundref="cjson__add_8c" startline="200" endline="217">cjson_add_bool_should_add_bool</referencedby>
+        <referencedby refid="cjson__add_8c_1ae7ee5f05d3311d2480865aaa71c128f0" compoundref="cjson__add_8c" startline="164" endline="175">cjson_add_false_should_add_false</referencedby>
+        <referencedby refid="cjson__add_8c_1a31a2dc3dfe049283ebaea153555f443f" compoundref="cjson__add_8c" startline="48" endline="59">cjson_add_null_should_add_null</referencedby>
+        <referencedby refid="cjson__add_8c_1a90630b9261ccf9f102de52bb85d1dda3" compoundref="cjson__add_8c" startline="242" endline="256">cjson_add_number_should_add_number</referencedby>
+        <referencedby refid="cjson__add_8c_1a9098c85ee9dd963cfc682ab328932707" compoundref="cjson__add_8c" startline="355" endline="365">cJSON_add_object_should_add_object</referencedby>
+        <referencedby refid="cjson__add_8c_1aad320d705b69a79d3797b02db41b8335" compoundref="cjson__add_8c" startline="318" endline="330">cjson_add_raw_should_add_raw</referencedby>
+        <referencedby refid="cjson__add_8c_1a79abc4fe5667eded0df91b5320edbf85" compoundref="cjson__add_8c" startline="281" endline="293">cjson_add_string_should_add_string</referencedby>
+        <referencedby refid="cjson__add_8c_1a2f02038182067b35da56b958618caa6f" compoundref="cjson__add_8c" startline="84" endline="95">cjson_add_true_should_add_true</referencedby>
+        <referencedby refid="cJSON_8c_1a42801ee95f281ee07fe132dee8abce6b" compoundref="cJSON_8c" startline="2977" endline="3100">cJSON_Compare</referencedby>
+        <referencedby refid="compare__tests_8c_1a85a35043b591b7cc9aa0ce025f7b6850" compoundref="compare__tests_8c" startline="121" endline="139">cjson_compare_should_compare_raw</referencedby>
+        <referencedby refid="compare__tests_8c_1a411b5730db2eba3bf7a095d87c2d637d" compoundref="compare__tests_8c" startline="101" endline="110">cjson_compare_should_not_accept_invalid_types</referencedby>
+        <referencedby refid="misc__tests_8c_1aabf3532394819d472abff8f322670832" compoundref="misc__tests_8c" startline="532" endline="547">cjson_create_array_reference_should_create_an_array_reference</referencedby>
+        <referencedby refid="misc__tests_8c_1a0ae3705414c90d50e3c2a19ea636f144" compoundref="misc__tests_8c" startline="514" endline="530">cjson_create_object_reference_should_create_an_object_reference</referencedby>
+        <referencedby refid="misc__tests_8c_1af0b06ef3eb2d4a70d1ae8f0e15319250" compoundref="misc__tests_8c" startline="504" endline="512">cjson_create_string_reference_should_create_a_string_reference</referencedby>
+        <referencedby refid="cJSON_8c_1a29e5808c66c1cf1f3edbf117babe07b3" compoundref="cJSON_8c" startline="2513" endline="2522">cJSON_CreateArray</referencedby>
+        <referencedby refid="cJSON_8c_1a1f44bc9691c8766252b5bddaae04ffc2" compoundref="cJSON_8c" startline="2486" endline="2494">cJSON_CreateArrayReference</referencedby>
+        <referencedby refid="cJSON_8c_1a859fe1cf8203f2d0131d388f7b1178f1" compoundref="cJSON_8c" startline="2409" endline="2418">cJSON_CreateBool</referencedby>
+        <referencedby refid="cJSON_8c_1a33dcdd4d4f5da12bc91372376908c42b" compoundref="cJSON_8c" startline="2398" endline="2407">cJSON_CreateFalse</referencedby>
+        <referencedby refid="cJSON_8c_1a83ea2a0b33071a1120b9052170a2bc13" compoundref="cJSON_8c" startline="2376" endline="2385">cJSON_CreateNull</referencedby>
+        <referencedby refid="cJSON_8c_1a220d076d7d3a309049d6889be6d4904a" compoundref="cJSON_8c" startline="2420" endline="2444">cJSON_CreateNumber</referencedby>
+        <referencedby refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</referencedby>
+        <referencedby refid="cJSON_8c_1a3c3b40420dd74cc7fbbc355628239aa1" compoundref="cJSON_8c" startline="2475" endline="2484">cJSON_CreateObjectReference</referencedby>
+        <referencedby refid="cJSON_8c_1a57b09346ba8bf22a1ef6198258f12e20" compoundref="cJSON_8c" startline="2496" endline="2511">cJSON_CreateRaw</referencedby>
+        <referencedby refid="cJSON_8c_1a5987bbc1c94d9f602d719a4015ff0e6c" compoundref="cJSON_8c" startline="2446" endline="2461">cJSON_CreateString</referencedby>
+        <referencedby refid="cJSON_8c_1a9cb226121d5eb9ba4aa84b1c19cbc25b" compoundref="cJSON_8c" startline="2463" endline="2473">cJSON_CreateStringReference</referencedby>
+        <referencedby refid="cJSON_8c_1a07b3d4616c5a682aa558180713ce858a" compoundref="cJSON_8c" startline="2387" endline="2396">cJSON_CreateTrue</referencedby>
+        <referencedby refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</referencedby>
+        <referencedby refid="cJSON_8c_1a010fe0dd2606bdfafc7eb0123b20222e" compoundref="cJSON_8c" startline="2697" endline="2778">cJSON_Duplicate</referencedby>
+        <referencedby refid="cJSON_8c_1a3e8d0723e3be479074c45008f5cd3497" compoundref="cJSON_8c" startline="2947" endline="2955">cJSON_IsArray</referencedby>
+        <referencedby refid="cJSON_8c_1a16bbe75ed6f97d121c141e4fec38d497" compoundref="cJSON_8c" startline="2908" endline="2916">cJSON_IsBool</referencedby>
+        <referencedby refid="cJSON_8c_1a160f9c97b2e63c46dcdc192e3de9274d" compoundref="cJSON_8c" startline="2887" endline="2895">cJSON_IsFalse</referencedby>
+        <referencedby refid="cJSON_8c_1a49373f6a455b8b99443b9c170b787e86" compoundref="cJSON_8c" startline="2877" endline="2885">cJSON_IsInvalid</referencedby>
+        <referencedby refid="cJSON_8c_1a7e941f0d623c8476b6a10e9b05464f4f" compoundref="cJSON_8c" startline="2917" endline="2925">cJSON_IsNull</referencedby>
+        <referencedby refid="cJSON_8c_1a04148f2da6d47885c7498cfbf521a74d" compoundref="cJSON_8c" startline="2927" endline="2935">cJSON_IsNumber</referencedby>
+        <referencedby refid="cJSON_8c_1a23baebcbfa93b56edb9e6b6f303f521b" compoundref="cJSON_8c" startline="2957" endline="2965">cJSON_IsObject</referencedby>
+        <referencedby refid="cJSON_8c_1a9fc519447ecd559e84bdd3b634162ba8" compoundref="cJSON_8c" startline="2967" endline="2975">cJSON_IsRaw</referencedby>
+        <referencedby refid="cJSON_8c_1a87b7cb8032c9a552995e006f65f49cb5" compoundref="cJSON_8c" startline="2937" endline="2945">cJSON_IsString</referencedby>
+        <referencedby refid="cJSON_8c_1a4ad6de706aeece32cdb6348ba3e390f7" compoundref="cJSON_8c" startline="2897" endline="2905">cJSON_IsTrue</referencedby>
+        <referencedby refid="cJSON_8c_1a82bbed62a1098d8dcd2c3e472ee6b83e" compoundref="cJSON_8c" startline="400" endline="425">cJSON_SetValuestring</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a3cd12de610e736cb58466b6172628377" compoundref="cJSON__Utils_8c" startline="604" endline="690">compare_json</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1ac9c69681d59c2d18501cbf05dc93b52a" compoundref="cJSON__Utils_8c" startline="1141" endline="1279">create_patches</referencedby>
+        <referencedby refid="cJSON_8c_1ac06bbc307a6f39fe58aafbcb82fbf4b3" compoundref="cJSON_8c" startline="1931" endline="1950">create_reference</referencedby>
+        <referencedby refid="cJSON_8c_1a367cc7ac5a592211d9f18dc02dd23069" compoundref="cJSON_8c" startline="1437" endline="1532">parse_array</referencedby>
+        <referencedby refid="parse__array_8c_1a5f15cf96ecc1d962b9ac16cc1ec6396e" compoundref="parse__array_8c" startline="104" endline="143">parse_array_should_parse_arrays_with_multiple_elements</referencedby>
+        <referencedby refid="cJSON_8c_1a699e1cebda71c2846a9a10b29b4dc407" compoundref="cJSON_8c" startline="305" endline="379">parse_number</referencedby>
+        <referencedby refid="cJSON_8c_1a1472ac5d1becd7d9a5e558b4c053b06a" compoundref="cJSON_8c" startline="1597" endline="1707">parse_object</referencedby>
+        <referencedby refid="cJSON_8c_1adf47b520af96d1bbefa2390016fbdb51" compoundref="cJSON_8c" startline="769" endline="895">parse_string</referencedby>
+        <referencedby refid="cJSON_8c_1afd5c0b7089e4de2fc9b2af599d4b596f" compoundref="cJSON_8c" startline="1308" endline="1360">parse_value</referencedby>
+        <referencedby refid="cJSON_8c_1a5ba141f183b9abb4b49e38a211299c7e" compoundref="cJSON_8c" startline="1363" endline="1434">print_value</referencedby>
+        <referencedby refid="cJSON_8c_1afdae75197cf2c440ef858a2e93b104f2" compoundref="cJSON_8c" startline="2347" endline="2363">replace_item_in_object</referencedby>
+        <referencedby refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" compoundref="common_8h" startline="29" endline="44">reset</referencedby>
+        <referencedby refid="misc__tests_8c_1af0db23c93ab585bd85cffb9b550ea4cd" compoundref="misc__tests_8c" startline="152" endline="206">typecheck_functions_should_check_type</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structcJSON_1ad43f8de2571e504c4c5ce0a36990e6e1" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* cJSON::valuestring</definition>
+        <argsstring></argsstring>
+        <name>valuestring</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.h" line="115" column="10" bodyfile="cJSON.h" bodystart="115" bodyend="-1"/>
+        <referencedby refid="cJSON__Utils_8c_1ae7f4ca7c392e544cb2fb6ff04af7a7ab" compoundref="cJSON__Utils_8c" startline="807" endline="1036">apply_patch</referencedby>
+        <referencedby refid="parse__string_8c_1aebe3846b5d833bb64c6ece9513489d57" compoundref="parse__string_8c" startline="46" endline="58">assert_parse_string</referencedby>
+        <referencedby refid="cjson__add_8c_1aad320d705b69a79d3797b02db41b8335" compoundref="cjson__add_8c" startline="318" endline="330">cjson_add_raw_should_add_raw</referencedby>
+        <referencedby refid="cjson__add_8c_1a79abc4fe5667eded0df91b5320edbf85" compoundref="cjson__add_8c" startline="281" endline="293">cjson_add_string_should_add_string</referencedby>
+        <referencedby refid="cJSON_8c_1a42801ee95f281ee07fe132dee8abce6b" compoundref="cJSON_8c" startline="2977" endline="3100">cJSON_Compare</referencedby>
+        <referencedby refid="misc__tests_8c_1af0b06ef3eb2d4a70d1ae8f0e15319250" compoundref="misc__tests_8c" startline="504" endline="512">cjson_create_string_reference_should_create_a_string_reference</referencedby>
+        <referencedby refid="cJSON_8c_1a57b09346ba8bf22a1ef6198258f12e20" compoundref="cJSON_8c" startline="2496" endline="2511">cJSON_CreateRaw</referencedby>
+        <referencedby refid="cJSON_8c_1a5987bbc1c94d9f602d719a4015ff0e6c" compoundref="cJSON_8c" startline="2446" endline="2461">cJSON_CreateString</referencedby>
+        <referencedby refid="cJSON_8c_1a9cb226121d5eb9ba4aa84b1c19cbc25b" compoundref="cJSON_8c" startline="2463" endline="2473">cJSON_CreateStringReference</referencedby>
+        <referencedby refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</referencedby>
+        <referencedby refid="cJSON_8c_1a010fe0dd2606bdfafc7eb0123b20222e" compoundref="cJSON_8c" startline="2697" endline="2778">cJSON_Duplicate</referencedby>
+        <referencedby refid="misc__tests_8c_1ad06488176ff6cbce7db1e99b02f8394d" compoundref="misc__tests_8c" startline="478" endline="489">cjson_get_string_value_should_get_a_string</referencedby>
+        <referencedby refid="cJSON_8c_1a8f13476fa43d33e3e6439b564af5c5e0" compoundref="cJSON_8c" startline="99" endline="107">cJSON_GetStringValue</referencedby>
+        <referencedby refid="misc__tests_8c_1a06e02ea5758a010882e0e97d94438c18" compoundref="misc__tests_8c" startline="618" endline="651">cjson_set_valuestring_to_object_should_not_leak_memory</referencedby>
+        <referencedby refid="cJSON_8c_1a82bbed62a1098d8dcd2c3e472ee6b83e" compoundref="cJSON_8c" startline="400" endline="425">cJSON_SetValuestring</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a3cd12de610e736cb58466b6172628377" compoundref="cJSON__Utils_8c" startline="604" endline="690">compare_json</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1ac9c69681d59c2d18501cbf05dc93b52a" compoundref="cJSON__Utils_8c" startline="1141" endline="1279">create_patches</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1acf685df049535cc95f2e66759cfe057e" compoundref="cJSON__Utils_8c" startline="784" endline="805">overwrite_item</referencedby>
+        <referencedby refid="parse__array_8c_1a70a390289c7d6092fedaab0dc681fe95" compoundref="parse__array_8c" startline="77" endline="102">parse_array_should_parse_arrays_with_one_element</referencedby>
+        <referencedby refid="cJSON_8c_1a1472ac5d1becd7d9a5e558b4c053b06a" compoundref="cJSON_8c" startline="1597" endline="1707">parse_object</referencedby>
+        <referencedby refid="cJSON_8c_1adf47b520af96d1bbefa2390016fbdb51" compoundref="cJSON_8c" startline="769" endline="895">parse_string</referencedby>
+        <referencedby refid="cJSON_8c_1ad087dd738e49b4258f0a3d378a121df6" compoundref="cJSON_8c" startline="1020" endline="1023">print_string</referencedby>
+        <referencedby refid="cJSON_8c_1a5ba141f183b9abb4b49e38a211299c7e" compoundref="cJSON_8c" startline="1363" endline="1434">print_value</referencedby>
+        <referencedby refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" compoundref="common_8h" startline="29" endline="44">reset</referencedby>
+        <referencedby refid="readme__examples_8c_1aac8a48367d8eb50de4be9aa823415b34" compoundref="readme__examples_8c" startline="169" endline="215">supports_full_hd</referencedby>
+        <referencedby refid="json__patch__tests_8c_1a3ae4cfc74fe6a5fac249299f229e8ab7" compoundref="json__patch__tests_8c" startline="49" endline="120">test_apply_patch</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structcJSON_1a369cea49494eb5d4409d532a731a0fbf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int cJSON::valueint</definition>
+        <argsstring></argsstring>
+        <name>valueint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.h" line="117" column="9" bodyfile="cJSON.h" bodystart="117" bodyend="-1"/>
+        <referencedby refid="parse__number_8c_1a53a9722e174d2afdbf82fc8d0fd5fd38" compoundref="parse__number_8c" startline="46" endline="56">assert_parse_number</referencedby>
+        <referencedby refid="cjson__add_8c_1a90630b9261ccf9f102de52bb85d1dda3" compoundref="cjson__add_8c" startline="242" endline="256">cjson_add_number_should_add_number</referencedby>
+        <referencedby refid="cJSON_8c_1a220d076d7d3a309049d6889be6d4904a" compoundref="cJSON_8c" startline="2420" endline="2444">cJSON_CreateNumber</referencedby>
+        <referencedby refid="cJSON_8c_1a010fe0dd2606bdfafc7eb0123b20222e" compoundref="cJSON_8c" startline="2697" endline="2778">cJSON_Duplicate</referencedby>
+        <referencedby refid="misc__tests_8c_1a6a345e4b3fe2126cec420679fdd44993" compoundref="misc__tests_8c" startline="222" endline="241">cjson_set_number_value_should_set_numbers</referencedby>
+        <referencedby refid="cJSON_8c_1a95d6295c4fcb12785bc5bc900b4c7828" compoundref="cJSON_8c" startline="382" endline="398">cJSON_SetNumberHelper</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a3cd12de610e736cb58466b6172628377" compoundref="cJSON__Utils_8c" startline="604" endline="690">compare_json</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1ac9c69681d59c2d18501cbf05dc93b52a" compoundref="cJSON__Utils_8c" startline="1141" endline="1279">create_patches</referencedby>
+        <referencedby refid="cJSON_8c_1a699e1cebda71c2846a9a10b29b4dc407" compoundref="cJSON_8c" startline="305" endline="379">parse_number</referencedby>
+        <referencedby refid="cJSON_8c_1afd5c0b7089e4de2fc9b2af599d4b596f" compoundref="cJSON_8c" startline="1308" endline="1360">parse_value</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structcJSON_1a4b21817d0fd2919901abadac73214e7f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double cJSON::valuedouble</definition>
+        <argsstring></argsstring>
+        <name>valuedouble</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.h" line="119" column="12" bodyfile="cJSON.h" bodystart="119" bodyend="-1"/>
+        <referencedby refid="parse__number_8c_1a53a9722e174d2afdbf82fc8d0fd5fd38" compoundref="parse__number_8c" startline="46" endline="56">assert_parse_number</referencedby>
+        <referencedby refid="cjson__add_8c_1a90630b9261ccf9f102de52bb85d1dda3" compoundref="cjson__add_8c" startline="242" endline="256">cjson_add_number_should_add_number</referencedby>
+        <referencedby refid="cJSON_8c_1a42801ee95f281ee07fe132dee8abce6b" compoundref="cJSON_8c" startline="2977" endline="3100">cJSON_Compare</referencedby>
+        <referencedby refid="cJSON_8c_1a220d076d7d3a309049d6889be6d4904a" compoundref="cJSON_8c" startline="2420" endline="2444">cJSON_CreateNumber</referencedby>
+        <referencedby refid="cJSON_8c_1a010fe0dd2606bdfafc7eb0123b20222e" compoundref="cJSON_8c" startline="2697" endline="2778">cJSON_Duplicate</referencedby>
+        <referencedby refid="misc__tests_8c_1adad67e1a420e2a1154ff2c1285344a68" compoundref="misc__tests_8c" startline="491" endline="502">cjson_get_number_value_should_get_a_number</referencedby>
+        <referencedby refid="misc__tests_8c_1abe19814f80199e414e440866b87c9402" compoundref="misc__tests_8c" startline="99" endline="128">cjson_get_object_item_case_sensitive_should_get_object_items</referencedby>
+        <referencedby refid="misc__tests_8c_1a7747c301507939a00a1f4ba0d9cd2a39" compoundref="misc__tests_8c" startline="67" endline="97">cjson_get_object_item_should_get_object_items</referencedby>
+        <referencedby refid="cJSON_8c_1a894042068cc1b20996bc7800700a9df0" compoundref="cJSON_8c" startline="109" endline="117">cJSON_GetNumberValue</referencedby>
+        <referencedby refid="misc__tests_8c_1a6a345e4b3fe2126cec420679fdd44993" compoundref="misc__tests_8c" startline="222" endline="241">cjson_set_number_value_should_set_numbers</referencedby>
+        <referencedby refid="cJSON_8c_1a95d6295c4fcb12785bc5bc900b4c7828" compoundref="cJSON_8c" startline="382" endline="398">cJSON_SetNumberHelper</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a3cd12de610e736cb58466b6172628377" compoundref="cJSON__Utils_8c" startline="604" endline="690">compare_json</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1ac9c69681d59c2d18501cbf05dc93b52a" compoundref="cJSON__Utils_8c" startline="1141" endline="1279">create_patches</referencedby>
+        <referencedby refid="cJSON_8c_1a699e1cebda71c2846a9a10b29b4dc407" compoundref="cJSON_8c" startline="305" endline="379">parse_number</referencedby>
+        <referencedby refid="cJSON_8c_1ad93d84de08872da0eaa6624be0e74a68" compoundref="cJSON_8c" startline="545" endline="608">print_number</referencedby>
+        <referencedby refid="readme__examples_8c_1aac8a48367d8eb50de4be9aa823415b34" compoundref="readme__examples_8c" startline="169" endline="215">supports_full_hd</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structcJSON_1aa6b47e9a4b0e0a26f519b1a2b6739983" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* cJSON::string</definition>
+        <argsstring></argsstring>
+        <name>string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.h" line="122" column="10" bodyfile="cJSON.h" bodystart="122" bodyend="-1"/>
+        <referencedby refid="cJSON_8c_1acc48bef0e1b495898d9489e577b91d5c" compoundref="cJSON_8c" startline="2007" endline="2042">add_item_to_object</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1ae7f4ca7c392e544cb2fb6ff04af7a7ab" compoundref="cJSON__Utils_8c" startline="807" endline="1036">apply_patch</referencedby>
+        <referencedby refid="parse__object_8c_1a2be7c5d36f1f84d4ae7601af1e9ad53a" compoundref="parse__object_8c" startline="45" endline="51">assert_is_child</referencedby>
+        <referencedby refid="misc__tests_8c_1afafcede9e71e151a8b580f7c479a4788" compoundref="misc__tests_8c" startline="565" endline="582">cjson_add_item_to_object_should_not_use_after_free_when_string_is_aliased</referencedby>
+        <referencedby refid="cJSON_8c_1a42801ee95f281ee07fe132dee8abce6b" compoundref="cJSON_8c" startline="2977" endline="3100">cJSON_Compare</referencedby>
+        <referencedby refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</referencedby>
+        <referencedby refid="cJSON_8c_1a010fe0dd2606bdfafc7eb0123b20222e" compoundref="cJSON_8c" startline="2697" endline="2778">cJSON_Duplicate</referencedby>
+        <referencedby refid="misc__tests_8c_1a2625be0fc51f0e946d292e1d37505ce4" compoundref="misc__tests_8c" startline="330" endline="350">cjson_replace_item_in_object_should_preserve_name</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a77e7485a5ded70768f9deb7ccde950bd" compoundref="cJSON__Utils_8c" startline="198" endline="259">cJSONUtils_FindPointerFromObjectTo</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a3cd12de610e736cb58466b6172628377" compoundref="cJSON__Utils_8c" startline="604" endline="690">compare_json</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1ac9c69681d59c2d18501cbf05dc93b52a" compoundref="cJSON__Utils_8c" startline="1141" endline="1279">create_patches</referencedby>
+        <referencedby refid="cJSON_8c_1ac06bbc307a6f39fe58aafbcb82fbf4b3" compoundref="cJSON_8c" startline="1931" endline="1950">create_reference</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1aadd3bcea1f78c5f4cd4e0b794b62806f" compoundref="cJSON__Utils_8c" startline="1390" endline="1470">generate_merge_patch</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a3a675e027f14a993c43dd5397897798b" compoundref="cJSON__Utils_8c" startline="301" endline="346">get_item_from_pointer</referencedby>
+        <referencedby refid="cJSON_8c_1a768303890e9be802d51b0e0a110302f4" compoundref="cJSON_8c" startline="1876" endline="1906">get_object_item</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1a0a9688491653ffc21762a397ee028693" compoundref="cJSON__Utils_8c" startline="1321" endline="1378">merge_patch</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1acf685df049535cc95f2e66759cfe057e" compoundref="cJSON__Utils_8c" startline="784" endline="805">overwrite_item</referencedby>
+        <referencedby refid="cJSON_8c_1a1472ac5d1becd7d9a5e558b4c053b06a" compoundref="cJSON_8c" startline="1597" endline="1707">parse_object</referencedby>
+        <referencedby refid="cJSON_8c_1a3d742f5c68799bca291432a9cd72f8dd" compoundref="cJSON_8c" startline="1710" endline="1821">print_object</referencedby>
+        <referencedby refid="cJSON_8c_1afdae75197cf2c440ef858a2e93b104f2" compoundref="cJSON_8c" startline="2347" endline="2363">replace_item_in_object</referencedby>
+        <referencedby refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" compoundref="common_8h" startline="29" endline="44">reset</referencedby>
+        <referencedby refid="cJSON__Utils_8c_1acc6f9b671251aed5b9880b6d117037c9" compoundref="cJSON__Utils_8c" startline="484" endline="593">sort_list</referencedby>
+        <referencedby refid="old__utils__tests_8c_1ac65d33ddd0ff0a5284ecbbd589bcb6ce" compoundref="old__utils__tests_8c" startline="138" endline="166">sort_tests</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>char *</label>
+      </node>
+      <node id="3">
+        <label>int</label>
+      </node>
+      <node id="2">
+        <label>double</label>
+      </node>
+      <node id="1">
+        <label>cJSON</label>
+        <link refid="structcJSON"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>valuedouble</edgelabel>
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>child</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>prev</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>type</edgelabel>
+          <edgelabel>valueint</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>string</edgelabel>
+          <edgelabel>valuestring</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cJSON.h" line="103" column="1" bodyfile="cJSON.h" bodystart="104" bodyend="123"/>
+    <listofallmembers>
+      <member refid="structcJSON_1a401b274c2da358dac5c23ab8b2c71f85" prot="public" virt="non-virtual"><scope>cJSON</scope><name>child</name></member>
+      <member refid="structcJSON_1ade862b880379b5e2a591f7326401fa8d" prot="public" virt="non-virtual"><scope>cJSON</scope><name>next</name></member>
+      <member refid="structcJSON_1a488a393f610347821fce8e985e79fc2f" prot="public" virt="non-virtual"><scope>cJSON</scope><name>prev</name></member>
+      <member refid="structcJSON_1aa6b47e9a4b0e0a26f519b1a2b6739983" prot="public" virt="non-virtual"><scope>cJSON</scope><name>string</name></member>
+      <member refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" prot="public" virt="non-virtual"><scope>cJSON</scope><name>type</name></member>
+      <member refid="structcJSON_1a4b21817d0fd2919901abadac73214e7f" prot="public" virt="non-virtual"><scope>cJSON</scope><name>valuedouble</name></member>
+      <member refid="structcJSON_1a369cea49494eb5d4409d532a731a0fbf" prot="public" virt="non-virtual"><scope>cJSON</scope><name>valueint</name></member>
+      <member refid="structcJSON_1ad43f8de2571e504c4c5ce0a36990e6e1" prot="public" virt="non-virtual"><scope>cJSON</scope><name>valuestring</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

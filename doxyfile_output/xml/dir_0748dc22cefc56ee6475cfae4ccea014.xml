@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_0748dc22cefc56ee6475cfae4ccea014" kind="dir">
+    <compoundname>fuzzing</compoundname>
+    <innerfile refid="afl_8c">afl.c</innerfile>
+    <innerfile refid="cjson__read__fuzzer_8c">cjson_read_fuzzer.c</innerfile>
+    <innerfile refid="fuzz__main_8c">fuzz_main.c</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="fuzzing/"/>
+  </compounddef>
+</doxygen>

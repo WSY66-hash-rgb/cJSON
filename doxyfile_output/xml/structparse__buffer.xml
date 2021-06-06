@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structparse__buffer" kind="struct" language="C++" prot="public">
+    <compoundname>parse_buffer</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structparse__buffer_1a52ee1184576baa3d5171059ab0e942de" prot="public" static="no" mutable="no">
+        <type>const unsigned char *</type>
+        <definition>const unsigned char* parse_buffer::content</definition>
+        <argsstring></argsstring>
+        <name>content</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.c" line="289" column="25" bodyfile="cJSON.c" bodystart="289" bodyend="-1"/>
+        <referencedby refid="parse__array_8c_1ab2c6686d29bdffb007af20b488809169" compoundref="parse__array_8c" startline="45" endline="54">assert_not_array</referencedby>
+        <referencedby refid="parse__object_8c_1a62a5d733d5d71ebc05e8c416ecbbd10f" compoundref="parse__object_8c" startline="53" endline="63">assert_not_object</referencedby>
+        <referencedby refid="parse__string_8c_1a9538a84c38b404f5a10d06634dae7c3f" compoundref="parse__string_8c" startline="60" endline="69">assert_not_parse_string</referencedby>
+        <referencedby refid="parse__array_8c_1a643a34e3765ad0861b82fcf9c20dbfd6" compoundref="parse__array_8c" startline="56" endline="65">assert_parse_array</referencedby>
+        <referencedby refid="parse__number_8c_1a53a9722e174d2afdbf82fc8d0fd5fd38" compoundref="parse__number_8c" startline="46" endline="56">assert_parse_number</referencedby>
+        <referencedby refid="parse__object_8c_1a04cdd90b8d021cdd933415be47296375" compoundref="parse__object_8c" startline="65" endline="74">assert_parse_object</referencedby>
+        <referencedby refid="parse__string_8c_1aebe3846b5d833bb64c6ece9513489d57" compoundref="parse__string_8c" startline="46" endline="58">assert_parse_string</referencedby>
+        <referencedby refid="parse__value_8c_1a3a6f8d773faff442ee6e100712cb554d" compoundref="parse__value_8c" startline="44" endline="53">assert_parse_value</referencedby>
+        <referencedby refid="print__array_8c_1a81b9f9d0a07e1c254db1710201c08eb7" compoundref="print__array_8c" startline="27" endline="68">assert_print_array</referencedby>
+        <referencedby refid="print__object_8c_1a91697b5911579b3ff34114ad9b914f4b" compoundref="print__object_8c" startline="27" endline="69">assert_print_object</referencedby>
+        <referencedby refid="print__value_8c_1abfbe32805a2d50bc6a85c911525f152d" compoundref="print__value_8c" startline="31" endline="55">assert_print_value</referencedby>
+        <referencedby refid="cJSON_8c_1a029a2c33fa2744a7cc5cf061f28d2cfc" compoundref="cJSON_8c" startline="1034" endline="1057">buffer_skip_whitespace</referencedby>
+        <referencedby refid="cJSON_8c_1af72a0b4e3c59e7053859c0c0fe4fcda3" compoundref="cJSON_8c" startline="1091" endline="1168">cJSON_ParseWithLengthOpts</referencedby>
+        <referencedby refid="cJSON_8c_1a699e1cebda71c2846a9a10b29b4dc407" compoundref="cJSON_8c" startline="305" endline="379">parse_number</referencedby>
+        <referencedby refid="cJSON_8c_1adf47b520af96d1bbefa2390016fbdb51" compoundref="cJSON_8c" startline="769" endline="895">parse_string</referencedby>
+        <referencedby refid="cJSON_8c_1afd5c0b7089e4de2fc9b2af599d4b596f" compoundref="cJSON_8c" startline="1308" endline="1360">parse_value</referencedby>
+        <referencedby refid="cJSON_8c_1a13b2d9f17c3b80a8878405f2782cd916" compoundref="cJSON_8c" startline="1060" endline="1073">skip_utf8_bom</referencedby>
+        <referencedby refid="misc__tests_8c_1aaa54a6f0b84327a5262ca0b44a0ff273" compoundref="misc__tests_8c" startline="466" endline="476">skip_utf8_bom_should_not_skip_bom_if_not_at_beginning</referencedby>
+        <referencedby refid="misc__tests_8c_1a166961a221072362ff4df8264917ef0a" compoundref="misc__tests_8c" startline="454" endline="464">skip_utf8_bom_should_skip_bom</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structparse__buffer_1a036970e9335896d3cee8459eda9e2eb9" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t parse_buffer::length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.c" line="290" column="12" bodyfile="cJSON.c" bodystart="290" bodyend="-1"/>
+        <referencedby refid="parse__array_8c_1ab2c6686d29bdffb007af20b488809169" compoundref="parse__array_8c" startline="45" endline="54">assert_not_array</referencedby>
+        <referencedby refid="parse__object_8c_1a62a5d733d5d71ebc05e8c416ecbbd10f" compoundref="parse__object_8c" startline="53" endline="63">assert_not_object</referencedby>
+        <referencedby refid="parse__string_8c_1a9538a84c38b404f5a10d06634dae7c3f" compoundref="parse__string_8c" startline="60" endline="69">assert_not_parse_string</referencedby>
+        <referencedby refid="parse__array_8c_1a643a34e3765ad0861b82fcf9c20dbfd6" compoundref="parse__array_8c" startline="56" endline="65">assert_parse_array</referencedby>
+        <referencedby refid="parse__number_8c_1a53a9722e174d2afdbf82fc8d0fd5fd38" compoundref="parse__number_8c" startline="46" endline="56">assert_parse_number</referencedby>
+        <referencedby refid="parse__object_8c_1a04cdd90b8d021cdd933415be47296375" compoundref="parse__object_8c" startline="65" endline="74">assert_parse_object</referencedby>
+        <referencedby refid="parse__string_8c_1aebe3846b5d833bb64c6ece9513489d57" compoundref="parse__string_8c" startline="46" endline="58">assert_parse_string</referencedby>
+        <referencedby refid="parse__value_8c_1a3a6f8d773faff442ee6e100712cb554d" compoundref="parse__value_8c" startline="44" endline="53">assert_parse_value</referencedby>
+        <referencedby refid="print__array_8c_1a81b9f9d0a07e1c254db1710201c08eb7" compoundref="print__array_8c" startline="27" endline="68">assert_print_array</referencedby>
+        <referencedby refid="print__object_8c_1a91697b5911579b3ff34114ad9b914f4b" compoundref="print__object_8c" startline="27" endline="69">assert_print_object</referencedby>
+        <referencedby refid="print__value_8c_1abfbe32805a2d50bc6a85c911525f152d" compoundref="print__value_8c" startline="31" endline="55">assert_print_value</referencedby>
+        <referencedby refid="cJSON_8c_1a029a2c33fa2744a7cc5cf061f28d2cfc" compoundref="cJSON_8c" startline="1034" endline="1057">buffer_skip_whitespace</referencedby>
+        <referencedby refid="cJSON_8c_1af72a0b4e3c59e7053859c0c0fe4fcda3" compoundref="cJSON_8c" startline="1091" endline="1168">cJSON_ParseWithLengthOpts</referencedby>
+        <referencedby refid="cJSON_8c_1adf47b520af96d1bbefa2390016fbdb51" compoundref="cJSON_8c" startline="769" endline="895">parse_string</referencedby>
+        <referencedby refid="misc__tests_8c_1aaa54a6f0b84327a5262ca0b44a0ff273" compoundref="misc__tests_8c" startline="466" endline="476">skip_utf8_bom_should_not_skip_bom_if_not_at_beginning</referencedby>
+        <referencedby refid="misc__tests_8c_1a166961a221072362ff4df8264917ef0a" compoundref="misc__tests_8c" startline="454" endline="464">skip_utf8_bom_should_skip_bom</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structparse__buffer_1af727920073077579942a79de519bb31a" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t parse_buffer::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.c" line="291" column="12" bodyfile="cJSON.c" bodystart="291" bodyend="-1"/>
+        <referencedby refid="cJSON_8c_1a029a2c33fa2744a7cc5cf061f28d2cfc" compoundref="cJSON_8c" startline="1034" endline="1057">buffer_skip_whitespace</referencedby>
+        <referencedby refid="cJSON_8c_1af72a0b4e3c59e7053859c0c0fe4fcda3" compoundref="cJSON_8c" startline="1091" endline="1168">cJSON_ParseWithLengthOpts</referencedby>
+        <referencedby refid="cJSON_8c_1a367cc7ac5a592211d9f18dc02dd23069" compoundref="cJSON_8c" startline="1437" endline="1532">parse_array</referencedby>
+        <referencedby refid="cJSON_8c_1a699e1cebda71c2846a9a10b29b4dc407" compoundref="cJSON_8c" startline="305" endline="379">parse_number</referencedby>
+        <referencedby refid="cJSON_8c_1a1472ac5d1becd7d9a5e558b4c053b06a" compoundref="cJSON_8c" startline="1597" endline="1707">parse_object</referencedby>
+        <referencedby refid="cJSON_8c_1adf47b520af96d1bbefa2390016fbdb51" compoundref="cJSON_8c" startline="769" endline="895">parse_string</referencedby>
+        <referencedby refid="cJSON_8c_1afd5c0b7089e4de2fc9b2af599d4b596f" compoundref="cJSON_8c" startline="1308" endline="1360">parse_value</referencedby>
+        <referencedby refid="cJSON_8c_1a13b2d9f17c3b80a8878405f2782cd916" compoundref="cJSON_8c" startline="1060" endline="1073">skip_utf8_bom</referencedby>
+        <referencedby refid="misc__tests_8c_1aaa54a6f0b84327a5262ca0b44a0ff273" compoundref="misc__tests_8c" startline="466" endline="476">skip_utf8_bom_should_not_skip_bom_if_not_at_beginning</referencedby>
+        <referencedby refid="misc__tests_8c_1a166961a221072362ff4df8264917ef0a" compoundref="misc__tests_8c" startline="454" endline="464">skip_utf8_bom_should_skip_bom</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structparse__buffer_1af613c4ed7d73f76c60c50d1bcf4c67a0" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t parse_buffer::depth</definition>
+        <argsstring></argsstring>
+        <name>depth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.c" line="292" column="12" bodyfile="cJSON.c" bodystart="292" bodyend="-1"/>
+        <referencedby refid="cJSON_8c_1a367cc7ac5a592211d9f18dc02dd23069" compoundref="cJSON_8c" startline="1437" endline="1532">parse_array</referencedby>
+        <referencedby refid="cJSON_8c_1a1472ac5d1becd7d9a5e558b4c053b06a" compoundref="cJSON_8c" startline="1597" endline="1707">parse_object</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structparse__buffer_1a2c3e99b15da2935fc5d58124ffb4a894" prot="public" static="no" mutable="no">
+        <type><ref refid="structinternal__hooks" kindref="compound">internal_hooks</ref></type>
+        <definition>internal_hooks parse_buffer::hooks</definition>
+        <argsstring></argsstring>
+        <name>hooks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.c" line="293" column="20" bodyfile="cJSON.c" bodystart="293" bodyend="-1"/>
+        <referencedby refid="parse__array_8c_1ab2c6686d29bdffb007af20b488809169" compoundref="parse__array_8c" startline="45" endline="54">assert_not_array</referencedby>
+        <referencedby refid="parse__object_8c_1a62a5d733d5d71ebc05e8c416ecbbd10f" compoundref="parse__object_8c" startline="53" endline="63">assert_not_object</referencedby>
+        <referencedby refid="parse__string_8c_1a9538a84c38b404f5a10d06634dae7c3f" compoundref="parse__string_8c" startline="60" endline="69">assert_not_parse_string</referencedby>
+        <referencedby refid="parse__array_8c_1a643a34e3765ad0861b82fcf9c20dbfd6" compoundref="parse__array_8c" startline="56" endline="65">assert_parse_array</referencedby>
+        <referencedby refid="parse__object_8c_1a04cdd90b8d021cdd933415be47296375" compoundref="parse__object_8c" startline="65" endline="74">assert_parse_object</referencedby>
+        <referencedby refid="parse__string_8c_1aebe3846b5d833bb64c6ece9513489d57" compoundref="parse__string_8c" startline="46" endline="58">assert_parse_string</referencedby>
+        <referencedby refid="parse__value_8c_1a3a6f8d773faff442ee6e100712cb554d" compoundref="parse__value_8c" startline="44" endline="53">assert_parse_value</referencedby>
+        <referencedby refid="print__array_8c_1a81b9f9d0a07e1c254db1710201c08eb7" compoundref="print__array_8c" startline="27" endline="68">assert_print_array</referencedby>
+        <referencedby refid="print__object_8c_1a91697b5911579b3ff34114ad9b914f4b" compoundref="print__object_8c" startline="27" endline="69">assert_print_object</referencedby>
+        <referencedby refid="print__value_8c_1abfbe32805a2d50bc6a85c911525f152d" compoundref="print__value_8c" startline="31" endline="55">assert_print_value</referencedby>
+        <referencedby refid="cJSON_8c_1af72a0b4e3c59e7053859c0c0fe4fcda3" compoundref="cJSON_8c" startline="1091" endline="1168">cJSON_ParseWithLengthOpts</referencedby>
+        <referencedby refid="cJSON_8c_1a367cc7ac5a592211d9f18dc02dd23069" compoundref="cJSON_8c" startline="1437" endline="1532">parse_array</referencedby>
+        <referencedby refid="cJSON_8c_1a1472ac5d1becd7d9a5e558b4c053b06a" compoundref="cJSON_8c" startline="1597" endline="1707">parse_object</referencedby>
+        <referencedby refid="cJSON_8c_1adf47b520af96d1bbefa2390016fbdb51" compoundref="cJSON_8c" startline="769" endline="895">parse_string</referencedby>
+        <referencedby refid="misc__tests_8c_1aaa54a6f0b84327a5262ca0b44a0ff273" compoundref="misc__tests_8c" startline="466" endline="476">skip_utf8_bom_should_not_skip_bom_if_not_at_beginning</referencedby>
+        <referencedby refid="misc__tests_8c_1a166961a221072362ff4df8264917ef0a" compoundref="misc__tests_8c" startline="454" endline="464">skip_utf8_bom_should_skip_bom</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>parse_buffer</label>
+        <link refid="structparse__buffer"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>content</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>depth</edgelabel>
+          <edgelabel>length</edgelabel>
+          <edgelabel>offset</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>hooks</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>void *(*)(void *pointer, size_t size)</label>
+      </node>
+      <node id="3">
+        <label>size_t</label>
+      </node>
+      <node id="6">
+        <label>void *(*)(size_t size)</label>
+      </node>
+      <node id="7">
+        <label>void(*)(void *pointer)</label>
+      </node>
+      <node id="2">
+        <label>const unsigned char *</label>
+      </node>
+      <node id="4">
+        <label>internal_hooks</label>
+        <link refid="structinternal__hooks"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>reallocate</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>allocate</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>deallocate</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cJSON.c" line="287" column="1" bodyfile="cJSON.c" bodystart="288" bodyend="294"/>
+    <listofallmembers>
+      <member refid="structparse__buffer_1a52ee1184576baa3d5171059ab0e942de" prot="public" virt="non-virtual"><scope>parse_buffer</scope><name>content</name></member>
+      <member refid="structparse__buffer_1af613c4ed7d73f76c60c50d1bcf4c67a0" prot="public" virt="non-virtual"><scope>parse_buffer</scope><name>depth</name></member>
+      <member refid="structparse__buffer_1a2c3e99b15da2935fc5d58124ffb4a894" prot="public" virt="non-virtual"><scope>parse_buffer</scope><name>hooks</name></member>
+      <member refid="structparse__buffer_1a036970e9335896d3cee8459eda9e2eb9" prot="public" virt="non-virtual"><scope>parse_buffer</scope><name>length</name></member>
+      <member refid="structparse__buffer_1af727920073077579942a79de519bb31a" prot="public" virt="non-virtual"><scope>parse_buffer</scope><name>offset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

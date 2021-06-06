@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="AllTests_8c" kind="file" language="C++">
+    <compoundname>AllTests.c</compoundname>
+    <includes refid="unity__fixture_8h" local="yes">unity_fixture.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>tests/unity/extras/fixture/test/main/AllTests.c</label>
+        <link refid="AllTests_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>stdint.h</label>
+      </node>
+      <node id="13">
+        <label>stdlib.h</label>
+      </node>
+      <node id="6">
+        <label>setjmp.h</label>
+      </node>
+      <node id="12">
+        <label>stddef.h</label>
+      </node>
+      <node id="9">
+        <label>limits.h</label>
+      </node>
+      <node id="11">
+        <label>unity_fixture_malloc_overrides.h</label>
+        <link refid="unity__fixture__malloc__overrides_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>unity_fixture_internals.h</label>
+        <link refid="unity__fixture__internals_8h"/>
+      </node>
+      <node id="5">
+        <label>../examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="7">
+        <label>math.h</label>
+      </node>
+      <node id="4">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>stdio.h</label>
+      </node>
+      <node id="2">
+        <label>unity_fixture.h</label>
+        <link refid="unity__fixture_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="AllTests_8c_1a7f649b562ed3d6a869db371002a27075" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void runAllTests</definition>
+        <argsstring>(void)</argsstring>
+        <name>runAllTests</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/main/AllTests.c" line="10" column="13" bodyfile="tests/unity/extras/fixture/test/main/AllTests.c" bodystart="10" bodyend="16"/>
+        <referencedby refid="AllTests_8c_1ac0f2228420376f4db7e1274f2b41667c" compoundref="AllTests_8c" startline="18" endline="21">main</referencedby>
+        <referencedby refid="unity__fixture_8h_1a58ec279183697abbd5d3efea3442d4e5" compoundref="unity__fixture_8c" startline="32" endline="49">UnityMain</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="AllTests_8c_1ac0f2228420376f4db7e1274f2b41667c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(int argc, const char *argv[])</argsstring>
+        <name>main</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>argv</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/main/AllTests.c" line="18" column="5" bodyfile="tests/unity/extras/fixture/test/main/AllTests.c" bodystart="18" bodyend="21"/>
+        <references refid="AllTests_8c_1a7f649b562ed3d6a869db371002a27075" compoundref="AllTests_8c" startline="10" endline="16">runAllTests</references>
+        <references refid="unity__fixture_8h_1a58ec279183697abbd5d3efea3442d4e5" compoundref="unity__fixture_8c" startline="32" endline="49">UnityMain</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>Copyright<sp/>(c)<sp/>2010<sp/>James<sp/>Grenning<sp/>and<sp/>Contributed<sp/>to<sp/>Unity<sp/>Project</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>==========================================</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/>Unity<sp/>Project<sp/>-<sp/>A<sp/>Test<sp/>Framework<sp/>for<sp/>C</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Copyright<sp/>(c)<sp/>2007<sp/>Mike<sp/>Karlesky,<sp/>Mark<sp/>VanderVoord,<sp/>Greg<sp/>Williams</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/>[Released<sp/>under<sp/>MIT<sp/>License.<sp/>Please<sp/>refer<sp/>to<sp/>license.txt<sp/>for<sp/>details]</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>==========================================<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity__fixture_8h" kindref="compound">unity_fixture.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="AllTests_8c_1a7f649b562ed3d6a869db371002a27075" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="AllTests_8c_1a7f649b562ed3d6a869db371002a27075" kindref="member">runAllTests</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__fixture_8h_1a7fc679775ab3aaf4dd7302a0a4118202" kindref="member">RUN_TEST_GROUP</ref>(<ref refid="unity__fixture__internals_8h_1a7bb0ff1b1e2f4e56979878609016c11e" kindref="member">UnityFixture</ref>);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__fixture_8h_1a7fc679775ab3aaf4dd7302a0a4118202" kindref="member">RUN_TEST_GROUP</ref>(UnityCommandOptions);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__fixture_8h_1a7fc679775ab3aaf4dd7302a0a4118202" kindref="member">RUN_TEST_GROUP</ref>(LeakDetection);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__fixture_8h_1a7fc679775ab3aaf4dd7302a0a4118202" kindref="member">RUN_TEST_GROUP</ref>(InternalMalloc);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="AllTests_8c_1ac0f2228420376f4db7e1274f2b41667c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="AllTests_8c_1ac0f2228420376f4db7e1274f2b41667c" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>argv[])</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="unity__fixture_8h_1a58ec279183697abbd5d3efea3442d4e5" kindref="member">UnityMain</ref>(argc,<sp/>argv,<sp/><ref refid="AllTests_8c_1a7f649b562ed3d6a869db371002a27075" kindref="member">runAllTests</ref>);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/extras/fixture/test/main/AllTests.c"/>
+  </compounddef>
+</doxygen>

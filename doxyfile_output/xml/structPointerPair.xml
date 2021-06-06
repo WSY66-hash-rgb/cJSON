@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structPointerPair" kind="struct" language="C++" prot="public">
+    <compoundname>PointerPair</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPointerPair_1a2875d2c1a18176e22513cf845e83d85c" prot="public" static="no" mutable="no">
+        <type>void **</type>
+        <definition>void** PointerPair::pointer</definition>
+        <argsstring></argsstring>
+        <name>pointer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.c" line="310" column="10" bodyfile="tests/unity/extras/fixture/src/unity_fixture.c" bodystart="310" bodyend="-1"/>
+        <referencedby refid="unity__fixture__internals_8h_1acd8eb8ea79ad611a9427f35997d8becd" compoundref="unity__fixture_8c" startline="322" endline="335">UnityPointer_Set</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1a378369455928df4fd5101722645953c6" compoundref="unity__fixture_8c" startline="337" endline="345">UnityPointer_UndoAllSets</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structPointerPair_1afa4927f6318fe77182704346b634da13" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* PointerPair::old_value</definition>
+        <argsstring></argsstring>
+        <name>old_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.c" line="311" column="10" bodyfile="tests/unity/extras/fixture/src/unity_fixture.c" bodystart="311" bodyend="-1"/>
+        <referencedby refid="unity__fixture__internals_8h_1acd8eb8ea79ad611a9427f35997d8becd" compoundref="unity__fixture_8c" startline="322" endline="335">UnityPointer_Set</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1a378369455928df4fd5101722645953c6" compoundref="unity__fixture_8c" startline="337" endline="345">UnityPointer_UndoAllSets</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>void *</label>
+      </node>
+      <node id="1">
+        <label>PointerPair</label>
+        <link refid="structPointerPair"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>pointer</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>old_value</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>void **</label>
+      </node>
+    </collaborationgraph>
+    <location file="tests/unity/extras/fixture/src/unity_fixture.c" line="308" column="1" bodyfile="tests/unity/extras/fixture/src/unity_fixture.c" bodystart="309" bodyend="312"/>
+    <listofallmembers>
+      <member refid="structPointerPair_1afa4927f6318fe77182704346b634da13" prot="public" virt="non-virtual"><scope>PointerPair</scope><name>old_value</name></member>
+      <member refid="structPointerPair_1a2875d2c1a18176e22513cf845e83d85c" prot="public" virt="non-virtual"><scope>PointerPair</scope><name>pointer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

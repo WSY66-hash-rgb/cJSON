@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_66e8ac6d04f5286dda2679f7f659841c" kind="dir">
+    <compoundname>tests/unity/test/testdata</compoundname>
+    <innerfile refid="CException_8h">CException.h</innerfile>
+    <innerfile refid="cmock_8h">cmock.h</innerfile>
+    <innerfile refid="Defs_8h">Defs.h</innerfile>
+    <innerfile refid="mockMock_8h">mockMock.h</innerfile>
+    <innerfile refid="testRunnerGenerator_8c">testRunnerGenerator.c</innerfile>
+    <innerfile refid="testRunnerGeneratorSmall_8c">testRunnerGeneratorSmall.c</innerfile>
+    <innerfile refid="testRunnerGeneratorWithMocks_8c">testRunnerGeneratorWithMocks.c</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="tests/unity/test/testdata/"/>
+  </compounddef>
+</doxygen>

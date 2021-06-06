@@ -1,0 +1,18 @@
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wformatoverflow failed with the following output:
+Change Dir: /home/ubuntu/IdeaProjects/data/testbin/projects/cJSON/clang-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ad5d0/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ad5d0.dir/build.make CMakeFiles/cmTC_ad5d0.dir/build
+gmake[1]: Entering directory '/home/ubuntu/IdeaProjects/data/testbin/projects/cJSON/clang-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad5d0.dir/src.c.o
+/home/ubuntu/anaconda3/bin/wllvm   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -DFLAG_SUPPORTED_Wformatoverflow   -Wformat-overflow -o CMakeFiles/cmTC_ad5d0.dir/src.c.o   -c /home/ubuntu/IdeaProjects/data/testbin/projects/cJSON/clang-build/CMakeFiles/CMakeTmp/src.c
+error: unknown warning option '-Wformat-overflow'; did you mean '-Wshift-overflow'? [-Werror,-Wunknown-warning-option]
+ERROR:Failed to compile using given arguments: [-std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wcomma -Wdouble-promotion -Wparentheses -DFLAG_SUPPORTED_Wformatoverflow -Wformat-overflow -o CMakeFiles/cmTC_ad5d0.dir/src.c.o -c /home/ubuntu/IdeaProjects/data/testbin/projects/cJSON/clang-build/CMakeFiles/CMakeTmp/src.c]
+CMakeFiles/cmTC_ad5d0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ad5d0.dir/src.c.o' failed
+gmake[1]: *** [CMakeFiles/cmTC_ad5d0.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/ubuntu/IdeaProjects/data/testbin/projects/cJSON/clang-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ad5d0/fast' failed
+gmake: *** [cmTC_ad5d0/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }

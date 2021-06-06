@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unity__fixture__malloc__overrides_8h" kind="file" language="C++">
+    <compoundname>unity_fixture_malloc_overrides.h</compoundname>
+    <includes local="no">stddef.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includedby refid="unity__fixture_8h" local="yes">tests/unity/extras/fixture/src/unity_fixture.h</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="2">
+        <label>stddef.h</label>
+      </node>
+      <node id="1">
+        <label>tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h</label>
+        <link refid="unity__fixture__malloc__overrides_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>tests/unity/examples/example_2/test/test_runners/TestProductionCode_Runner.c</label>
+        <link refid="example__2_2test_2test__runners_2TestProductionCode__Runner_8c"/>
+      </node>
+      <node id="9">
+        <label>tests/unity/extras/fixture/test/main/AllTests.c</label>
+        <link refid="AllTests_8c"/>
+      </node>
+      <node id="3">
+        <label>tests/unity/examples/example_2/test/test_runners/all_tests.c</label>
+        <link refid="all__tests_8c"/>
+      </node>
+      <node id="12">
+        <label>tests/unity/extras/fixture/test/unity_fixture_TestRunner.c</label>
+        <link refid="unity__fixture__TestRunner_8c"/>
+      </node>
+      <node id="4">
+        <label>tests/unity/examples/example_2/test/test_runners/TestProductionCode2_Runner.c</label>
+        <link refid="example__2_2test_2test__runners_2TestProductionCode2__Runner_8c"/>
+      </node>
+      <node id="10">
+        <label>tests/unity/extras/fixture/test/template_fixture_tests.c</label>
+        <link refid="template__fixture__tests_8c"/>
+      </node>
+      <node id="1">
+        <label>tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h</label>
+        <link refid="unity__fixture__malloc__overrides_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>tests/unity/extras/fixture/test/unity_output_Spy.c</label>
+        <link refid="unity__output__Spy_8c"/>
+      </node>
+      <node id="7">
+        <label>tests/unity/examples/example_2/test/TestProductionCode2.c</label>
+        <link refid="example__2_2test_2TestProductionCode2_8c"/>
+      </node>
+      <node id="11">
+        <label>tests/unity/extras/fixture/test/unity_fixture_Test.c</label>
+        <link refid="unity__fixture__Test_8c"/>
+      </node>
+      <node id="6">
+        <label>tests/unity/examples/example_2/test/TestProductionCode.c</label>
+        <link refid="example__2_2test_2TestProductionCode_8c"/>
+      </node>
+      <node id="8">
+        <label>tests/unity/extras/fixture/src/unity_fixture.c</label>
+        <link refid="unity__fixture_8c"/>
+      </node>
+      <node id="2">
+        <label>tests/unity/extras/fixture/src/unity_fixture.h</label>
+        <link refid="unity__fixture_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="unity__fixture__malloc__overrides_8h_1ab26049f9ba1924f79efb7ccc5a71c020" prot="public" static="no">
+        <name>UNITY_FIXTURE_MALLOC</name>
+        <param><defname>size</defname></param>
+        <initializer><ref refid="unity__fixture__malloc__overrides_8h_1acf143577800376dd931c059ecc61ba06" kindref="member">malloc</ref>(<ref refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" kindref="member">size</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" line="30" column="18" bodyfile="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="unity__fixture__malloc__overrides_8h_1ae40455769ddeba6b0295b7c13be6ea52" prot="public" static="no">
+        <name>UNITY_FIXTURE_FREE</name>
+        <param><defname>ptr</defname></param>
+        <initializer><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(ptr)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" line="31" column="13" bodyfile="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="unity__fixture__malloc__overrides_8h_1acf143577800376dd931c059ecc61ba06" prot="public" static="no">
+        <name>malloc</name>
+        <initializer><ref refid="unity__fixture_8c_1a93ff6fda0f975eb47b8d828bd084f411" kindref="member">unity_malloc</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" line="37" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="unity__fixture__malloc__overrides_8h_1a84beef8cc122add35118ec7cd35286c4" prot="public" static="no">
+        <name>calloc</name>
+        <initializer><ref refid="unity__fixture_8c_1a55e86effa9aaf4a111d6b47684a05369" kindref="member">unity_calloc</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" line="38" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="unity__fixture__malloc__overrides_8h_1a1b739878adcdb46fb5d209af7ce79628" prot="public" static="no">
+        <name>realloc</name>
+        <initializer><ref refid="unity__fixture_8c_1a943255616637b00dbcf8e798acf0ab20" kindref="member">unity_realloc</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" line="39" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" prot="public" static="no">
+        <name>free</name>
+        <initializer><ref refid="unity__fixture_8c_1a34d61a21a177a63f9681e1d89653cc74" kindref="member">unity_free</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" line="40" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="unity__fixture__malloc__overrides_8h_1a93ff6fda0f975eb47b8d828bd084f411" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* unity_malloc</definition>
+        <argsstring>(size_t size)</argsstring>
+        <name>unity_malloc</name>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" line="42" column="6" bodyfile="tests/unity/extras/fixture/src/unity_fixture.c" bodystart="181" bodyend="216" declfile="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" declline="42" declcolumn="6"/>
+        <references refid="unity__fixture_8c_1acc28e141c890270905160748bebdc3ed" compoundref="unity__fixture_8c" startline="179">end</references>
+        <references refid="structGuardBytes_1a96585124a68487455e7fc4990680fbdb" compoundref="unity__fixture_8c" startline="175">GuardBytes::guard_space</references>
+        <references refid="unity__fixture_8c_1a68e8d8ffce2ca197b90ba94adde6efa7" compoundref="unity__fixture_8c" startline="135">malloc_count</references>
+        <references refid="unity__fixture_8c_1a3f1b1eff9064dbe426821f93e435fee5" compoundref="unity__fixture_8c" startline="134">MALLOC_DONT_FAIL</references>
+        <references refid="unity__fixture_8c_1ab7fc308c8a9a276ee6c3b12483663d31" compoundref="unity__fixture_8c" startline="136">malloc_fail_countdown</references>
+        <references refid="structGuardBytes_1aaaa61ece04c10796769dfb24d15227dc" compoundref="unity__fixture_8c" startline="174">GuardBytes::size</references>
+        <references refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" compoundref="unity__output__Spy_8c" startline="15">size</references>
+        <references refid="unity__fixture__malloc__overrides_8h_1ab26049f9ba1924f79efb7ccc5a71c020" compoundref="unity__fixture__malloc__overrides_8h" startline="30">UNITY_FIXTURE_MALLOC</references>
+        <referencedby refid="unity__fixture__Test_8c_1abd69643a685b46777bd9a2ba39338b20" compoundref="unity__fixture__Test_8c" startline="47" endline="57">TEST</referencedby>
+        <referencedby refid="unity__fixture__malloc__overrides_8h_1a55e86effa9aaf4a111d6b47684a05369" compoundref="unity__fixture_8c" startline="260" endline="266">unity_calloc</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="unity__fixture__malloc__overrides_8h_1a55e86effa9aaf4a111d6b47684a05369" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* unity_calloc</definition>
+        <argsstring>(size_t num, size_t size)</argsstring>
+        <name>unity_calloc</name>
+        <param>
+          <type>size_t</type>
+          <declname>num</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" line="43" column="6" bodyfile="tests/unity/extras/fixture/src/unity_fixture.c" bodystart="260" bodyend="266" declfile="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" declline="43" declcolumn="6"/>
+        <references refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" compoundref="unity__output__Spy_8c" startline="15">size</references>
+        <references refid="unity__fixture__malloc__overrides_8h_1a93ff6fda0f975eb47b8d828bd084f411" compoundref="unity__fixture_8c" startline="181" endline="216">unity_malloc</references>
+        <referencedby refid="unity__fixture__Test_8c_1a0bc093afbc24f24d70ecf9bc721a1344" compoundref="unity__fixture__Test_8c" startline="101" endline="110">TEST</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="unity__fixture__malloc__overrides_8h_1a943255616637b00dbcf8e798acf0ab20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* unity_realloc</definition>
+        <argsstring>(void *oldMem, size_t size)</argsstring>
+        <name>unity_realloc</name>
+        <param>
+          <type>void *</type>
+          <declname>oldMem</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" line="44" column="6" bodyfile="tests/unity/extras/fixture/src/unity_fixture.c" bodystart="268" bodyend="303" declfile="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" declline="44" declcolumn="6"/>
+        <referencedby refid="unity__fixture__Test_8c_1aea04b21650a2c88c5d011c414356399b" compoundref="unity__fixture__Test_8c" startline="59" endline="65">TEST</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="unity__fixture__malloc__overrides_8h_1a34d61a21a177a63f9681e1d89653cc74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void unity_free</definition>
+        <argsstring>(void *mem)</argsstring>
+        <name>unity_free</name>
+        <param>
+          <type>void *</type>
+          <declname>mem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" line="45" column="6" bodyfile="tests/unity/extras/fixture/src/unity_fixture.c" bodystart="243" bodyend="258" declfile="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h" declline="45" declcolumn="6"/>
+        <references refid="structUNITY__STORAGE__T_1aeb87d29c27b7befe4a1dc98e4c0df985" compoundref="unity__internals_8h" startline="391">UNITY_STORAGE_T::CurrentTestLineNumber</references>
+        <references refid="unity__fixture_8c_1a6f3beab996c5abbecb5d9ed6950cf13d" compoundref="unity__fixture_8c" startline="218" endline="225">isOverrun</references>
+        <references refid="unity__fixture_8c_1a074a56afb3ebceadda65ee87911e4b68" compoundref="unity__fixture_8c" startline="227" endline="241">release_memory</references>
+        <references refid="unity__internals_8h_1aad738f665f16eb2336b8bc33f432d0da" compoundref="unity_8c" startline="21">Unity</references>
+        <references refid="unity__internals_8h_1a3d31f0df7b97fe0bed97d15583042aa4" compoundref="unity__internals_8h" startline="645">UNITY_TEST_FAIL</references>
+        <referencedby refid="unity__fixture__Test_8c_1abd69643a685b46777bd9a2ba39338b20" compoundref="unity__fixture__Test_8c" startline="47" endline="57">TEST</referencedby>
+        <referencedby refid="unity__output__Spy_8h_1a0915ac11fce4fd69d1c961c7cd050f8e" compoundref="unity__output__Spy_8c" startline="30" endline="34">UnityOutputCharSpy_Destroy</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>Copyright<sp/>(c)<sp/>2010<sp/>James<sp/>Grenning<sp/>and<sp/>Contributed<sp/>to<sp/>Unity<sp/>Project</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>==========================================</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/>Unity<sp/>Project<sp/>-<sp/>A<sp/>Test<sp/>Framework<sp/>for<sp/>C</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Copyright<sp/>(c)<sp/>2007<sp/>Mike<sp/>Karlesky,<sp/>Mark<sp/>VanderVoord,<sp/>Greg<sp/>Williams</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/>[Released<sp/>under<sp/>MIT<sp/>License.<sp/>Please<sp/>refer<sp/>to<sp/>license.txt<sp/>for<sp/>details]</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>==========================================<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>UNITY_FIXTURE_MALLOC_OVERRIDES_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UNITY_FIXTURE_MALLOC_OVERRIDES_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>UNITY_EXCLUDE_STDLIB_MALLOC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>this<sp/>macro<sp/>to<sp/>remove<sp/>the<sp/>use<sp/>of<sp/>stdlib.h,<sp/>malloc,<sp/>and<sp/>free.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Many<sp/>embedded<sp/>systems<sp/>do<sp/>not<sp/>have<sp/>a<sp/>heap<sp/>or<sp/>malloc/free<sp/>by<sp/>default.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>This<sp/>internal<sp/>unity_malloc()<sp/>provides<sp/>allocated<sp/>memory<sp/>deterministically<sp/>from</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>the<sp/>end<sp/>of<sp/>an<sp/>array<sp/>only,<sp/>unity_free()<sp/>only<sp/>releases<sp/>from<sp/>end-of-array,</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>blocks<sp/>are<sp/>not<sp/>coalesced,<sp/>and<sp/>memory<sp/>not<sp/>freed<sp/>in<sp/>LIFO<sp/>order<sp/>is<sp/>stranded.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#ifndef<sp/>UNITY_INTERNAL_HEAP_SIZE_BYTES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>UNITY_INTERNAL_HEAP_SIZE_BYTES<sp/>256</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>These<sp/>functions<sp/>are<sp/>used<sp/>by<sp/>the<sp/>Unity<sp/>Fixture<sp/>to<sp/>allocate<sp/>and<sp/>release<sp/>memory</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>on<sp/>the<sp/>heap<sp/>and<sp/>can<sp/>be<sp/>overridden<sp/>with<sp/>platform-specific<sp/>implementations.</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>For<sp/>example,<sp/>when<sp/>using<sp/>FreeRTOS<sp/>UNITY_FIXTURE_MALLOC<sp/>becomes<sp/>pvPortMalloc()</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>and<sp/>UNITY_FIXTURE_FREE<sp/>becomes<sp/>vPortFree().<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(UNITY_FIXTURE_MALLOC)<sp/>||<sp/>!defined(UNITY_FIXTURE_FREE)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="unity__fixture__malloc__overrides_8h_1ab26049f9ba1924f79efb7ccc5a71c020" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>UNITY_FIXTURE_MALLOC(size)<sp/>malloc(size)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="unity__fixture__malloc__overrides_8h_1ae40455769ddeba6b0295b7c13be6ea52" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>UNITY_FIXTURE_FREE(ptr)<sp/><sp/><sp/><sp/>free(ptr)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="unity__fixture__malloc__overrides_8h_1ab26049f9ba1924f79efb7ccc5a71c020" kindref="member">UNITY_FIXTURE_MALLOC</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" kindref="member">size</ref>);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="unity__fixture__malloc__overrides_8h_1ae40455769ddeba6b0295b7c13be6ea52" kindref="member">UNITY_FIXTURE_FREE</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>ptr);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="unity__fixture__malloc__overrides_8h_1acf143577800376dd931c059ecc61ba06" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>malloc<sp/><sp/>unity_malloc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="unity__fixture__malloc__overrides_8h_1a84beef8cc122add35118ec7cd35286c4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>calloc<sp/><sp/>unity_calloc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="unity__fixture__malloc__overrides_8h_1a1b739878adcdb46fb5d209af7ce79628" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>realloc<sp/>unity_realloc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>free<sp/><sp/><sp/><sp/>unity_free</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="unity__fixture__malloc__overrides_8h_1a93ff6fda0f975eb47b8d828bd084f411" kindref="member">unity_malloc</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" kindref="member">size</ref>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="unity__fixture__malloc__overrides_8h_1a55e86effa9aaf4a111d6b47684a05369" kindref="member">unity_calloc</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" kindref="member">size</ref>);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="unity__fixture__malloc__overrides_8h_1a943255616637b00dbcf8e798acf0ab20" kindref="member">unity_realloc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>oldMem,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" kindref="member">size</ref>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a34d61a21a177a63f9681e1d89653cc74" kindref="member">unity_free</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>mem);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>UNITY_FIXTURE_MALLOC_OVERRIDES_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/extras/fixture/src/unity_fixture_malloc_overrides.h"/>
+  </compounddef>
+</doxygen>

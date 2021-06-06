@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c" kind="file" language="C++">
+    <compoundname>TestProductionCode2_Runner.c</compoundname>
+    <includes refid="unity_8h" local="yes">unity.h</includes>
+    <includes local="no">setjmp.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="yes">ProductionCode2.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c</label>
+        <link refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>setjmp.h</label>
+      </node>
+      <node id="10">
+        <label>ProductionCode2.h</label>
+      </node>
+      <node id="8">
+        <label>limits.h</label>
+      </node>
+      <node id="4">
+        <label>../examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="6">
+        <label>math.h</label>
+      </node>
+      <node id="3">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" prot="public" static="no">
+        <name>RUN_TEST</name>
+        <param><defname>TestFunc</defname></param>
+        <param><defname>TestLineNum</defname></param>
+        <initializer>{ \
+  Unity.CurrentTestName = #TestFunc; \
+  Unity.CurrentTestLineNumber = TestLineNum; \
+  Unity.NumberOfTests++; \
+  if (<ref refid="unity__internals_8h_1a61d21043921ebc1c2ee49543fc100f9a" kindref="member">TEST_PROTECT</ref>()) \
+  { \
+      <ref refid="unity__setup_8c_1a95c834d6178047ce9e1bce7cbfea2836" kindref="member">setUp</ref>(); \
+      TestFunc(); \
+  } \
+  if (<ref refid="unity__internals_8h_1a61d21043921ebc1c2ee49543fc100f9a" kindref="member">TEST_PROTECT</ref>()) \
+  { \
+    <ref refid="unity__setup_8c_1a9909011e5fea0c018842eec4d93d0662" kindref="member">tearDown</ref>(); \
+  } \
+  <ref refid="unity_8c_1a44f03f0124e59f6996da61946cc2a58e" kindref="member">UnityConcludeTest</ref>(); \
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c" line="4" column="9" bodyfile="tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1a95c834d6178047ce9e1bce7cbfea2836" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void setUp</definition>
+        <argsstring>(void)</argsstring>
+        <name>setUp</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c" line="28" column="13" bodyfile="tests/unity/examples/example_1/test/TestProductionCode.c" bodystart="10" bodyend="14" declfile="tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c" declline="28" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1a9909011e5fea0c018842eec4d93d0662" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tearDown</definition>
+        <argsstring>(void)</argsstring>
+        <name>tearDown</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c" line="29" column="13" bodyfile="tests/unity/examples/example_1/test/TestProductionCode.c" bodystart="16" bodyend="18" declfile="tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c" declline="29" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1a65541f73460fe081dd6dfc3be9767a7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void test_IgnoredTest</definition>
+        <argsstring>(void)</argsstring>
+        <name>test_IgnoredTest</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c" line="30" column="13" bodyfile="tests/unity/examples/example_1/test/TestProductionCode2.c" bodystart="18" bodyend="21" declfile="tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c" declline="30" declcolumn="13"/>
+        <referencedby refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c" startline="45" endline="53">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1ad80aaa9b02b40532fa33ed7313010081" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void test_AnotherIgnoredTest</definition>
+        <argsstring>(void)</argsstring>
+        <name>test_AnotherIgnoredTest</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c" line="31" column="13" bodyfile="tests/unity/examples/example_1/test/TestProductionCode2.c" bodystart="23" bodyend="26" declfile="tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c" declline="31" declcolumn="13"/>
+        <referencedby refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c" startline="45" endline="53">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1ad7b328b8360b0f1672df66b25ba34a0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void test_ThisFunctionHasNotBeenTested_NeedsToBeImplemented</definition>
+        <argsstring>(void)</argsstring>
+        <name>test_ThisFunctionHasNotBeenTested_NeedsToBeImplemented</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c" line="32" column="13" bodyfile="tests/unity/examples/example_1/test/TestProductionCode2.c" bodystart="28" bodyend="31" declfile="tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c" declline="32" declcolumn="13"/>
+        <referencedby refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c" startline="45" endline="53">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1afb3a9b98e779c4f69e72aca5aa9fa1d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void resetTest</definition>
+        <argsstring>(void)</argsstring>
+        <name>resetTest</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c" line="37" column="6" bodyfile="tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c" bodystart="37" bodyend="41" declfile="tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c" declline="36" declcolumn="6"/>
+        <references refid="unity_8h_1a95c834d6178047ce9e1bce7cbfea2836" compoundref="example__1_2test_2TestProductionCode_8c" startline="10" endline="14">setUp</references>
+        <references refid="unity_8h_1a9909011e5fea0c018842eec4d93d0662" compoundref="example__1_2test_2TestProductionCode_8c" startline="16" endline="18">tearDown</references>
+      </memberdef>
+      <memberdef kind="function" id="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1a840291bc02cba5474a4cb46a9b9566fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(void)</argsstring>
+        <name>main</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c" line="45" column="5" bodyfile="tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c" bodystart="45" bodyend="53"/>
+        <references refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1ad80aaa9b02b40532fa33ed7313010081" compoundref="example__1_2test_2TestProductionCode2_8c" startline="23" endline="26">test_AnotherIgnoredTest</references>
+        <references refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1a65541f73460fe081dd6dfc3be9767a7d" compoundref="example__1_2test_2TestProductionCode2_8c" startline="18" endline="21">test_IgnoredTest</references>
+        <references refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1ad7b328b8360b0f1672df66b25ba34a0d" compoundref="example__1_2test_2TestProductionCode2_8c" startline="28" endline="31">test_ThisFunctionHasNotBeenTested_NeedsToBeImplemented</references>
+        <references refid="unity__internals_8h_1aed50601fbdaea8fc0fef0c61cf877809" compoundref="unity_8c" startline="1349" endline="1362">UnityBegin</references>
+        <references refid="unity__internals_8h_1a4820ba04ff5e9a474fe38ab6633d30a0" compoundref="unity_8c" startline="1365" endline="1392">UnityEnd</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>AUTOGENERATED<sp/>FILE.<sp/>DO<sp/>NOT<sp/>EDIT.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">/*=======Test<sp/>Runner<sp/>Used<sp/>To<sp/>Run<sp/>Each<sp/>Test<sp/>Below=====*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RUN_TEST(TestFunc,<sp/>TestLineNum)<sp/>\</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor">{<sp/>\</highlight></codeline>
+<codeline lineno="6"><highlight class="preprocessor"><sp/><sp/>Unity.CurrentTestName<sp/>=<sp/>#TestFunc;<sp/>\</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"><sp/><sp/>Unity.CurrentTestLineNumber<sp/>=<sp/>TestLineNum;<sp/>\</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"><sp/><sp/>Unity.NumberOfTests++;<sp/>\</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"><sp/><sp/>if<sp/>(TEST_PROTECT())<sp/>\</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"><sp/><sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>setUp();<sp/>\</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>TestFunc();<sp/>\</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"><sp/><sp/>}<sp/>\</highlight></codeline>
+<codeline lineno="14"><highlight class="preprocessor"><sp/><sp/>if<sp/>(TEST_PROTECT())<sp/>\</highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor"><sp/><sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>tearDown();<sp/>\</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"><sp/><sp/>}<sp/>\</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"><sp/><sp/>UnityConcludeTest();<sp/>\</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor">}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">/*=======Automagically<sp/>Detected<sp/>Files<sp/>To<sp/>Include=====*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity_8h" kindref="compound">unity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;setjmp.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ProductionCode2.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">/*=======External<sp/>Functions<sp/>This<sp/>Runner<sp/>Calls=====*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1a95c834d6178047ce9e1bce7cbfea2836" kindref="member">setUp</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1a9909011e5fea0c018842eec4d93d0662" kindref="member">tearDown</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1a65541f73460fe081dd6dfc3be9767a7d" kindref="member">test_IgnoredTest</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1ad80aaa9b02b40532fa33ed7313010081" kindref="member">test_AnotherIgnoredTest</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1ad7b328b8360b0f1672df66b25ba34a0d" kindref="member">test_ThisFunctionHasNotBeenTested_NeedsToBeImplemented</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">/*=======Test<sp/>Reset<sp/>Option=====*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1afb3a9b98e779c4f69e72aca5aa9fa1d7" kindref="member">resetTest</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37" refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1afb3a9b98e779c4f69e72aca5aa9fa1d7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1afb3a9b98e779c4f69e72aca5aa9fa1d7" kindref="member">resetTest</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1a9909011e5fea0c018842eec4d93d0662" kindref="member">tearDown</ref>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1a95c834d6178047ce9e1bce7cbfea2836" kindref="member">setUp</ref>();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">/*=======MAIN=====*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1a840291bc02cba5474a4cb46a9b9566fe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1a840291bc02cba5474a4cb46a9b9566fe" kindref="member">main</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><ref refid="unity__internals_8h_1aed50601fbdaea8fc0fef0c61cf877809" kindref="member">UnityBegin</ref>(</highlight><highlight class="stringliteral">&quot;test/TestProductionCode2.c&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1a65541f73460fe081dd6dfc3be9767a7d" kindref="member">test_IgnoredTest</ref>,<sp/>18);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1ad80aaa9b02b40532fa33ed7313010081" kindref="member">test_AnotherIgnoredTest</ref>,<sp/>23);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1ad7b328b8360b0f1672df66b25ba34a0d" kindref="member">test_ThisFunctionHasNotBeenTested_NeedsToBeImplemented</ref>,<sp/>28);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="unity__internals_8h_1a4820ba04ff5e9a474fe38ab6633d30a0" kindref="member">UnityEnd</ref>());</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c"/>
+  </compounddef>
+</doxygen>

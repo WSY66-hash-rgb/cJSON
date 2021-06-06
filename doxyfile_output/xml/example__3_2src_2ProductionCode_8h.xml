@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="example__3_2src_2ProductionCode_8h" kind="file" language="C++">
+    <compoundname>ProductionCode.h</compoundname>
+    <includedby refid="example__3_2src_2ProductionCode_8c" local="yes">tests/unity/examples/example_3/src/ProductionCode.c</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>tests/unity/examples/example_3/src/ProductionCode.c</label>
+        <link refid="example__3_2src_2ProductionCode_8c"/>
+      </node>
+      <node id="1">
+        <label>tests/unity/examples/example_3/src/ProductionCode.h</label>
+        <link refid="example__3_2src_2ProductionCode_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="example__3_2src_2ProductionCode_8h_1adcb2cff68b396cd27ab1b16a1139d696" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int FindFunction_WhichIsBroken</definition>
+        <argsstring>(int NumberToFind)</argsstring>
+        <name>FindFunction_WhichIsBroken</name>
+        <param>
+          <type>int</type>
+          <declname>NumberToFind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_3/src/ProductionCode.h" line="2" column="5" bodyfile="tests/unity/examples/example_1/src/ProductionCode.c" bodystart="11" bodyend="19" declfile="tests/unity/examples/example_3/src/ProductionCode.h" declline="2" declcolumn="5"/>
+        <references refid="example__1_2src_2ProductionCode_8c_1a3514af4f93461af05b73b6a19cfd4780" compoundref="example__1_2src_2ProductionCode_8c" startline="5">NumbersToFind</references>
+        <referencedby refid="example__2_2test_2TestProductionCode_8c_1a23f272a21457354491c09ad58febd2ea" compoundref="example__2_2test_2TestProductionCode_8c" startline="22" endline="30">TEST</referencedby>
+        <referencedby refid="example__1_2test_2test__runners_2TestProductionCode__Runner_8c_1aefb77df5c263e7f0d0983c5adb2fee34" compoundref="example__1_2test_2TestProductionCode_8c" startline="30" endline="39">test_FindFunction_WhichIsBroken_ShouldReturnTheIndexForItemsInList_WhichWillFailBecauseOurFunctionUnderTestIsBroken</referencedby>
+        <referencedby refid="example__1_2test_2test__runners_2TestProductionCode__Runner_8c_1a456db30f72bd3d195f6186e354d48d52" compoundref="example__1_2test_2TestProductionCode_8c" startline="20" endline="28">test_FindFunction_WhichIsBroken_ShouldReturnZeroIfItemIsNotInList_WhichWorksEvenInOurBrokenCode</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="example__3_2src_2ProductionCode_8h_1a76defbd7150d0c294cdc91f797b60245" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int FunctionWhichReturnsLocalVariable</definition>
+        <argsstring>(void)</argsstring>
+        <name>FunctionWhichReturnsLocalVariable</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_3/src/ProductionCode.h" line="3" column="5" bodyfile="tests/unity/examples/example_1/src/ProductionCode.c" bodystart="21" bodyend="24" declfile="tests/unity/examples/example_3/src/ProductionCode.h" declline="3" declcolumn="5"/>
+        <references refid="example__1_2src_2ProductionCode_8c_1a8da6d6b33b7597f02434fedca1781cbc" compoundref="example__1_2src_2ProductionCode_8c" startline="4">Counter</references>
+        <referencedby refid="example__2_2test_2TestProductionCode_8c_1a9cf5bf2d60d8b3ac495494f074f8c2c4" compoundref="example__2_2test_2TestProductionCode_8c" startline="43" endline="51">TEST</referencedby>
+        <referencedby refid="example__1_2test_2test__runners_2TestProductionCode__Runner_8c_1acd3888c1cd44175194b4d27a5b0aed2e" compoundref="example__1_2test_2TestProductionCode_8c" startline="57" endline="62">test_FunctionWhichReturnsLocalVariable_ShouldReturnCurrentCounter_ButFailsBecauseThisTestIsActuallyFlawed</referencedby>
+        <referencedby refid="example__1_2test_2test__runners_2TestProductionCode__Runner_8c_1aa785dc87e720eb7802a3d95f1cb32496" compoundref="example__1_2test_2TestProductionCode_8c" startline="41" endline="49">test_FunctionWhichReturnsLocalVariable_ShouldReturnTheCurrentCounterValue</referencedby>
+        <referencedby refid="example__1_2test_2test__runners_2TestProductionCode__Runner_8c_1a7e3355b3a7e19feff586380e64271aa5" compoundref="example__1_2test_2TestProductionCode_8c" startline="51" endline="55">test_FunctionWhichReturnsLocalVariable_ShouldReturnTheCurrentCounterValueAgain</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="example__1_2src_2ProductionCode_8h_1adcb2cff68b396cd27ab1b16a1139d696" kindref="member">FindFunction_WhichIsBroken</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>NumberToFind);</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="example__1_2src_2ProductionCode_8h_1a76defbd7150d0c294cdc91f797b60245" kindref="member">FunctionWhichReturnsLocalVariable</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/examples/example_3/src/ProductionCode.h"/>
+  </compounddef>
+</doxygen>

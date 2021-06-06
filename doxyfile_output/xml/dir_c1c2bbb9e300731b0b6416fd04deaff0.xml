@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_c1c2bbb9e300731b0b6416fd04deaff0" kind="dir">
+    <compoundname>tests/unity/examples/example_3/test</compoundname>
+    <innerfile refid="example__3_2test_2TestProductionCode_8c">TestProductionCode.c</innerfile>
+    <innerfile refid="example__3_2test_2TestProductionCode2_8c">TestProductionCode2.c</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="tests/unity/examples/example_3/test/"/>
+  </compounddef>
+</doxygen>

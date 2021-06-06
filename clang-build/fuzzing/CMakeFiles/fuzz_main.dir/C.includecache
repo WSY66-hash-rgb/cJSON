@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/IdeaProjects/data/testbin/projects/cJSON/cJSON.h
+stddef.h
+-
+
+/home/ubuntu/IdeaProjects/data/testbin/projects/cJSON/fuzzing/cjson_read_fuzzer.c
+stdlib.h
+-
+stdint.h
+-
+string.h
+-
+../cJSON.h
+/home/ubuntu/IdeaProjects/data/testbin/projects/cJSON/cJSON.h
+
+/home/ubuntu/IdeaProjects/data/testbin/projects/cJSON/fuzzing/fuzz_main.c
+stdint.h
+-
+stdio.h
+-
+stdlib.h
+-
+

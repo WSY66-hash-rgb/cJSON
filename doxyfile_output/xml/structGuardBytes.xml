@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structGuardBytes" kind="struct" language="C++" prot="public">
+    <compoundname>GuardBytes</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structGuardBytes_1aaaa61ece04c10796769dfb24d15227dc" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t GuardBytes::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.c" line="174" column="12" bodyfile="tests/unity/extras/fixture/src/unity_fixture.c" bodystart="174" bodyend="-1"/>
+        <referencedby refid="unity__fixture_8c_1a6f3beab996c5abbecb5d9ed6950cf13d" compoundref="unity__fixture_8c" startline="218" endline="225">isOverrun</referencedby>
+        <referencedby refid="unity__fixture__malloc__overrides_8h_1a93ff6fda0f975eb47b8d828bd084f411" compoundref="unity__fixture_8c" startline="181" endline="216">unity_malloc</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structGuardBytes_1a96585124a68487455e7fc4990680fbdb" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t GuardBytes::guard_space</definition>
+        <argsstring></argsstring>
+        <name>guard_space</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture.c" line="175" column="12" bodyfile="tests/unity/extras/fixture/src/unity_fixture.c" bodystart="175" bodyend="-1"/>
+        <referencedby refid="unity__fixture_8c_1a6f3beab996c5abbecb5d9ed6950cf13d" compoundref="unity__fixture_8c" startline="218" endline="225">isOverrun</referencedby>
+        <referencedby refid="unity__fixture__malloc__overrides_8h_1a93ff6fda0f975eb47b8d828bd084f411" compoundref="unity__fixture_8c" startline="181" endline="216">unity_malloc</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>size_t</label>
+      </node>
+      <node id="1">
+        <label>GuardBytes</label>
+        <link refid="structGuardBytes"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>guard_space</edgelabel>
+          <edgelabel>size</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="tests/unity/extras/fixture/src/unity_fixture.c" line="172" column="1" bodyfile="tests/unity/extras/fixture/src/unity_fixture.c" bodystart="173" bodyend="176"/>
+    <listofallmembers>
+      <member refid="structGuardBytes_1a96585124a68487455e7fc4990680fbdb" prot="public" virt="non-virtual"><scope>GuardBytes</scope><name>guard_space</name></member>
+      <member refid="structGuardBytes_1aaaa61ece04c10796769dfb24d15227dc" prot="public" virt="non-virtual"><scope>GuardBytes</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

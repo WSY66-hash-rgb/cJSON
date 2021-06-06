@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unity__setup_8c" kind="file" language="C++">
+    <compoundname>unity_setup.c</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="unity__setup_8c_1a95c834d6178047ce9e1bce7cbfea2836" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void setUp</definition>
+        <argsstring>(void)</argsstring>
+        <name>setUp</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity_setup.c" line="2" column="6" bodyfile="tests/unity_setup.c" bodystart="2" bodyend="2"/>
+        <references refid="example__1_2src_2ProductionCode_8c_1a8da6d6b33b7597f02434fedca1781cbc" compoundref="example__1_2src_2ProductionCode_8c" startline="4">Counter</references>
+        <referencedby refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1afb3a9b98e779c4f69e72aca5aa9fa1d7" compoundref="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c" startline="37" endline="41">resetTest</referencedby>
+        <referencedby refid="unity__internals_8h_1ae3c8272eef0f0b6228ca47b9dd1aa2af" compoundref="unity_8c" startline="1330" endline="1346">UnityDefaultTestRun</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="unity__setup_8c_1a9909011e5fea0c018842eec4d93d0662" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tearDown</definition>
+        <argsstring>(void)</argsstring>
+        <name>tearDown</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity_setup.c" line="3" column="6" bodyfile="tests/unity_setup.c" bodystart="3" bodyend="3"/>
+        <referencedby refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1afb3a9b98e779c4f69e72aca5aa9fa1d7" compoundref="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c" startline="37" endline="41">resetTest</referencedby>
+        <referencedby refid="unity__internals_8h_1ae3c8272eef0f0b6228ca47b9dd1aa2af" compoundref="unity_8c" startline="1330" endline="1346">UnityDefaultTestRun</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>msvc<sp/>doesn&apos;t<sp/>support<sp/>weak-linking,<sp/>so<sp/>we<sp/>need<sp/>to<sp/>define<sp/>these<sp/>functions.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2" refid="unity__setup_8c_1a95c834d6178047ce9e1bce7cbfea2836" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="unity__setup_8c_1a95c834d6178047ce9e1bce7cbfea2836" kindref="member">setUp</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="3" refid="unity__setup_8c_1a9909011e5fea0c018842eec4d93d0662" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="unity__setup_8c_1a9909011e5fea0c018842eec4d93d0662" kindref="member">tearDown</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{<sp/>}</highlight></codeline>
+    </programlisting>
+    <location file="tests/unity_setup.c"/>
+  </compounddef>
+</doxygen>

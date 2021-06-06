@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="misc__utils__tests_8c" kind="file" language="C++">
+    <compoundname>misc_utils_tests.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes refid="unity__config_8h" local="yes">unity/examples/unity_config.h</includes>
+    <includes refid="unity_8h" local="yes">unity/src/unity.h</includes>
+    <includes refid="common_8h" local="yes">common.h</includes>
+    <includes refid="cJSON__Utils_8h" local="yes">../cJSON_Utils.h</includes>
+    <incdepgraph>
+      <node id="18">
+        <label>../cJSON_Utils.h</label>
+        <link refid="cJSON__Utils_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>float.h</label>
+      </node>
+      <node id="13">
+        <label>../cJSON.c</label>
+        <link refid="cJSON_8c"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>cJSON.h</label>
+        <link refid="cJSON_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>stdint.h</label>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="8">
+        <label>setjmp.h</label>
+      </node>
+      <node id="12">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>stddef.h</label>
+      </node>
+      <node id="11">
+        <label>limits.h</label>
+      </node>
+      <node id="1">
+        <label>tests/misc_utils_tests.c</label>
+        <link refid="misc__utils__tests_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+      <node id="5">
+        <label>unity/examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="9">
+        <label>math.h</label>
+      </node>
+      <node id="7">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>unity/src/unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>ctype.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="misc__utils__tests_8c_1a78a9e6deb564e73bdb8d641a59456898" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void cjson_utils_functions_shouldnt_crash_with_null_pointers</definition>
+        <argsstring>(void)</argsstring>
+        <name>cjson_utils_functions_shouldnt_crash_with_null_pointers</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/misc_utils_tests.c" line="32" column="13" bodyfile="tests/misc_utils_tests.c" bodystart="32" bodyend="71"/>
+        <references refid="cJSON_8c_1a5987bbc1c94d9f602d719a4015ff0e6c" compoundref="cJSON_8c" startline="2446" endline="2461">cJSON_CreateString</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON__Utils_8c_1a9df65351d73c14fff4c7c3717b03a222" compoundref="cJSON__Utils_8c" startline="1136" endline="1139">cJSONUtils_AddPatchToArray</references>
+        <references refid="cJSON__Utils_8c_1a641cb4552c85b29763cd604be0b3e2e1" compoundref="cJSON__Utils_8c" startline="1038" endline="1065">cJSONUtils_ApplyPatches</references>
+        <references refid="cJSON__Utils_8c_1aedc0555c83da63f2cf2418ed371cfcab" compoundref="cJSON__Utils_8c" startline="1067" endline="1094">cJSONUtils_ApplyPatchesCaseSensitive</references>
+        <references refid="cJSON__Utils_8c_1a77e7485a5ded70768f9deb7ccde950bd" compoundref="cJSON__Utils_8c" startline="198" endline="259">cJSONUtils_FindPointerFromObjectTo</references>
+        <references refid="cJSON__Utils_8c_1a33b9d8e8460ad8334278651727a27866" compoundref="cJSON__Utils_8c" startline="1281" endline="1294">cJSONUtils_GeneratePatches</references>
+        <references refid="cJSON__Utils_8c_1ae6ffc4b4590ab520f4d44fccfcf79323" compoundref="cJSON__Utils_8c" startline="1296" endline="1309">cJSONUtils_GeneratePatchesCaseSensitive</references>
+        <references refid="cJSON__Utils_8c_1a08336023772bc23fe9957c285446ab90" compoundref="cJSON__Utils_8c" startline="348" endline="351">cJSONUtils_GetPointer</references>
+        <references refid="cJSON__Utils_8c_1a7a6b41024e0ea635bd14451d68870db2" compoundref="cJSON__Utils_8c" startline="353" endline="356">cJSONUtils_GetPointerCaseSensitive</references>
+        <references refid="cJSON__Utils_8c_1a2020aa55140d2520acafb82b5b2e3145" compoundref="cJSON__Utils_8c" startline="1380" endline="1383">cJSONUtils_MergePatch</references>
+        <references refid="cJSON__Utils_8c_1a8a3c24bc764ddcb255995dca6f148236" compoundref="cJSON__Utils_8c" startline="1385" endline="1388">cJSONUtils_MergePatchCaseSensitive</references>
+        <references refid="cJSON__Utils_8c_1a405a912a1ac38c57ce587e25e68c1fea" compoundref="cJSON__Utils_8c" startline="1311" endline="1314">cJSONUtils_SortObject</references>
+        <references refid="cJSON__Utils_8c_1a0b653f6de92e7b51100457251ab15402" compoundref="cJSON__Utils_8c" startline="1316" endline="1319">cJSONUtils_SortObjectCaseSensitive</references>
+        <referencedby refid="misc__utils__tests_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="misc__utils__tests_8c" startline="73" endline="80">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="misc__utils__tests_8c_1a840291bc02cba5474a4cb46a9b9566fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(void)</argsstring>
+        <name>main</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/misc_utils_tests.c" line="73" column="5" bodyfile="tests/misc_utils_tests.c" bodystart="73" bodyend="80"/>
+        <references refid="misc__utils__tests_8c_1a78a9e6deb564e73bdb8d641a59456898" compoundref="misc__utils__tests_8c" startline="32" endline="71">cjson_utils_functions_shouldnt_crash_with_null_pointers</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/>Copyright<sp/>(c)<sp/>2009-2017<sp/>Dave<sp/>Gamble<sp/>and<sp/>cJSON<sp/>contributors</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"></highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity__config_8h" kindref="compound">unity/examples/unity_config.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity_8h" kindref="compound">unity/src/unity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="common_8h" kindref="compound">common.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../cJSON_Utils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="misc__utils__tests_8c_1a78a9e6deb564e73bdb8d641a59456898" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="misc__utils__tests_8c_1a78a9e6deb564e73bdb8d641a59456898" kindref="member">cjson_utils_functions_shouldnt_crash_with_null_pointers</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref><sp/>=<sp/><ref refid="cJSON_8c_1a5987bbc1c94d9f602d719a4015ff0e6c" kindref="member">cJSON_CreateString</ref>(</highlight><highlight class="stringliteral">&quot;item&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1afae78efdc83dcc60f08347b8390525b9" kindref="member">TEST_ASSERT_NOT_NULL</ref>(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON__Utils_8c_1a08336023772bc23fe9957c285446ab90" kindref="member">cJSONUtils_GetPointer</ref>(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>,<sp/>NULL));</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON__Utils_8c_1a08336023772bc23fe9957c285446ab90" kindref="member">cJSONUtils_GetPointer</ref>(NULL,<sp/></highlight><highlight class="stringliteral">&quot;pointer&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON__Utils_8c_1a7a6b41024e0ea635bd14451d68870db2" kindref="member">cJSONUtils_GetPointerCaseSensitive</ref>(NULL,<sp/></highlight><highlight class="stringliteral">&quot;pointer&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON__Utils_8c_1a7a6b41024e0ea635bd14451d68870db2" kindref="member">cJSONUtils_GetPointerCaseSensitive</ref>(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>,<sp/>NULL));</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON__Utils_8c_1a33b9d8e8460ad8334278651727a27866" kindref="member">cJSONUtils_GeneratePatches</ref>(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>,<sp/>NULL));</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON__Utils_8c_1a33b9d8e8460ad8334278651727a27866" kindref="member">cJSONUtils_GeneratePatches</ref>(NULL,<sp/><ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>));</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON__Utils_8c_1ae6ffc4b4590ab520f4d44fccfcf79323" kindref="member">cJSONUtils_GeneratePatchesCaseSensitive</ref>(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>,<sp/>NULL));</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON__Utils_8c_1ae6ffc4b4590ab520f4d44fccfcf79323" kindref="member">cJSONUtils_GeneratePatchesCaseSensitive</ref>(NULL,<sp/><ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>));</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON__Utils_8c_1a9df65351d73c14fff4c7c3717b03a222" kindref="member">cJSONUtils_AddPatchToArray</ref>(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>,<sp/></highlight><highlight class="stringliteral">&quot;path&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;add&quot;</highlight><highlight class="normal">,<sp/>NULL);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON__Utils_8c_1a9df65351d73c14fff4c7c3717b03a222" kindref="member">cJSONUtils_AddPatchToArray</ref>(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>,<sp/></highlight><highlight class="stringliteral">&quot;path&quot;</highlight><highlight class="normal">,<sp/>NULL,<sp/><ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON__Utils_8c_1a9df65351d73c14fff4c7c3717b03a222" kindref="member">cJSONUtils_AddPatchToArray</ref>(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>,<sp/>NULL,<sp/></highlight><highlight class="stringliteral">&quot;add&quot;</highlight><highlight class="normal">,<sp/><ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON__Utils_8c_1a9df65351d73c14fff4c7c3717b03a222" kindref="member">cJSONUtils_AddPatchToArray</ref>(NULL,<sp/></highlight><highlight class="stringliteral">&quot;path&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;add&quot;</highlight><highlight class="normal">,<sp/><ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON__Utils_8c_1a641cb4552c85b29763cd604be0b3e2e1" kindref="member">cJSONUtils_ApplyPatches</ref>(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>,<sp/>NULL);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON__Utils_8c_1a641cb4552c85b29763cd604be0b3e2e1" kindref="member">cJSONUtils_ApplyPatches</ref>(NULL,<sp/><ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON__Utils_8c_1aedc0555c83da63f2cf2418ed371cfcab" kindref="member">cJSONUtils_ApplyPatchesCaseSensitive</ref>(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>,<sp/>NULL);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON__Utils_8c_1aedc0555c83da63f2cf2418ed371cfcab" kindref="member">cJSONUtils_ApplyPatchesCaseSensitive</ref>(NULL,<sp/><ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON__Utils_8c_1a2020aa55140d2520acafb82b5b2e3145" kindref="member">cJSONUtils_MergePatch</ref>(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>,<sp/>NULL));</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref><sp/>=<sp/><ref refid="cJSON_8c_1a5987bbc1c94d9f602d719a4015ff0e6c" kindref="member">cJSON_CreateString</ref>(</highlight><highlight class="stringliteral">&quot;item&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON__Utils_8c_1a8a3c24bc764ddcb255995dca6f148236" kindref="member">cJSONUtils_MergePatchCaseSensitive</ref>(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>,<sp/>NULL));</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref><sp/>=<sp/><ref refid="cJSON_8c_1a5987bbc1c94d9f602d719a4015ff0e6c" kindref="member">cJSON_CreateString</ref>(</highlight><highlight class="stringliteral">&quot;item&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>these<sp/>calls<sp/>are<sp/>actually<sp/>valid<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>cJSONUtils_MergePatch(NULL,<sp/>item);<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>cJSONUtils_MergePatchCaseSensitive(NULL,<sp/>item);*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>cJSONUtils_GenerateMergePatch(item,<sp/>NULL);<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>cJSONUtils_GenerateMergePatch(NULL,<sp/>item);<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>cJSONUtils_GenerateMergePatchCaseSensitive(item,<sp/>NULL);<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>cJSONUtils_GenerateMergePatchCaseSensitive(NULL,<sp/>item);<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON__Utils_8c_1a77e7485a5ded70768f9deb7ccde950bd" kindref="member">cJSONUtils_FindPointerFromObjectTo</ref>(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>,<sp/>NULL));</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a4d807ccb46fae06886f16ea8a86590ca" kindref="member">TEST_ASSERT_NULL</ref>(<ref refid="cJSON__Utils_8c_1a77e7485a5ded70768f9deb7ccde950bd" kindref="member">cJSONUtils_FindPointerFromObjectTo</ref>(NULL,<sp/><ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>));</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON__Utils_8c_1a405a912a1ac38c57ce587e25e68c1fea" kindref="member">cJSONUtils_SortObject</ref>(NULL);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON__Utils_8c_1a0b653f6de92e7b51100457251ab15402" kindref="member">cJSONUtils_SortObjectCaseSensitive</ref>(NULL);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="misc__utils__tests_8c_1a840291bc02cba5474a4cb46a9b9566fe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="misc__utils__tests_8c_1a840291bc02cba5474a4cb46a9b9566fe" kindref="member">main</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__internals_8h_1aaad15a5d10e50a412d0a6851d0e5091a" kindref="member">UNITY_BEGIN</ref>();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="misc__utils__tests_8c_1a78a9e6deb564e73bdb8d641a59456898" kindref="member">cjson_utils_functions_shouldnt_crash_with_null_pointers</ref>);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="unity__internals_8h_1aa519129d3af737eb796fc91720fae26a" kindref="member">UNITY_END</ref>();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="tests/misc_utils_tests.c"/>
+  </compounddef>
+</doxygen>

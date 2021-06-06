@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="example__2_2test_2TestProductionCode_8c" kind="file" language="C++">
+    <compoundname>TestProductionCode.c</compoundname>
+    <includes local="yes">ProductionCode.h</includes>
+    <includes refid="unity_8h" local="yes">unity.h</includes>
+    <includes refid="unity__fixture_8h" local="yes">unity_fixture.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>ProductionCode.h</label>
+      </node>
+      <node id="8">
+        <label>stdint.h</label>
+      </node>
+      <node id="14">
+        <label>stdlib.h</label>
+      </node>
+      <node id="6">
+        <label>setjmp.h</label>
+      </node>
+      <node id="13">
+        <label>stddef.h</label>
+      </node>
+      <node id="9">
+        <label>limits.h</label>
+      </node>
+      <node id="12">
+        <label>unity_fixture_malloc_overrides.h</label>
+        <link refid="unity__fixture__malloc__overrides_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>unity_fixture_internals.h</label>
+        <link refid="unity__fixture__internals_8h"/>
+      </node>
+      <node id="5">
+        <label>../examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="7">
+        <label>math.h</label>
+      </node>
+      <node id="4">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>tests/unity/examples/example_2/test/TestProductionCode.c</label>
+        <link refid="example__2_2test_2TestProductionCode_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>stdio.h</label>
+      </node>
+      <node id="11">
+        <label>unity_fixture.h</label>
+        <link refid="unity__fixture_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="example__2_2test_2TestProductionCode_8c_1a8da6d6b33b7597f02434fedca1781cbc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Counter</definition>
+        <argsstring></argsstring>
+        <name>Counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_2/test/TestProductionCode.c" line="10" column="12" bodyfile="tests/unity/examples/example_1/src/ProductionCode.c" bodystart="4" bodyend="-1" declfile="tests/unity/examples/example_2/test/TestProductionCode.c" declline="10" declcolumn="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="example__2_2test_2TestProductionCode_8c_1a219449331b1ce1228f728a4aefb1a4e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_GROUP</definition>
+        <argsstring>(ProductionCode)</argsstring>
+        <name>TEST_GROUP</name>
+        <param>
+          <type>ProductionCode</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_2/test/TestProductionCode.c" line="5" column="1" declfile="tests/unity/examples/example_2/test/TestProductionCode.c" declline="5" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="example__2_2test_2TestProductionCode_8c_1a4b2a91bfe6d94402640ffde6d97387e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_SETUP</definition>
+        <argsstring>(ProductionCode)</argsstring>
+        <name>TEST_SETUP</name>
+        <param>
+          <type>ProductionCode</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_2/test/TestProductionCode.c" line="12" column="1" bodyfile="tests/unity/examples/example_2/test/TestProductionCode.c" bodystart="12" bodyend="16"/>
+        <references refid="example__1_2src_2ProductionCode_8c_1a8da6d6b33b7597f02434fedca1781cbc" compoundref="example__1_2src_2ProductionCode_8c" startline="4">Counter</references>
+      </memberdef>
+      <memberdef kind="function" id="example__2_2test_2TestProductionCode_8c_1a7f4a300c02a43a8d9a94a49feb6c2501" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_TEAR_DOWN</definition>
+        <argsstring>(ProductionCode)</argsstring>
+        <name>TEST_TEAR_DOWN</name>
+        <param>
+          <type>ProductionCode</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_2/test/TestProductionCode.c" line="18" column="1" bodyfile="tests/unity/examples/example_2/test/TestProductionCode.c" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="example__2_2test_2TestProductionCode_8c_1a23f272a21457354491c09ad58febd2ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(ProductionCode, FindFunction_WhichIsBroken_ShouldReturnZeroIfItemIsNotInList_WhichWorksEvenInOurBrokenCode)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>ProductionCode</type>
+        </param>
+        <param>
+          <type>FindFunction_WhichIsBroken_ShouldReturnZeroIfItemIsNotInList_WhichWorksEvenInOurBrokenCode</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_2/test/TestProductionCode.c" line="22" column="1" bodyfile="tests/unity/examples/example_2/test/TestProductionCode.c" bodystart="22" bodyend="30"/>
+        <references refid="example__1_2src_2ProductionCode_8c_1adcb2cff68b396cd27ab1b16a1139d696" compoundref="example__1_2src_2ProductionCode_8c" startline="11" endline="19">FindFunction_WhichIsBroken</references>
+      </memberdef>
+      <memberdef kind="function" id="example__2_2test_2TestProductionCode_8c_1a56989dbecb9868352d55380ced62f1b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(ProductionCode, FindFunction_WhichIsBroken_ShouldReturnTheIndexForItemsInList_WhichWillFailBecauseOurFunctionUnderTestIsBroken)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>ProductionCode</type>
+        </param>
+        <param>
+          <type>FindFunction_WhichIsBroken_ShouldReturnTheIndexForItemsInList_WhichWillFailBecauseOurFunctionUnderTestIsBroken</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_2/test/TestProductionCode.c" line="32" column="1" bodyfile="tests/unity/examples/example_2/test/TestProductionCode.c" bodystart="32" bodyend="41"/>
+        <references refid="example__1_2src_2ProductionCode_8c_1adcb2cff68b396cd27ab1b16a1139d696" compoundref="example__1_2src_2ProductionCode_8c" startline="11" endline="19">FindFunction_WhichIsBroken</references>
+      </memberdef>
+      <memberdef kind="function" id="example__2_2test_2TestProductionCode_8c_1a9cf5bf2d60d8b3ac495494f074f8c2c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(ProductionCode, FunctionWhichReturnsLocalVariable_ShouldReturnTheCurrentCounterValue)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>ProductionCode</type>
+        </param>
+        <param>
+          <type>FunctionWhichReturnsLocalVariable_ShouldReturnTheCurrentCounterValue</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_2/test/TestProductionCode.c" line="43" column="1" bodyfile="tests/unity/examples/example_2/test/TestProductionCode.c" bodystart="43" bodyend="51"/>
+        <references refid="example__1_2src_2ProductionCode_8c_1a8da6d6b33b7597f02434fedca1781cbc" compoundref="example__1_2src_2ProductionCode_8c" startline="4">Counter</references>
+        <references refid="example__1_2src_2ProductionCode_8c_1a76defbd7150d0c294cdc91f797b60245" compoundref="example__1_2src_2ProductionCode_8c" startline="21" endline="24">FunctionWhichReturnsLocalVariable</references>
+      </memberdef>
+      <memberdef kind="function" id="example__2_2test_2TestProductionCode_8c_1aec78a8c6fe9dcbfe5aeb792bd3f0da6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(ProductionCode, FunctionWhichReturnsLocalVariable_ShouldReturnTheCurrentCounterValueAgain)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>ProductionCode</type>
+        </param>
+        <param>
+          <type>FunctionWhichReturnsLocalVariable_ShouldReturnTheCurrentCounterValueAgain</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_2/test/TestProductionCode.c" line="53" column="1" bodyfile="tests/unity/examples/example_2/test/TestProductionCode.c" bodystart="53" bodyend="57"/>
+        <references refid="example__1_2src_2ProductionCode_8c_1a76defbd7150d0c294cdc91f797b60245" compoundref="example__1_2src_2ProductionCode_8c" startline="21" endline="24">FunctionWhichReturnsLocalVariable</references>
+      </memberdef>
+      <memberdef kind="function" id="example__2_2test_2TestProductionCode_8c_1a548fdc43b3155d5707d42f17264bab6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(ProductionCode, FunctionWhichReturnsLocalVariable_ShouldReturnCurrentCounter_ButFailsBecauseThisTestIsActuallyFlawed)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>ProductionCode</type>
+        </param>
+        <param>
+          <type>FunctionWhichReturnsLocalVariable_ShouldReturnCurrentCounter_ButFailsBecauseThisTestIsActuallyFlawed</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_2/test/TestProductionCode.c" line="59" column="1" bodyfile="tests/unity/examples/example_2/test/TestProductionCode.c" bodystart="59" bodyend="64"/>
+        <references refid="example__1_2src_2ProductionCode_8c_1a76defbd7150d0c294cdc91f797b60245" compoundref="example__1_2src_2ProductionCode_8c" startline="21" endline="24">FunctionWhichReturnsLocalVariable</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;ProductionCode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity_8h" kindref="compound">unity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity__fixture_8h" kindref="compound">unity_fixture.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="example__2_2test_2TestProductionCode_8c_1a219449331b1ce1228f728a4aefb1a4e3" refkind="member"><highlight class="normal"><ref refid="example__2_2test_2TestProductionCode_8c_1a219449331b1ce1228f728a4aefb1a4e3" kindref="member">TEST_GROUP</ref>(ProductionCode);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//sometimes<sp/>you<sp/>may<sp/>want<sp/>to<sp/>get<sp/>at<sp/>local<sp/>data<sp/>in<sp/>a<sp/>module.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//for<sp/>example:<sp/>If<sp/>you<sp/>plan<sp/>to<sp/>pass<sp/>by<sp/>reference,<sp/>this<sp/>could<sp/>be<sp/>useful</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//however,<sp/>it<sp/>should<sp/>often<sp/>be<sp/>avoided</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="example__1_2test_2TestProductionCode_8c_1a8da6d6b33b7597f02434fedca1781cbc" kindref="member">Counter</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="example__2_2test_2TestProductionCode_8c_1a4b2a91bfe6d94402640ffde6d97387e4" refkind="member"><highlight class="normal"><ref refid="example__2_2test_2TestProductionCode_8c_1a4b2a91bfe6d94402640ffde6d97387e4" kindref="member">TEST_SETUP</ref>(ProductionCode)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//This<sp/>is<sp/>run<sp/>before<sp/>EACH<sp/>TEST</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><ref refid="example__1_2test_2TestProductionCode_8c_1a8da6d6b33b7597f02434fedca1781cbc" kindref="member">Counter</ref><sp/>=<sp/>0x5a5a;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="example__2_2test_2TestProductionCode_8c_1a7f4a300c02a43a8d9a94a49feb6c2501" refkind="member"><highlight class="normal"><ref refid="example__2_2test_2TestProductionCode_8c_1a7f4a300c02a43a8d9a94a49feb6c2501" kindref="member">TEST_TEAR_DOWN</ref>(ProductionCode)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="example__2_2test_2TestProductionCode_8c_1a23f272a21457354491c09ad58febd2ea" refkind="member"><highlight class="normal"><ref refid="example__2_2test_2TestProductionCode_8c_1a23f272a21457354491c09ad58febd2ea" kindref="member">TEST</ref>(ProductionCode,<sp/>FindFunction_WhichIsBroken_ShouldReturnZeroIfItemIsNotInList_WhichWorksEvenInOurBrokenCode)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//All<sp/>of<sp/>these<sp/>should<sp/>pass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><ref refid="unity_8h_1af9e5695d6c7cf634206ea6d062cb54c9" kindref="member">TEST_ASSERT_EQUAL</ref>(0,<sp/><ref refid="example__1_2src_2ProductionCode_8c_1adcb2cff68b396cd27ab1b16a1139d696" kindref="member">FindFunction_WhichIsBroken</ref>(78));</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><ref refid="unity_8h_1af9e5695d6c7cf634206ea6d062cb54c9" kindref="member">TEST_ASSERT_EQUAL</ref>(0,<sp/><ref refid="example__1_2src_2ProductionCode_8c_1adcb2cff68b396cd27ab1b16a1139d696" kindref="member">FindFunction_WhichIsBroken</ref>(1));</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><ref refid="unity_8h_1af9e5695d6c7cf634206ea6d062cb54c9" kindref="member">TEST_ASSERT_EQUAL</ref>(0,<sp/><ref refid="example__1_2src_2ProductionCode_8c_1adcb2cff68b396cd27ab1b16a1139d696" kindref="member">FindFunction_WhichIsBroken</ref>(33));</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><ref refid="unity_8h_1af9e5695d6c7cf634206ea6d062cb54c9" kindref="member">TEST_ASSERT_EQUAL</ref>(0,<sp/><ref refid="example__1_2src_2ProductionCode_8c_1adcb2cff68b396cd27ab1b16a1139d696" kindref="member">FindFunction_WhichIsBroken</ref>(999));</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><ref refid="unity_8h_1af9e5695d6c7cf634206ea6d062cb54c9" kindref="member">TEST_ASSERT_EQUAL</ref>(0,<sp/><ref refid="example__1_2src_2ProductionCode_8c_1adcb2cff68b396cd27ab1b16a1139d696" kindref="member">FindFunction_WhichIsBroken</ref>(-1));</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="example__2_2test_2TestProductionCode_8c_1a56989dbecb9868352d55380ced62f1b7" refkind="member"><highlight class="normal"><ref refid="example__2_2test_2TestProductionCode_8c_1a23f272a21457354491c09ad58febd2ea" kindref="member">TEST</ref>(ProductionCode,<sp/>FindFunction_WhichIsBroken_ShouldReturnTheIndexForItemsInList_WhichWillFailBecauseOurFunctionUnderTestIsBroken)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>You<sp/>should<sp/>see<sp/>this<sp/>line<sp/>fail<sp/>in<sp/>your<sp/>test<sp/>summary</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><ref refid="unity_8h_1af9e5695d6c7cf634206ea6d062cb54c9" kindref="member">TEST_ASSERT_EQUAL</ref>(1,<sp/><ref refid="example__1_2src_2ProductionCode_8c_1adcb2cff68b396cd27ab1b16a1139d696" kindref="member">FindFunction_WhichIsBroken</ref>(34));</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Notice<sp/>the<sp/>rest<sp/>of<sp/>these<sp/>didn&apos;t<sp/>get<sp/>a<sp/>chance<sp/>to<sp/>run<sp/>because<sp/>the<sp/>line<sp/>above<sp/>failed.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Unit<sp/>tests<sp/>abort<sp/>each<sp/>test<sp/>function<sp/>on<sp/>the<sp/>first<sp/>sign<sp/>of<sp/>trouble.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Then<sp/>NEXT<sp/>test<sp/>function<sp/>runs<sp/>as<sp/>normal.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><ref refid="unity_8h_1af9e5695d6c7cf634206ea6d062cb54c9" kindref="member">TEST_ASSERT_EQUAL</ref>(8,<sp/><ref refid="example__1_2src_2ProductionCode_8c_1adcb2cff68b396cd27ab1b16a1139d696" kindref="member">FindFunction_WhichIsBroken</ref>(8888));</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="example__2_2test_2TestProductionCode_8c_1a9cf5bf2d60d8b3ac495494f074f8c2c4" refkind="member"><highlight class="normal"><ref refid="example__2_2test_2TestProductionCode_8c_1a23f272a21457354491c09ad58febd2ea" kindref="member">TEST</ref>(ProductionCode,<sp/>FunctionWhichReturnsLocalVariable_ShouldReturnTheCurrentCounterValue)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//This<sp/>should<sp/>be<sp/>true<sp/>because<sp/>setUp<sp/>set<sp/>this<sp/>up<sp/>for<sp/>us<sp/>before<sp/>this<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab1497984306b3fe78e851341d82c7147" kindref="member">TEST_ASSERT_EQUAL_HEX</ref>(0x5a5a,<sp/><ref refid="example__1_2src_2ProductionCode_8c_1a76defbd7150d0c294cdc91f797b60245" kindref="member">FunctionWhichReturnsLocalVariable</ref>());</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//This<sp/>should<sp/>be<sp/>true<sp/>because<sp/>we<sp/>can<sp/>still<sp/>change<sp/>our<sp/>answer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2TestProductionCode_8c_1a8da6d6b33b7597f02434fedca1781cbc" kindref="member">Counter</ref><sp/>=<sp/>0x1234;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab1497984306b3fe78e851341d82c7147" kindref="member">TEST_ASSERT_EQUAL_HEX</ref>(0x1234,<sp/><ref refid="example__1_2src_2ProductionCode_8c_1a76defbd7150d0c294cdc91f797b60245" kindref="member">FunctionWhichReturnsLocalVariable</ref>());</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="example__2_2test_2TestProductionCode_8c_1aec78a8c6fe9dcbfe5aeb792bd3f0da6b" refkind="member"><highlight class="normal"><ref refid="example__2_2test_2TestProductionCode_8c_1a23f272a21457354491c09ad58febd2ea" kindref="member">TEST</ref>(ProductionCode,<sp/>FunctionWhichReturnsLocalVariable_ShouldReturnTheCurrentCounterValueAgain)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//This<sp/>should<sp/>be<sp/>true<sp/>again<sp/>because<sp/>setup<sp/>was<sp/>rerun<sp/>before<sp/>this<sp/>test<sp/>(and<sp/>after<sp/>we<sp/>changed<sp/>it<sp/>to<sp/>0x1234)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab1497984306b3fe78e851341d82c7147" kindref="member">TEST_ASSERT_EQUAL_HEX</ref>(0x5a5a,<sp/><ref refid="example__1_2src_2ProductionCode_8c_1a76defbd7150d0c294cdc91f797b60245" kindref="member">FunctionWhichReturnsLocalVariable</ref>());</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="example__2_2test_2TestProductionCode_8c_1a548fdc43b3155d5707d42f17264bab6b" refkind="member"><highlight class="normal"><ref refid="example__2_2test_2TestProductionCode_8c_1a23f272a21457354491c09ad58febd2ea" kindref="member">TEST</ref>(ProductionCode,<sp/>FunctionWhichReturnsLocalVariable_ShouldReturnCurrentCounter_ButFailsBecauseThisTestIsActuallyFlawed)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Sometimes<sp/>you<sp/>get<sp/>the<sp/>test<sp/>wrong.<sp/><sp/>When<sp/>that<sp/>happens,<sp/>you<sp/>get<sp/>a<sp/>failure<sp/>too...<sp/>and<sp/>a<sp/>quick<sp/>look<sp/>should<sp/>tell</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>you<sp/>what<sp/>actually<sp/>happened...which<sp/>in<sp/>this<sp/>case<sp/>was<sp/>a<sp/>failure<sp/>to<sp/>setup<sp/>the<sp/>initial<sp/>condition.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab1497984306b3fe78e851341d82c7147" kindref="member">TEST_ASSERT_EQUAL_HEX</ref>(0x1234,<sp/><ref refid="example__1_2src_2ProductionCode_8c_1a76defbd7150d0c294cdc91f797b60245" kindref="member">FunctionWhichReturnsLocalVariable</ref>());</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/examples/example_2/test/TestProductionCode.c"/>
+  </compounddef>
+</doxygen>

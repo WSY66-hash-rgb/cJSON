@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_8f138370379664e46e8cc5f1ef8dc844" kind="dir">
+    <compoundname>tests/unity/extras/fixture/test/main</compoundname>
+    <innerfile refid="AllTests_8c">AllTests.c</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="tests/unity/extras/fixture/test/main/"/>
+  </compounddef>
+</doxygen>

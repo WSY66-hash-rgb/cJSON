@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="UnityHelper_8h" kind="file" language="C++">
+    <compoundname>UnityHelper.h</compoundname>
+    <includes local="yes">Types.h</includes>
+    <includedby refid="UnityHelper_8c" local="yes">tests/unity/examples/example_3/helper/UnityHelper.c</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>tests/unity/examples/example_3/helper/UnityHelper.h</label>
+        <link refid="UnityHelper_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>tests/unity/examples/example_3/helper/UnityHelper.c</label>
+        <link refid="UnityHelper_8c"/>
+      </node>
+      <node id="1">
+        <label>tests/unity/examples/example_3/helper/UnityHelper.h</label>
+        <link refid="UnityHelper_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="UnityHelper_8h_1aad002b9e9804f5a72a18fef1dcadef97" prot="public" static="no">
+        <name>UNITY_TEST_ASSERT_EQUAL_EXAMPLE_STRUCT_T</name>
+        <param><defname>expected</defname></param>
+        <param><defname>actual</defname></param>
+        <param><defname>line</defname></param>
+        <param><defname>message</defname></param>
+        <initializer><ref refid="UnityHelper_8h_1a3a03336c76d85e5d21de18b32a63710d" kindref="member">AssertEqualExampleStruct</ref>(expected, actual, line);</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_3/helper/UnityHelper.h" line="8" column="9" bodyfile="tests/unity/examples/example_3/helper/UnityHelper.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="UnityHelper_8h_1a5ed82d5f11ba77cae7035fdd2544dc71" prot="public" static="no">
+        <name>TEST_ASSERT_EQUAL_EXAMPLE_STRUCT_T</name>
+        <param><defname>expected</defname></param>
+        <param><defname>actual</defname></param>
+        <initializer><ref refid="UnityHelper_8h_1aad002b9e9804f5a72a18fef1dcadef97" kindref="member">UNITY_TEST_ASSERT_EQUAL_EXAMPLE_STRUCT_T</ref>(expected, actual, __LINE__, NULL);</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_3/helper/UnityHelper.h" line="10" column="9" bodyfile="tests/unity/examples/example_3/helper/UnityHelper.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="UnityHelper_8h_1a3a03336c76d85e5d21de18b32a63710d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AssertEqualExampleStruct</definition>
+        <argsstring>(const EXAMPLE_STRUCT_T expected, const EXAMPLE_STRUCT_T actual, const unsigned short line)</argsstring>
+        <name>AssertEqualExampleStruct</name>
+        <param>
+          <type>const EXAMPLE_STRUCT_T</type>
+          <declname>expected</declname>
+        </param>
+        <param>
+          <type>const EXAMPLE_STRUCT_T</type>
+          <declname>actual</declname>
+        </param>
+        <param>
+          <type>const unsigned short</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_3/helper/UnityHelper.h" line="6" column="6" bodyfile="tests/unity/examples/example_3/helper/UnityHelper.c" bodystart="6" bodyend="10" declfile="tests/unity/examples/example_3/helper/UnityHelper.h" declline="6" declcolumn="6"/>
+        <references refid="unity__internals_8h_1ad87ea08d8da69e64c215f430e31e0e5c" compoundref="unity__internals_8h" startline="656">UNITY_TEST_ASSERT_EQUAL_INT</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_TESTHELPER_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_TESTHELPER_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="UnityHelper_8h_1a3a03336c76d85e5d21de18b32a63710d" kindref="member">AssertEqualExampleStruct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>EXAMPLE_STRUCT_T<sp/>expected,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>EXAMPLE_STRUCT_T<sp/>actual,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>line);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="UnityHelper_8h_1aad002b9e9804f5a72a18fef1dcadef97" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UNITY_TEST_ASSERT_EQUAL_EXAMPLE_STRUCT_T(expected,<sp/>actual,<sp/>line,<sp/>message)<sp/>AssertEqualExampleStruct(expected,<sp/>actual,<sp/>line);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="UnityHelper_8h_1a5ed82d5f11ba77cae7035fdd2544dc71" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEST_ASSERT_EQUAL_EXAMPLE_STRUCT_T(expected,<sp/>actual)<sp/>UNITY_TEST_ASSERT_EQUAL_EXAMPLE_STRUCT_T(expected,<sp/>actual,<sp/>__LINE__,<sp/>NULL);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>_TESTHELPER_H</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/examples/example_3/helper/UnityHelper.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structcJSON__Hooks" kind="struct" language="C++" prot="public">
+    <compoundname>cJSON_Hooks</compoundname>
+    <includes local="no">cJSON.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcJSON__Hooks_1a96ddf6d694eaa3f83aa10ee57539a5d8" prot="public" static="no" mutable="no">
+        <type>void *(*</type>
+        <definition>void*( * cJSON_Hooks::malloc_fn) (size_t sz)</definition>
+        <argsstring>)(size_t sz)</argsstring>
+        <name>malloc_fn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.h" line="128" column="7" bodyfile="cJSON.h" bodystart="128" bodyend="-1"/>
+        <referencedby refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" compoundref="cJSON_8c" startline="209" endline="238">cJSON_InitHooks</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structcJSON__Hooks_1a1a06e9718a48402de0e2ae5cc5118cdb" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void( * cJSON_Hooks::free_fn) (void *ptr)</definition>
+        <argsstring>)(void *ptr)</argsstring>
+        <name>free_fn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cJSON.h" line="129" column="7" bodyfile="cJSON.h" bodystart="129" bodyend="-1"/>
+        <referencedby refid="cJSON_8c_1a20837ed285a3c2abf578330f2bd97ad4" compoundref="cJSON_8c" startline="209" endline="238">cJSON_InitHooks</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>void(*)(void *ptr)</label>
+      </node>
+      <node id="1">
+        <label>cJSON_Hooks</label>
+        <link refid="structcJSON__Hooks"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>malloc_fn</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>free_fn</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>void *(*)(size_t sz)</label>
+      </node>
+    </collaborationgraph>
+    <location file="cJSON.h" line="125" column="1" bodyfile="cJSON.h" bodystart="126" bodyend="130"/>
+    <listofallmembers>
+      <member refid="structcJSON__Hooks_1a1a06e9718a48402de0e2ae5cc5118cdb" prot="public" virt="non-virtual"><scope>cJSON_Hooks</scope><name>free_fn</name></member>
+      <member refid="structcJSON__Hooks_1a96ddf6d694eaa3f83aa10ee57539a5d8" prot="public" virt="non-virtual"><scope>cJSON_Hooks</scope><name>malloc_fn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

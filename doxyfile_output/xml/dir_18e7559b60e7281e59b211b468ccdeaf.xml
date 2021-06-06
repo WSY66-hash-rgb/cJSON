@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_18e7559b60e7281e59b211b468ccdeaf" kind="dir">
+    <compoundname>tests/unity/extras</compoundname>
+    <innerdir refid="dir_54f86ea3152f17c4aa524e66ff6f4030">tests/unity/extras/fixture</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="tests/unity/extras/"/>
+  </compounddef>
+</doxygen>

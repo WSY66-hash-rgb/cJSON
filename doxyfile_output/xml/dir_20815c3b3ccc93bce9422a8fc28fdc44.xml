@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_20815c3b3ccc93bce9422a8fc28fdc44" kind="dir">
+    <compoundname>tests/unity/test</compoundname>
+    <innerdir refid="dir_c507e68622d7925aedce044fa9230ec4">tests/unity/test/expectdata</innerdir>
+    <innerdir refid="dir_66e8ac6d04f5286dda2679f7f659841c">tests/unity/test/testdata</innerdir>
+    <innerdir refid="dir_64eeec8f9480ed516a00c10d0031da0b">tests/unity/test/tests</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="tests/unity/test/"/>
+  </compounddef>
+</doxygen>

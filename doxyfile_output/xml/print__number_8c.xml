@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="print__number_8c" kind="file" language="C++">
+    <compoundname>print_number.c</compoundname>
+    <includes refid="unity__config_8h" local="yes">unity/examples/unity_config.h</includes>
+    <includes refid="unity_8h" local="yes">unity/src/unity.h</includes>
+    <includes refid="common_8h" local="yes">common.h</includes>
+    <incdepgraph>
+      <node id="15">
+        <label>float.h</label>
+      </node>
+      <node id="11">
+        <label>../cJSON.c</label>
+        <link refid="cJSON_8c"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>cJSON.h</label>
+        <link refid="cJSON_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>stdint.h</label>
+      </node>
+      <node id="13">
+        <label>stdlib.h</label>
+      </node>
+      <node id="5">
+        <label>setjmp.h</label>
+      </node>
+      <node id="10">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>stddef.h</label>
+      </node>
+      <node id="8">
+        <label>limits.h</label>
+      </node>
+      <node id="12">
+        <label>string.h</label>
+      </node>
+      <node id="2">
+        <label>unity/examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="6">
+        <label>math.h</label>
+      </node>
+      <node id="4">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>unity/src/unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>ctype.h</label>
+      </node>
+      <node id="9">
+        <label>stdio.h</label>
+      </node>
+      <node id="1">
+        <label>tests/print_number.c</label>
+        <link refid="print__number_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="print__number_8c_1ac714f74960acd14060febd437f0764ac" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void assert_print_number</definition>
+        <argsstring>(const char *expected, double input)</argsstring>
+        <name>assert_print_number</name>
+        <param>
+          <type>const char *</type>
+          <declname>expected</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/print_number.c" line="27" column="13" bodyfile="tests/print_number.c" bodystart="27" bodyend="63"/>
+        <references refid="structprintbuffer_1a754f63618e91db99f7ab6cfc4e629013" compoundref="cJSON_8c" startline="429">printbuffer::buffer</references>
+        <references refid="cJSON_8c_1a855c7241e836a5b2d87577df8c113faf" compoundref="cJSON_8c" startline="186">global_hooks</references>
+        <references refid="structprintbuffer_1a43a8b3bcc644432f12f5aed5159d2520" compoundref="cJSON_8c" startline="435">printbuffer::hooks</references>
+        <references refid="structprintbuffer_1a1a679f8b6fe9b413fb3a87203b0f5bc8" compoundref="cJSON_8c" startline="430">printbuffer::length</references>
+        <references refid="structprintbuffer_1aa2a7966b71dc3535e4e3789c33ec5368" compoundref="cJSON_8c" startline="433">printbuffer::noalloc</references>
+        <references refid="structprintbuffer_1a3ed6f9d24d6591047680492a962dc7c9" compoundref="cJSON_8c" startline="431">printbuffer::offset</references>
+        <references refid="cJSON_8c_1ad93d84de08872da0eaa6624be0e74a68" compoundref="cJSON_8c" startline="545" endline="608">print_number</references>
+        <referencedby refid="print__number_8c_1ae5e26d87ccad271ba502162a8ef712a7" compoundref="print__number_8c" startline="70" endline="75">print_number_should_print_negative_integers</referencedby>
+        <referencedby refid="print__number_8c_1a76af8b39d65a1ce6a6e5b2021cb0d0a0" compoundref="print__number_8c" startline="94" endline="101">print_number_should_print_negative_reals</referencedby>
+        <referencedby refid="print__number_8c_1a90dfe4f9bf658cc975df542855a11165" compoundref="print__number_8c" startline="77" endline="82">print_number_should_print_positive_integers</referencedby>
+        <referencedby refid="print__number_8c_1ac47b506548b4248b5e154288aa71cb34" compoundref="print__number_8c" startline="84" endline="92">print_number_should_print_positive_reals</referencedby>
+        <referencedby refid="print__number_8c_1a1a925dde38b26d7b2eb772c8a94509ac" compoundref="print__number_8c" startline="65" endline="68">print_number_should_print_zero</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="print__number_8c_1a1a925dde38b26d7b2eb772c8a94509ac" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void print_number_should_print_zero</definition>
+        <argsstring>(void)</argsstring>
+        <name>print_number_should_print_zero</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/print_number.c" line="65" column="13" bodyfile="tests/print_number.c" bodystart="65" bodyend="68"/>
+        <references refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" compoundref="print__number_8c" startline="27" endline="63">assert_print_number</references>
+        <referencedby refid="print__number_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="print__number_8c" startline="112" endline="125">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="print__number_8c_1ae5e26d87ccad271ba502162a8ef712a7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void print_number_should_print_negative_integers</definition>
+        <argsstring>(void)</argsstring>
+        <name>print_number_should_print_negative_integers</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/print_number.c" line="70" column="13" bodyfile="tests/print_number.c" bodystart="70" bodyend="75"/>
+        <references refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" compoundref="print__number_8c" startline="27" endline="63">assert_print_number</references>
+        <referencedby refid="print__number_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="print__number_8c" startline="112" endline="125">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="print__number_8c_1a90dfe4f9bf658cc975df542855a11165" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void print_number_should_print_positive_integers</definition>
+        <argsstring>(void)</argsstring>
+        <name>print_number_should_print_positive_integers</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/print_number.c" line="77" column="13" bodyfile="tests/print_number.c" bodystart="77" bodyend="82"/>
+        <references refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" compoundref="print__number_8c" startline="27" endline="63">assert_print_number</references>
+        <referencedby refid="print__number_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="print__number_8c" startline="112" endline="125">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="print__number_8c_1ac47b506548b4248b5e154288aa71cb34" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void print_number_should_print_positive_reals</definition>
+        <argsstring>(void)</argsstring>
+        <name>print_number_should_print_positive_reals</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/print_number.c" line="84" column="13" bodyfile="tests/print_number.c" bodystart="84" bodyend="92"/>
+        <references refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" compoundref="print__number_8c" startline="27" endline="63">assert_print_number</references>
+        <referencedby refid="print__number_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="print__number_8c" startline="112" endline="125">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="print__number_8c_1a76af8b39d65a1ce6a6e5b2021cb0d0a0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void print_number_should_print_negative_reals</definition>
+        <argsstring>(void)</argsstring>
+        <name>print_number_should_print_negative_reals</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/print_number.c" line="94" column="13" bodyfile="tests/print_number.c" bodystart="94" bodyend="101"/>
+        <references refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" compoundref="print__number_8c" startline="27" endline="63">assert_print_number</references>
+        <referencedby refid="print__number_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="print__number_8c" startline="112" endline="125">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="print__number_8c_1a90b9eecb4a50ee0df9f9eff7e7a9b12a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void print_number_should_print_non_number</definition>
+        <argsstring>(void)</argsstring>
+        <name>print_number_should_print_non_number</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/print_number.c" line="103" column="13" bodyfile="tests/print_number.c" bodystart="103" bodyend="110"/>
+        <referencedby refid="print__number_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="print__number_8c" startline="112" endline="125">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="print__number_8c_1a840291bc02cba5474a4cb46a9b9566fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(void)</argsstring>
+        <name>main</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/print_number.c" line="112" column="8" bodyfile="tests/print_number.c" bodystart="112" bodyend="125"/>
+        <references refid="print__number_8c_1ae5e26d87ccad271ba502162a8ef712a7" compoundref="print__number_8c" startline="70" endline="75">print_number_should_print_negative_integers</references>
+        <references refid="print__number_8c_1a76af8b39d65a1ce6a6e5b2021cb0d0a0" compoundref="print__number_8c" startline="94" endline="101">print_number_should_print_negative_reals</references>
+        <references refid="print__number_8c_1a90b9eecb4a50ee0df9f9eff7e7a9b12a" compoundref="print__number_8c" startline="103" endline="110">print_number_should_print_non_number</references>
+        <references refid="print__number_8c_1a90dfe4f9bf658cc975df542855a11165" compoundref="print__number_8c" startline="77" endline="82">print_number_should_print_positive_integers</references>
+        <references refid="print__number_8c_1ac47b506548b4248b5e154288aa71cb34" compoundref="print__number_8c" startline="84" endline="92">print_number_should_print_positive_reals</references>
+        <references refid="print__number_8c_1a1a925dde38b26d7b2eb772c8a94509ac" compoundref="print__number_8c" startline="65" endline="68">print_number_should_print_zero</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/>Copyright<sp/>(c)<sp/>2009-2017<sp/>Dave<sp/>Gamble<sp/>and<sp/>cJSON<sp/>contributors</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"></highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity__config_8h" kindref="compound">unity/examples/unity_config.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity_8h" kindref="compound">unity/src/unity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="common_8h" kindref="compound">common.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" kindref="member">assert_print_number</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*expected,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>input)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>printed[1024];</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>new_buffer[26];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/><ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>[1];</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structprintbuffer" kindref="compound">printbuffer</ref><sp/><ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref><sp/>=<sp/>{<sp/>0,<sp/>0,<sp/>0,<sp/>0,<sp/>0,<sp/>0,<sp/>{<sp/>0,<sp/>0,<sp/>0<sp/>}<sp/>};</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref>.buffer<sp/>=<sp/>printed;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref>.length<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(printed);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref>.offset<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref>.noalloc<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref>.hooks<sp/>=<sp/><ref refid="cJSON_8c_1a855c7241e836a5b2d87577df8c113faf" kindref="member">global_hooks</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref>.buffer<sp/>=<sp/>new_buffer;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>memset(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>,<sp/>0,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>));</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>memset(new_buffer,<sp/>0,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(new_buffer));</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8h_1adab3f1e3586395bdb2da5a40059cb24b" kindref="member">cJSON_SetNumberValue</ref>(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>,<sp/>input);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ae92bec0a6b42edae91cce2726e34145c" kindref="member">TEST_ASSERT_TRUE_MESSAGE</ref>(<ref refid="cJSON_8c_1ad93d84de08872da0eaa6624be0e74a68" kindref="member">print_number</ref>(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>,<sp/>&amp;<ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref>),<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>print<sp/>number.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>In<sp/>MinGW<sp/>or<sp/>visual<sp/>studio(before<sp/>2015),the<sp/>exponten<sp/>is<sp/>represented<sp/>using<sp/>three<sp/>digits,like:&quot;1e-009&quot;,&quot;1e+017&quot;</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>remove<sp/>extra<sp/>&quot;0&quot;<sp/>to<sp/>output<sp/>&quot;1e-09&quot;<sp/>or<sp/>&quot;1e+17&quot;,which<sp/>makes<sp/>testcase<sp/>PASS<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(i<sp/>=<sp/>0;i<sp/>&lt;</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(new_buffer);i++)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(i<sp/>&gt;3<sp/>&amp;&amp;<sp/>new_buffer[i]<sp/>==</highlight><highlight class="charliteral">&apos;0&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((new_buffer[i-3]<sp/>==</highlight><highlight class="charliteral">&apos;e&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>new_buffer[i-2]<sp/>==<sp/></highlight><highlight class="charliteral">&apos;-&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>new_buffer[i]<sp/>==</highlight><highlight class="charliteral">&apos;0&apos;</highlight><highlight class="normal">)<sp/>||(new_buffer[i-2]<sp/>==</highlight><highlight class="charliteral">&apos;e&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>new_buffer[i-1]<sp/>==</highlight><highlight class="charliteral">&apos;+&apos;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(new_buffer[i]<sp/>!=</highlight><highlight class="charliteral">&apos;\0&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>new_buffer[i]<sp/>=<sp/>new_buffer[i+1];</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i++;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1abca87135f5bc5737e7e46ab02cddf39e" kindref="member">TEST_ASSERT_EQUAL_STRING_MESSAGE</ref>(expected,<sp/><ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref>.buffer,<sp/></highlight><highlight class="stringliteral">&quot;Printed<sp/>number<sp/>is<sp/>not<sp/>as<sp/>expected.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="print__number_8c_1a1a925dde38b26d7b2eb772c8a94509ac" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="print__number_8c_1a1a925dde38b26d7b2eb772c8a94509ac" kindref="member">print_number_should_print_zero</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" kindref="member">assert_print_number</ref>(</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal">,<sp/>0);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="print__number_8c_1ae5e26d87ccad271ba502162a8ef712a7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="print__number_8c_1ae5e26d87ccad271ba502162a8ef712a7" kindref="member">print_number_should_print_negative_integers</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" kindref="member">assert_print_number</ref>(</highlight><highlight class="stringliteral">&quot;-1&quot;</highlight><highlight class="normal">,<sp/>-1.0);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" kindref="member">assert_print_number</ref>(</highlight><highlight class="stringliteral">&quot;-32768&quot;</highlight><highlight class="normal">,<sp/>-32768.0);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" kindref="member">assert_print_number</ref>(</highlight><highlight class="stringliteral">&quot;-2147483648&quot;</highlight><highlight class="normal">,<sp/>-2147483648.0);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="print__number_8c_1a90dfe4f9bf658cc975df542855a11165" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="print__number_8c_1a90dfe4f9bf658cc975df542855a11165" kindref="member">print_number_should_print_positive_integers</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" kindref="member">assert_print_number</ref>(</highlight><highlight class="stringliteral">&quot;1&quot;</highlight><highlight class="normal">,<sp/>1.0);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" kindref="member">assert_print_number</ref>(</highlight><highlight class="stringliteral">&quot;32767&quot;</highlight><highlight class="normal">,<sp/>32767.0);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" kindref="member">assert_print_number</ref>(</highlight><highlight class="stringliteral">&quot;2147483647&quot;</highlight><highlight class="normal">,<sp/>2147483647.0);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="print__number_8c_1ac47b506548b4248b5e154288aa71cb34" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="print__number_8c_1ac47b506548b4248b5e154288aa71cb34" kindref="member">print_number_should_print_positive_reals</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" kindref="member">assert_print_number</ref>(</highlight><highlight class="stringliteral">&quot;0.123&quot;</highlight><highlight class="normal">,<sp/>0.123);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" kindref="member">assert_print_number</ref>(</highlight><highlight class="stringliteral">&quot;1e-09&quot;</highlight><highlight class="normal">,<sp/>10e-10);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" kindref="member">assert_print_number</ref>(</highlight><highlight class="stringliteral">&quot;1000000000000&quot;</highlight><highlight class="normal">,<sp/>10e11);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" kindref="member">assert_print_number</ref>(</highlight><highlight class="stringliteral">&quot;1.23e+129&quot;</highlight><highlight class="normal">,<sp/>123e+127);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" kindref="member">assert_print_number</ref>(</highlight><highlight class="stringliteral">&quot;1.23e-126&quot;</highlight><highlight class="normal">,<sp/>123e-128);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" kindref="member">assert_print_number</ref>(</highlight><highlight class="stringliteral">&quot;3.1415926535897931&quot;</highlight><highlight class="normal">,<sp/>3.1415926535897931);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="print__number_8c_1a76af8b39d65a1ce6a6e5b2021cb0d0a0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="print__number_8c_1a76af8b39d65a1ce6a6e5b2021cb0d0a0" kindref="member">print_number_should_print_negative_reals</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" kindref="member">assert_print_number</ref>(</highlight><highlight class="stringliteral">&quot;-0.0123&quot;</highlight><highlight class="normal">,<sp/>-0.0123);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" kindref="member">assert_print_number</ref>(</highlight><highlight class="stringliteral">&quot;-1e-09&quot;</highlight><highlight class="normal">,<sp/>-10e-10);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" kindref="member">assert_print_number</ref>(</highlight><highlight class="stringliteral">&quot;-1e+21&quot;</highlight><highlight class="normal">,<sp/>-10e20);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" kindref="member">assert_print_number</ref>(</highlight><highlight class="stringliteral">&quot;-1.23e+129&quot;</highlight><highlight class="normal">,<sp/>-123e+127);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" kindref="member">assert_print_number</ref>(</highlight><highlight class="stringliteral">&quot;-1.23e-126&quot;</highlight><highlight class="normal">,<sp/>-123e-128);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="print__number_8c_1a90b9eecb4a50ee0df9f9eff7e7a9b12a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="print__number_8c_1a90b9eecb4a50ee0df9f9eff7e7a9b12a" kindref="member">print_number_should_print_non_number</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ad18f9e51b4a85dcb5e3a07c54eaf4019" kindref="member">TEST_IGNORE</ref>();</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>FIXME:<sp/>Cannot<sp/>test<sp/>this<sp/>easily<sp/>in<sp/>C89!<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>assert_print_number(&quot;null&quot;,<sp/>NaN);<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>assert_print_number(&quot;null&quot;,<sp/>INFTY);<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>assert_print_number(&quot;null&quot;,<sp/>-INFTY);<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="print__number_8c_1a840291bc02cba5474a4cb46a9b9566fe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="cJSON_8h_1a79203c3ba406ffd5736627cc1e082e38" kindref="member">CJSON_CDECL</ref><sp/><ref refid="print__number_8c_1a840291bc02cba5474a4cb46a9b9566fe" kindref="member">main</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>initialize<sp/>cJSON<sp/>item<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__internals_8h_1aaad15a5d10e50a412d0a6851d0e5091a" kindref="member">UNITY_BEGIN</ref>();</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="print__number_8c_1a1a925dde38b26d7b2eb772c8a94509ac" kindref="member">print_number_should_print_zero</ref>);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="print__number_8c_1ae5e26d87ccad271ba502162a8ef712a7" kindref="member">print_number_should_print_negative_integers</ref>);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="print__number_8c_1a90dfe4f9bf658cc975df542855a11165" kindref="member">print_number_should_print_positive_integers</ref>);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="print__number_8c_1ac47b506548b4248b5e154288aa71cb34" kindref="member">print_number_should_print_positive_reals</ref>);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="print__number_8c_1a76af8b39d65a1ce6a6e5b2021cb0d0a0" kindref="member">print_number_should_print_negative_reals</ref>);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="print__number_8c_1a90b9eecb4a50ee0df9f9eff7e7a9b12a" kindref="member">print_number_should_print_non_number</ref>);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="unity__internals_8h_1aa519129d3af737eb796fc91720fae26a" kindref="member">UNITY_END</ref>();</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="tests/print_number.c"/>
+  </compounddef>
+</doxygen>

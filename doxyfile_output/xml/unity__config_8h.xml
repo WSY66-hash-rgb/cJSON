@@ -1,0 +1,758 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unity__config_8h" kind="file" language="C++">
+    <compoundname>unity_config.h</compoundname>
+    <includedby refid="cjson__add_8c" local="yes">tests/cjson_add.c</includedby>
+    <includedby refid="compare__tests_8c" local="yes">tests/compare_tests.c</includedby>
+    <includedby refid="unity__internals_8h" local="yes">tests/unity/src/unity_internals.h</includedby>
+    <includedby refid="json__patch__tests_8c" local="yes">tests/json_patch_tests.c</includedby>
+    <includedby refid="minify__tests_8c" local="yes">tests/minify_tests.c</includedby>
+    <includedby refid="misc__tests_8c" local="yes">tests/misc_tests.c</includedby>
+    <includedby refid="misc__utils__tests_8c" local="yes">tests/misc_utils_tests.c</includedby>
+    <includedby refid="old__utils__tests_8c" local="yes">tests/old_utils_tests.c</includedby>
+    <includedby refid="parse__array_8c" local="yes">tests/parse_array.c</includedby>
+    <includedby refid="parse__examples_8c" local="yes">tests/parse_examples.c</includedby>
+    <includedby refid="parse__hex4_8c" local="yes">tests/parse_hex4.c</includedby>
+    <includedby refid="parse__number_8c" local="yes">tests/parse_number.c</includedby>
+    <includedby refid="parse__object_8c" local="yes">tests/parse_object.c</includedby>
+    <includedby refid="parse__string_8c" local="yes">tests/parse_string.c</includedby>
+    <includedby refid="parse__value_8c" local="yes">tests/parse_value.c</includedby>
+    <includedby refid="parse__with__opts_8c" local="yes">tests/parse_with_opts.c</includedby>
+    <includedby refid="print__array_8c" local="yes">tests/print_array.c</includedby>
+    <includedby refid="print__number_8c" local="yes">tests/print_number.c</includedby>
+    <includedby refid="print__object_8c" local="yes">tests/print_object.c</includedby>
+    <includedby refid="print__string_8c" local="yes">tests/print_string.c</includedby>
+    <includedby refid="print__value_8c" local="yes">tests/print_value.c</includedby>
+    <includedby refid="readme__examples_8c" local="yes">tests/readme_examples.c</includedby>
+    <invincdepgraph>
+      <node id="18">
+        <label>tests/parse_with_opts.c</label>
+        <link refid="parse__with__opts_8c"/>
+      </node>
+      <node id="57">
+        <label>tests/unity/test/expectdata/testsample_mock_run2.c</label>
+        <link refid="testsample__mock__run2_8c"/>
+      </node>
+      <node id="28">
+        <label>tests/unity/examples/example_1/test/TestProductionCode2.c</label>
+        <link refid="example__1_2test_2TestProductionCode2_8c"/>
+      </node>
+      <node id="49">
+        <label>tests/unity/test/expectdata/testsample_mock_cmd.c</label>
+        <link refid="testsample__mock__cmd_8c"/>
+      </node>
+      <node id="32">
+        <label>tests/unity/examples/example_2/test/test_runners/TestProductionCode_Runner.c</label>
+        <link refid="example__2_2test_2test__runners_2TestProductionCode__Runner_8c"/>
+      </node>
+      <node id="25">
+        <label>tests/unity/examples/example_1/test/test_runners/TestProductionCode2_Runner.c</label>
+        <link refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c"/>
+      </node>
+      <node id="50">
+        <label>tests/unity/test/expectdata/testsample_mock_def.c</label>
+        <link refid="testsample__mock__def_8c"/>
+      </node>
+      <node id="36">
+        <label>tests/unity/extras/fixture/test/main/AllTests.c</label>
+        <link refid="AllTests_8c"/>
+      </node>
+      <node id="41">
+        <label>tests/unity/examples/example_3/helper/UnityHelper.c</label>
+        <link refid="UnityHelper_8c"/>
+      </node>
+      <node id="67">
+        <label>tests/unity/test/testdata/testRunnerGeneratorWithMocks.c</label>
+        <link refid="testRunnerGeneratorWithMocks_8c"/>
+      </node>
+      <node id="58">
+        <label>tests/unity/test/expectdata/testsample_mock_yaml.c</label>
+        <link refid="testsample__mock__yaml_8c"/>
+      </node>
+      <node id="53">
+        <label>tests/unity/test/expectdata/testsample_mock_new1.c</label>
+        <link refid="testsample__mock__new1_8c"/>
+      </node>
+      <node id="27">
+        <label>tests/unity/examples/example_1/test/TestProductionCode.c</label>
+        <link refid="example__1_2test_2TestProductionCode_8c"/>
+      </node>
+      <node id="23">
+        <label>tests/print_value.c</label>
+        <link refid="print__value_8c"/>
+      </node>
+      <node id="55">
+        <label>tests/unity/test/expectdata/testsample_mock_param.c</label>
+        <link refid="testsample__mock__param_8c"/>
+      </node>
+      <node id="6">
+        <label>tests/json_patch_tests.c</label>
+        <link refid="json__patch__tests_8c"/>
+      </node>
+      <node id="59">
+        <label>tests/unity/test/expectdata/testsample_new1.c</label>
+        <link refid="testsample__new1_8c"/>
+      </node>
+      <node id="62">
+        <label>tests/unity/test/expectdata/testsample_run1.c</label>
+        <link refid="testsample__run1_8c"/>
+      </node>
+      <node id="22">
+        <label>tests/print_string.c</label>
+        <link refid="print__string_8c"/>
+      </node>
+      <node id="10">
+        <label>tests/old_utils_tests.c</label>
+        <link refid="old__utils__tests_8c"/>
+      </node>
+      <node id="16">
+        <label>tests/parse_string.c</label>
+        <link refid="parse__string_8c"/>
+      </node>
+      <node id="30">
+        <label>tests/unity/examples/example_2/test/test_runners/all_tests.c</label>
+        <link refid="all__tests_8c"/>
+      </node>
+      <node id="19">
+        <label>tests/print_array.c</label>
+        <link refid="print__array_8c"/>
+      </node>
+      <node id="39">
+        <label>tests/unity/extras/fixture/test/unity_fixture_TestRunner.c</label>
+        <link refid="unity__fixture__TestRunner_8c"/>
+      </node>
+      <node id="68">
+        <label>tests/unity/test/tests/testparameterized.c</label>
+        <link refid="testparameterized_8c"/>
+      </node>
+      <node id="2">
+        <label>tests/cjson_add.c</label>
+        <link refid="cjson__add_8c"/>
+      </node>
+      <node id="15">
+        <label>tests/parse_object.c</label>
+        <link refid="parse__object_8c"/>
+      </node>
+      <node id="54">
+        <label>tests/unity/test/expectdata/testsample_mock_new2.c</label>
+        <link refid="testsample__mock__new2_8c"/>
+      </node>
+      <node id="31">
+        <label>tests/unity/examples/example_2/test/test_runners/TestProductionCode2_Runner.c</label>
+        <link refid="example__2_2test_2test__runners_2TestProductionCode2__Runner_8c"/>
+      </node>
+      <node id="12">
+        <label>tests/parse_examples.c</label>
+        <link refid="parse__examples_8c"/>
+      </node>
+      <node id="9">
+        <label>tests/misc_utils_tests.c</label>
+        <link refid="misc__utils__tests_8c"/>
+      </node>
+      <node id="37">
+        <label>tests/unity/extras/fixture/test/template_fixture_tests.c</label>
+        <link refid="template__fixture__tests_8c"/>
+      </node>
+      <node id="11">
+        <label>tests/parse_array.c</label>
+        <link refid="parse__array_8c"/>
+      </node>
+      <node id="61">
+        <label>tests/unity/test/expectdata/testsample_param.c</label>
+        <link refid="testsample__param_8c"/>
+      </node>
+      <node id="51">
+        <label>tests/unity/test/expectdata/testsample_mock_head1.c</label>
+        <link refid="testsample__mock__head1_8c"/>
+      </node>
+      <node id="52">
+        <label>tests/unity/test/expectdata/testsample_mock_head1.h</label>
+        <link refid="testsample__mock__head1_8h"/>
+        <childnode refid="51" relation="include">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>tests/unity/test/testdata/testRunnerGenerator.c</label>
+        <link refid="testRunnerGenerator_8c"/>
+      </node>
+      <node id="17">
+        <label>tests/parse_value.c</label>
+        <link refid="parse__value_8c"/>
+      </node>
+      <node id="42">
+        <label>tests/unity/examples/example_3/test/TestProductionCode.c</label>
+        <link refid="example__3_2test_2TestProductionCode_8c"/>
+      </node>
+      <node id="1">
+        <label>tests/unity/examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>tests/misc_tests.c</label>
+        <link refid="misc__tests_8c"/>
+      </node>
+      <node id="14">
+        <label>tests/parse_number.c</label>
+        <link refid="parse__number_8c"/>
+      </node>
+      <node id="47">
+        <label>tests/unity/test/expectdata/testsample_head1.c</label>
+        <link refid="testsample__head1_8c"/>
+      </node>
+      <node id="4">
+        <label>tests/unity/src/unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>tests/unity/test/expectdata/testsample_head1.h</label>
+        <link refid="testsample__head1_8h"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>tests/unity/test/expectdata/testsample_mock_run1.c</label>
+        <link refid="testsample__mock__run1_8c"/>
+      </node>
+      <node id="44">
+        <label>tests/unity/src/unity.c</label>
+        <link refid="unity_8c"/>
+      </node>
+      <node id="5">
+        <label>tests/unity/src/unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>tests/minify_tests.c</label>
+        <link refid="minify__tests_8c"/>
+      </node>
+      <node id="40">
+        <label>tests/unity/extras/fixture/test/unity_output_Spy.c</label>
+        <link refid="unity__output__Spy_8c"/>
+      </node>
+      <node id="66">
+        <label>tests/unity/test/testdata/testRunnerGeneratorSmall.c</label>
+        <link refid="testRunnerGeneratorSmall_8c"/>
+      </node>
+      <node id="13">
+        <label>tests/parse_hex4.c</label>
+        <link refid="parse__hex4_8c"/>
+      </node>
+      <node id="46">
+        <label>tests/unity/test/expectdata/testsample_def.c</label>
+        <link refid="testsample__def_8c"/>
+      </node>
+      <node id="21">
+        <label>tests/print_object.c</label>
+        <link refid="print__object_8c"/>
+      </node>
+      <node id="34">
+        <label>tests/unity/examples/example_2/test/TestProductionCode2.c</label>
+        <link refid="example__2_2test_2TestProductionCode2_8c"/>
+      </node>
+      <node id="38">
+        <label>tests/unity/extras/fixture/test/unity_fixture_Test.c</label>
+        <link refid="unity__fixture__Test_8c"/>
+      </node>
+      <node id="64">
+        <label>tests/unity/test/expectdata/testsample_yaml.c</label>
+        <link refid="testsample__yaml_8c"/>
+      </node>
+      <node id="3">
+        <label>tests/compare_tests.c</label>
+        <link refid="compare__tests_8c"/>
+      </node>
+      <node id="26">
+        <label>tests/unity/examples/example_1/test/test_runners/TestProductionCode_Runner.c</label>
+        <link refid="example__1_2test_2test__runners_2TestProductionCode__Runner_8c"/>
+      </node>
+      <node id="43">
+        <label>tests/unity/examples/example_3/test/TestProductionCode2.c</label>
+        <link refid="example__3_2test_2TestProductionCode2_8c"/>
+      </node>
+      <node id="33">
+        <label>tests/unity/examples/example_2/test/TestProductionCode.c</label>
+        <link refid="example__2_2test_2TestProductionCode_8c"/>
+      </node>
+      <node id="45">
+        <label>tests/unity/test/expectdata/testsample_cmd.c</label>
+        <link refid="testsample__cmd_8c"/>
+      </node>
+      <node id="20">
+        <label>tests/print_number.c</label>
+        <link refid="print__number_8c"/>
+      </node>
+      <node id="24">
+        <label>tests/readme_examples.c</label>
+        <link refid="readme__examples_8c"/>
+      </node>
+      <node id="35">
+        <label>tests/unity/extras/fixture/src/unity_fixture.c</label>
+        <link refid="unity__fixture_8c"/>
+      </node>
+      <node id="60">
+        <label>tests/unity/test/expectdata/testsample_new2.c</label>
+        <link refid="testsample__new2_8c"/>
+      </node>
+      <node id="69">
+        <label>tests/unity/test/tests/testunity.c</label>
+        <link refid="testunity_8c"/>
+      </node>
+      <node id="63">
+        <label>tests/unity/test/expectdata/testsample_run2.c</label>
+        <link refid="testsample__run2_8c"/>
+      </node>
+      <node id="29">
+        <label>tests/unity/extras/fixture/src/unity_fixture.h</label>
+        <link refid="unity__fixture_8h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="unity__config_8h_1a30484a29e383b5d99f3f85a1d27219f4" prot="public" static="no">
+        <name>UNITY_INCLUDE_DOUBLE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/unity_config.h" line="124" column="9" bodyfile="tests/unity/examples/unity_config.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>Unity<sp/>Configuration</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>As<sp/>of<sp/>May<sp/>11th,<sp/>2016<sp/>at<sp/>ThrowTheSwitch/Unity<sp/>commit<sp/>837c529</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Update:<sp/>December<sp/>29th,<sp/>2016</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>See<sp/>Also:<sp/>Unity/docs/UnityConfigurationGuide.pdf</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Unity<sp/>is<sp/>designed<sp/>to<sp/>run<sp/>on<sp/>almost<sp/>anything<sp/>that<sp/>is<sp/>targeted<sp/>by<sp/>a<sp/>C<sp/>compiler.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>It<sp/>would<sp/>be<sp/>awesome<sp/>if<sp/>this<sp/>could<sp/>be<sp/>done<sp/>with<sp/>zero<sp/>configuration.<sp/>While</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>there<sp/>are<sp/>some<sp/>targets<sp/>that<sp/>come<sp/>close<sp/>to<sp/>this<sp/>dream,<sp/>it<sp/>is<sp/>sadly<sp/>not</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>universal.<sp/>It<sp/>is<sp/>likely<sp/>that<sp/>you<sp/>are<sp/>going<sp/>to<sp/>need<sp/>at<sp/>least<sp/>a<sp/>couple<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>configuration<sp/>options<sp/>described<sp/>in<sp/>this<sp/>document.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>All<sp/>of<sp/>Unity&apos;s<sp/>configuration<sp/>options<sp/>are<sp/>`#defines`.<sp/>Most<sp/>of<sp/>these<sp/>are<sp/>simple</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>definitions.<sp/>A<sp/>couple<sp/>are<sp/>macros<sp/>with<sp/>arguments.<sp/>They<sp/>live<sp/>inside<sp/>the</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>unity_internals.h<sp/>header<sp/>file.<sp/>We<sp/>don&apos;t<sp/>necessarily<sp/>recommend<sp/>opening<sp/>that</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>file<sp/>unless<sp/>you<sp/>really<sp/>need<sp/>to.<sp/>That<sp/>file<sp/>is<sp/>proof<sp/>that<sp/>a<sp/>cross-platform</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>library<sp/>is<sp/>challenging<sp/>to<sp/>build.<sp/>From<sp/>a<sp/>more<sp/>positive<sp/>perspective,<sp/>it<sp/>is<sp/>also</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>proof<sp/>that<sp/>a<sp/>great<sp/>deal<sp/>of<sp/>complexity<sp/>can<sp/>be<sp/>centralized<sp/>primarily<sp/>to<sp/>one</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>place<sp/>in<sp/>order<sp/>to<sp/>provide<sp/>a<sp/>more<sp/>consistent<sp/>and<sp/>simple<sp/>experience<sp/>elsewhere.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>Using<sp/>These<sp/>Options</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>It<sp/>doesn&apos;t<sp/>matter<sp/>if<sp/>you&apos;re<sp/>using<sp/>a<sp/>target-specific<sp/>compiler<sp/>and<sp/>a<sp/>simulator</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>or<sp/>a<sp/>native<sp/>compiler.<sp/>In<sp/>either<sp/>case,<sp/>you&apos;ve<sp/>got<sp/>a<sp/>couple<sp/>choices<sp/>for</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>configuring<sp/>these<sp/>options:</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/><sp/>1.<sp/>Because<sp/>these<sp/>options<sp/>are<sp/>specified<sp/>via<sp/>C<sp/>defines,<sp/>you<sp/>can<sp/>pass<sp/>most<sp/>of</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>these<sp/>options<sp/>to<sp/>your<sp/>compiler<sp/>through<sp/>command<sp/>line<sp/>compiler<sp/>flags.<sp/>Even</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>if<sp/>you&apos;re<sp/>using<sp/>an<sp/>embedded<sp/>target<sp/>that<sp/>forces<sp/>you<sp/>to<sp/>use<sp/>their</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>overbearing<sp/>IDE<sp/>for<sp/>all<sp/>configuration,<sp/>there<sp/>will<sp/>be<sp/>a<sp/>place<sp/>somewhere<sp/>in</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>your<sp/>project<sp/>to<sp/>configure<sp/>defines<sp/>for<sp/>your<sp/>compiler.</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/><sp/>2.<sp/>You<sp/>can<sp/>create<sp/>a<sp/>custom<sp/>`unity_config.h`<sp/>configuration<sp/>file<sp/>(present<sp/>in</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>your<sp/>toolchain&apos;s<sp/>search<sp/>paths).<sp/>In<sp/>this<sp/>file,<sp/>you<sp/>will<sp/>list<sp/>definitions</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>and<sp/>macros<sp/>specific<sp/>to<sp/>your<sp/>target.<sp/>All<sp/>you<sp/>must<sp/>do<sp/>is<sp/>define</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>`UNITY_INCLUDE_CONFIG_H`<sp/>and<sp/>Unity<sp/>will<sp/>rely<sp/>on<sp/>`unity_config.h`<sp/>for<sp/>any</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>further<sp/>definitions<sp/>it<sp/>may<sp/>need.</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>UNITY_CONFIG_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UNITY_CONFIG_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>*************************<sp/>AUTOMATIC<sp/>INTEGER<sp/>TYPES<sp/>***************************</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>C&apos;s<sp/>concept<sp/>of<sp/>an<sp/>integer<sp/>varies<sp/>from<sp/>target<sp/>to<sp/>target.<sp/>The<sp/>C<sp/>Standard<sp/>has</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>rules<sp/>about<sp/>the<sp/>`int`<sp/>matching<sp/>the<sp/>register<sp/>size<sp/>of<sp/>the<sp/>target</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>microprocessor.<sp/>It<sp/>has<sp/>rules<sp/>about<sp/>the<sp/>`int`<sp/>and<sp/>how<sp/>its<sp/>size<sp/>relates<sp/>to</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>other<sp/>integer<sp/>types.<sp/>An<sp/>`int`<sp/>on<sp/>one<sp/>target<sp/>might<sp/>be<sp/>16<sp/>bits<sp/>while<sp/>on<sp/>another</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>target<sp/>it<sp/>might<sp/>be<sp/>64.<sp/>There<sp/>are<sp/>more<sp/>specific<sp/>types<sp/>in<sp/>compilers<sp/>compliant</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>with<sp/>C99<sp/>or<sp/>later,<sp/>but<sp/>that&apos;s<sp/>certainly<sp/>not<sp/>every<sp/>compiler<sp/>you<sp/>are<sp/>likely<sp/>to</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>encounter.<sp/>Therefore,<sp/>Unity<sp/>has<sp/>a<sp/>number<sp/>of<sp/>features<sp/>for<sp/>helping<sp/>to<sp/>adjust</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>itself<sp/>to<sp/>match<sp/>your<sp/>required<sp/>integer<sp/>sizes.<sp/>It<sp/>starts<sp/>off<sp/>by<sp/>trying<sp/>to<sp/>do<sp/>it</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*<sp/>automatically.</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>****************************************************************************<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>first<sp/>attempt<sp/>to<sp/>guess<sp/>your<sp/>types<sp/>is<sp/>to<sp/>check<sp/>`limits.h`.<sp/>Some<sp/>compilers</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*<sp/>that<sp/>don&apos;t<sp/>support<sp/>`stdint.h`<sp/>could<sp/>include<sp/>`limits.h`.<sp/>If<sp/>you<sp/>don&apos;t</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/>want<sp/>Unity<sp/>to<sp/>check<sp/>this<sp/>file,<sp/>define<sp/>this<sp/>to<sp/>make<sp/>it<sp/>skip<sp/>the<sp/>inclusion.</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*<sp/>Unity<sp/>looks<sp/>at<sp/>UINT_MAX<sp/>&amp;<sp/>ULONG_MAX,<sp/>which<sp/>were<sp/>available<sp/>since<sp/>C89.</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_EXCLUDE_LIMITS_H<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>second<sp/>thing<sp/>that<sp/>Unity<sp/>does<sp/>to<sp/>guess<sp/>your<sp/>types<sp/>is<sp/>check<sp/>`stdint.h`.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>defines<sp/>`UINTPTR_MAX`,<sp/>since<sp/>C99,<sp/>that<sp/>Unity<sp/>can<sp/>make<sp/>use<sp/>of<sp/>to</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/>learn<sp/>about<sp/>your<sp/>system.<sp/>It&apos;s<sp/>possible<sp/>you<sp/>don&apos;t<sp/>want<sp/>it<sp/>to<sp/>do<sp/>this<sp/>or<sp/>it&apos;s</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*<sp/>possible<sp/>that<sp/>your<sp/>system<sp/>doesn&apos;t<sp/>support<sp/>`stdint.h`.<sp/>If<sp/>that&apos;s<sp/>the<sp/>case,</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/>*<sp/>you&apos;re<sp/>going<sp/>to<sp/>want<sp/>to<sp/>define<sp/>this.<sp/>That<sp/>way,<sp/>Unity<sp/>will<sp/>know<sp/>to<sp/>skip<sp/>the</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/>*<sp/>inclusion<sp/>of<sp/>this<sp/>file<sp/>and<sp/>you<sp/>won&apos;t<sp/>be<sp/>left<sp/>with<sp/>a<sp/>compiler<sp/>error.</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_EXCLUDE_STDINT_H<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>**********************<sp/>MANUAL<sp/>INTEGER<sp/>TYPE<sp/>DEFINITION<sp/>***********************</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*<sp/>If<sp/>you&apos;ve<sp/>disabled<sp/>all<sp/>of<sp/>the<sp/>automatic<sp/>options<sp/>above,<sp/>you&apos;re<sp/>going<sp/>to<sp/>have</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*<sp/>to<sp/>do<sp/>the<sp/>configuration<sp/>yourself.<sp/>There<sp/>are<sp/>just<sp/>a<sp/>handful<sp/>of<sp/>defines<sp/>that</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*<sp/>you<sp/>are<sp/>going<sp/>to<sp/>specify<sp/>if<sp/>you<sp/>don&apos;t<sp/>like<sp/>the<sp/>defaults.</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/>****************************************************************************<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/>Define<sp/>this<sp/>to<sp/>be<sp/>the<sp/>number<sp/>of<sp/>bits<sp/>an<sp/>`int`<sp/>takes<sp/>up<sp/>on<sp/>your<sp/>system.<sp/>The</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*<sp/>default,<sp/>if<sp/>not<sp/>auto-detected,<sp/>is<sp/>32<sp/>bits.</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/>*<sp/>Example:</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_INT_WIDTH<sp/>16<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>this<sp/>to<sp/>be<sp/>the<sp/>number<sp/>of<sp/>bits<sp/>a<sp/>`long`<sp/>takes<sp/>up<sp/>on<sp/>your<sp/>system.<sp/>The</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/>*<sp/>default,<sp/>if<sp/>not<sp/>autodetected,<sp/>is<sp/>32<sp/>bits.<sp/>This<sp/>is<sp/>used<sp/>to<sp/>figure<sp/>out<sp/>what</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/>*<sp/>kind<sp/>of<sp/>64-bit<sp/>support<sp/>your<sp/>system<sp/>can<sp/>handle.<sp/><sp/>Does<sp/>it<sp/>need<sp/>to<sp/>specify<sp/>a</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/>*<sp/>`long`<sp/>or<sp/>a<sp/>`long<sp/>long`<sp/>to<sp/>get<sp/>a<sp/>64-bit<sp/>value.<sp/>On<sp/>16-bit<sp/>systems,<sp/>this<sp/>option</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/>*<sp/>is<sp/>going<sp/>to<sp/>be<sp/>ignored.</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/>*<sp/>Example:</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_LONG_WIDTH<sp/>16<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>this<sp/>to<sp/>be<sp/>the<sp/>number<sp/>of<sp/>bits<sp/>a<sp/>pointer<sp/>takes<sp/>up<sp/>on<sp/>your<sp/>system.<sp/>The</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/>*<sp/>default,<sp/>if<sp/>not<sp/>autodetected,<sp/>is<sp/>32-bits.<sp/>If<sp/>you&apos;re<sp/>getting<sp/>ugly<sp/>compiler</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/>*<sp/>warnings<sp/>about<sp/>casting<sp/>from<sp/>pointers,<sp/>this<sp/>is<sp/>the<sp/>one<sp/>to<sp/>look<sp/>at.</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/>*<sp/>Example:</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_POINTER_WIDTH<sp/>64<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Unity<sp/>will<sp/>automatically<sp/>include<sp/>64-bit<sp/>support<sp/>if<sp/>it<sp/>auto-detects<sp/>it,<sp/>or<sp/>if</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/>*<sp/>your<sp/>`int`,<sp/>`long`,<sp/>or<sp/>pointer<sp/>widths<sp/>are<sp/>greater<sp/>than<sp/>32-bits.<sp/>Define<sp/>this</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/>*<sp/>to<sp/>enable<sp/>64-bit<sp/>support<sp/>if<sp/>none<sp/>of<sp/>the<sp/>other<sp/>options<sp/>already<sp/>did<sp/>it<sp/>for<sp/>you.</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/>*<sp/>There<sp/>can<sp/>be<sp/>a<sp/>significant<sp/>size<sp/>and<sp/>speed<sp/>impact<sp/>to<sp/>enabling<sp/>64-bit<sp/>support</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/>*<sp/>on<sp/>small<sp/>targets,<sp/>so<sp/>don&apos;t<sp/>define<sp/>it<sp/>if<sp/>you<sp/>don&apos;t<sp/>need<sp/>it.</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_INCLUDE_64<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>***************************<sp/>FLOATING<sp/>POINT<sp/>TYPES<sp/>****************************</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/>*<sp/>In<sp/>the<sp/>embedded<sp/>world,<sp/>it&apos;s<sp/>not<sp/>uncommon<sp/>for<sp/>targets<sp/>to<sp/>have<sp/>no<sp/>support<sp/>for</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/>*<sp/>floating<sp/>point<sp/>operations<sp/>at<sp/>all<sp/>or<sp/>to<sp/>have<sp/>support<sp/>that<sp/>is<sp/>limited<sp/>to<sp/>only</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/>*<sp/>single<sp/>precision.<sp/>We<sp/>are<sp/>able<sp/>to<sp/>guess<sp/>integer<sp/>sizes<sp/>on<sp/>the<sp/>fly<sp/>because</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/>*<sp/>integers<sp/>are<sp/>always<sp/>available<sp/>in<sp/>at<sp/>least<sp/>one<sp/>size.<sp/>Floating<sp/>point,<sp/>on<sp/>the</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/>*<sp/>other<sp/>hand,<sp/>is<sp/>sometimes<sp/>not<sp/>available<sp/>at<sp/>all.<sp/>Trying<sp/>to<sp/>include<sp/>`float.h`<sp/>on</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/>*<sp/>these<sp/>platforms<sp/>would<sp/>result<sp/>in<sp/>an<sp/>error.<sp/>This<sp/>leaves<sp/>manual<sp/>configuration<sp/>as</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/>*<sp/>the<sp/>only<sp/>option.</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/>****************************************************************************<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/>By<sp/>default,<sp/>Unity<sp/>guesses<sp/>that<sp/>you<sp/>will<sp/>want<sp/>single<sp/>precision<sp/>floating<sp/>point</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/><sp/>*<sp/>support,<sp/>but<sp/>not<sp/>double<sp/>precision.<sp/>It&apos;s<sp/>easy<sp/>to<sp/>change<sp/>either<sp/>of<sp/>these<sp/>using</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/><sp/>*<sp/>the<sp/>include<sp/>and<sp/>exclude<sp/>options<sp/>here.<sp/>You<sp/>may<sp/>include<sp/>neither,<sp/>just<sp/>float,</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/><sp/>*<sp/>or<sp/>both,<sp/>as<sp/>suits<sp/>your<sp/>needs.</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_EXCLUDE_FLOAT<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="unity__config_8h_1a30484a29e383b5d99f3f85a1d27219f4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UNITY_INCLUDE_DOUBLE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_EXCLUDE_DOUBLE<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>For<sp/>features<sp/>that<sp/>are<sp/>enabled,<sp/>the<sp/>following<sp/>floating<sp/>point<sp/>options<sp/>also</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/>*<sp/>become<sp/>available.</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Unity<sp/>aims<sp/>for<sp/>as<sp/>small<sp/>of<sp/>a<sp/>footprint<sp/>as<sp/>possible<sp/>and<sp/>avoids<sp/>most<sp/>standard</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/>*<sp/>library<sp/>calls<sp/>(some<sp/>embedded<sp/>platforms<sp/>don&apos;t<sp/>have<sp/>a<sp/>standard<sp/>library!).</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/>*<sp/>Because<sp/>of<sp/>this,<sp/>its<sp/>routines<sp/>for<sp/>printing<sp/>integer<sp/>values<sp/>are<sp/>minimalist<sp/>and</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/>*<sp/>hand-coded.<sp/>To<sp/>keep<sp/>Unity<sp/>universal,<sp/>though,<sp/>we<sp/>eventually<sp/>chose<sp/>to<sp/>develop</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/>*<sp/>our<sp/>own<sp/>floating<sp/>point<sp/>print<sp/>routines.<sp/>Still,<sp/>the<sp/>display<sp/>of<sp/>floating<sp/>point</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/>*<sp/>values<sp/>during<sp/>a<sp/>failure<sp/>are<sp/>optional.<sp/>By<sp/>default,<sp/>Unity<sp/>will<sp/>print<sp/>the</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/>*<sp/>actual<sp/>results<sp/>of<sp/>floating<sp/>point<sp/>assertion<sp/>failures.<sp/>So<sp/>a<sp/>failed<sp/>assertion</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/>*<sp/>will<sp/>produce<sp/>a<sp/>message<sp/>like<sp/>&quot;Expected<sp/>4.0<sp/>Was<sp/>4.25&quot;.<sp/>If<sp/>you<sp/>would<sp/>like<sp/>less</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/>*<sp/>verbose<sp/>failure<sp/>messages<sp/>for<sp/>floating<sp/>point<sp/>assertions,<sp/>use<sp/>this<sp/>option<sp/>to</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/>*<sp/>give<sp/>a<sp/>failure<sp/>message<sp/>`&quot;Values<sp/>Not<sp/>Within<sp/>Delta&quot;`<sp/>and<sp/>trim<sp/>the<sp/>binary<sp/>size.</highlight></codeline>
+<codeline lineno="141"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_EXCLUDE_FLOAT_PRINT<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>If<sp/>enabled,<sp/>Unity<sp/>assumes<sp/>you<sp/>want<sp/>your<sp/>`FLOAT`<sp/>asserts<sp/>to<sp/>compare<sp/>standard<sp/>C</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/>*<sp/>floats.<sp/>If<sp/>your<sp/>compiler<sp/>supports<sp/>a<sp/>specialty<sp/>floating<sp/>point<sp/>type,<sp/>you<sp/>can</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/>*<sp/>always<sp/>override<sp/>this<sp/>behavior<sp/>by<sp/>using<sp/>this<sp/>definition.</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/>*<sp/>Example:</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_FLOAT_TYPE<sp/>float16_t<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>If<sp/>enabled,<sp/>Unity<sp/>assumes<sp/>you<sp/>want<sp/>your<sp/>`DOUBLE`<sp/>asserts<sp/>to<sp/>compare<sp/>standard</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/>*<sp/>C<sp/>doubles.<sp/>If<sp/>you<sp/>would<sp/>like<sp/>to<sp/>change<sp/>this,<sp/>you<sp/>can<sp/>specify<sp/>something<sp/>else</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/>*<sp/>by<sp/>using<sp/>this<sp/>option.<sp/>For<sp/>example,<sp/>defining<sp/>`UNITY_DOUBLE_TYPE`<sp/>to<sp/>`long</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"><sp/>*<sp/>double`<sp/>could<sp/>enable<sp/>gargantuan<sp/>floating<sp/>point<sp/>types<sp/>on<sp/>your<sp/>64-bit<sp/>processor</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/>*<sp/>instead<sp/>of<sp/>the<sp/>standard<sp/>`double`.</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/>*<sp/>Example:</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_DOUBLE_TYPE<sp/>long<sp/>double<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>If<sp/>you<sp/>look<sp/>up<sp/>`UNITY_ASSERT_EQUAL_FLOAT`<sp/>and<sp/>`UNITY_ASSERT_EQUAL_DOUBLE`<sp/>as</highlight></codeline>
+<codeline lineno="163"><highlight class="comment"><sp/>*<sp/>documented<sp/>in<sp/>the<sp/>Unity<sp/>Assertion<sp/>Guide,<sp/>you<sp/>will<sp/>learn<sp/>that<sp/>they<sp/>are<sp/>not</highlight></codeline>
+<codeline lineno="164"><highlight class="comment"><sp/>*<sp/>really<sp/>asserting<sp/>that<sp/>two<sp/>values<sp/>are<sp/>equal<sp/>but<sp/>rather<sp/>that<sp/>two<sp/>values<sp/>are</highlight></codeline>
+<codeline lineno="165"><highlight class="comment"><sp/>*<sp/>&quot;close<sp/>enough&quot;<sp/>to<sp/>equal.<sp/>&quot;Close<sp/>enough&quot;<sp/>is<sp/>controlled<sp/>by<sp/>these<sp/>precision</highlight></codeline>
+<codeline lineno="166"><highlight class="comment"><sp/>*<sp/>configuration<sp/>options.<sp/>If<sp/>you<sp/>are<sp/>working<sp/>with<sp/>32-bit<sp/>floats<sp/>and/or<sp/>64-bit</highlight></codeline>
+<codeline lineno="167"><highlight class="comment"><sp/>*<sp/>doubles<sp/>(the<sp/>normal<sp/>on<sp/>most<sp/>processors),<sp/>you<sp/>should<sp/>have<sp/>no<sp/>need<sp/>to<sp/>change</highlight></codeline>
+<codeline lineno="168"><highlight class="comment"><sp/>*<sp/>these<sp/>options.<sp/>They<sp/>are<sp/>both<sp/>set<sp/>to<sp/>give<sp/>you<sp/>approximately<sp/>1<sp/>significant<sp/>bit</highlight></codeline>
+<codeline lineno="169"><highlight class="comment"><sp/>*<sp/>in<sp/>either<sp/>direction.<sp/>The<sp/>float<sp/>precision<sp/>is<sp/>0.00001<sp/>while<sp/>the<sp/>double<sp/>is</highlight></codeline>
+<codeline lineno="170"><highlight class="comment"><sp/>*<sp/>10^-12.<sp/>For<sp/>further<sp/>details<sp/>on<sp/>how<sp/>this<sp/>works,<sp/>see<sp/>the<sp/>appendix<sp/>of<sp/>the<sp/>Unity</highlight></codeline>
+<codeline lineno="171"><highlight class="comment"><sp/>*<sp/>Assertion<sp/>Guide.</highlight></codeline>
+<codeline lineno="172"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="173"><highlight class="comment"><sp/>*<sp/>Example:</highlight></codeline>
+<codeline lineno="174"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_FLOAT_PRECISION<sp/>0.001f<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_DOUBLE_PRECISION<sp/>0.001f<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>***************************<sp/>TOOLSET<sp/>CUSTOMIZATION<sp/>***************************</highlight></codeline>
+<codeline lineno="180"><highlight class="comment"><sp/>*<sp/>In<sp/>addition<sp/>to<sp/>the<sp/>options<sp/>listed<sp/>above,<sp/>there<sp/>are<sp/>a<sp/>number<sp/>of<sp/>other<sp/>options</highlight></codeline>
+<codeline lineno="181"><highlight class="comment"><sp/>*<sp/>which<sp/>will<sp/>come<sp/>in<sp/>handy<sp/>to<sp/>customize<sp/>Unity&apos;s<sp/>behavior<sp/>for<sp/>your<sp/>specific</highlight></codeline>
+<codeline lineno="182"><highlight class="comment"><sp/>*<sp/>toolchain.<sp/>It<sp/>is<sp/>possible<sp/>that<sp/>you<sp/>may<sp/>not<sp/>need<sp/>to<sp/>touch<sp/>any<sp/>of<sp/>these<sp/>but</highlight></codeline>
+<codeline lineno="183"><highlight class="comment"><sp/>*<sp/>certain<sp/>platforms,<sp/>particularly<sp/>those<sp/>running<sp/>in<sp/>simulators,<sp/>may<sp/>need<sp/>to<sp/>jump</highlight></codeline>
+<codeline lineno="184"><highlight class="comment"><sp/>*<sp/>through<sp/>extra<sp/>hoops<sp/>to<sp/>operate<sp/>properly.<sp/>These<sp/>macros<sp/>will<sp/>help<sp/>in<sp/>those</highlight></codeline>
+<codeline lineno="185"><highlight class="comment"><sp/>*<sp/>situations.</highlight></codeline>
+<codeline lineno="186"><highlight class="comment"><sp/>****************************************************************************<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>By<sp/>default,<sp/>Unity<sp/>prints<sp/>its<sp/>results<sp/>to<sp/>`stdout`<sp/>as<sp/>it<sp/>runs.<sp/>This<sp/>works</highlight></codeline>
+<codeline lineno="189"><highlight class="comment"><sp/>*<sp/>perfectly<sp/>fine<sp/>in<sp/>most<sp/>situations<sp/>where<sp/>you<sp/>are<sp/>using<sp/>a<sp/>native<sp/>compiler<sp/>for</highlight></codeline>
+<codeline lineno="190"><highlight class="comment"><sp/>*<sp/>testing.<sp/>It<sp/>works<sp/>on<sp/>some<sp/>simulators<sp/>as<sp/>well<sp/>so<sp/>long<sp/>as<sp/>they<sp/>have<sp/>`stdout`</highlight></codeline>
+<codeline lineno="191"><highlight class="comment"><sp/>*<sp/>routed<sp/>back<sp/>to<sp/>the<sp/>command<sp/>line.<sp/>There<sp/>are<sp/>times,<sp/>however,<sp/>where<sp/>the</highlight></codeline>
+<codeline lineno="192"><highlight class="comment"><sp/>*<sp/>simulator<sp/>will<sp/>lack<sp/>support<sp/>for<sp/>dumping<sp/>results<sp/>or<sp/>you<sp/>will<sp/>want<sp/>to<sp/>route</highlight></codeline>
+<codeline lineno="193"><highlight class="comment"><sp/>*<sp/>results<sp/>elsewhere<sp/>for<sp/>other<sp/>reasons.<sp/>In<sp/>these<sp/>cases,<sp/>you<sp/>should<sp/>define<sp/>the</highlight></codeline>
+<codeline lineno="194"><highlight class="comment"><sp/>*<sp/>`UNITY_OUTPUT_CHAR`<sp/>macro.<sp/>This<sp/>macro<sp/>accepts<sp/>a<sp/>single<sp/>character<sp/>at<sp/>a<sp/>time</highlight></codeline>
+<codeline lineno="195"><highlight class="comment"><sp/>*<sp/>(as<sp/>an<sp/>`int`,<sp/>since<sp/>this<sp/>is<sp/>the<sp/>parameter<sp/>type<sp/>of<sp/>the<sp/>standard<sp/>C<sp/>`putchar`</highlight></codeline>
+<codeline lineno="196"><highlight class="comment"><sp/>*<sp/>function<sp/>most<sp/>commonly<sp/>used).<sp/>You<sp/>may<sp/>replace<sp/>this<sp/>with<sp/>whatever<sp/>function</highlight></codeline>
+<codeline lineno="197"><highlight class="comment"><sp/>*<sp/>call<sp/>you<sp/>like.</highlight></codeline>
+<codeline lineno="198"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="199"><highlight class="comment"><sp/>*<sp/>Example:</highlight></codeline>
+<codeline lineno="200"><highlight class="comment"><sp/>*<sp/>Say<sp/>you<sp/>are<sp/>forced<sp/>to<sp/>run<sp/>your<sp/>test<sp/>suite<sp/>on<sp/>an<sp/>embedded<sp/>processor<sp/>with<sp/>no</highlight></codeline>
+<codeline lineno="201"><highlight class="comment"><sp/>*<sp/>`stdout`<sp/>option.<sp/>You<sp/>decide<sp/>to<sp/>route<sp/>your<sp/>test<sp/>result<sp/>output<sp/>to<sp/>a<sp/>custom</highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/>*<sp/>serial<sp/>`RS232_putc()`<sp/>function<sp/>you<sp/>wrote<sp/>like<sp/>thus:</highlight></codeline>
+<codeline lineno="203"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_OUTPUT_CHAR(a)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RS232_putc(a)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_OUTPUT_CHAR_HEADER_DECLARATION<sp/><sp/><sp/><sp/>RS232_putc(int)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_OUTPUT_FLUSH()<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RS232_flush()<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_OUTPUT_FLUSH_HEADER_DECLARATION<sp/><sp/><sp/>RS232_flush(void)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_OUTPUT_START()<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RS232_config(115200,1,8,0)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_OUTPUT_COMPLETE()<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RS232_close()<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>For<sp/>some<sp/>targets,<sp/>Unity<sp/>can<sp/>make<sp/>the<sp/>otherwise<sp/>required<sp/>`setUp()`<sp/>and</highlight></codeline>
+<codeline lineno="212"><highlight class="comment"><sp/>*<sp/>`tearDown()`<sp/>functions<sp/>optional.<sp/>This<sp/>is<sp/>a<sp/>nice<sp/>convenience<sp/>for<sp/>test<sp/>writers</highlight></codeline>
+<codeline lineno="213"><highlight class="comment"><sp/>*<sp/>since<sp/>`setUp`<sp/>and<sp/>`tearDown`<sp/>don&apos;t<sp/>often<sp/>actually<sp/>_do_<sp/>anything.<sp/>If<sp/>you&apos;re</highlight></codeline>
+<codeline lineno="214"><highlight class="comment"><sp/>*<sp/>using<sp/>gcc<sp/>or<sp/>clang,<sp/>this<sp/>option<sp/>is<sp/>automatically<sp/>defined<sp/>for<sp/>you.<sp/>Other</highlight></codeline>
+<codeline lineno="215"><highlight class="comment"><sp/>*<sp/>compilers<sp/>can<sp/>also<sp/>support<sp/>this<sp/>behavior,<sp/>if<sp/>they<sp/>support<sp/>a<sp/>C<sp/>feature<sp/>called</highlight></codeline>
+<codeline lineno="216"><highlight class="comment"><sp/>*<sp/>weak<sp/>functions.<sp/>A<sp/>weak<sp/>function<sp/>is<sp/>a<sp/>function<sp/>that<sp/>is<sp/>compiled<sp/>into<sp/>your</highlight></codeline>
+<codeline lineno="217"><highlight class="comment"><sp/>*<sp/>executable<sp/>_unless_<sp/>a<sp/>non-weak<sp/>version<sp/>of<sp/>the<sp/>same<sp/>function<sp/>is<sp/>defined</highlight></codeline>
+<codeline lineno="218"><highlight class="comment"><sp/>*<sp/>elsewhere.<sp/>If<sp/>a<sp/>non-weak<sp/>version<sp/>is<sp/>found,<sp/>the<sp/>weak<sp/>version<sp/>is<sp/>ignored<sp/>as<sp/>if</highlight></codeline>
+<codeline lineno="219"><highlight class="comment"><sp/>*<sp/>it<sp/>never<sp/>existed.<sp/>If<sp/>your<sp/>compiler<sp/>supports<sp/>this<sp/>feature,<sp/>you<sp/>can<sp/>let<sp/>Unity</highlight></codeline>
+<codeline lineno="220"><highlight class="comment"><sp/>*<sp/>know<sp/>by<sp/>defining<sp/>`UNITY_SUPPORT_WEAK`<sp/>as<sp/>the<sp/>function<sp/>attributes<sp/>that<sp/>would</highlight></codeline>
+<codeline lineno="221"><highlight class="comment"><sp/>*<sp/>need<sp/>to<sp/>be<sp/>applied<sp/>to<sp/>identify<sp/>a<sp/>function<sp/>as<sp/>weak.<sp/>If<sp/>your<sp/>compiler<sp/>lacks</highlight></codeline>
+<codeline lineno="222"><highlight class="comment"><sp/>*<sp/>support<sp/>for<sp/>weak<sp/>functions,<sp/>you<sp/>will<sp/>always<sp/>need<sp/>to<sp/>define<sp/>`setUp`<sp/>and</highlight></codeline>
+<codeline lineno="223"><highlight class="comment"><sp/>*<sp/>`tearDown`<sp/>functions<sp/>(though<sp/>they<sp/>can<sp/>be<sp/>and<sp/>often<sp/>will<sp/>be<sp/>just<sp/>empty).<sp/>The</highlight></codeline>
+<codeline lineno="224"><highlight class="comment"><sp/>*<sp/>most<sp/>common<sp/>options<sp/>for<sp/>this<sp/>feature<sp/>are:</highlight></codeline>
+<codeline lineno="225"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_SUPPORT_WEAK<sp/>weak<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_SUPPORT_WEAK<sp/>__attribute__((weak))<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_NO_WEAK<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Some<sp/>compilers<sp/>require<sp/>a<sp/>custom<sp/>attribute<sp/>to<sp/>be<sp/>assigned<sp/>to<sp/>pointers,<sp/>like</highlight></codeline>
+<codeline lineno="231"><highlight class="comment"><sp/>*<sp/>`near`<sp/>or<sp/>`far`.<sp/>In<sp/>these<sp/>cases,<sp/>you<sp/>can<sp/>give<sp/>Unity<sp/>a<sp/>safe<sp/>default<sp/>for<sp/>these</highlight></codeline>
+<codeline lineno="232"><highlight class="comment"><sp/>*<sp/>by<sp/>defining<sp/>this<sp/>option<sp/>with<sp/>the<sp/>attribute<sp/>you<sp/>would<sp/>like.</highlight></codeline>
+<codeline lineno="233"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="234"><highlight class="comment"><sp/>*<sp/>Example:</highlight></codeline>
+<codeline lineno="235"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_PTR_ATTRIBUTE<sp/>__attribute__((far))<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#define<sp/>UNITY_PTR_ATTRIBUTE<sp/>near<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>UNITY_CONFIG_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/examples/unity_config.h"/>
+  </compounddef>
+</doxygen>

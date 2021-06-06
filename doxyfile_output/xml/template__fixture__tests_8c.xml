@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="template__fixture__tests_8c" kind="file" language="C++">
+    <compoundname>template_fixture_tests.c</compoundname>
+    <includes refid="unity__fixture_8h" local="yes">unity_fixture.h</includes>
+    <incdepgraph>
+      <node id="8">
+        <label>stdint.h</label>
+      </node>
+      <node id="13">
+        <label>stdlib.h</label>
+      </node>
+      <node id="6">
+        <label>setjmp.h</label>
+      </node>
+      <node id="12">
+        <label>stddef.h</label>
+      </node>
+      <node id="9">
+        <label>limits.h</label>
+      </node>
+      <node id="1">
+        <label>tests/unity/extras/fixture/test/template_fixture_tests.c</label>
+        <link refid="template__fixture__tests_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>unity_fixture_malloc_overrides.h</label>
+        <link refid="unity__fixture__malloc__overrides_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>unity_fixture_internals.h</label>
+        <link refid="unity__fixture__internals_8h"/>
+      </node>
+      <node id="5">
+        <label>../examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="7">
+        <label>math.h</label>
+      </node>
+      <node id="4">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>stdio.h</label>
+      </node>
+      <node id="2">
+        <label>unity_fixture.h</label>
+        <link refid="unity__fixture_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="template__fixture__tests_8c_1a9eab91667db4d35c7231dcddf7b89a76" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/template_fixture_tests.c" line="10" column="12" bodyfile="tests/unity/extras/fixture/test/template_fixture_tests.c" bodystart="10" bodyend="-1"/>
+        <referencedby refid="cjson__read__fuzzer_8c_1a91ce7c16e9840492202299da2b451e60" compoundref="cjson__read__fuzzer_8c" startline="13" endline="72">LLVMFuzzerTestOneInput</referencedby>
+        <referencedby refid="template__fixture__tests_8c_1a486b2aea04ebda20591239cff9aed056" compoundref="template__fixture__tests_8c" startline="24" endline="27">TEST</referencedby>
+        <referencedby refid="template__fixture__tests_8c_1a991c4120228e097692a0693d6590e5e7" compoundref="template__fixture__tests_8c" startline="14" endline="17">TEST_SETUP</referencedby>
+        <referencedby refid="template__fixture__tests_8c_1a5b15a975c928718d1a379c25afe0c476" compoundref="template__fixture__tests_8c" startline="19" endline="22">TEST_TEAR_DOWN</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="template__fixture__tests_8c_1a5bc8ec67ec44685b87db5e74a118ee2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_GROUP</definition>
+        <argsstring>(mygroup)</argsstring>
+        <name>TEST_GROUP</name>
+        <param>
+          <type>mygroup</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/template_fixture_tests.c" line="12" column="1" declfile="tests/unity/extras/fixture/test/template_fixture_tests.c" declline="12" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="template__fixture__tests_8c_1a991c4120228e097692a0693d6590e5e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_SETUP</definition>
+        <argsstring>(mygroup)</argsstring>
+        <name>TEST_SETUP</name>
+        <param>
+          <type>mygroup</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/template_fixture_tests.c" line="14" column="1" bodyfile="tests/unity/extras/fixture/test/template_fixture_tests.c" bodystart="14" bodyend="17"/>
+        <references refid="template__fixture__tests_8c_1a9eab91667db4d35c7231dcddf7b89a76" compoundref="template__fixture__tests_8c" startline="10">data</references>
+      </memberdef>
+      <memberdef kind="function" id="template__fixture__tests_8c_1a5b15a975c928718d1a379c25afe0c476" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_TEAR_DOWN</definition>
+        <argsstring>(mygroup)</argsstring>
+        <name>TEST_TEAR_DOWN</name>
+        <param>
+          <type>mygroup</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/template_fixture_tests.c" line="19" column="1" bodyfile="tests/unity/extras/fixture/test/template_fixture_tests.c" bodystart="19" bodyend="22"/>
+        <references refid="template__fixture__tests_8c_1a9eab91667db4d35c7231dcddf7b89a76" compoundref="template__fixture__tests_8c" startline="10">data</references>
+      </memberdef>
+      <memberdef kind="function" id="template__fixture__tests_8c_1a486b2aea04ebda20591239cff9aed056" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(mygroup, test1)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>mygroup</type>
+        </param>
+        <param>
+          <type>test1</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/template_fixture_tests.c" line="24" column="1" bodyfile="tests/unity/extras/fixture/test/template_fixture_tests.c" bodystart="24" bodyend="27"/>
+        <references refid="template__fixture__tests_8c_1a9eab91667db4d35c7231dcddf7b89a76" compoundref="template__fixture__tests_8c" startline="10">data</references>
+      </memberdef>
+      <memberdef kind="function" id="template__fixture__tests_8c_1ab8df0952f1b93f9225344f000b64b3a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(mygroup, test2)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>mygroup</type>
+        </param>
+        <param>
+          <type>test2</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/template_fixture_tests.c" line="29" column="1" bodyfile="tests/unity/extras/fixture/test/template_fixture_tests.c" bodystart="29" bodyend="33"/>
+        <references refid="template__fixture__tests_8c_1a9eab91667db4d35c7231dcddf7b89a76" compoundref="template__fixture__tests_8c" startline="10">data</references>
+      </memberdef>
+      <memberdef kind="function" id="template__fixture__tests_8c_1a9710cc3d545ea33983141e89f0533109" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(mygroup, test3)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>mygroup</type>
+        </param>
+        <param>
+          <type>test3</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/template_fixture_tests.c" line="35" column="1" bodyfile="tests/unity/extras/fixture/test/template_fixture_tests.c" bodystart="35" bodyend="39"/>
+        <references refid="template__fixture__tests_8c_1a9eab91667db4d35c7231dcddf7b89a76" compoundref="template__fixture__tests_8c" startline="10">data</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>Copyright<sp/>(c)<sp/>2010<sp/>James<sp/>Grenning<sp/>and<sp/>Contributed<sp/>to<sp/>Unity<sp/>Project</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>==========================================</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/>Unity<sp/>Project<sp/>-<sp/>A<sp/>Test<sp/>Framework<sp/>for<sp/>C</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Copyright<sp/>(c)<sp/>2007<sp/>Mike<sp/>Karlesky,<sp/>Mark<sp/>VanderVoord,<sp/>Greg<sp/>Williams</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/>[Released<sp/>under<sp/>MIT<sp/>License.<sp/>Please<sp/>refer<sp/>to<sp/>license.txt<sp/>for<sp/>details]</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>==========================================<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity__fixture_8h" kindref="compound">unity_fixture.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="template__fixture__tests_8c_1a9eab91667db4d35c7231dcddf7b89a76" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="template__fixture__tests_8c_1a9eab91667db4d35c7231dcddf7b89a76" kindref="member">data</ref><sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="template__fixture__tests_8c_1a5bc8ec67ec44685b87db5e74a118ee2b" refkind="member"><highlight class="normal"><ref refid="template__fixture__tests_8c_1a5bc8ec67ec44685b87db5e74a118ee2b" kindref="member">TEST_GROUP</ref>(mygroup);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="template__fixture__tests_8c_1a991c4120228e097692a0693d6590e5e7" refkind="member"><highlight class="normal"><ref refid="template__fixture__tests_8c_1a991c4120228e097692a0693d6590e5e7" kindref="member">TEST_SETUP</ref>(mygroup)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="template__fixture__tests_8c_1a9eab91667db4d35c7231dcddf7b89a76" kindref="member">data</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="template__fixture__tests_8c_1a5b15a975c928718d1a379c25afe0c476" refkind="member"><highlight class="normal"><ref refid="template__fixture__tests_8c_1a5b15a975c928718d1a379c25afe0c476" kindref="member">TEST_TEAR_DOWN</ref>(mygroup)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="template__fixture__tests_8c_1a9eab91667db4d35c7231dcddf7b89a76" kindref="member">data</ref><sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="template__fixture__tests_8c_1a486b2aea04ebda20591239cff9aed056" refkind="member"><highlight class="normal"><ref refid="template__fixture__tests_8c_1a486b2aea04ebda20591239cff9aed056" kindref="member">TEST</ref>(mygroup,<sp/>test1)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1af52a321a93c580a6213fef3e0f85c237" kindref="member">TEST_ASSERT_EQUAL_INT</ref>(0,<sp/><ref refid="template__fixture__tests_8c_1a9eab91667db4d35c7231dcddf7b89a76" kindref="member">data</ref>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="template__fixture__tests_8c_1ab8df0952f1b93f9225344f000b64b3a3" refkind="member"><highlight class="normal"><ref refid="template__fixture__tests_8c_1a486b2aea04ebda20591239cff9aed056" kindref="member">TEST</ref>(mygroup,<sp/>test2)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1af52a321a93c580a6213fef3e0f85c237" kindref="member">TEST_ASSERT_EQUAL_INT</ref>(0,<sp/><ref refid="template__fixture__tests_8c_1a9eab91667db4d35c7231dcddf7b89a76" kindref="member">data</ref>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="template__fixture__tests_8c_1a9eab91667db4d35c7231dcddf7b89a76" kindref="member">data</ref><sp/>=<sp/>5;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="template__fixture__tests_8c_1a9710cc3d545ea33983141e89f0533109" refkind="member"><highlight class="normal"><ref refid="template__fixture__tests_8c_1a486b2aea04ebda20591239cff9aed056" kindref="member">TEST</ref>(mygroup,<sp/>test3)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="template__fixture__tests_8c_1a9eab91667db4d35c7231dcddf7b89a76" kindref="member">data</ref><sp/>=<sp/>7;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1af52a321a93c580a6213fef3e0f85c237" kindref="member">TEST_ASSERT_EQUAL_INT</ref>(7,<sp/><ref refid="template__fixture__tests_8c_1a9eab91667db4d35c7231dcddf7b89a76" kindref="member">data</ref>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/extras/fixture/test/template_fixture_tests.c"/>
+  </compounddef>
+</doxygen>

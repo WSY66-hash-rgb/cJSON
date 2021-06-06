@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unity__output__Spy_8h" kind="file" language="C++">
+    <compoundname>unity_output_Spy.h</compoundname>
+    <includedby refid="unity__fixture__Test_8c" local="yes">tests/unity/extras/fixture/test/unity_fixture_Test.c</includedby>
+    <includedby refid="unity__output__Spy_8c" local="yes">tests/unity/extras/fixture/test/unity_output_Spy.c</includedby>
+    <invincdepgraph>
+      <node id="3">
+        <label>tests/unity/extras/fixture/test/unity_output_Spy.c</label>
+        <link refid="unity__output__Spy_8c"/>
+      </node>
+      <node id="1">
+        <label>tests/unity/extras/fixture/test/unity_output_Spy.h</label>
+        <link refid="unity__output__Spy_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tests/unity/extras/fixture/test/unity_fixture_Test.c</label>
+        <link refid="unity__fixture__Test_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="unity__output__Spy_8h_1a85e56ca3f8f83e96e1e2bbfbb4a15a2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityOutputCharSpy_Create</definition>
+        <argsstring>(int s)</argsstring>
+        <name>UnityOutputCharSpy_Create</name>
+        <param>
+          <type>int</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/unity_output_Spy.h" line="11" column="6" bodyfile="tests/unity/extras/fixture/test/unity_output_Spy.c" bodystart="20" bodyend="28" declfile="tests/unity/extras/fixture/test/unity_output_Spy.h" declline="11" declcolumn="6"/>
+        <references refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" compoundref="unity__output__Spy_8c" startline="17">buffer</references>
+        <references refid="unity__output__Spy_8c_1ad43c3812e6d13e0518d9f8b8f463ffcf" compoundref="unity__output__Spy_8c" startline="16">count</references>
+        <references refid="unity__fixture__malloc__overrides_8h_1acf143577800376dd931c059ecc61ba06" compoundref="unity__fixture__malloc__overrides_8h" startline="37">malloc</references>
+        <references refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" compoundref="unity__output__Spy_8c" startline="15">size</references>
+        <references refid="unity__output__Spy_8c_1ad979992bfbe72e0c950e5112dc52c310" compoundref="unity__output__Spy_8c" startline="18">spy_enable</references>
+        <references refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" compoundref="unity_8h" startline="317">TEST_ASSERT_NOT_NULL_MESSAGE</references>
+        <referencedby refid="unity__fixture__Test_8c_1af2d0b5ac70317359323c93b4934d3d55" compoundref="unity__fixture__Test_8c" startline="319" endline="326">TEST_SETUP</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="unity__output__Spy_8h_1a0915ac11fce4fd69d1c961c7cd050f8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityOutputCharSpy_Destroy</definition>
+        <argsstring>(void)</argsstring>
+        <name>UnityOutputCharSpy_Destroy</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/unity_output_Spy.h" line="12" column="6" bodyfile="tests/unity/extras/fixture/test/unity_output_Spy.c" bodystart="30" bodyend="34" declfile="tests/unity/extras/fixture/test/unity_output_Spy.h" declline="12" declcolumn="6"/>
+        <references refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" compoundref="unity__output__Spy_8c" startline="17">buffer</references>
+        <references refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" compoundref="unity__fixture__malloc__overrides_8h" startline="40">free</references>
+        <references refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" compoundref="unity__output__Spy_8c" startline="15">size</references>
+        <references refid="unity__fixture__malloc__overrides_8h_1a34d61a21a177a63f9681e1d89653cc74" compoundref="unity__fixture_8c" startline="243" endline="258">unity_free</references>
+        <referencedby refid="unity__fixture__Test_8c_1ad972c8040600694b118a0947a6dbb466" compoundref="unity__fixture__Test_8c" startline="328" endline="331">TEST_TEAR_DOWN</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="unity__output__Spy_8h_1a4b35b5d169eba72055b3b487b3579ddf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityOutputCharSpy_OutputChar</definition>
+        <argsstring>(int c)</argsstring>
+        <name>UnityOutputCharSpy_OutputChar</name>
+        <param>
+          <type>int</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/unity_output_Spy.h" line="13" column="6" bodyfile="tests/unity/extras/fixture/test/unity_output_Spy.c" bodystart="36" bodyend="47" declfile="tests/unity/extras/fixture/test/unity_output_Spy.h" declline="13" declcolumn="6"/>
+        <references refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" compoundref="unity__output__Spy_8c" startline="17">buffer</references>
+        <references refid="unity__output__Spy_8c_1ad43c3812e6d13e0518d9f8b8f463ffcf" compoundref="unity__output__Spy_8c" startline="16">count</references>
+        <references refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" compoundref="unity__output__Spy_8c" startline="15">size</references>
+        <references refid="unity__output__Spy_8c_1ad979992bfbe72e0c950e5112dc52c310" compoundref="unity__output__Spy_8c" startline="18">spy_enable</references>
+      </memberdef>
+      <memberdef kind="function" id="unity__output__Spy_8h_1a014a3109626a78fb0c9ffeec76846e35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* UnityOutputCharSpy_Get</definition>
+        <argsstring>(void)</argsstring>
+        <name>UnityOutputCharSpy_Get</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/unity_output_Spy.h" line="14" column="13" bodyfile="tests/unity/extras/fixture/test/unity_output_Spy.c" bodystart="49" bodyend="52" declfile="tests/unity/extras/fixture/test/unity_output_Spy.h" declline="14" declcolumn="13"/>
+        <references refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" compoundref="unity__output__Spy_8c" startline="17">buffer</references>
+        <referencedby refid="unity__fixture__Test_8c_1a208061503ab84a839975c9c189ba7998" compoundref="unity__fixture__Test_8c" startline="367" endline="383">TEST</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="unity__output__Spy_8h_1a5a5b8c2fe4d1edd31559deb7000c7d7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityOutputCharSpy_Enable</definition>
+        <argsstring>(int enable)</argsstring>
+        <name>UnityOutputCharSpy_Enable</name>
+        <param>
+          <type>int</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/unity_output_Spy.h" line="15" column="6" bodyfile="tests/unity/extras/fixture/test/unity_output_Spy.c" bodystart="54" bodyend="57" declfile="tests/unity/extras/fixture/test/unity_output_Spy.h" declline="15" declcolumn="6"/>
+        <references refid="unity__output__Spy_8c_1ad979992bfbe72e0c950e5112dc52c310" compoundref="unity__output__Spy_8c" startline="18">spy_enable</references>
+        <referencedby refid="unity__fixture__Test_8c_1acee2e4a8922cfc7f9ac37e2df0fd94ac" compoundref="unity__fixture__Test_8c" startline="139" endline="153">TEST</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>Copyright<sp/>(c)<sp/>2010<sp/>James<sp/>Grenning<sp/>and<sp/>Contributed<sp/>to<sp/>Unity<sp/>Project</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>==========================================</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/>Unity<sp/>Project<sp/>-<sp/>A<sp/>Test<sp/>Framework<sp/>for<sp/>C</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Copyright<sp/>(c)<sp/>2007<sp/>Mike<sp/>Karlesky,<sp/>Mark<sp/>VanderVoord,<sp/>Greg<sp/>Williams</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/>[Released<sp/>under<sp/>MIT<sp/>License.<sp/>Please<sp/>refer<sp/>to<sp/>license.txt<sp/>for<sp/>details]</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>==========================================<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>D_unity_output_Spy_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>D_unity_output_Spy_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="unity__output__Spy_8h_1a85e56ca3f8f83e96e1e2bbfbb4a15a2f" kindref="member">UnityOutputCharSpy_Create</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>s);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="unity__output__Spy_8h_1a0915ac11fce4fd69d1c961c7cd050f8e" kindref="member">UnityOutputCharSpy_Destroy</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="unity__output__Spy_8h_1a4b35b5d169eba72055b3b487b3579ddf" kindref="member">UnityOutputCharSpy_OutputChar</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="unity__output__Spy_8h_1a014a3109626a78fb0c9ffeec76846e35" kindref="member">UnityOutputCharSpy_Get</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="unity__output__Spy_8h_1a5a5b8c2fe4d1edd31559deb7000c7d7f" kindref="member">UnityOutputCharSpy_Enable</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>enable);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/extras/fixture/test/unity_output_Spy.h"/>
+  </compounddef>
+</doxygen>

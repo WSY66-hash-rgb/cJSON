@@ -1,0 +1,751 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="parse__examples_8c" kind="file" language="C++">
+    <compoundname>parse_examples.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes refid="unity__config_8h" local="yes">unity/examples/unity_config.h</includes>
+    <includes refid="unity_8h" local="yes">unity/src/unity.h</includes>
+    <includes refid="common_8h" local="yes">common.h</includes>
+    <incdepgraph>
+      <node id="15">
+        <label>float.h</label>
+      </node>
+      <node id="13">
+        <label>../cJSON.c</label>
+        <link refid="cJSON_8c"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>cJSON.h</label>
+        <link refid="cJSON_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>stdint.h</label>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="8">
+        <label>setjmp.h</label>
+      </node>
+      <node id="12">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>stddef.h</label>
+      </node>
+      <node id="1">
+        <label>tests/parse_examples.c</label>
+        <link refid="parse__examples_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>limits.h</label>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+      <node id="5">
+        <label>unity/examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="9">
+        <label>math.h</label>
+      </node>
+      <node id="7">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>unity/src/unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>ctype.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="parse__examples_8c_1a340a206f8be3da67cc73602ac9964b52" prot="public" static="no">
+        <name>TEST_DIR_PATH</name>
+        <initializer>&quot;inputs/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_examples.c" line="61" column="9"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="parse__examples_8c_1adc2b507bbba1e5488db139e84db16b49" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *</type>
+        <definition>static cJSON* parse_file</definition>
+        <argsstring>(const char *filename)</argsstring>
+        <name>parse_file</name>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_examples.c" line="31" column="14" bodyfile="tests/parse_examples.c" bodystart="31" bodyend="44"/>
+        <references refid="cJSON_8c_1ad3df5f943457d4befebe4109d48e4a50" compoundref="cJSON_8c" startline="1171" endline="1174">cJSON_Parse</references>
+        <references refid="common_8h_1ab5e8b6289c8d0f065872cbe531443692" compoundref="common_8h" startline="47" endline="100">read_file</references>
+        <referencedby refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" compoundref="parse__examples_8c" startline="46" endline="107">do_test</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void do_test</definition>
+        <argsstring>(const char *test_name)</argsstring>
+        <name>do_test</name>
+        <param>
+          <type>const char *</type>
+          <declname>test_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_examples.c" line="46" column="13" bodyfile="tests/parse_examples.c" bodystart="46" bodyend="107"/>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1ae2177acac9871b89531e722b49f14925" compoundref="cJSON_8c" startline="1248" endline="1251">cJSON_Print</references>
+        <references refid="parse__examples_8c_1adc2b507bbba1e5488db139e84db16b49" compoundref="parse__examples_8c" startline="31" endline="44">parse_file</references>
+        <references refid="common_8h_1ab5e8b6289c8d0f065872cbe531443692" compoundref="common_8h" startline="47" endline="100">read_file</references>
+        <referencedby refid="parse__examples_8c_1add192208e7f5c12c8bd832d3fef86ba1" compoundref="parse__examples_8c" startline="172" endline="175">file_test10_should_be_parsed_and_printed</referencedby>
+        <referencedby refid="parse__examples_8c_1a605887f8018e791794691f701c7562d9" compoundref="parse__examples_8c" startline="177" endline="180">file_test11_should_be_parsed_and_printed</referencedby>
+        <referencedby refid="parse__examples_8c_1af07098c03042b1a082dfeedf378689d9" compoundref="parse__examples_8c" startline="109" endline="112">file_test1_should_be_parsed_and_printed</referencedby>
+        <referencedby refid="parse__examples_8c_1a5eefa53b265f1fad123e6187c1229cb1" compoundref="parse__examples_8c" startline="114" endline="117">file_test2_should_be_parsed_and_printed</referencedby>
+        <referencedby refid="parse__examples_8c_1a78b2f3305818c47cf36e35274adf1dfb" compoundref="parse__examples_8c" startline="119" endline="122">file_test3_should_be_parsed_and_printed</referencedby>
+        <referencedby refid="parse__examples_8c_1a9b99b148ae6adef3f3207260cbe0cd06" compoundref="parse__examples_8c" startline="124" endline="127">file_test4_should_be_parsed_and_printed</referencedby>
+        <referencedby refid="parse__examples_8c_1a22bd0a64173ebb03aea03bb2143642ad" compoundref="parse__examples_8c" startline="129" endline="132">file_test5_should_be_parsed_and_printed</referencedby>
+        <referencedby refid="parse__examples_8c_1ac414b01aa9b9a8047d13df2d6f6b5822" compoundref="parse__examples_8c" startline="157" endline="160">file_test7_should_be_parsed_and_printed</referencedby>
+        <referencedby refid="parse__examples_8c_1a729b9e78d537379c62ca6ac37721b45c" compoundref="parse__examples_8c" startline="162" endline="165">file_test8_should_be_parsed_and_printed</referencedby>
+        <referencedby refid="parse__examples_8c_1a36a09a23ba507d3494993154791a584f" compoundref="parse__examples_8c" startline="167" endline="170">file_test9_should_be_parsed_and_printed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__examples_8c_1af07098c03042b1a082dfeedf378689d9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void file_test1_should_be_parsed_and_printed</definition>
+        <argsstring>(void)</argsstring>
+        <name>file_test1_should_be_parsed_and_printed</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_examples.c" line="109" column="13" bodyfile="tests/parse_examples.c" bodystart="109" bodyend="112"/>
+        <references refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" compoundref="parse__examples_8c" startline="46" endline="107">do_test</references>
+        <referencedby refid="parse__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="parse__examples_8c" startline="253" endline="271">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__examples_8c_1a5eefa53b265f1fad123e6187c1229cb1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void file_test2_should_be_parsed_and_printed</definition>
+        <argsstring>(void)</argsstring>
+        <name>file_test2_should_be_parsed_and_printed</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_examples.c" line="114" column="13" bodyfile="tests/parse_examples.c" bodystart="114" bodyend="117"/>
+        <references refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" compoundref="parse__examples_8c" startline="46" endline="107">do_test</references>
+        <referencedby refid="parse__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="parse__examples_8c" startline="253" endline="271">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__examples_8c_1a78b2f3305818c47cf36e35274adf1dfb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void file_test3_should_be_parsed_and_printed</definition>
+        <argsstring>(void)</argsstring>
+        <name>file_test3_should_be_parsed_and_printed</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_examples.c" line="119" column="13" bodyfile="tests/parse_examples.c" bodystart="119" bodyend="122"/>
+        <references refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" compoundref="parse__examples_8c" startline="46" endline="107">do_test</references>
+        <referencedby refid="parse__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="parse__examples_8c" startline="253" endline="271">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__examples_8c_1a9b99b148ae6adef3f3207260cbe0cd06" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void file_test4_should_be_parsed_and_printed</definition>
+        <argsstring>(void)</argsstring>
+        <name>file_test4_should_be_parsed_and_printed</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_examples.c" line="124" column="13" bodyfile="tests/parse_examples.c" bodystart="124" bodyend="127"/>
+        <references refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" compoundref="parse__examples_8c" startline="46" endline="107">do_test</references>
+        <referencedby refid="parse__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="parse__examples_8c" startline="253" endline="271">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__examples_8c_1a22bd0a64173ebb03aea03bb2143642ad" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void file_test5_should_be_parsed_and_printed</definition>
+        <argsstring>(void)</argsstring>
+        <name>file_test5_should_be_parsed_and_printed</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_examples.c" line="129" column="13" bodyfile="tests/parse_examples.c" bodystart="129" bodyend="132"/>
+        <references refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" compoundref="parse__examples_8c" startline="46" endline="107">do_test</references>
+        <referencedby refid="parse__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="parse__examples_8c" startline="253" endline="271">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__examples_8c_1a4c9096820a56c3fc969b25e159e34c83" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void file_test6_should_not_be_parsed</definition>
+        <argsstring>(void)</argsstring>
+        <name>file_test6_should_not_be_parsed</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_examples.c" line="134" column="13" bodyfile="tests/parse_examples.c" bodystart="134" bodyend="155"/>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a5e81ffc372644963c759103865b0cad1" compoundref="cJSON_8c" startline="94" endline="97">cJSON_GetErrorPtr</references>
+        <references refid="cJSON_8c_1ad3df5f943457d4befebe4109d48e4a50" compoundref="cJSON_8c" startline="1171" endline="1174">cJSON_Parse</references>
+        <references refid="common_8h_1ab5e8b6289c8d0f065872cbe531443692" compoundref="common_8h" startline="47" endline="100">read_file</references>
+        <referencedby refid="parse__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="parse__examples_8c" startline="253" endline="271">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__examples_8c_1ac414b01aa9b9a8047d13df2d6f6b5822" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void file_test7_should_be_parsed_and_printed</definition>
+        <argsstring>(void)</argsstring>
+        <name>file_test7_should_be_parsed_and_printed</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_examples.c" line="157" column="13" bodyfile="tests/parse_examples.c" bodystart="157" bodyend="160"/>
+        <references refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" compoundref="parse__examples_8c" startline="46" endline="107">do_test</references>
+        <referencedby refid="parse__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="parse__examples_8c" startline="253" endline="271">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__examples_8c_1a729b9e78d537379c62ca6ac37721b45c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void file_test8_should_be_parsed_and_printed</definition>
+        <argsstring>(void)</argsstring>
+        <name>file_test8_should_be_parsed_and_printed</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_examples.c" line="162" column="13" bodyfile="tests/parse_examples.c" bodystart="162" bodyend="165"/>
+        <references refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" compoundref="parse__examples_8c" startline="46" endline="107">do_test</references>
+        <referencedby refid="parse__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="parse__examples_8c" startline="253" endline="271">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__examples_8c_1a36a09a23ba507d3494993154791a584f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void file_test9_should_be_parsed_and_printed</definition>
+        <argsstring>(void)</argsstring>
+        <name>file_test9_should_be_parsed_and_printed</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_examples.c" line="167" column="13" bodyfile="tests/parse_examples.c" bodystart="167" bodyend="170"/>
+        <references refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" compoundref="parse__examples_8c" startline="46" endline="107">do_test</references>
+        <referencedby refid="parse__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="parse__examples_8c" startline="253" endline="271">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__examples_8c_1add192208e7f5c12c8bd832d3fef86ba1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void file_test10_should_be_parsed_and_printed</definition>
+        <argsstring>(void)</argsstring>
+        <name>file_test10_should_be_parsed_and_printed</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_examples.c" line="172" column="13" bodyfile="tests/parse_examples.c" bodystart="172" bodyend="175"/>
+        <references refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" compoundref="parse__examples_8c" startline="46" endline="107">do_test</references>
+        <referencedby refid="parse__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="parse__examples_8c" startline="253" endline="271">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__examples_8c_1a605887f8018e791794691f701c7562d9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void file_test11_should_be_parsed_and_printed</definition>
+        <argsstring>(void)</argsstring>
+        <name>file_test11_should_be_parsed_and_printed</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_examples.c" line="177" column="13" bodyfile="tests/parse_examples.c" bodystart="177" bodyend="180"/>
+        <references refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" compoundref="parse__examples_8c" startline="46" endline="107">do_test</references>
+        <referencedby refid="parse__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="parse__examples_8c" startline="253" endline="271">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__examples_8c_1a224e3135fe2fe492a791e9e28954c28e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void test12_should_not_be_parsed</definition>
+        <argsstring>(void)</argsstring>
+        <name>test12_should_not_be_parsed</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_examples.c" line="182" column="13" bodyfile="tests/parse_examples.c" bodystart="182" bodyend="196"/>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a5e81ffc372644963c759103865b0cad1" compoundref="cJSON_8c" startline="94" endline="97">cJSON_GetErrorPtr</references>
+        <references refid="cJSON_8c_1ad3df5f943457d4befebe4109d48e4a50" compoundref="cJSON_8c" startline="1171" endline="1174">cJSON_Parse</references>
+        <referencedby refid="parse__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="parse__examples_8c" startline="253" endline="271">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__examples_8c_1a3ce7be2354d50797d4bff7e17e473e38" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void test13_should_be_parsed_without_null_termination</definition>
+        <argsstring>(void)</argsstring>
+        <name>test13_should_be_parsed_without_null_termination</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_examples.c" line="198" column="13" bodyfile="tests/parse_examples.c" bodystart="198" bodyend="225"/>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1afa205505c530b53131ea983834e4d0d2" compoundref="cJSON_8c" startline="1176" endline="1179">cJSON_ParseWithLength</references>
+        <referencedby refid="parse__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="parse__examples_8c" startline="253" endline="271">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__examples_8c_1aa7d4fb1ee4ed7c0889b38bdbf883c15e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void test14_should_not_be_parsed</definition>
+        <argsstring>(void)</argsstring>
+        <name>test14_should_not_be_parsed</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_examples.c" line="227" column="13" bodyfile="tests/parse_examples.c" bodystart="227" bodyend="251"/>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1afa205505c530b53131ea983834e4d0d2" compoundref="cJSON_8c" startline="1176" endline="1179">cJSON_ParseWithLength</references>
+        <referencedby refid="parse__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="parse__examples_8c" startline="253" endline="271">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(void)</argsstring>
+        <name>main</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_examples.c" line="253" column="8" bodyfile="tests/parse_examples.c" bodystart="253" bodyend="271"/>
+        <references refid="parse__examples_8c_1add192208e7f5c12c8bd832d3fef86ba1" compoundref="parse__examples_8c" startline="172" endline="175">file_test10_should_be_parsed_and_printed</references>
+        <references refid="parse__examples_8c_1a605887f8018e791794691f701c7562d9" compoundref="parse__examples_8c" startline="177" endline="180">file_test11_should_be_parsed_and_printed</references>
+        <references refid="parse__examples_8c_1af07098c03042b1a082dfeedf378689d9" compoundref="parse__examples_8c" startline="109" endline="112">file_test1_should_be_parsed_and_printed</references>
+        <references refid="parse__examples_8c_1a5eefa53b265f1fad123e6187c1229cb1" compoundref="parse__examples_8c" startline="114" endline="117">file_test2_should_be_parsed_and_printed</references>
+        <references refid="parse__examples_8c_1a78b2f3305818c47cf36e35274adf1dfb" compoundref="parse__examples_8c" startline="119" endline="122">file_test3_should_be_parsed_and_printed</references>
+        <references refid="parse__examples_8c_1a9b99b148ae6adef3f3207260cbe0cd06" compoundref="parse__examples_8c" startline="124" endline="127">file_test4_should_be_parsed_and_printed</references>
+        <references refid="parse__examples_8c_1a22bd0a64173ebb03aea03bb2143642ad" compoundref="parse__examples_8c" startline="129" endline="132">file_test5_should_be_parsed_and_printed</references>
+        <references refid="parse__examples_8c_1a4c9096820a56c3fc969b25e159e34c83" compoundref="parse__examples_8c" startline="134" endline="155">file_test6_should_not_be_parsed</references>
+        <references refid="parse__examples_8c_1ac414b01aa9b9a8047d13df2d6f6b5822" compoundref="parse__examples_8c" startline="157" endline="160">file_test7_should_be_parsed_and_printed</references>
+        <references refid="parse__examples_8c_1a729b9e78d537379c62ca6ac37721b45c" compoundref="parse__examples_8c" startline="162" endline="165">file_test8_should_be_parsed_and_printed</references>
+        <references refid="parse__examples_8c_1a36a09a23ba507d3494993154791a584f" compoundref="parse__examples_8c" startline="167" endline="170">file_test9_should_be_parsed_and_printed</references>
+        <references refid="parse__examples_8c_1a224e3135fe2fe492a791e9e28954c28e" compoundref="parse__examples_8c" startline="182" endline="196">test12_should_not_be_parsed</references>
+        <references refid="parse__examples_8c_1a3ce7be2354d50797d4bff7e17e473e38" compoundref="parse__examples_8c" startline="198" endline="225">test13_should_be_parsed_without_null_termination</references>
+        <references refid="parse__examples_8c_1aa7d4fb1ee4ed7c0889b38bdbf883c15e" compoundref="parse__examples_8c" startline="227" endline="251">test14_should_not_be_parsed</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/>Copyright<sp/>(c)<sp/>2009-2017<sp/>Dave<sp/>Gamble<sp/>and<sp/>cJSON<sp/>contributors</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"></highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity__config_8h" kindref="compound">unity/examples/unity_config.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity_8h" kindref="compound">unity/src/unity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="common_8h" kindref="compound">common.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="parse__examples_8c_1adc2b507bbba1e5488db139e84db16b49" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<ref refid="parse__examples_8c_1adc2b507bbba1e5488db139e84db16b49" kindref="member">parse_file</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*parsed<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*content<sp/>=<sp/><ref refid="common_8h_1ab5e8b6289c8d0f065872cbe531443692" kindref="member">read_file</ref>(filename);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>parsed<sp/>=<sp/><ref refid="cJSON_8c_1ad3df5f943457d4befebe4109d48e4a50" kindref="member">cJSON_Parse</ref>(content);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(content<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(content);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>parsed;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" kindref="member">do_test</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*test_name)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*expected<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*actual<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*tree<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>test_name_length<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>path<sp/>of<sp/>the<sp/>test<sp/>input<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*test_path<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>path<sp/>of<sp/>the<sp/>expected<sp/>output<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*expected_path<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>test_name_length<sp/>=<sp/>strlen(test_name);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>allocate<sp/>file<sp/>paths<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEST_DIR_PATH<sp/>&quot;inputs/&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>test_path<sp/>=<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)<ref refid="unity__fixture__malloc__overrides_8h_1acf143577800376dd931c059ecc61ba06" kindref="member">malloc</ref>(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="parse__examples_8c_1a340a206f8be3da67cc73602ac9964b52" kindref="member">TEST_DIR_PATH</ref>)<sp/>+<sp/>test_name_length);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" kindref="member">TEST_ASSERT_NOT_NULL_MESSAGE</ref>(test_path,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>allocate<sp/>test_path<sp/>buffer.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>expected_path<sp/>=<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)<ref refid="unity__fixture__malloc__overrides_8h_1acf143577800376dd931c059ecc61ba06" kindref="member">malloc</ref>(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="parse__examples_8c_1a340a206f8be3da67cc73602ac9964b52" kindref="member">TEST_DIR_PATH</ref>)<sp/>+<sp/>test_name_length<sp/>+<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="stringliteral">&quot;.expected&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" kindref="member">TEST_ASSERT_NOT_NULL_MESSAGE</ref>(expected_path,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>allocate<sp/>expected_path<sp/>buffer.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>create<sp/>file<sp/>paths<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>sprintf(test_path,<sp/><ref refid="parse__examples_8c_1a340a206f8be3da67cc73602ac9964b52" kindref="member">TEST_DIR_PATH</ref></highlight><highlight class="stringliteral">&quot;%s&quot;</highlight><highlight class="normal">,<sp/>test_name);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>sprintf(expected_path,<sp/><ref refid="parse__examples_8c_1a340a206f8be3da67cc73602ac9964b52" kindref="member">TEST_DIR_PATH</ref></highlight><highlight class="stringliteral">&quot;%s.expected&quot;</highlight><highlight class="normal">,<sp/>test_name);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>read<sp/>expected<sp/>output<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>expected<sp/>=<sp/><ref refid="common_8h_1ab5e8b6289c8d0f065872cbe531443692" kindref="member">read_file</ref>(expected_path);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" kindref="member">TEST_ASSERT_NOT_NULL_MESSAGE</ref>(expected,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>read<sp/>expected<sp/>output.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>read<sp/>and<sp/>parse<sp/>test<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>tree<sp/>=<sp/><ref refid="parse__examples_8c_1adc2b507bbba1e5488db139e84db16b49" kindref="member">parse_file</ref>(test_path);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" kindref="member">TEST_ASSERT_NOT_NULL_MESSAGE</ref>(tree,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>read<sp/>of<sp/>parse<sp/>test.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>print<sp/>the<sp/>parsed<sp/>tree<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>actual<sp/>=<sp/><ref refid="cJSON_8c_1ae2177acac9871b89531e722b49f14925" kindref="member">cJSON_Print</ref>(tree);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" kindref="member">TEST_ASSERT_NOT_NULL_MESSAGE</ref>(actual,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>print<sp/>tree<sp/>back<sp/>to<sp/>JSON.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a1432f008fb6fb923371d4d0402571bf6" kindref="member">TEST_ASSERT_EQUAL_STRING</ref>(expected,<sp/>actual);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>cleanup<sp/>resources<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(expected<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(expected);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tree<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(tree);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(actual<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(actual);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(test_path<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(test_path);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(expected_path<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(expected_path);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="parse__examples_8c_1af07098c03042b1a082dfeedf378689d9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__examples_8c_1af07098c03042b1a082dfeedf378689d9" kindref="member">file_test1_should_be_parsed_and_printed</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" kindref="member">do_test</ref>(</highlight><highlight class="stringliteral">&quot;test1&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="parse__examples_8c_1a5eefa53b265f1fad123e6187c1229cb1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__examples_8c_1a5eefa53b265f1fad123e6187c1229cb1" kindref="member">file_test2_should_be_parsed_and_printed</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" kindref="member">do_test</ref>(</highlight><highlight class="stringliteral">&quot;test2&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="parse__examples_8c_1a78b2f3305818c47cf36e35274adf1dfb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__examples_8c_1a78b2f3305818c47cf36e35274adf1dfb" kindref="member">file_test3_should_be_parsed_and_printed</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" kindref="member">do_test</ref>(</highlight><highlight class="stringliteral">&quot;test3&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="parse__examples_8c_1a9b99b148ae6adef3f3207260cbe0cd06" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__examples_8c_1a9b99b148ae6adef3f3207260cbe0cd06" kindref="member">file_test4_should_be_parsed_and_printed</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" kindref="member">do_test</ref>(</highlight><highlight class="stringliteral">&quot;test4&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="parse__examples_8c_1a22bd0a64173ebb03aea03bb2143642ad" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__examples_8c_1a22bd0a64173ebb03aea03bb2143642ad" kindref="member">file_test5_should_be_parsed_and_printed</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" kindref="member">do_test</ref>(</highlight><highlight class="stringliteral">&quot;test5&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="parse__examples_8c_1a4c9096820a56c3fc969b25e159e34c83" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__examples_8c_1a4c9096820a56c3fc969b25e159e34c83" kindref="member">file_test6_should_not_be_parsed</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*test6<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*tree<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>test6<sp/>=<sp/><ref refid="common_8h_1ab5e8b6289c8d0f065872cbe531443692" kindref="member">read_file</ref>(</highlight><highlight class="stringliteral">&quot;inputs/test6&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" kindref="member">TEST_ASSERT_NOT_NULL_MESSAGE</ref>(test6,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>read<sp/>test6<sp/>data.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>tree<sp/>=<sp/><ref refid="cJSON_8c_1ad3df5f943457d4befebe4109d48e4a50" kindref="member">cJSON_Parse</ref>(test6);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab746c90e815f62172a58898247fd6b0a" kindref="member">TEST_ASSERT_NULL_MESSAGE</ref>(tree,<sp/></highlight><highlight class="stringliteral">&quot;Should<sp/>fail<sp/>to<sp/>parse<sp/>what<sp/>is<sp/>not<sp/>JSON.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1aca40116d00f8dfa406b26a51079f679c" kindref="member">TEST_ASSERT_EQUAL_PTR_MESSAGE</ref>(test6,<sp/><ref refid="cJSON_8c_1a5e81ffc372644963c759103865b0cad1" kindref="member">cJSON_GetErrorPtr</ref>(),<sp/></highlight><highlight class="stringliteral">&quot;Error<sp/>pointer<sp/>is<sp/>incorrect.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(test6<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(test6);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tree<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(tree);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="parse__examples_8c_1ac414b01aa9b9a8047d13df2d6f6b5822" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__examples_8c_1ac414b01aa9b9a8047d13df2d6f6b5822" kindref="member">file_test7_should_be_parsed_and_printed</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="158"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" kindref="member">do_test</ref>(</highlight><highlight class="stringliteral">&quot;test7&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="parse__examples_8c_1a729b9e78d537379c62ca6ac37721b45c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__examples_8c_1a729b9e78d537379c62ca6ac37721b45c" kindref="member">file_test8_should_be_parsed_and_printed</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="163"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" kindref="member">do_test</ref>(</highlight><highlight class="stringliteral">&quot;test8&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="parse__examples_8c_1a36a09a23ba507d3494993154791a584f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__examples_8c_1a36a09a23ba507d3494993154791a584f" kindref="member">file_test9_should_be_parsed_and_printed</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="168"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" kindref="member">do_test</ref>(</highlight><highlight class="stringliteral">&quot;test9&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="parse__examples_8c_1add192208e7f5c12c8bd832d3fef86ba1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__examples_8c_1add192208e7f5c12c8bd832d3fef86ba1" kindref="member">file_test10_should_be_parsed_and_printed</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="173"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" kindref="member">do_test</ref>(</highlight><highlight class="stringliteral">&quot;test10&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="parse__examples_8c_1a605887f8018e791794691f701c7562d9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__examples_8c_1a605887f8018e791794691f701c7562d9" kindref="member">file_test11_should_be_parsed_and_printed</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="178"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" kindref="member">do_test</ref>(</highlight><highlight class="stringliteral">&quot;test11&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="parse__examples_8c_1a224e3135fe2fe492a791e9e28954c28e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__examples_8c_1a224e3135fe2fe492a791e9e28954c28e" kindref="member">test12_should_not_be_parsed</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="183"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*test12<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;{<sp/>\&quot;name\&quot;:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*tree<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>tree<sp/>=<sp/><ref refid="cJSON_8c_1ad3df5f943457d4befebe4109d48e4a50" kindref="member">cJSON_Parse</ref>(test12);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab746c90e815f62172a58898247fd6b0a" kindref="member">TEST_ASSERT_NULL_MESSAGE</ref>(tree,<sp/></highlight><highlight class="stringliteral">&quot;Should<sp/>fail<sp/>to<sp/>parse<sp/>incomplete<sp/>JSON.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1aca40116d00f8dfa406b26a51079f679c" kindref="member">TEST_ASSERT_EQUAL_PTR_MESSAGE</ref>(test12<sp/>+<sp/>strlen(test12),<sp/><ref refid="cJSON_8c_1a5e81ffc372644963c759103865b0cad1" kindref="member">cJSON_GetErrorPtr</ref>(),<sp/></highlight><highlight class="stringliteral">&quot;Error<sp/>pointer<sp/>is<sp/>incorrect.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tree<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(tree);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="parse__examples_8c_1a3ce7be2354d50797d4bff7e17e473e38" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__examples_8c_1a3ce7be2354d50797d4bff7e17e473e38" kindref="member">test13_should_be_parsed_without_null_termination</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*tree<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>test_13[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;{&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\&quot;Image\&quot;:{&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\&quot;Width\&quot;:800,&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\&quot;Height\&quot;:600,&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\&quot;Title\&quot;:\&quot;Viewfrom15thFloor\&quot;,&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\&quot;Thumbnail\&quot;:{&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\&quot;Url\&quot;:\&quot;http:/*www.example.com/image/481989943\&quot;,&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\&quot;Height\&quot;:125,&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\&quot;Width\&quot;:\&quot;100\&quot;&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;},&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\&quot;IDs\&quot;:[116,943,234,38793]&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;}&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;}&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>test_13_wo_null[</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(test_13)<sp/>-<sp/>1];</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>memcpy(test_13_wo_null,<sp/>test_13,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(test_13)<sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>tree<sp/>=<sp/><ref refid="cJSON_8c_1afa205505c530b53131ea983834e4d0d2" kindref="member">cJSON_ParseWithLength</ref>(test_13_wo_null,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(test_13)<sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" kindref="member">TEST_ASSERT_NOT_NULL_MESSAGE</ref>(tree,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>parse<sp/>valid<sp/>json.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tree<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(tree);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="225"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="parse__examples_8c_1aa7d4fb1ee4ed7c0889b38bdbf883c15e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__examples_8c_1aa7d4fb1ee4ed7c0889b38bdbf883c15e" kindref="member">test14_should_not_be_parsed</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="228"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*tree<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>test_14[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;{&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\&quot;Image\&quot;:{&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\&quot;Width\&quot;:800,&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\&quot;Height\&quot;:600,&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\&quot;Title\&quot;:\&quot;Viewfrom15thFloor\&quot;,&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\&quot;Thumbnail\&quot;:{&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\&quot;Url\&quot;:\&quot;http:/*www.example.com/image/481989943\&quot;,&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\&quot;Height\&quot;:125,&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\&quot;Width\&quot;:\&quot;100\&quot;&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;},&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;\&quot;IDs\&quot;:[116,943,234,38793]&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;}&quot;</highlight><highlight class="normal"><sp/>\</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;}&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>tree<sp/>=<sp/><ref refid="cJSON_8c_1afa205505c530b53131ea983834e4d0d2" kindref="member">cJSON_ParseWithLength</ref>(test_14,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(test_14)<sp/>-<sp/>2);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab746c90e815f62172a58898247fd6b0a" kindref="member">TEST_ASSERT_NULL_MESSAGE</ref>(tree,<sp/></highlight><highlight class="stringliteral">&quot;Should<sp/>not<sp/>continue<sp/>after<sp/>buffer_length<sp/>is<sp/>reached.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tree<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(tree);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="251"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253" refid="parse__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="cJSON_8h_1a79203c3ba406ffd5736627cc1e082e38" kindref="member">CJSON_CDECL</ref><sp/><ref refid="parse__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" kindref="member">main</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="254"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__internals_8h_1aaad15a5d10e50a412d0a6851d0e5091a" kindref="member">UNITY_BEGIN</ref>();</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="parse__examples_8c_1af07098c03042b1a082dfeedf378689d9" kindref="member">file_test1_should_be_parsed_and_printed</ref>);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="parse__examples_8c_1a5eefa53b265f1fad123e6187c1229cb1" kindref="member">file_test2_should_be_parsed_and_printed</ref>);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="parse__examples_8c_1a78b2f3305818c47cf36e35274adf1dfb" kindref="member">file_test3_should_be_parsed_and_printed</ref>);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="parse__examples_8c_1a9b99b148ae6adef3f3207260cbe0cd06" kindref="member">file_test4_should_be_parsed_and_printed</ref>);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="parse__examples_8c_1a22bd0a64173ebb03aea03bb2143642ad" kindref="member">file_test5_should_be_parsed_and_printed</ref>);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="parse__examples_8c_1a4c9096820a56c3fc969b25e159e34c83" kindref="member">file_test6_should_not_be_parsed</ref>);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="parse__examples_8c_1ac414b01aa9b9a8047d13df2d6f6b5822" kindref="member">file_test7_should_be_parsed_and_printed</ref>);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="parse__examples_8c_1a729b9e78d537379c62ca6ac37721b45c" kindref="member">file_test8_should_be_parsed_and_printed</ref>);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="parse__examples_8c_1a36a09a23ba507d3494993154791a584f" kindref="member">file_test9_should_be_parsed_and_printed</ref>);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="parse__examples_8c_1add192208e7f5c12c8bd832d3fef86ba1" kindref="member">file_test10_should_be_parsed_and_printed</ref>);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="parse__examples_8c_1a605887f8018e791794691f701c7562d9" kindref="member">file_test11_should_be_parsed_and_printed</ref>);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="parse__examples_8c_1a224e3135fe2fe492a791e9e28954c28e" kindref="member">test12_should_not_be_parsed</ref>);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="parse__examples_8c_1a3ce7be2354d50797d4bff7e17e473e38" kindref="member">test13_should_be_parsed_without_null_termination</ref>);</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="parse__examples_8c_1aa7d4fb1ee4ed7c0889b38bdbf883c15e" kindref="member">test14_should_not_be_parsed</ref>);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="unity__internals_8h_1aa519129d3af737eb796fc91720fae26a" kindref="member">UNITY_END</ref>();</highlight></codeline>
+<codeline lineno="271"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="tests/parse_examples.c"/>
+  </compounddef>
+</doxygen>

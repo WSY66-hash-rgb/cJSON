@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="CException_8h" kind="file" language="C++">
+    <compoundname>CException.h</compoundname>
+    <includedby refid="testsample__cmd_8c" local="yes">tests/unity/test/expectdata/testsample_cmd.c</includedby>
+    <includedby refid="testsample__mock__cmd_8c" local="yes">tests/unity/test/expectdata/testsample_mock_cmd.c</includedby>
+    <includedby refid="testsample__mock__new1_8c" local="yes">tests/unity/test/expectdata/testsample_mock_new1.c</includedby>
+    <includedby refid="testsample__mock__run1_8c" local="yes">tests/unity/test/expectdata/testsample_mock_run1.c</includedby>
+    <includedby refid="testsample__mock__yaml_8c" local="yes">tests/unity/test/expectdata/testsample_mock_yaml.c</includedby>
+    <includedby refid="testsample__new1_8c" local="yes">tests/unity/test/expectdata/testsample_new1.c</includedby>
+    <includedby refid="testsample__run1_8c" local="yes">tests/unity/test/expectdata/testsample_run1.c</includedby>
+    <includedby refid="testsample__yaml_8c" local="yes">tests/unity/test/expectdata/testsample_yaml.c</includedby>
+    <invincdepgraph>
+      <node id="3">
+        <label>tests/unity/test/expectdata/testsample_mock_cmd.c</label>
+        <link refid="testsample__mock__cmd_8c"/>
+      </node>
+      <node id="1">
+        <label>tests/unity/test/testdata/CException.h</label>
+        <link refid="CException_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>tests/unity/test/expectdata/testsample_mock_yaml.c</label>
+        <link refid="testsample__mock__yaml_8c"/>
+      </node>
+      <node id="4">
+        <label>tests/unity/test/expectdata/testsample_mock_new1.c</label>
+        <link refid="testsample__mock__new1_8c"/>
+      </node>
+      <node id="7">
+        <label>tests/unity/test/expectdata/testsample_new1.c</label>
+        <link refid="testsample__new1_8c"/>
+      </node>
+      <node id="8">
+        <label>tests/unity/test/expectdata/testsample_run1.c</label>
+        <link refid="testsample__run1_8c"/>
+      </node>
+      <node id="5">
+        <label>tests/unity/test/expectdata/testsample_mock_run1.c</label>
+        <link refid="testsample__mock__run1_8c"/>
+      </node>
+      <node id="9">
+        <label>tests/unity/test/expectdata/testsample_yaml.c</label>
+        <link refid="testsample__yaml_8c"/>
+      </node>
+      <node id="2">
+        <label>tests/unity/test/expectdata/testsample_cmd.c</label>
+        <link refid="testsample__cmd_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="CException_8h_1ac20fa973526e790f2bb0eb226d8633b2" prot="public" static="no">
+        <name>CEXCEPTION_BEING_USED</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/CException.h" line="4" column="9" bodyfile="tests/unity/test/testdata/CException.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="CException_8h_1a790b697272763115c044058484e6d4c9" prot="public" static="no">
+        <name>CEXCEPTION_NONE</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/CException.h" line="6" column="9" bodyfile="tests/unity/test/testdata/CException.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="CException_8h_1a22368ec67c1c48cc2348245f47a02aef" prot="public" static="no">
+        <name>CEXCEPTION_T</name>
+        <initializer>int e = 1; (void)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/CException.h" line="7" column="9" bodyfile="tests/unity/test/testdata/CException.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="CException_8h_1a7a2b8ccf41cff483bac8e86ac7feff9b" prot="public" static="no">
+        <name>Try</name>
+        <initializer>if (e)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/CException.h" line="8" column="9" bodyfile="tests/unity/test/testdata/CException.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="CException_8h_1aee81f32af726d78c19a8acf63ad7bd43" prot="public" static="no">
+        <name>Catch</name>
+        <param><defname>a</defname></param>
+        <initializer>if (!a)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/CException.h" line="9" column="9" bodyfile="tests/unity/test/testdata/CException.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CEXCEPTION_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CEXCEPTION_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="CException_8h_1ac20fa973526e790f2bb0eb226d8633b2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CEXCEPTION_BEING_USED<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="CException_8h_1a790b697272763115c044058484e6d4c9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CEXCEPTION_NONE<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="CException_8h_1a22368ec67c1c48cc2348245f47a02aef" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CEXCEPTION_T<sp/>int<sp/>e<sp/>=<sp/>1;<sp/>(void)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="CException_8h_1a7a2b8ccf41cff483bac8e86ac7feff9b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Try<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(e)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="CException_8h_1aee81f32af726d78c19a8acf63ad7bd43" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Catch(a)<sp/><sp/><sp/><sp/><sp/>if<sp/>(!a)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//CEXCEPTION_H</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/test/testdata/CException.h"/>
+  </compounddef>
+</doxygen>

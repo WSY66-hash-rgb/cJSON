@@ -1,0 +1,527 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="parse__object_8c" kind="file" language="C++">
+    <compoundname>parse_object.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes refid="unity__config_8h" local="yes">unity/examples/unity_config.h</includes>
+    <includes refid="unity_8h" local="yes">unity/src/unity.h</includes>
+    <includes refid="common_8h" local="yes">common.h</includes>
+    <incdepgraph>
+      <node id="15">
+        <label>float.h</label>
+      </node>
+      <node id="13">
+        <label>../cJSON.c</label>
+        <link refid="cJSON_8c"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>cJSON.h</label>
+        <link refid="cJSON_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>stdint.h</label>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="8">
+        <label>setjmp.h</label>
+      </node>
+      <node id="12">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>stddef.h</label>
+      </node>
+      <node id="1">
+        <label>tests/parse_object.c</label>
+        <link refid="parse__object_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>limits.h</label>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+      <node id="5">
+        <label>unity/examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="9">
+        <label>math.h</label>
+      </node>
+      <node id="7">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>unity/src/unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>ctype.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" prot="public" static="yes" mutable="no">
+        <type><ref refid="structcJSON" kindref="compound">cJSON</ref></type>
+        <definition>cJSON item[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>item</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_object.c" line="31" column="14" bodyfile="tests/parse_object.c" bodystart="31" bodyend="-1"/>
+        <referencedby refid="parse__object_8c_1a62a5d733d5d71ebc05e8c416ecbbd10f" compoundref="parse__object_8c" startline="53" endline="63">assert_not_object</referencedby>
+        <referencedby refid="parse__object_8c_1a04cdd90b8d021cdd933415be47296375" compoundref="parse__object_8c" startline="65" endline="74">assert_parse_object</referencedby>
+        <referencedby refid="parse__object_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="parse__object_8c" startline="165" endline="176">main</referencedby>
+        <referencedby refid="parse__object_8c_1a5f7fb289b156ff91a7ef4ac5a85068ae" compoundref="parse__object_8c" startline="76" endline="85">parse_object_should_parse_empty_objects</referencedby>
+        <referencedby refid="parse__object_8c_1a615b678c5f8dde5fe3b6c7740191415e" compoundref="parse__object_8c" startline="107" endline="152">parse_object_should_parse_objects_with_multiple_elements</referencedby>
+        <referencedby refid="parse__object_8c_1abec8d9fed0cc2ebae8156df16b448e2f" compoundref="parse__object_8c" startline="87" endline="105">parse_object_should_parse_objects_with_one_element</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="parse__object_8c_1ab825fa87328ed4f1376eff8c97cf0ef5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void assert_is_object</definition>
+        <argsstring>(cJSON *object_item)</argsstring>
+        <name>assert_is_object</name>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *</type>
+          <declname>object_item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_object.c" line="33" column="13" bodyfile="tests/parse_object.c" bodystart="33" bodyend="43"/>
+        <referencedby refid="parse__object_8c_1a04cdd90b8d021cdd933415be47296375" compoundref="parse__object_8c" startline="65" endline="74">assert_parse_object</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__object_8c_1a2be7c5d36f1f84d4ae7601af1e9ad53a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void assert_is_child</definition>
+        <argsstring>(cJSON *child_item, const char *name, int type)</argsstring>
+        <name>assert_is_child</name>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *</type>
+          <declname>child_item</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_object.c" line="45" column="13" bodyfile="tests/parse_object.c" bodystart="45" bodyend="51"/>
+        <references refid="structcJSON_1aa6b47e9a4b0e0a26f519b1a2b6739983" compoundref="cJSON_8h" startline="122">cJSON::string</references>
+        <references refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" compoundref="cJSON_8h" startline="112">cJSON::type</references>
+        <referencedby refid="parse__object_8c_1a615b678c5f8dde5fe3b6c7740191415e" compoundref="parse__object_8c" startline="107" endline="152">parse_object_should_parse_objects_with_multiple_elements</referencedby>
+        <referencedby refid="parse__object_8c_1abec8d9fed0cc2ebae8156df16b448e2f" compoundref="parse__object_8c" startline="87" endline="105">parse_object_should_parse_objects_with_one_element</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__object_8c_1a62a5d733d5d71ebc05e8c416ecbbd10f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void assert_not_object</definition>
+        <argsstring>(const char *json)</argsstring>
+        <name>assert_not_object</name>
+        <param>
+          <type>const char *</type>
+          <declname>json</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_object.c" line="53" column="13" bodyfile="tests/parse_object.c" bodystart="53" bodyend="63"/>
+        <references refid="structparse__buffer_1a52ee1184576baa3d5171059ab0e942de" compoundref="cJSON_8c" startline="289">parse_buffer::content</references>
+        <references refid="cJSON_8c_1a855c7241e836a5b2d87577df8c113faf" compoundref="cJSON_8c" startline="186">global_hooks</references>
+        <references refid="structparse__buffer_1a2c3e99b15da2935fc5d58124ffb4a894" compoundref="cJSON_8c" startline="293">parse_buffer::hooks</references>
+        <references refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" compoundref="parse__object_8c" startline="31">item</references>
+        <references refid="structparse__buffer_1a036970e9335896d3cee8459eda9e2eb9" compoundref="cJSON_8c" startline="290">parse_buffer::length</references>
+        <references refid="cJSON_8c_1a1472ac5d1becd7d9a5e558b4c053b06a" compoundref="cJSON_8c" startline="1597" endline="1707">parse_object</references>
+        <references refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" compoundref="common_8h" startline="29" endline="44">reset</references>
+        <referencedby refid="parse__object_8c_1af6dd5f683520b395bf1ba78b3c1be322" compoundref="parse__object_8c" startline="154" endline="163">parse_object_should_not_parse_non_objects</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__object_8c_1a04cdd90b8d021cdd933415be47296375" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void assert_parse_object</definition>
+        <argsstring>(const char *json)</argsstring>
+        <name>assert_parse_object</name>
+        <param>
+          <type>const char *</type>
+          <declname>json</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_object.c" line="65" column="13" bodyfile="tests/parse_object.c" bodystart="65" bodyend="74"/>
+        <references refid="parse__object_8c_1ab825fa87328ed4f1376eff8c97cf0ef5" compoundref="parse__object_8c" startline="33" endline="43">assert_is_object</references>
+        <references refid="structparse__buffer_1a52ee1184576baa3d5171059ab0e942de" compoundref="cJSON_8c" startline="289">parse_buffer::content</references>
+        <references refid="cJSON_8c_1a855c7241e836a5b2d87577df8c113faf" compoundref="cJSON_8c" startline="186">global_hooks</references>
+        <references refid="structparse__buffer_1a2c3e99b15da2935fc5d58124ffb4a894" compoundref="cJSON_8c" startline="293">parse_buffer::hooks</references>
+        <references refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" compoundref="parse__object_8c" startline="31">item</references>
+        <references refid="structparse__buffer_1a036970e9335896d3cee8459eda9e2eb9" compoundref="cJSON_8c" startline="290">parse_buffer::length</references>
+        <references refid="cJSON_8c_1a1472ac5d1becd7d9a5e558b4c053b06a" compoundref="cJSON_8c" startline="1597" endline="1707">parse_object</references>
+        <referencedby refid="parse__object_8c_1a5f7fb289b156ff91a7ef4ac5a85068ae" compoundref="parse__object_8c" startline="76" endline="85">parse_object_should_parse_empty_objects</referencedby>
+        <referencedby refid="parse__object_8c_1a615b678c5f8dde5fe3b6c7740191415e" compoundref="parse__object_8c" startline="107" endline="152">parse_object_should_parse_objects_with_multiple_elements</referencedby>
+        <referencedby refid="parse__object_8c_1abec8d9fed0cc2ebae8156df16b448e2f" compoundref="parse__object_8c" startline="87" endline="105">parse_object_should_parse_objects_with_one_element</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__object_8c_1a5f7fb289b156ff91a7ef4ac5a85068ae" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void parse_object_should_parse_empty_objects</definition>
+        <argsstring>(void)</argsstring>
+        <name>parse_object_should_parse_empty_objects</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_object.c" line="76" column="13" bodyfile="tests/parse_object.c" bodystart="76" bodyend="85"/>
+        <references refid="parse__object_8c_1a04cdd90b8d021cdd933415be47296375" compoundref="parse__object_8c" startline="65" endline="74">assert_parse_object</references>
+        <references refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" compoundref="parse__object_8c" startline="31">item</references>
+        <references refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" compoundref="common_8h" startline="29" endline="44">reset</references>
+        <referencedby refid="parse__object_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="parse__object_8c" startline="165" endline="176">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__object_8c_1abec8d9fed0cc2ebae8156df16b448e2f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void parse_object_should_parse_objects_with_one_element</definition>
+        <argsstring>(void)</argsstring>
+        <name>parse_object_should_parse_objects_with_one_element</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_object.c" line="87" column="13" bodyfile="tests/parse_object.c" bodystart="87" bodyend="105"/>
+        <references refid="parse__object_8c_1a2be7c5d36f1f84d4ae7601af1e9ad53a" compoundref="parse__object_8c" startline="45" endline="51">assert_is_child</references>
+        <references refid="parse__object_8c_1a04cdd90b8d021cdd933415be47296375" compoundref="parse__object_8c" startline="65" endline="74">assert_parse_object</references>
+        <references refid="structcJSON_1a401b274c2da358dac5c23ab8b2c71f85" compoundref="cJSON_8h" startline="109">cJSON::child</references>
+        <references refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" compoundref="parse__object_8c" startline="31">item</references>
+        <references refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" compoundref="common_8h" startline="29" endline="44">reset</references>
+        <referencedby refid="parse__object_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="parse__object_8c" startline="165" endline="176">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__object_8c_1a615b678c5f8dde5fe3b6c7740191415e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void parse_object_should_parse_objects_with_multiple_elements</definition>
+        <argsstring>(void)</argsstring>
+        <name>parse_object_should_parse_objects_with_multiple_elements</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_object.c" line="107" column="13" bodyfile="tests/parse_object.c" bodystart="107" bodyend="152"/>
+        <references refid="parse__object_8c_1a2be7c5d36f1f84d4ae7601af1e9ad53a" compoundref="parse__object_8c" startline="45" endline="51">assert_is_child</references>
+        <references refid="parse__object_8c_1a04cdd90b8d021cdd933415be47296375" compoundref="parse__object_8c" startline="65" endline="74">assert_parse_object</references>
+        <references refid="structcJSON_1a401b274c2da358dac5c23ab8b2c71f85" compoundref="cJSON_8h" startline="109">cJSON::child</references>
+        <references refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" compoundref="parse__object_8c" startline="31">item</references>
+        <references refid="structcJSON_1ade862b880379b5e2a591f7326401fa8d" compoundref="cJSON_8h" startline="106">cJSON::next</references>
+        <references refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" compoundref="common_8h" startline="29" endline="44">reset</references>
+        <referencedby refid="parse__object_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="parse__object_8c" startline="165" endline="176">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__object_8c_1af6dd5f683520b395bf1ba78b3c1be322" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void parse_object_should_not_parse_non_objects</definition>
+        <argsstring>(void)</argsstring>
+        <name>parse_object_should_not_parse_non_objects</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_object.c" line="154" column="13" bodyfile="tests/parse_object.c" bodystart="154" bodyend="163"/>
+        <references refid="parse__object_8c_1a62a5d733d5d71ebc05e8c416ecbbd10f" compoundref="parse__object_8c" startline="53" endline="63">assert_not_object</references>
+        <referencedby refid="parse__object_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="parse__object_8c" startline="165" endline="176">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="parse__object_8c_1a840291bc02cba5474a4cb46a9b9566fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(void)</argsstring>
+        <name>main</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/parse_object.c" line="165" column="8" bodyfile="tests/parse_object.c" bodystart="165" bodyend="176"/>
+        <references refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" compoundref="parse__object_8c" startline="31">item</references>
+        <references refid="parse__object_8c_1af6dd5f683520b395bf1ba78b3c1be322" compoundref="parse__object_8c" startline="154" endline="163">parse_object_should_not_parse_non_objects</references>
+        <references refid="parse__object_8c_1a5f7fb289b156ff91a7ef4ac5a85068ae" compoundref="parse__object_8c" startline="76" endline="85">parse_object_should_parse_empty_objects</references>
+        <references refid="parse__object_8c_1a615b678c5f8dde5fe3b6c7740191415e" compoundref="parse__object_8c" startline="107" endline="152">parse_object_should_parse_objects_with_multiple_elements</references>
+        <references refid="parse__object_8c_1abec8d9fed0cc2ebae8156df16b448e2f" compoundref="parse__object_8c" startline="87" endline="105">parse_object_should_parse_objects_with_one_element</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/>Copyright<sp/>(c)<sp/>2009-2017<sp/>Dave<sp/>Gamble<sp/>and<sp/>cJSON<sp/>contributors</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"></highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity__config_8h" kindref="compound">unity/examples/unity_config.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity_8h" kindref="compound">unity/src/unity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="common_8h" kindref="compound">common.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/><ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>[1];</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="parse__object_8c_1ab825fa87328ed4f1376eff8c97cf0ef5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__object_8c_1ab825fa87328ed4f1376eff8c97cf0ef5" kindref="member">assert_is_object</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*object_item)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" kindref="member">TEST_ASSERT_NOT_NULL_MESSAGE</ref>(object_item,<sp/></highlight><highlight class="stringliteral">&quot;Item<sp/>is<sp/>NULL.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1a2c8688f23b1d3dc9584d95cbb2779612" kindref="member">assert_not_in_list</ref>(object_item);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1ace49ab08deaebb78ba9be3240d621aeb" kindref="member">assert_has_type</ref>(object_item,<sp/><ref refid="cJSON_8h_1a22c6e13481c090629afbd77b7cebd24c" kindref="member">cJSON_Object</ref>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1a1a6e62df3c208d5c52b7ac5a43c691a2" kindref="member">assert_has_no_reference</ref>(object_item);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1a72c7484cb26a1f6575e20febbdc69b12" kindref="member">assert_has_no_const_string</ref>(object_item);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1a1e8af304fb1faa1122841764ea1ac7bb" kindref="member">assert_has_no_valuestring</ref>(object_item);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1aabd3d6d1e1cd513025780693b223f279" kindref="member">assert_has_no_string</ref>(object_item);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="parse__object_8c_1a2be7c5d36f1f84d4ae7601af1e9ad53a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__object_8c_1a2be7c5d36f1f84d4ae7601af1e9ad53a" kindref="member">assert_is_child</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*child_item,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" kindref="member">TEST_ASSERT_NOT_NULL_MESSAGE</ref>(child_item,<sp/></highlight><highlight class="stringliteral">&quot;Child<sp/>item<sp/>is<sp/>NULL.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" kindref="member">TEST_ASSERT_NOT_NULL_MESSAGE</ref>(child_item-&gt;<ref refid="structcJSON_1aa6b47e9a4b0e0a26f519b1a2b6739983" kindref="member">string</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Child<sp/>item<sp/>doesn&apos;t<sp/>have<sp/>a<sp/>name.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1abca87135f5bc5737e7e46ab02cddf39e" kindref="member">TEST_ASSERT_EQUAL_STRING_MESSAGE</ref>(<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref>,<sp/>child_item-&gt;<ref refid="structcJSON_1aa6b47e9a4b0e0a26f519b1a2b6739983" kindref="member">string</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Child<sp/>item<sp/>has<sp/>the<sp/>wrong<sp/>name.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ae76772524d720cfce161b2cb7cff8886" kindref="member">TEST_ASSERT_BITS</ref>(0xFF,<sp/>type,<sp/>child_item-&gt;<ref refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" kindref="member">type</ref>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="parse__object_8c_1a62a5d733d5d71ebc05e8c416ecbbd10f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__object_8c_1a62a5d733d5d71ebc05e8c416ecbbd10f" kindref="member">assert_not_object</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="readme__examples_8c_1a4dd85a1ffd4add568eb3b646e857eadc" kindref="member">json</ref>)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structparse__buffer" kindref="compound">parse_buffer</ref><sp/>parsebuffer<sp/>=<sp/>{<sp/>0,<sp/>0,<sp/>0,<sp/>0,<sp/>{<sp/>0,<sp/>0,<sp/>0<sp/>}<sp/>};</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>parsebuffer.<ref refid="structparse__buffer_1a52ee1184576baa3d5171059ab0e942de" kindref="member">content</ref><sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)<ref refid="readme__examples_8c_1a4dd85a1ffd4add568eb3b646e857eadc" kindref="member">json</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>parsebuffer.<ref refid="structparse__buffer_1a036970e9335896d3cee8459eda9e2eb9" kindref="member">length</ref><sp/>=<sp/>strlen(<ref refid="readme__examples_8c_1a4dd85a1ffd4add568eb3b646e857eadc" kindref="member">json</ref>)<sp/>+<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>parsebuffer.<ref refid="structparse__buffer_1a2c3e99b15da2935fc5d58124ffb4a894" kindref="member">hooks</ref><sp/>=<sp/><ref refid="cJSON_8c_1a855c7241e836a5b2d87577df8c113faf" kindref="member">global_hooks</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a9d18ac80652af344ba355a6a9fed1c30" kindref="member">TEST_ASSERT_FALSE</ref>(<ref refid="cJSON_8c_1a1472ac5d1becd7d9a5e558b4c053b06a" kindref="member">parse_object</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>,<sp/>&amp;parsebuffer));</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1a040a3b994f988d83f9b30b5f7b621155" kindref="member">assert_is_invalid</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" kindref="member">reset</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="parse__object_8c_1a04cdd90b8d021cdd933415be47296375" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__object_8c_1a04cdd90b8d021cdd933415be47296375" kindref="member">assert_parse_object</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="readme__examples_8c_1a4dd85a1ffd4add568eb3b646e857eadc" kindref="member">json</ref>)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structparse__buffer" kindref="compound">parse_buffer</ref><sp/>parsebuffer<sp/>=<sp/>{<sp/>0,<sp/>0,<sp/>0,<sp/>0,<sp/>{<sp/>0,<sp/>0,<sp/>0<sp/>}<sp/>};</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>parsebuffer.<ref refid="structparse__buffer_1a52ee1184576baa3d5171059ab0e942de" kindref="member">content</ref><sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)<ref refid="readme__examples_8c_1a4dd85a1ffd4add568eb3b646e857eadc" kindref="member">json</ref>;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>parsebuffer.<ref refid="structparse__buffer_1a036970e9335896d3cee8459eda9e2eb9" kindref="member">length</ref><sp/>=<sp/>strlen(<ref refid="readme__examples_8c_1a4dd85a1ffd4add568eb3b646e857eadc" kindref="member">json</ref>)<sp/>+<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>parsebuffer.<ref refid="structparse__buffer_1a2c3e99b15da2935fc5d58124ffb4a894" kindref="member">hooks</ref><sp/>=<sp/><ref refid="cJSON_8c_1a855c7241e836a5b2d87577df8c113faf" kindref="member">global_hooks</ref>;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a6a0527f090dfc0b5ce9724415e51ebe5" kindref="member">TEST_ASSERT_TRUE</ref>(<ref refid="cJSON_8c_1a1472ac5d1becd7d9a5e558b4c053b06a" kindref="member">parse_object</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>,<sp/>&amp;parsebuffer));</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1ab825fa87328ed4f1376eff8c97cf0ef5" kindref="member">assert_is_object</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="parse__object_8c_1a5f7fb289b156ff91a7ef4ac5a85068ae" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__object_8c_1a5f7fb289b156ff91a7ef4ac5a85068ae" kindref="member">parse_object_should_parse_empty_objects</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a04cdd90b8d021cdd933415be47296375" kindref="member">assert_parse_object</ref>(</highlight><highlight class="stringliteral">&quot;{}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1a740922f131411646171056003b2cb526" kindref="member">assert_has_no_child</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" kindref="member">reset</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a04cdd90b8d021cdd933415be47296375" kindref="member">assert_parse_object</ref>(</highlight><highlight class="stringliteral">&quot;{\n\t}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1a740922f131411646171056003b2cb526" kindref="member">assert_has_no_child</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" kindref="member">reset</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="parse__object_8c_1abec8d9fed0cc2ebae8156df16b448e2f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__object_8c_1abec8d9fed0cc2ebae8156df16b448e2f" kindref="member">parse_object_should_parse_objects_with_one_element</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a04cdd90b8d021cdd933415be47296375" kindref="member">assert_parse_object</ref>(</highlight><highlight class="stringliteral">&quot;{\&quot;one\&quot;:1}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a2be7c5d36f1f84d4ae7601af1e9ad53a" kindref="member">assert_is_child</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;<ref refid="structcJSON_1a401b274c2da358dac5c23ab8b2c71f85" kindref="member">child</ref>,<sp/></highlight><highlight class="stringliteral">&quot;one&quot;</highlight><highlight class="normal">,<sp/><ref refid="cJSON_8h_1a15e77e2f6457dc9b19c10ddb032af971" kindref="member">cJSON_Number</ref>);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" kindref="member">reset</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a04cdd90b8d021cdd933415be47296375" kindref="member">assert_parse_object</ref>(</highlight><highlight class="stringliteral">&quot;{\&quot;hello\&quot;:\&quot;world!\&quot;}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a2be7c5d36f1f84d4ae7601af1e9ad53a" kindref="member">assert_is_child</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;<ref refid="structcJSON_1a401b274c2da358dac5c23ab8b2c71f85" kindref="member">child</ref>,<sp/></highlight><highlight class="stringliteral">&quot;hello&quot;</highlight><highlight class="normal">,<sp/><ref refid="cJSON_8h_1aa2cb4765308e2bbdf01988b2acdf92d9" kindref="member">cJSON_String</ref>);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" kindref="member">reset</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a04cdd90b8d021cdd933415be47296375" kindref="member">assert_parse_object</ref>(</highlight><highlight class="stringliteral">&quot;{\&quot;array\&quot;:[]}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a2be7c5d36f1f84d4ae7601af1e9ad53a" kindref="member">assert_is_child</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;<ref refid="structcJSON_1a401b274c2da358dac5c23ab8b2c71f85" kindref="member">child</ref>,<sp/></highlight><highlight class="stringliteral">&quot;array&quot;</highlight><highlight class="normal">,<sp/><ref refid="cJSON_8h_1a57cffa126740a8efcdcb7bcef80e8897" kindref="member">cJSON_Array</ref>);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" kindref="member">reset</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a04cdd90b8d021cdd933415be47296375" kindref="member">assert_parse_object</ref>(</highlight><highlight class="stringliteral">&quot;{\&quot;null\&quot;:null}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a2be7c5d36f1f84d4ae7601af1e9ad53a" kindref="member">assert_is_child</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;<ref refid="structcJSON_1a401b274c2da358dac5c23ab8b2c71f85" kindref="member">child</ref>,<sp/></highlight><highlight class="stringliteral">&quot;null&quot;</highlight><highlight class="normal">,<sp/><ref refid="cJSON_8h_1aeadaba63ddb68aaa518528595d503dcd" kindref="member">cJSON_NULL</ref>);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" kindref="member">reset</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="parse__object_8c_1a615b678c5f8dde5fe3b6c7740191415e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__object_8c_1a615b678c5f8dde5fe3b6c7740191415e" kindref="member">parse_object_should_parse_objects_with_multiple_elements</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a04cdd90b8d021cdd933415be47296375" kindref="member">assert_parse_object</ref>(</highlight><highlight class="stringliteral">&quot;{\&quot;one\&quot;:1\t,\t\&quot;two\&quot;\n:2,<sp/>\&quot;three\&quot;:3}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a2be7c5d36f1f84d4ae7601af1e9ad53a" kindref="member">assert_is_child</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;<ref refid="structcJSON_1a401b274c2da358dac5c23ab8b2c71f85" kindref="member">child</ref>,<sp/></highlight><highlight class="stringliteral">&quot;one&quot;</highlight><highlight class="normal">,<sp/><ref refid="cJSON_8h_1a15e77e2f6457dc9b19c10ddb032af971" kindref="member">cJSON_Number</ref>);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a2be7c5d36f1f84d4ae7601af1e9ad53a" kindref="member">assert_is_child</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;<ref refid="structcJSON_1a401b274c2da358dac5c23ab8b2c71f85" kindref="member">child</ref>-&gt;<ref refid="structcJSON_1ade862b880379b5e2a591f7326401fa8d" kindref="member">next</ref>,<sp/></highlight><highlight class="stringliteral">&quot;two&quot;</highlight><highlight class="normal">,<sp/><ref refid="cJSON_8h_1a15e77e2f6457dc9b19c10ddb032af971" kindref="member">cJSON_Number</ref>);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a2be7c5d36f1f84d4ae7601af1e9ad53a" kindref="member">assert_is_child</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;<ref refid="structcJSON_1a401b274c2da358dac5c23ab8b2c71f85" kindref="member">child</ref>-&gt;<ref refid="structcJSON_1ade862b880379b5e2a591f7326401fa8d" kindref="member">next</ref>-&gt;<ref refid="structcJSON_1ade862b880379b5e2a591f7326401fa8d" kindref="member">next</ref>,<sp/></highlight><highlight class="stringliteral">&quot;three&quot;</highlight><highlight class="normal">,<sp/><ref refid="cJSON_8h_1a15e77e2f6457dc9b19c10ddb032af971" kindref="member">cJSON_Number</ref>);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" kindref="member">reset</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*node<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>expected_types[7]<sp/>=</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8h_1a15e77e2f6457dc9b19c10ddb032af971" kindref="member">cJSON_Number</ref>,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8h_1aeadaba63ddb68aaa518528595d503dcd" kindref="member">cJSON_NULL</ref>,</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8h_1aad4e442b8095939decddfb67d87d9324" kindref="member">cJSON_True</ref>,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8h_1a2d240682316354b5748f909ad220184b" kindref="member">cJSON_False</ref>,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8h_1a57cffa126740a8efcdcb7bcef80e8897" kindref="member">cJSON_Array</ref>,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8h_1aa2cb4765308e2bbdf01988b2acdf92d9" kindref="member">cJSON_String</ref>,</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8h_1a22c6e13481c090629afbd77b7cebd24c" kindref="member">cJSON_Object</ref></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*expected_names[7]<sp/>=</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;one&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;NULL&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;TRUE&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;FALSE&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;array&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;world&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;object&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a04cdd90b8d021cdd933415be47296375" kindref="member">assert_parse_object</ref>(</highlight><highlight class="stringliteral">&quot;{\&quot;one\&quot;:1,<sp/>\&quot;NULL\&quot;:null,<sp/>\&quot;TRUE\&quot;:true,<sp/>\&quot;FALSE\&quot;:false,<sp/>\&quot;array\&quot;:[],<sp/>\&quot;world\&quot;:\&quot;hello\&quot;,<sp/>\&quot;object\&quot;:{}}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node<sp/>=<sp/><ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;<ref refid="structcJSON_1a401b274c2da358dac5c23ab8b2c71f85" kindref="member">child</ref>;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(i<sp/>&lt;<sp/>(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(expected_types)/</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)))</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>(node<sp/>!=<sp/>NULL);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(void)i++,<sp/>node<sp/>=<sp/>node-&gt;<ref refid="structcJSON_1ade862b880379b5e2a591f7326401fa8d" kindref="member">next</ref>)</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a2be7c5d36f1f84d4ae7601af1e9ad53a" kindref="member">assert_is_child</ref>(node,<sp/>expected_names[i],<sp/>expected_types[i]);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unity_8h_1af52a321a93c580a6213fef3e0f85c237" kindref="member">TEST_ASSERT_EQUAL_INT</ref>(i,<sp/>7);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" kindref="member">reset</ref>(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="parse__object_8c_1af6dd5f683520b395bf1ba78b3c1be322" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse__object_8c_1af6dd5f683520b395bf1ba78b3c1be322" kindref="member">parse_object_should_not_parse_non_objects</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a62a5d733d5d71ebc05e8c416ecbbd10f" kindref="member">assert_not_object</ref>(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a62a5d733d5d71ebc05e8c416ecbbd10f" kindref="member">assert_not_object</ref>(</highlight><highlight class="stringliteral">&quot;{&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a62a5d733d5d71ebc05e8c416ecbbd10f" kindref="member">assert_not_object</ref>(</highlight><highlight class="stringliteral">&quot;}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a62a5d733d5d71ebc05e8c416ecbbd10f" kindref="member">assert_not_object</ref>(</highlight><highlight class="stringliteral">&quot;[\&quot;hello\&quot;,{}]&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a62a5d733d5d71ebc05e8c416ecbbd10f" kindref="member">assert_not_object</ref>(</highlight><highlight class="stringliteral">&quot;42&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a62a5d733d5d71ebc05e8c416ecbbd10f" kindref="member">assert_not_object</ref>(</highlight><highlight class="stringliteral">&quot;3.14&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parse__object_8c_1a62a5d733d5d71ebc05e8c416ecbbd10f" kindref="member">assert_not_object</ref>(</highlight><highlight class="stringliteral">&quot;\&quot;{}hello<sp/>world!\n\&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="parse__object_8c_1a840291bc02cba5474a4cb46a9b9566fe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="cJSON_8h_1a79203c3ba406ffd5736627cc1e082e38" kindref="member">CJSON_CDECL</ref><sp/><ref refid="parse__object_8c_1a840291bc02cba5474a4cb46a9b9566fe" kindref="member">main</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="166"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>initialize<sp/>cJSON<sp/>item<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>memset(<ref refid="parse__object_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>,<sp/>0,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="structcJSON" kindref="compound">cJSON</ref>));</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__internals_8h_1aaad15a5d10e50a412d0a6851d0e5091a" kindref="member">UNITY_BEGIN</ref>();</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="parse__object_8c_1a5f7fb289b156ff91a7ef4ac5a85068ae" kindref="member">parse_object_should_parse_empty_objects</ref>);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="parse__object_8c_1af6dd5f683520b395bf1ba78b3c1be322" kindref="member">parse_object_should_not_parse_non_objects</ref>);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="parse__object_8c_1a615b678c5f8dde5fe3b6c7740191415e" kindref="member">parse_object_should_parse_objects_with_multiple_elements</ref>);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="parse__object_8c_1abec8d9fed0cc2ebae8156df16b448e2f" kindref="member">parse_object_should_parse_objects_with_one_element</ref>);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="unity__internals_8h_1aa519129d3af737eb796fc91720fae26a" kindref="member">UNITY_END</ref>();</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="tests/parse_object.c"/>
+  </compounddef>
+</doxygen>

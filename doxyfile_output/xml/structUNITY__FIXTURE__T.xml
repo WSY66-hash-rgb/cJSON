@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structUNITY__FIXTURE__T" kind="struct" language="C++" prot="public">
+    <compoundname>UNITY_FIXTURE_T</compoundname>
+    <includes local="no">unity_fixture_internals.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structUNITY__FIXTURE__T_1ae5650e8bb94e0d9c75913a112277e445" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UNITY_FIXTURE_T::Verbose</definition>
+        <argsstring></argsstring>
+        <name>Verbose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture_internals.h" line="18" column="9" bodyfile="tests/unity/extras/fixture/src/unity_fixture_internals.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="unity__fixture__Test_8c_1a6dd5f3f906e49b2cc859da9a68fb5c2c" compoundref="unity__fixture__Test_8c" startline="185" endline="192">TEST</referencedby>
+        <referencedby refid="unity__fixture__Test_8c_1ae9cf33cb1c7ef56006f497d542d9b516" compoundref="unity__fixture__Test_8c" startline="164" endline="170">TEST_SETUP</referencedby>
+        <referencedby refid="unity__fixture__Test_8c_1a124f65267ba6264ba9d2591a470e8222" compoundref="unity__fixture__Test_8c" startline="172" endline="178">TEST_TEAR_DOWN</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1a1ae5ed8b684e16585dd4bd0cb07f51eb" compoundref="unity__fixture_8c" startline="409" endline="432">UnityConcludeFixtureTest</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1a898356b51b63100ec321e05d2e5f2d55" compoundref="unity__fixture_8c" startline="347" endline="407">UnityGetCommandLineOptions</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1a0979b54fd6b64e3d44c2adc91fe2c80e" compoundref="unity__fixture_8c" startline="115" endline="129">UnityIgnoreTest</referencedby>
+        <referencedby refid="unity__fixture_8h_1a58ec279183697abbd5d3efea3442d4e5" compoundref="unity__fixture_8c" startline="32" endline="49">UnityMain</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1aae64fa6f0f5b87191a67ad858f95ca89" compoundref="unity__fixture_8c" startline="68" endline="113">UnityTestRunner</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structUNITY__FIXTURE__T_1aaa9feba9c4991248a4107098e40813ac" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int UNITY_FIXTURE_T::RepeatCount</definition>
+        <argsstring></argsstring>
+        <name>RepeatCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture_internals.h" line="19" column="18" bodyfile="tests/unity/extras/fixture/src/unity_fixture_internals.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="unity__fixture_8c_1ac54f18088c1ed178f3c602b868014f5d" compoundref="unity__fixture_8c" startline="23" endline="30">announceTestRun</referencedby>
+        <referencedby refid="unity__fixture__Test_8c_1a6dd5f3f906e49b2cc859da9a68fb5c2c" compoundref="unity__fixture__Test_8c" startline="185" endline="192">TEST</referencedby>
+        <referencedby refid="unity__fixture__Test_8c_1ae9cf33cb1c7ef56006f497d542d9b516" compoundref="unity__fixture__Test_8c" startline="164" endline="170">TEST_SETUP</referencedby>
+        <referencedby refid="unity__fixture__Test_8c_1a124f65267ba6264ba9d2591a470e8222" compoundref="unity__fixture__Test_8c" startline="172" endline="178">TEST_TEAR_DOWN</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1a898356b51b63100ec321e05d2e5f2d55" compoundref="unity__fixture_8c" startline="347" endline="407">UnityGetCommandLineOptions</referencedby>
+        <referencedby refid="unity__fixture_8h_1a58ec279183697abbd5d3efea3442d4e5" compoundref="unity__fixture_8c" startline="32" endline="49">UnityMain</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structUNITY__FIXTURE__T_1a98e6483802e9ba8c55cd10f9eec36cb3" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* UNITY_FIXTURE_T::NameFilter</definition>
+        <argsstring></argsstring>
+        <name>NameFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture_internals.h" line="20" column="16" bodyfile="tests/unity/extras/fixture/src/unity_fixture_internals.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="unity__fixture__Test_8c_1a6dd5f3f906e49b2cc859da9a68fb5c2c" compoundref="unity__fixture__Test_8c" startline="185" endline="192">TEST</referencedby>
+        <referencedby refid="unity__fixture__Test_8c_1ae9cf33cb1c7ef56006f497d542d9b516" compoundref="unity__fixture__Test_8c" startline="164" endline="170">TEST_SETUP</referencedby>
+        <referencedby refid="unity__fixture__Test_8c_1a124f65267ba6264ba9d2591a470e8222" compoundref="unity__fixture__Test_8c" startline="172" endline="178">TEST_TEAR_DOWN</referencedby>
+        <referencedby refid="unity__fixture_8c_1a8f394b022e49e022267f4cbdcd9da855" compoundref="unity__fixture_8c" startline="58" endline="61">testSelected</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1a898356b51b63100ec321e05d2e5f2d55" compoundref="unity__fixture_8c" startline="347" endline="407">UnityGetCommandLineOptions</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structUNITY__FIXTURE__T_1a9480a05bc2d571c0fe5f8a7872082af1" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* UNITY_FIXTURE_T::GroupFilter</definition>
+        <argsstring></argsstring>
+        <name>GroupFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/src/unity_fixture_internals.h" line="21" column="16" bodyfile="tests/unity/extras/fixture/src/unity_fixture_internals.h" bodystart="21" bodyend="-1"/>
+        <referencedby refid="unity__fixture_8c_1a6e8f15027dcf573c012fc42fc7f95213" compoundref="unity__fixture_8c" startline="63" endline="66">groupSelected</referencedby>
+        <referencedby refid="unity__fixture__Test_8c_1a6dd5f3f906e49b2cc859da9a68fb5c2c" compoundref="unity__fixture__Test_8c" startline="185" endline="192">TEST</referencedby>
+        <referencedby refid="unity__fixture__Test_8c_1ae9cf33cb1c7ef56006f497d542d9b516" compoundref="unity__fixture__Test_8c" startline="164" endline="170">TEST_SETUP</referencedby>
+        <referencedby refid="unity__fixture__Test_8c_1a124f65267ba6264ba9d2591a470e8222" compoundref="unity__fixture__Test_8c" startline="172" endline="178">TEST_TEAR_DOWN</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1a898356b51b63100ec321e05d2e5f2d55" compoundref="unity__fixture_8c" startline="347" endline="407">UnityGetCommandLineOptions</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>UNITY_FIXTURE_T</label>
+        <link refid="structUNITY__FIXTURE__T"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>RepeatCount</edgelabel>
+          <edgelabel>Verbose</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>GroupFilter</edgelabel>
+          <edgelabel>NameFilter</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>int</label>
+      </node>
+      <node id="3">
+        <label>const char *</label>
+      </node>
+    </collaborationgraph>
+    <location file="tests/unity/extras/fixture/src/unity_fixture_internals.h" line="16" column="1" bodyfile="tests/unity/extras/fixture/src/unity_fixture_internals.h" bodystart="17" bodyend="22"/>
+    <listofallmembers>
+      <member refid="structUNITY__FIXTURE__T_1a9480a05bc2d571c0fe5f8a7872082af1" prot="public" virt="non-virtual"><scope>UNITY_FIXTURE_T</scope><name>GroupFilter</name></member>
+      <member refid="structUNITY__FIXTURE__T_1a98e6483802e9ba8c55cd10f9eec36cb3" prot="public" virt="non-virtual"><scope>UNITY_FIXTURE_T</scope><name>NameFilter</name></member>
+      <member refid="structUNITY__FIXTURE__T_1aaa9feba9c4991248a4107098e40813ac" prot="public" virt="non-virtual"><scope>UNITY_FIXTURE_T</scope><name>RepeatCount</name></member>
+      <member refid="structUNITY__FIXTURE__T_1ae5650e8bb94e0d9c75913a112277e445" prot="public" virt="non-virtual"><scope>UNITY_FIXTURE_T</scope><name>Verbose</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

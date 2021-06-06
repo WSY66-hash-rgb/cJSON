@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="cmock_8h" kind="file" language="C++">
+    <compoundname>cmock.h</compoundname>
+    <includedby refid="testsample__mock__cmd_8c" local="yes">tests/unity/test/expectdata/testsample_mock_cmd.c</includedby>
+    <includedby refid="testsample__mock__def_8c" local="yes">tests/unity/test/expectdata/testsample_mock_def.c</includedby>
+    <includedby refid="testsample__mock__head1_8c" local="yes">tests/unity/test/expectdata/testsample_mock_head1.c</includedby>
+    <includedby refid="testsample__mock__head1_8h" local="yes">tests/unity/test/expectdata/testsample_mock_head1.h</includedby>
+    <includedby refid="testsample__mock__new1_8c" local="yes">tests/unity/test/expectdata/testsample_mock_new1.c</includedby>
+    <includedby refid="testsample__mock__new2_8c" local="yes">tests/unity/test/expectdata/testsample_mock_new2.c</includedby>
+    <includedby refid="testsample__mock__param_8c" local="yes">tests/unity/test/expectdata/testsample_mock_param.c</includedby>
+    <includedby refid="testsample__mock__run1_8c" local="yes">tests/unity/test/expectdata/testsample_mock_run1.c</includedby>
+    <includedby refid="testsample__mock__run2_8c" local="yes">tests/unity/test/expectdata/testsample_mock_run2.c</includedby>
+    <includedby refid="testsample__mock__yaml_8c" local="yes">tests/unity/test/expectdata/testsample_mock_yaml.c</includedby>
+    <invincdepgraph>
+      <node id="10">
+        <label>tests/unity/test/expectdata/testsample_mock_run2.c</label>
+        <link refid="testsample__mock__run2_8c"/>
+      </node>
+      <node id="2">
+        <label>tests/unity/test/expectdata/testsample_mock_cmd.c</label>
+        <link refid="testsample__mock__cmd_8c"/>
+      </node>
+      <node id="3">
+        <label>tests/unity/test/expectdata/testsample_mock_def.c</label>
+        <link refid="testsample__mock__def_8c"/>
+      </node>
+      <node id="1">
+        <label>tests/unity/test/testdata/cmock.h</label>
+        <link refid="cmock_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>tests/unity/test/expectdata/testsample_mock_yaml.c</label>
+        <link refid="testsample__mock__yaml_8c"/>
+      </node>
+      <node id="6">
+        <label>tests/unity/test/expectdata/testsample_mock_new1.c</label>
+        <link refid="testsample__mock__new1_8c"/>
+      </node>
+      <node id="8">
+        <label>tests/unity/test/expectdata/testsample_mock_param.c</label>
+        <link refid="testsample__mock__param_8c"/>
+      </node>
+      <node id="7">
+        <label>tests/unity/test/expectdata/testsample_mock_new2.c</label>
+        <link refid="testsample__mock__new2_8c"/>
+      </node>
+      <node id="4">
+        <label>tests/unity/test/expectdata/testsample_mock_head1.c</label>
+        <link refid="testsample__mock__head1_8c"/>
+      </node>
+      <node id="5">
+        <label>tests/unity/test/expectdata/testsample_mock_head1.h</label>
+        <link refid="testsample__mock__head1_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>tests/unity/test/expectdata/testsample_mock_run1.c</label>
+        <link refid="testsample__mock__run1_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="cmock_8h_1a015d18697c4e0cae2f4f9beb4f8a815e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CMockMemFreeFinalCounter</definition>
+        <argsstring></argsstring>
+        <name>CMockMemFreeFinalCounter</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/cmock.h" line="4" column="5" bodyfile="tests/unity/test/testdata/cmock.h" bodystart="4" bodyend="-1"/>
+        <referencedby refid="cmock_8h_1aa8a20fa157f61e9e1379170847287cc9" compoundref="cmock_8h" startline="9" endline="9">CMock_Guts_MemFreeFinal</referencedby>
+        <referencedby refid="testRunnerGeneratorWithMocks_8c_1a77ecdb5246db5687be932e5ffd2db094" compoundref="testRunnerGeneratorWithMocks_8c" startline="184" endline="191">test_ShouldCallMockInitAndVerifyFunctionsForEachTest</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="cmock_8h_1a69e2a94760e089ac16c7641f9c0b167d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int mockMock_Init_Counter</definition>
+        <argsstring></argsstring>
+        <name>mockMock_Init_Counter</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/cmock.h" line="5" column="5" bodyfile="tests/unity/test/testdata/cmock.h" bodystart="5" bodyend="-1"/>
+        <referencedby refid="cmock_8h_1a08ac6375463b1f5c0a5ea5f386f3e306" compoundref="cmock_8h" startline="10" endline="10">mockMock_Init</referencedby>
+        <referencedby refid="testRunnerGeneratorWithMocks_8c_1a77ecdb5246db5687be932e5ffd2db094" compoundref="testRunnerGeneratorWithMocks_8c" startline="184" endline="191">test_ShouldCallMockInitAndVerifyFunctionsForEachTest</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="cmock_8h_1a7bffe772e364434e6ccf8127d74b735b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int mockMock_Verify_Counter</definition>
+        <argsstring></argsstring>
+        <name>mockMock_Verify_Counter</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/cmock.h" line="6" column="5" bodyfile="tests/unity/test/testdata/cmock.h" bodystart="6" bodyend="-1"/>
+        <referencedby refid="cmock_8h_1a1688bc175be10c42182704a7bd81ba58" compoundref="cmock_8h" startline="11" endline="11">mockMock_Verify</referencedby>
+        <referencedby refid="testRunnerGeneratorWithMocks_8c_1a77ecdb5246db5687be932e5ffd2db094" compoundref="testRunnerGeneratorWithMocks_8c" startline="184" endline="191">test_ShouldCallMockInitAndVerifyFunctionsForEachTest</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="cmock_8h_1ac8efaf09f6c7074901f805133e77ff37" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int mockMock_Destroy_Counter</definition>
+        <argsstring></argsstring>
+        <name>mockMock_Destroy_Counter</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/cmock.h" line="7" column="5" bodyfile="tests/unity/test/testdata/cmock.h" bodystart="7" bodyend="-1"/>
+        <referencedby refid="cmock_8h_1a2efb08bd9a5569a6a552776b791bb6d4" compoundref="cmock_8h" startline="12" endline="12">mockMock_Destroy</referencedby>
+        <referencedby refid="testRunnerGeneratorWithMocks_8c_1a77ecdb5246db5687be932e5ffd2db094" compoundref="testRunnerGeneratorWithMocks_8c" startline="184" endline="191">test_ShouldCallMockInitAndVerifyFunctionsForEachTest</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="cmock_8h_1aa8a20fa157f61e9e1379170847287cc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CMock_Guts_MemFreeFinal</definition>
+        <argsstring>(void)</argsstring>
+        <name>CMock_Guts_MemFreeFinal</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/cmock.h" line="9" column="6" bodyfile="tests/unity/test/testdata/cmock.h" bodystart="9" bodyend="9"/>
+        <references refid="cmock_8h_1a015d18697c4e0cae2f4f9beb4f8a815e" compoundref="cmock_8h" startline="4">CMockMemFreeFinalCounter</references>
+        <referencedby refid="testsample__mock__cmd_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="testsample__mock__cmd_8c" startline="72" endline="80">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="cmock_8h_1a08ac6375463b1f5c0a5ea5f386f3e306" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mockMock_Init</definition>
+        <argsstring>(void)</argsstring>
+        <name>mockMock_Init</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/cmock.h" line="10" column="6" bodyfile="tests/unity/test/testdata/cmock.h" bodystart="10" bodyend="10"/>
+        <references refid="cmock_8h_1a69e2a94760e089ac16c7641f9c0b167d" compoundref="cmock_8h" startline="5">mockMock_Init_Counter</references>
+      </memberdef>
+      <memberdef kind="function" id="cmock_8h_1a1688bc175be10c42182704a7bd81ba58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mockMock_Verify</definition>
+        <argsstring>(void)</argsstring>
+        <name>mockMock_Verify</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/cmock.h" line="11" column="6" bodyfile="tests/unity/test/testdata/cmock.h" bodystart="11" bodyend="11"/>
+        <references refid="cmock_8h_1a7bffe772e364434e6ccf8127d74b735b" compoundref="cmock_8h" startline="6">mockMock_Verify_Counter</references>
+      </memberdef>
+      <memberdef kind="function" id="cmock_8h_1a2efb08bd9a5569a6a552776b791bb6d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mockMock_Destroy</definition>
+        <argsstring>(void)</argsstring>
+        <name>mockMock_Destroy</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/cmock.h" line="12" column="6" bodyfile="tests/unity/test/testdata/cmock.h" bodystart="12" bodyend="12"/>
+        <references refid="cmock_8h_1ac8efaf09f6c7074901f805133e77ff37" compoundref="cmock_8h" startline="7">mockMock_Destroy_Counter</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CMOCK_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CMOCK_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="cmock_8h_1a015d18697c4e0cae2f4f9beb4f8a815e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="cmock_8h_1a015d18697c4e0cae2f4f9beb4f8a815e" kindref="member">CMockMemFreeFinalCounter</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="5" refid="cmock_8h_1a69e2a94760e089ac16c7641f9c0b167d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="cmock_8h_1a69e2a94760e089ac16c7641f9c0b167d" kindref="member">mockMock_Init_Counter</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="6" refid="cmock_8h_1a7bffe772e364434e6ccf8127d74b735b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="cmock_8h_1a7bffe772e364434e6ccf8127d74b735b" kindref="member">mockMock_Verify_Counter</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="7" refid="cmock_8h_1ac8efaf09f6c7074901f805133e77ff37" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="cmock_8h_1ac8efaf09f6c7074901f805133e77ff37" kindref="member">mockMock_Destroy_Counter</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="cmock_8h_1aa8a20fa157f61e9e1379170847287cc9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cmock_8h_1aa8a20fa157f61e9e1379170847287cc9" kindref="member">CMock_Guts_MemFreeFinal</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{<sp/><ref refid="cmock_8h_1a015d18697c4e0cae2f4f9beb4f8a815e" kindref="member">CMockMemFreeFinalCounter</ref>++;<sp/>}</highlight></codeline>
+<codeline lineno="10" refid="cmock_8h_1a08ac6375463b1f5c0a5ea5f386f3e306" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cmock_8h_1a08ac6375463b1f5c0a5ea5f386f3e306" kindref="member">mockMock_Init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="cmock_8h_1a69e2a94760e089ac16c7641f9c0b167d" kindref="member">mockMock_Init_Counter</ref>++;<sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11" refid="cmock_8h_1a1688bc175be10c42182704a7bd81ba58" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cmock_8h_1a1688bc175be10c42182704a7bd81ba58" kindref="member">mockMock_Verify</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="cmock_8h_1a7bffe772e364434e6ccf8127d74b735b" kindref="member">mockMock_Verify_Counter</ref>++;<sp/><sp/>}</highlight></codeline>
+<codeline lineno="12" refid="cmock_8h_1a2efb08bd9a5569a6a552776b791bb6d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cmock_8h_1a2efb08bd9a5569a6a552776b791bb6d4" kindref="member">mockMock_Destroy</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="cmock_8h_1ac8efaf09f6c7074901f805133e77ff37" kindref="member">mockMock_Destroy_Counter</ref>++;<sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//CMOCK_H</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/test/testdata/cmock.h"/>
+  </compounddef>
+</doxygen>

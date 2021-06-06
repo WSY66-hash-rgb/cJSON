@@ -1,0 +1,754 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="testRunnerGeneratorWithMocks_8c" kind="file" language="C++">
+    <compoundname>testRunnerGeneratorWithMocks.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes refid="unity_8h" local="yes">unity.h</includes>
+    <includes refid="Defs_8h" local="yes">Defs.h</includes>
+    <includes refid="mockMock_8h" local="yes">mockMock.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>tests/unity/test/testdata/testRunnerGeneratorWithMocks.c</label>
+        <link refid="testRunnerGeneratorWithMocks_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>setjmp.h</label>
+      </node>
+      <node id="9">
+        <label>limits.h</label>
+      </node>
+      <node id="10">
+        <label>Defs.h</label>
+        <link refid="Defs_8h"/>
+      </node>
+      <node id="11">
+        <label>mockMock.h</label>
+        <link refid="mockMock_8h"/>
+      </node>
+      <node id="5">
+        <label>../examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="7">
+        <label>math.h</label>
+      </node>
+      <node id="4">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="testRunnerGeneratorWithMocks_8c_1aa826c094f2f975b00964be23c7aa0679" prot="public" static="no">
+        <name>TEST_CASE</name>
+        <param><defname>a</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="24" column="9" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="testRunnerGeneratorWithMocks_8c_1afe25120e9defbbe8fc91169e8f11353e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CounterSetup</definition>
+        <argsstring></argsstring>
+        <name>CounterSetup</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="28" column="5" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="testRunnerGeneratorWithMocks_8c_1ae468c72913886501eac24474b7881c5c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CounterTeardown</definition>
+        <argsstring></argsstring>
+        <name>CounterTeardown</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="29" column="5" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="testRunnerGeneratorWithMocks_8c_1ae7510955a9f7e6ad7fa44be751c82cbe" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CounterSuiteSetup</definition>
+        <argsstring></argsstring>
+        <name>CounterSuiteSetup</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="30" column="5" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1a08a0cd52d73781ede109f0c6da276031" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void putcharSpy</definition>
+        <argsstring>(int c)</argsstring>
+        <name>putcharSpy</name>
+        <param>
+          <type>int</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="25" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1a95c834d6178047ce9e1bce7cbfea2836" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void setUp</definition>
+        <argsstring>(void)</argsstring>
+        <name>setUp</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="32" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="32" bodyend="35"/>
+        <references refid="testRunnerGenerator_8c_1afe25120e9defbbe8fc91169e8f11353e" compoundref="testRunnerGenerator_8c" startline="27">CounterSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1a9909011e5fea0c018842eec4d93d0662" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tearDown</definition>
+        <argsstring>(void)</argsstring>
+        <name>tearDown</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="37" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="37" bodyend="40"/>
+        <references refid="testRunnerGenerator_8c_1ae468c72913886501eac24474b7881c5c" compoundref="testRunnerGenerator_8c" startline="28">CounterTeardown</references>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1afb9ff5b0d6bf2b8202e054cc7c0924a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void custom_setup</definition>
+        <argsstring>(void)</argsstring>
+        <name>custom_setup</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="42" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="42" bodyend="45"/>
+        <references refid="testRunnerGenerator_8c_1afe25120e9defbbe8fc91169e8f11353e" compoundref="testRunnerGenerator_8c" startline="27">CounterSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1ac3ced78b5f4eaa15ede48fc45a84b2c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void custom_teardown</definition>
+        <argsstring>(void)</argsstring>
+        <name>custom_teardown</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="47" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="47" bodyend="50"/>
+        <references refid="testRunnerGenerator_8c_1ae468c72913886501eac24474b7881c5c" compoundref="testRunnerGenerator_8c" startline="28">CounterTeardown</references>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1a7410370d8407091ad780305f42297907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void test_ThisTestAlwaysPasses</definition>
+        <argsstring>(void)</argsstring>
+        <name>test_ThisTestAlwaysPasses</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="59" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1a34db98b3ff242f5f55f7cbb1e6464980" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void test_ThisTestAlwaysFails</definition>
+        <argsstring>(void)</argsstring>
+        <name>test_ThisTestAlwaysFails</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="64" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1a0bfa4f034e65b67ac4292e2dab9699c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void test_ThisTestAlwaysIgnored</definition>
+        <argsstring>(void)</argsstring>
+        <name>test_ThisTestAlwaysIgnored</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="69" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1ace1e1910ac6a318ccfd29adf12946795" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qwiktest_ThisTestPassesWhenNoSetupRan</definition>
+        <argsstring>(void)</argsstring>
+        <name>qwiktest_ThisTestPassesWhenNoSetupRan</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="74" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="74" bodyend="77"/>
+        <references refid="testRunnerGenerator_8c_1afe25120e9defbbe8fc91169e8f11353e" compoundref="testRunnerGenerator_8c" startline="27">CounterSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1a9909a6f58bb383b97b3ad558bbc6e3b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void qwiktest_ThisTestPassesWhenNoTeardownRan</definition>
+        <argsstring>(void)</argsstring>
+        <name>qwiktest_ThisTestPassesWhenNoTeardownRan</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="79" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="79" bodyend="82"/>
+        <references refid="testRunnerGenerator_8c_1ae468c72913886501eac24474b7881c5c" compoundref="testRunnerGenerator_8c" startline="28">CounterTeardown</references>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1a9c39d3ac539b82f6c759e8947be2cf13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void spec_ThisTestPassesWhenNormalSuiteSetupAndTeardownRan</definition>
+        <argsstring>(void)</argsstring>
+        <name>spec_ThisTestPassesWhenNormalSuiteSetupAndTeardownRan</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="84" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="84" bodyend="87"/>
+        <references refid="testRunnerGenerator_8c_1ae7510955a9f7e6ad7fa44be751c82cbe" compoundref="testRunnerGenerator_8c" startline="29">CounterSuiteSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1affb80298154fec0b2f52a3ac9d2dad60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void spec_ThisTestPassesWhenNormalSetupRan</definition>
+        <argsstring>(void)</argsstring>
+        <name>spec_ThisTestPassesWhenNormalSetupRan</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="89" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="89" bodyend="92"/>
+        <references refid="testRunnerGenerator_8c_1afe25120e9defbbe8fc91169e8f11353e" compoundref="testRunnerGenerator_8c" startline="27">CounterSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1a3612dc4df8dbad4757848da022721fe0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void spec_ThisTestPassesWhenNormalTeardownRan</definition>
+        <argsstring>(void)</argsstring>
+        <name>spec_ThisTestPassesWhenNormalTeardownRan</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="94" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="94" bodyend="97"/>
+        <references refid="testRunnerGenerator_8c_1ae468c72913886501eac24474b7881c5c" compoundref="testRunnerGenerator_8c" startline="28">CounterTeardown</references>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1a7a02fdbb89e81d905723a2399cea30a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void custtest_ThisTestPassesWhenCustomSetupRan</definition>
+        <argsstring>(void)</argsstring>
+        <name>custtest_ThisTestPassesWhenCustomSetupRan</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="99" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="99" bodyend="102"/>
+        <references refid="testRunnerGenerator_8c_1afe25120e9defbbe8fc91169e8f11353e" compoundref="testRunnerGenerator_8c" startline="27">CounterSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1ad5bd1c6305908ec18698efbf38b42abb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void custtest_ThisTestPassesWhenCustomTeardownRan</definition>
+        <argsstring>(void)</argsstring>
+        <name>custtest_ThisTestPassesWhenCustomTeardownRan</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="104" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="104" bodyend="107"/>
+        <references refid="testRunnerGenerator_8c_1ae468c72913886501eac24474b7881c5c" compoundref="testRunnerGenerator_8c" startline="28">CounterTeardown</references>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1aadcd9b8e1e11862d7dcca61ff296511f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void test_NotBeConfusedByLongComplicatedStrings</definition>
+        <argsstring>(void)</argsstring>
+        <name>test_NotBeConfusedByLongComplicatedStrings</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="114" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="114" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1a5289b61fd68097ba7c61d42b5601d553" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void test_NotDisappearJustBecauseTheTestBeforeAndAfterHaveCrazyStrings</definition>
+        <argsstring>(void)</argsstring>
+        <name>test_NotDisappearJustBecauseTheTestBeforeAndAfterHaveCrazyStrings</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="121" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="121" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1aaad86a2505625618bf9bf7ec1decf2a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void test_StillNotBeConfusedByLongComplicatedStrings</definition>
+        <argsstring>(void)</argsstring>
+        <name>test_StillNotBeConfusedByLongComplicatedStrings</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="126" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="126" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1a1033e86efd45888426fe9c18754fd560" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void should_RunTestsStartingWithShouldByDefault</definition>
+        <argsstring>(void)</argsstring>
+        <name>should_RunTestsStartingWithShouldByDefault</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="133" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1ac68c5deb4f1c85c92a05be3f64e80cae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void paratest_ShouldHandleParameterizedTests</definition>
+        <argsstring>(int Num)</argsstring>
+        <name>paratest_ShouldHandleParameterizedTests</name>
+        <param>
+          <type>int</type>
+          <declname>Num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="141" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="141" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1a4826bd95950dba32acc16fe4ba63c01d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void paratest_ShouldHandleParameterizedTests2</definition>
+        <argsstring>(int Num)</argsstring>
+        <name>paratest_ShouldHandleParameterizedTests2</name>
+        <param>
+          <type>int</type>
+          <declname>Num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="147" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="147" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1a08862a82ab22749050d33d83ba125b8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void paratest_ShouldHandleNonParameterizedTestsWhenParameterizationValid</definition>
+        <argsstring>(void)</argsstring>
+        <name>paratest_ShouldHandleNonParameterizedTestsWhenParameterizationValid</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="152" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="152" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1a1c5ad8fdeafcc842cb3b3d0fe81f7748" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void paratest_ShouldHandleParameterizedTestsThatFail</definition>
+        <argsstring>(int Num)</argsstring>
+        <name>paratest_ShouldHandleParameterizedTestsThatFail</name>
+        <param>
+          <type>int</type>
+          <declname>Num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="158" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="158" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1a41accb21748a1e2f7812ca9983703a5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void suitetest_ThisTestPassesWhenCustomSuiteSetupAndTeardownRan</definition>
+        <argsstring>(void)</argsstring>
+        <name>suitetest_ThisTestPassesWhenCustomSuiteSetupAndTeardownRan</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="179" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="179" bodyend="182"/>
+        <references refid="testRunnerGenerator_8c_1ae7510955a9f7e6ad7fa44be751c82cbe" compoundref="testRunnerGenerator_8c" startline="29">CounterSuiteSetup</references>
+      </memberdef>
+      <memberdef kind="function" id="testRunnerGeneratorWithMocks_8c_1a77ecdb5246db5687be932e5ffd2db094" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void test_ShouldCallMockInitAndVerifyFunctionsForEachTest</definition>
+        <argsstring>(void)</argsstring>
+        <name>test_ShouldCallMockInitAndVerifyFunctionsForEachTest</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" line="184" column="6" bodyfile="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c" bodystart="184" bodyend="191"/>
+        <references refid="cmock_8h_1a015d18697c4e0cae2f4f9beb4f8a815e" compoundref="cmock_8h" startline="4">CMockMemFreeFinalCounter</references>
+        <references refid="cmock_8h_1ac8efaf09f6c7074901f805133e77ff37" compoundref="cmock_8h" startline="7">mockMock_Destroy_Counter</references>
+        <references refid="cmock_8h_1a69e2a94760e089ac16c7641f9c0b167d" compoundref="cmock_8h" startline="5">mockMock_Init_Counter</references>
+        <references refid="cmock_8h_1a7bffe772e364434e6ccf8127d74b735b" compoundref="cmock_8h" startline="6">mockMock_Verify_Counter</references>
+        <references refid="structUNITY__STORAGE__T_1ae4df45c5af47cc35eb0aedc57816d2ef" compoundref="unity__internals_8h" startline="392">UNITY_STORAGE_T::NumberOfTests</references>
+        <references refid="structUNITY__STORAGE__T_1a2b309a6c4639312ba6f3b030cfd55ce4" compoundref="unity__internals_8h" startline="393">UNITY_STORAGE_T::TestFailures</references>
+        <references refid="unity__internals_8h_1aad738f665f16eb2336b8bc33f432d0da" compoundref="unity_8c" startline="21">Unity</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>This<sp/>Test<sp/>File<sp/>Is<sp/>Used<sp/>To<sp/>Verify<sp/>Many<sp/>Combinations<sp/>Of<sp/>Using<sp/>the<sp/>Generate<sp/>Test<sp/>Runner<sp/>Script<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity_8h" kindref="compound">unity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Defs_8h" kindref="compound">Defs.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="mockMock_8h" kindref="compound">mockMock.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>USE_CEXCEPTION</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="CException_8h" kindref="compound">CException.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Notes<sp/>about<sp/>prefixes:</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/><sp/>test<sp/><sp/><sp/><sp/><sp/>-<sp/>normal<sp/>default<sp/>prefix.<sp/>these<sp/>are<sp/>&quot;always<sp/>run&quot;<sp/>tests<sp/>for<sp/>this<sp/>procedure</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/>spec<sp/><sp/><sp/><sp/><sp/>-<sp/>normal<sp/>default<sp/>prefix.<sp/>required<sp/>to<sp/>run<sp/>default<sp/>setup/teardown<sp/>calls.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/>should<sp/><sp/><sp/>-<sp/>normal<sp/>default<sp/>prefix.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/>qwiktest<sp/>-<sp/>custom<sp/>prefix<sp/>for<sp/>when<sp/>tests<sp/>skip<sp/>all<sp/>setup/teardown<sp/>calls.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/><sp/>custtest<sp/>-<sp/>custom<sp/>prefix<sp/>for<sp/>when<sp/>tests<sp/>use<sp/>custom<sp/>setup/teardown<sp/>calls.</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/>paratest<sp/>-<sp/>custom<sp/>prefix<sp/>for<sp/>when<sp/>we<sp/>want<sp/>to<sp/>verify<sp/>parameterized<sp/>tests.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/><sp/>extest<sp/><sp/><sp/>-<sp/>custom<sp/>prefix<sp/>only<sp/>used<sp/>during<sp/>cexception</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/><sp/>suitetest-<sp/>custom<sp/>prefix<sp/>for<sp/>when<sp/>we<sp/>want<sp/>to<sp/>use<sp/>custom<sp/>suite<sp/>setup/teardown</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Support<sp/>for<sp/>Meta<sp/>Test<sp/>Rig<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="testRunnerGeneratorWithMocks_8c_1aa826c094f2f975b00964be23c7aa0679" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEST_CASE(a)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="testRunnerGeneratorWithMocks_8c_1a08a0cd52d73781ede109f0c6da276031" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1a08a0cd52d73781ede109f0c6da276031" kindref="member">putcharSpy</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c)<sp/>{<sp/>(void)putchar(c);}<sp/></highlight><highlight class="comment">//<sp/>include<sp/>passthrough<sp/>for<sp/>linking<sp/>tests</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Global<sp/>Variables<sp/>Used<sp/>During<sp/>These<sp/>Tests<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="testRunnerGeneratorWithMocks_8c_1afe25120e9defbbe8fc91169e8f11353e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1afe25120e9defbbe8fc91169e8f11353e" kindref="member">CounterSetup</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="29" refid="testRunnerGeneratorWithMocks_8c_1ae468c72913886501eac24474b7881c5c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1ae468c72913886501eac24474b7881c5c" kindref="member">CounterTeardown</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="30" refid="testRunnerGeneratorWithMocks_8c_1ae7510955a9f7e6ad7fa44be751c82cbe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1ae7510955a9f7e6ad7fa44be751c82cbe" kindref="member">CounterSuiteSetup</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="testRunnerGeneratorWithMocks_8c_1a95c834d6178047ce9e1bce7cbfea2836" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1a95c834d6178047ce9e1bce7cbfea2836" kindref="member">setUp</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1afe25120e9defbbe8fc91169e8f11353e" kindref="member">CounterSetup</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="testRunnerGeneratorWithMocks_8c_1a9909011e5fea0c018842eec4d93d0662" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1a9909011e5fea0c018842eec4d93d0662" kindref="member">tearDown</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1ae468c72913886501eac24474b7881c5c" kindref="member">CounterTeardown</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="testRunnerGeneratorWithMocks_8c_1afb9ff5b0d6bf2b8202e054cc7c0924a0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1afb9ff5b0d6bf2b8202e054cc7c0924a0" kindref="member">custom_setup</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1afe25120e9defbbe8fc91169e8f11353e" kindref="member">CounterSetup</ref><sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="testRunnerGeneratorWithMocks_8c_1ac3ced78b5f4eaa15ede48fc45a84b2c2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1ac3ced78b5f4eaa15ede48fc45a84b2c2" kindref="member">custom_teardown</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1ae468c72913886501eac24474b7881c5c" kindref="member">CounterTeardown</ref><sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="53"><highlight class="comment">void<sp/>test_OldSchoolCommentsShouldBeIgnored(void)</highlight></codeline>
+<codeline lineno="54"><highlight class="comment">{</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/>TEST_ASSERT_FAIL(&quot;Old-School<sp/>Comments<sp/>Should<sp/>Be<sp/>Ignored&quot;);</highlight></codeline>
+<codeline lineno="56"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="57"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="testRunnerGeneratorWithMocks_8c_1a7410370d8407091ad780305f42297907" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1a7410370d8407091ad780305f42297907" kindref="member">test_ThisTestAlwaysPasses</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a5aa825b3ae9d49df46cd6e452cff7a1b" kindref="member">TEST_PASS</ref>();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="testRunnerGeneratorWithMocks_8c_1a34db98b3ff242f5f55f7cbb1e6464980" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1a34db98b3ff242f5f55f7cbb1e6464980" kindref="member">test_ThisTestAlwaysFails</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a0482e12e17ae7cbfb8116ed6b1ed10ed" kindref="member">TEST_FAIL_MESSAGE</ref>(</highlight><highlight class="stringliteral">&quot;This<sp/>Test<sp/>Should<sp/>Fail&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="testRunnerGeneratorWithMocks_8c_1a0bfa4f034e65b67ac4292e2dab9699c4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1a0bfa4f034e65b67ac4292e2dab9699c4" kindref="member">test_ThisTestAlwaysIgnored</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1aca1a170cd0581bacd7c918574f6838de" kindref="member">TEST_IGNORE_MESSAGE</ref>(</highlight><highlight class="stringliteral">&quot;This<sp/>Test<sp/>Should<sp/>Be<sp/>Ignored&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="testRunnerGeneratorWithMocks_8c_1ace1e1910ac6a318ccfd29adf12946795" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1ace1e1910ac6a318ccfd29adf12946795" kindref="member">qwiktest_ThisTestPassesWhenNoSetupRan</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a967e59fb3e825d8341c41cb954e890c5" kindref="member">TEST_ASSERT_EQUAL_MESSAGE</ref>(0,<sp/><ref refid="testRunnerGeneratorWithMocks_8c_1afe25120e9defbbe8fc91169e8f11353e" kindref="member">CounterSetup</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Setup<sp/>Was<sp/>Unexpectedly<sp/>Run&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="testRunnerGeneratorWithMocks_8c_1a9909a6f58bb383b97b3ad558bbc6e3b1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1a9909a6f58bb383b97b3ad558bbc6e3b1" kindref="member">qwiktest_ThisTestPassesWhenNoTeardownRan</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a967e59fb3e825d8341c41cb954e890c5" kindref="member">TEST_ASSERT_EQUAL_MESSAGE</ref>(0,<sp/><ref refid="testRunnerGeneratorWithMocks_8c_1ae468c72913886501eac24474b7881c5c" kindref="member">CounterTeardown</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Teardown<sp/>Was<sp/>Unexpectedly<sp/>Run&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="testRunnerGeneratorWithMocks_8c_1a9c39d3ac539b82f6c759e8947be2cf13" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1a9c39d3ac539b82f6c759e8947be2cf13" kindref="member">spec_ThisTestPassesWhenNormalSuiteSetupAndTeardownRan</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a967e59fb3e825d8341c41cb954e890c5" kindref="member">TEST_ASSERT_EQUAL_MESSAGE</ref>(0,<sp/><ref refid="testRunnerGeneratorWithMocks_8c_1ae7510955a9f7e6ad7fa44be751c82cbe" kindref="member">CounterSuiteSetup</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Suite<sp/>Setup<sp/>Was<sp/>Unexpectedly<sp/>Run&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="testRunnerGeneratorWithMocks_8c_1affb80298154fec0b2f52a3ac9d2dad60" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1affb80298154fec0b2f52a3ac9d2dad60" kindref="member">spec_ThisTestPassesWhenNormalSetupRan</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a967e59fb3e825d8341c41cb954e890c5" kindref="member">TEST_ASSERT_EQUAL_MESSAGE</ref>(1,<sp/><ref refid="testRunnerGeneratorWithMocks_8c_1afe25120e9defbbe8fc91169e8f11353e" kindref="member">CounterSetup</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Normal<sp/>Setup<sp/>Wasn&apos;t<sp/>Run&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="testRunnerGeneratorWithMocks_8c_1a3612dc4df8dbad4757848da022721fe0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1a3612dc4df8dbad4757848da022721fe0" kindref="member">spec_ThisTestPassesWhenNormalTeardownRan</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a967e59fb3e825d8341c41cb954e890c5" kindref="member">TEST_ASSERT_EQUAL_MESSAGE</ref>(1,<sp/><ref refid="testRunnerGeneratorWithMocks_8c_1ae468c72913886501eac24474b7881c5c" kindref="member">CounterTeardown</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Normal<sp/>Teardown<sp/>Wasn&apos;t<sp/>Run&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="testRunnerGeneratorWithMocks_8c_1a7a02fdbb89e81d905723a2399cea30a1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1a7a02fdbb89e81d905723a2399cea30a1" kindref="member">custtest_ThisTestPassesWhenCustomSetupRan</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a967e59fb3e825d8341c41cb954e890c5" kindref="member">TEST_ASSERT_EQUAL_MESSAGE</ref>(2,<sp/><ref refid="testRunnerGeneratorWithMocks_8c_1afe25120e9defbbe8fc91169e8f11353e" kindref="member">CounterSetup</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Custom<sp/>Setup<sp/>Wasn&apos;t<sp/>Run&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="testRunnerGeneratorWithMocks_8c_1ad5bd1c6305908ec18698efbf38b42abb" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1ad5bd1c6305908ec18698efbf38b42abb" kindref="member">custtest_ThisTestPassesWhenCustomTeardownRan</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a967e59fb3e825d8341c41cb954e890c5" kindref="member">TEST_ASSERT_EQUAL_MESSAGE</ref>(2,<sp/><ref refid="testRunnerGeneratorWithMocks_8c_1ae468c72913886501eac24474b7881c5c" kindref="member">CounterTeardown</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Custom<sp/>Teardown<sp/>Wasn&apos;t<sp/>Run&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment">//void<sp/>test_NewStyleCommentsShouldBeIgnored(void)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>TEST_ASSERT_FAIL(&quot;New<sp/>Style<sp/>Comments<sp/>Should<sp/>Be<sp/>Ignored&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="testRunnerGeneratorWithMocks_8c_1aadcd9b8e1e11862d7dcca61ff296511f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1aadcd9b8e1e11862d7dcca61ff296511f" kindref="member">test_NotBeConfusedByLongComplicatedStrings</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>crazyString<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;GET<sp/>/<sp/>HTTP/1.1\r\nHost:<sp/>127.0.0.1:8081\r\nConnection:<sp/>keep-alive\r\nCache-Control:<sp/>no-cache\r\nUser-Agent:<sp/>Mozilla/5.0<sp/>(Windows<sp/>NT<sp/>6.3;<sp/>WOW64)<sp/>AppleWebKit/537.36<sp/>(KHTML,<sp/>like<sp/>Gecko)<sp/>Chrome/46.0.2490.80<sp/>Safari/537.36\r\nPostman-Token:<sp/>768c7149-c3fb-f704-71a2-63918d9195b2\r\nAccept:<sp/>*/*\r\nAccept-Encoding:<sp/>gzip,<sp/>deflate,<sp/>sdch\r\nAccept-Language:<sp/>en-GB,en-US;q=0.8,en;q=0.6\r\n\r\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1abca87135f5bc5737e7e46ab02cddf39e" kindref="member">TEST_ASSERT_EQUAL_STRING_MESSAGE</ref>(crazyString,<sp/>crazyString,<sp/></highlight><highlight class="stringliteral">&quot;These<sp/>Strings<sp/>Are<sp/>The<sp/>Same&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="testRunnerGeneratorWithMocks_8c_1a5289b61fd68097ba7c61d42b5601d553" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1a5289b61fd68097ba7c61d42b5601d553" kindref="member">test_NotDisappearJustBecauseTheTestBeforeAndAfterHaveCrazyStrings</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ae92bec0a6b42edae91cce2726e34145c" kindref="member">TEST_ASSERT_TRUE_MESSAGE</ref>(1,<sp/></highlight><highlight class="stringliteral">&quot;1<sp/>Should<sp/>be<sp/>True&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="testRunnerGeneratorWithMocks_8c_1aaad86a2505625618bf9bf7ec1decf2a0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1aaad86a2505625618bf9bf7ec1decf2a0" kindref="member">test_StillNotBeConfusedByLongComplicatedStrings</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>crazyString<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;GET<sp/>/<sp/>HTTP/1.1\r\nHost:<sp/>127.0.0.1:8081\r\nConnection:<sp/>keep-alive\r\nCache-Control:<sp/>no-cache\r\nUser-Agent:<sp/>Mozilla/5.0<sp/>(Windows<sp/>NT<sp/>6.3;<sp/>WOW64)<sp/>AppleWebKit/537.36<sp/>(KHTML,<sp/>like<sp/>Gecko)<sp/>Chrome/46.0.2490.80<sp/>Safari/537.36\r\nPostman-Token:<sp/>768c7149-c3fb-f704-71a2-63918d9195b2\r\nAccept:<sp/>*/*\r\nAccept-Encoding:<sp/>gzip,<sp/>deflate,<sp/>sdch\r\nAccept-Language:<sp/>en-GB,en-US;q=0.8,en;q=0.6\r\n\r\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1abca87135f5bc5737e7e46ab02cddf39e" kindref="member">TEST_ASSERT_EQUAL_STRING_MESSAGE</ref>(crazyString,<sp/>crazyString,<sp/></highlight><highlight class="stringliteral">&quot;These<sp/>Strings<sp/>Are<sp/>Still<sp/>The<sp/>Same&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="testRunnerGeneratorWithMocks_8c_1a1033e86efd45888426fe9c18754fd560" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1a1033e86efd45888426fe9c18754fd560" kindref="member">should_RunTestsStartingWithShouldByDefault</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ae92bec0a6b42edae91cce2726e34145c" kindref="member">TEST_ASSERT_TRUE_MESSAGE</ref>(1,<sp/></highlight><highlight class="stringliteral">&quot;1<sp/>Should<sp/>be<sp/>True&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><ref refid="testRunnerGeneratorWithMocks_8c_1aa826c094f2f975b00964be23c7aa0679" kindref="member">TEST_CASE</ref>(25)</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><ref refid="testRunnerGeneratorWithMocks_8c_1aa826c094f2f975b00964be23c7aa0679" kindref="member">TEST_CASE</ref>(125)</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><ref refid="testRunnerGeneratorWithMocks_8c_1aa826c094f2f975b00964be23c7aa0679" kindref="member">TEST_CASE</ref>(5)</highlight></codeline>
+<codeline lineno="141" refid="testRunnerGeneratorWithMocks_8c_1ac68c5deb4f1c85c92a05be3f64e80cae" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1ac68c5deb4f1c85c92a05be3f64e80cae" kindref="member">paratest_ShouldHandleParameterizedTests</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Num)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a967e59fb3e825d8341c41cb954e890c5" kindref="member">TEST_ASSERT_EQUAL_MESSAGE</ref>(0,<sp/>(Num<sp/>%<sp/>5),<sp/></highlight><highlight class="stringliteral">&quot;All<sp/>The<sp/>Values<sp/>Are<sp/>Divisible<sp/>By<sp/>5&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><ref refid="testRunnerGeneratorWithMocks_8c_1aa826c094f2f975b00964be23c7aa0679" kindref="member">TEST_CASE</ref>(7)</highlight></codeline>
+<codeline lineno="147" refid="testRunnerGeneratorWithMocks_8c_1a4826bd95950dba32acc16fe4ba63c01d" refkind="member"><highlight class="normal">void<sp/><ref refid="testRunnerGeneratorWithMocks_8c_1a4826bd95950dba32acc16fe4ba63c01d" kindref="member">paratest_ShouldHandleParameterizedTests2</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Num)</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a967e59fb3e825d8341c41cb954e890c5" kindref="member">TEST_ASSERT_EQUAL_MESSAGE</ref>(7,<sp/>Num,<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>Only<sp/>Call<sp/>To<sp/>This<sp/>Passes&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="testRunnerGeneratorWithMocks_8c_1a08862a82ab22749050d33d83ba125b8f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1a08862a82ab22749050d33d83ba125b8f" kindref="member">paratest_ShouldHandleNonParameterizedTestsWhenParameterizationValid</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a5aa825b3ae9d49df46cd6e452cff7a1b" kindref="member">TEST_PASS</ref>();</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><ref refid="testRunnerGeneratorWithMocks_8c_1aa826c094f2f975b00964be23c7aa0679" kindref="member">TEST_CASE</ref>(17)</highlight></codeline>
+<codeline lineno="158" refid="testRunnerGeneratorWithMocks_8c_1a1c5ad8fdeafcc842cb3b3d0fe81f7748" refkind="member"><highlight class="normal">void<sp/><ref refid="testRunnerGeneratorWithMocks_8c_1a1c5ad8fdeafcc842cb3b3d0fe81f7748" kindref="member">paratest_ShouldHandleParameterizedTestsThatFail</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Num)</highlight></codeline>
+<codeline lineno="159"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a967e59fb3e825d8341c41cb954e890c5" kindref="member">TEST_ASSERT_EQUAL_MESSAGE</ref>(3,<sp/>Num,<sp/></highlight><highlight class="stringliteral">&quot;This<sp/>call<sp/>should<sp/>fail&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>USE_CEXCEPTION</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>extest_ShouldHandleCExceptionInTest(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a967e59fb3e825d8341c41cb954e890c5" kindref="member">TEST_ASSERT_EQUAL_MESSAGE</ref>(1,<sp/><ref refid="CException_8h_1ac20fa973526e790f2bb0eb226d8633b2" kindref="member">CEXCEPTION_BEING_USED</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Should<sp/>be<sp/>pulling<sp/>in<sp/>CException&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>USE_ANOTHER_MAIN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>custom_main(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="CMakeCCompilerId_8c_1a0ddf1224851353fc92bfbff6f499fa97" kindref="member">main</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="174"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>custom_main();</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="testRunnerGeneratorWithMocks_8c_1a41accb21748a1e2f7812ca9983703a5c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1a41accb21748a1e2f7812ca9983703a5c" kindref="member">suitetest_ThisTestPassesWhenCustomSuiteSetupAndTeardownRan</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="180"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a967e59fb3e825d8341c41cb954e890c5" kindref="member">TEST_ASSERT_EQUAL_MESSAGE</ref>(1,<sp/><ref refid="testRunnerGeneratorWithMocks_8c_1ae7510955a9f7e6ad7fa44be751c82cbe" kindref="member">CounterSuiteSetup</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Suite<sp/>Setup<sp/>Should<sp/>Have<sp/>Run&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="testRunnerGeneratorWithMocks_8c_1a77ecdb5246db5687be932e5ffd2db094" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testRunnerGeneratorWithMocks_8c_1a77ecdb5246db5687be932e5ffd2db094" kindref="member">test_ShouldCallMockInitAndVerifyFunctionsForEachTest</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="185"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>passesOrIgnores<sp/>=<sp/>(int)(<ref refid="unity__internals_8h_1aad738f665f16eb2336b8bc33f432d0da" kindref="member">Unity</ref>.<ref refid="structUNITY__STORAGE__T_1ae4df45c5af47cc35eb0aedc57816d2ef" kindref="member">NumberOfTests</ref><sp/>-<sp/><ref refid="unity__internals_8h_1aad738f665f16eb2336b8bc33f432d0da" kindref="member">Unity</ref>.<ref refid="structUNITY__STORAGE__T_1a2b309a6c4639312ba6f3b030cfd55ce4" kindref="member">TestFailures</ref>);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a967e59fb3e825d8341c41cb954e890c5" kindref="member">TEST_ASSERT_EQUAL_MESSAGE</ref>(<ref refid="unity__internals_8h_1aad738f665f16eb2336b8bc33f432d0da" kindref="member">Unity</ref>.<ref refid="structUNITY__STORAGE__T_1ae4df45c5af47cc35eb0aedc57816d2ef" kindref="member">NumberOfTests</ref>,<sp/><sp/><sp/><sp/><sp/><ref refid="cmock_8h_1a69e2a94760e089ac16c7641f9c0b167d" kindref="member">mockMock_Init_Counter</ref>,<sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Mock<sp/>Init<sp/>Should<sp/>Be<sp/>Called<sp/>Once<sp/>Per<sp/>Test<sp/>Started&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a967e59fb3e825d8341c41cb954e890c5" kindref="member">TEST_ASSERT_EQUAL_MESSAGE</ref>(passesOrIgnores,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cmock_8h_1a7bffe772e364434e6ccf8127d74b735b" kindref="member">mockMock_Verify_Counter</ref>,<sp/><sp/></highlight><highlight class="stringliteral">&quot;Mock<sp/>Verify<sp/>Should<sp/>Be<sp/>Called<sp/>Once<sp/>Per<sp/>Test<sp/>Passed&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a967e59fb3e825d8341c41cb954e890c5" kindref="member">TEST_ASSERT_EQUAL_MESSAGE</ref>(<ref refid="unity__internals_8h_1aad738f665f16eb2336b8bc33f432d0da" kindref="member">Unity</ref>.<ref refid="structUNITY__STORAGE__T_1ae4df45c5af47cc35eb0aedc57816d2ef" kindref="member">NumberOfTests</ref><sp/>-<sp/>1,<sp/><ref refid="cmock_8h_1ac8efaf09f6c7074901f805133e77ff37" kindref="member">mockMock_Destroy_Counter</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Mock<sp/>Destroy<sp/>Should<sp/>Be<sp/>Called<sp/>Once<sp/>Per<sp/>Test<sp/>Completed&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a967e59fb3e825d8341c41cb954e890c5" kindref="member">TEST_ASSERT_EQUAL_MESSAGE</ref>(0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cmock_8h_1a015d18697c4e0cae2f4f9beb4f8a815e" kindref="member">CMockMemFreeFinalCounter</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Mock<sp/>MemFreeFinal<sp/>Should<sp/>Not<sp/>Be<sp/>Called<sp/>Until<sp/>End&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/test/testdata/testRunnerGeneratorWithMocks.c"/>
+  </compounddef>
+</doxygen>

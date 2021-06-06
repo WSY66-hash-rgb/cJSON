@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="print__string_8c" kind="file" language="C++">
+    <compoundname>print_string.c</compoundname>
+    <includes refid="unity__config_8h" local="yes">unity/examples/unity_config.h</includes>
+    <includes refid="unity_8h" local="yes">unity/src/unity.h</includes>
+    <includes refid="common_8h" local="yes">common.h</includes>
+    <incdepgraph>
+      <node id="15">
+        <label>float.h</label>
+      </node>
+      <node id="11">
+        <label>../cJSON.c</label>
+        <link refid="cJSON_8c"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>cJSON.h</label>
+        <link refid="cJSON_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>stdint.h</label>
+      </node>
+      <node id="13">
+        <label>stdlib.h</label>
+      </node>
+      <node id="5">
+        <label>setjmp.h</label>
+      </node>
+      <node id="1">
+        <label>tests/print_string.c</label>
+        <link refid="print__string_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>stddef.h</label>
+      </node>
+      <node id="8">
+        <label>limits.h</label>
+      </node>
+      <node id="12">
+        <label>string.h</label>
+      </node>
+      <node id="2">
+        <label>unity/examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="6">
+        <label>math.h</label>
+      </node>
+      <node id="4">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>unity/src/unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>ctype.h</label>
+      </node>
+      <node id="9">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="print__string_8c_1a10810e1b6b0a21085f01010807e3088a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void assert_print_string</definition>
+        <argsstring>(const char *expected, const char *input)</argsstring>
+        <name>assert_print_string</name>
+        <param>
+          <type>const char *</type>
+          <declname>expected</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/print_string.c" line="27" column="13" bodyfile="tests/print_string.c" bodystart="27" bodyend="39"/>
+        <references refid="structprintbuffer_1a754f63618e91db99f7ab6cfc4e629013" compoundref="cJSON_8c" startline="429">printbuffer::buffer</references>
+        <references refid="cJSON_8c_1a855c7241e836a5b2d87577df8c113faf" compoundref="cJSON_8c" startline="186">global_hooks</references>
+        <references refid="structprintbuffer_1a43a8b3bcc644432f12f5aed5159d2520" compoundref="cJSON_8c" startline="435">printbuffer::hooks</references>
+        <references refid="structprintbuffer_1a1a679f8b6fe9b413fb3a87203b0f5bc8" compoundref="cJSON_8c" startline="430">printbuffer::length</references>
+        <references refid="structprintbuffer_1aa2a7966b71dc3535e4e3789c33ec5368" compoundref="cJSON_8c" startline="433">printbuffer::noalloc</references>
+        <references refid="structprintbuffer_1a3ed6f9d24d6591047680492a962dc7c9" compoundref="cJSON_8c" startline="431">printbuffer::offset</references>
+        <references refid="cJSON_8c_1af5b4e769356f10d99a7f66697c42c1bb" compoundref="cJSON_8c" startline="898" endline="1017">print_string_ptr</references>
+        <referencedby refid="print__string_8c_1a74d620fff9c5c0100edf4e28f2527dd2" compoundref="print__string_8c" startline="47" endline="61">print_string_should_print_ascii</referencedby>
+        <referencedby refid="print__string_8c_1a9d49cd0bb1c269e8a2dddb60bdb13c3e" compoundref="print__string_8c" startline="41" endline="45">print_string_should_print_empty_strings</referencedby>
+        <referencedby refid="print__string_8c_1aa150a06731d903f37b4f2406443d5b83" compoundref="print__string_8c" startline="63" endline="66">print_string_should_print_utf8</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="print__string_8c_1a9d49cd0bb1c269e8a2dddb60bdb13c3e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void print_string_should_print_empty_strings</definition>
+        <argsstring>(void)</argsstring>
+        <name>print_string_should_print_empty_strings</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/print_string.c" line="41" column="13" bodyfile="tests/print_string.c" bodystart="41" bodyend="45"/>
+        <references refid="print__string_8c_1a10810e1b6b0a21085f01010807e3088a" compoundref="print__string_8c" startline="27" endline="39">assert_print_string</references>
+        <referencedby refid="print__string_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="print__string_8c" startline="68" endline="78">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="print__string_8c_1a74d620fff9c5c0100edf4e28f2527dd2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void print_string_should_print_ascii</definition>
+        <argsstring>(void)</argsstring>
+        <name>print_string_should_print_ascii</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/print_string.c" line="47" column="13" bodyfile="tests/print_string.c" bodystart="47" bodyend="61"/>
+        <references refid="print__string_8c_1a10810e1b6b0a21085f01010807e3088a" compoundref="print__string_8c" startline="27" endline="39">assert_print_string</references>
+        <referencedby refid="print__string_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="print__string_8c" startline="68" endline="78">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="print__string_8c_1aa150a06731d903f37b4f2406443d5b83" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void print_string_should_print_utf8</definition>
+        <argsstring>(void)</argsstring>
+        <name>print_string_should_print_utf8</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/print_string.c" line="63" column="13" bodyfile="tests/print_string.c" bodystart="63" bodyend="66"/>
+        <references refid="print__string_8c_1a10810e1b6b0a21085f01010807e3088a" compoundref="print__string_8c" startline="27" endline="39">assert_print_string</references>
+        <referencedby refid="print__string_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="print__string_8c" startline="68" endline="78">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="print__string_8c_1a840291bc02cba5474a4cb46a9b9566fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(void)</argsstring>
+        <name>main</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/print_string.c" line="68" column="8" bodyfile="tests/print_string.c" bodystart="68" bodyend="78"/>
+        <references refid="print__string_8c_1a74d620fff9c5c0100edf4e28f2527dd2" compoundref="print__string_8c" startline="47" endline="61">print_string_should_print_ascii</references>
+        <references refid="print__string_8c_1a9d49cd0bb1c269e8a2dddb60bdb13c3e" compoundref="print__string_8c" startline="41" endline="45">print_string_should_print_empty_strings</references>
+        <references refid="print__string_8c_1aa150a06731d903f37b4f2406443d5b83" compoundref="print__string_8c" startline="63" endline="66">print_string_should_print_utf8</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/>Copyright<sp/>(c)<sp/>2009-2017<sp/>Dave<sp/>Gamble<sp/>and<sp/>cJSON<sp/>contributors</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"></highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity__config_8h" kindref="compound">unity/examples/unity_config.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity_8h" kindref="compound">unity/src/unity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="common_8h" kindref="compound">common.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="print__string_8c_1a10810e1b6b0a21085f01010807e3088a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="print__string_8c_1a10810e1b6b0a21085f01010807e3088a" kindref="member">assert_print_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*expected,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*input)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>printed[1024];</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structprintbuffer" kindref="compound">printbuffer</ref><sp/><ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref><sp/>=<sp/>{<sp/>0,<sp/>0,<sp/>0,<sp/>0,<sp/>0,<sp/>0,<sp/>{<sp/>0,<sp/>0,<sp/>0<sp/>}<sp/>};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref>.buffer<sp/>=<sp/>printed;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref>.length<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(printed);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref>.offset<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref>.noalloc<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref>.hooks<sp/>=<sp/><ref refid="cJSON_8c_1a855c7241e836a5b2d87577df8c113faf" kindref="member">global_hooks</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ae92bec0a6b42edae91cce2726e34145c" kindref="member">TEST_ASSERT_TRUE_MESSAGE</ref>(<ref refid="cJSON_8c_1af5b4e769356f10d99a7f66697c42c1bb" kindref="member">print_string_ptr</ref>((</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)input,<sp/>&amp;<ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref>),<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>print<sp/>string.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1abca87135f5bc5737e7e46ab02cddf39e" kindref="member">TEST_ASSERT_EQUAL_STRING_MESSAGE</ref>(expected,<sp/>printed,<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>printed<sp/>string<sp/>isn&apos;t<sp/>as<sp/>expected.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="print__string_8c_1a9d49cd0bb1c269e8a2dddb60bdb13c3e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="print__string_8c_1a9d49cd0bb1c269e8a2dddb60bdb13c3e" kindref="member">print_string_should_print_empty_strings</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__string_8c_1a10810e1b6b0a21085f01010807e3088a" kindref="member">assert_print_string</ref>(</highlight><highlight class="stringliteral">&quot;\&quot;\&quot;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__string_8c_1a10810e1b6b0a21085f01010807e3088a" kindref="member">assert_print_string</ref>(</highlight><highlight class="stringliteral">&quot;\&quot;\&quot;&quot;</highlight><highlight class="normal">,<sp/>NULL);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="print__string_8c_1a74d620fff9c5c0100edf4e28f2527dd2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="print__string_8c_1a74d620fff9c5c0100edf4e28f2527dd2" kindref="member">print_string_should_print_ascii</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>ascii[0x7F];</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>create<sp/>ascii<sp/>table<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>1;<sp/>i<sp/>&lt;<sp/>0x7F;<sp/>i++)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ascii[i-1]<sp/>=<sp/>(char)i;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>ascii[0x7F-1]<sp/>=<sp/></highlight><highlight class="charliteral">&apos;\0&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__string_8c_1a10810e1b6b0a21085f01010807e3088a" kindref="member">assert_print_string</ref>(</highlight><highlight class="stringliteral">&quot;\&quot;\\u0001\\u0002\\u0003\\u0004\\u0005\\u0006\\u0007\\b\\t\\n\\u000b\\f\\r\\u000e\\u000f\\u0010\\u0011\\u0012\\u0013\\u0014\\u0015\\u0016\\u0017\\u0018\\u0019\\u001a\\u001b\\u001c\\u001d\\u001e\\u001f<sp/>!\\\&quot;#$%&amp;&apos;()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\&quot;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ascii);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="print__string_8c_1aa150a06731d903f37b4f2406443d5b83" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="print__string_8c_1aa150a06731d903f37b4f2406443d5b83" kindref="member">print_string_should_print_utf8</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print__string_8c_1a10810e1b6b0a21085f01010807e3088a" kindref="member">assert_print_string</ref>(</highlight><highlight class="stringliteral">&quot;\&quot;ü猫慕\&quot;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;ü猫慕&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="print__string_8c_1a840291bc02cba5474a4cb46a9b9566fe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="cJSON_8h_1a79203c3ba406ffd5736627cc1e082e38" kindref="member">CJSON_CDECL</ref><sp/><ref refid="print__string_8c_1a840291bc02cba5474a4cb46a9b9566fe" kindref="member">main</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>initialize<sp/>cJSON<sp/>item<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__internals_8h_1aaad15a5d10e50a412d0a6851d0e5091a" kindref="member">UNITY_BEGIN</ref>();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="print__string_8c_1a9d49cd0bb1c269e8a2dddb60bdb13c3e" kindref="member">print_string_should_print_empty_strings</ref>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="print__string_8c_1a74d620fff9c5c0100edf4e28f2527dd2" kindref="member">print_string_should_print_ascii</ref>);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="print__string_8c_1aa150a06731d903f37b4f2406443d5b83" kindref="member">print_string_should_print_utf8</ref>);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="unity__internals_8h_1aa519129d3af737eb796fc91720fae26a" kindref="member">UNITY_END</ref>();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="tests/print_string.c"/>
+  </compounddef>
+</doxygen>

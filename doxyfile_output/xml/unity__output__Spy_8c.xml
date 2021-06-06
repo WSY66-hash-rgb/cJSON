@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unity__output__Spy_8c" kind="file" language="C++">
+    <compoundname>unity_output_Spy.c</compoundname>
+    <includes refid="unity__output__Spy_8h" local="yes">unity_output_Spy.h</includes>
+    <includes refid="unity__fixture_8h" local="yes">unity_fixture.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">string.h</includes>
+    <incdepgraph>
+      <node id="9">
+        <label>stdint.h</label>
+      </node>
+      <node id="14">
+        <label>stdlib.h</label>
+      </node>
+      <node id="7">
+        <label>setjmp.h</label>
+      </node>
+      <node id="13">
+        <label>stddef.h</label>
+      </node>
+      <node id="10">
+        <label>limits.h</label>
+      </node>
+      <node id="16">
+        <label>string.h</label>
+      </node>
+      <node id="12">
+        <label>unity_fixture_malloc_overrides.h</label>
+        <link refid="unity__fixture__malloc__overrides_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>unity_fixture_internals.h</label>
+        <link refid="unity__fixture__internals_8h"/>
+      </node>
+      <node id="6">
+        <label>../examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="8">
+        <label>math.h</label>
+      </node>
+      <node id="5">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>tests/unity/extras/fixture/test/unity_output_Spy.c</label>
+        <link refid="unity__output__Spy_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>unity_output_Spy.h</label>
+        <link refid="unity__output__Spy_8h"/>
+      </node>
+      <node id="11">
+        <label>stdio.h</label>
+      </node>
+      <node id="3">
+        <label>unity_fixture.h</label>
+        <link refid="unity__fixture_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/unity_output_Spy.c" line="15" column="12" bodyfile="tests/unity/extras/fixture/test/unity_output_Spy.c" bodystart="15" bodyend="-1"/>
+        <referencedby refid="cJSON_8c_1a3ed7a207e8a936fd77f6a1c1d517f458" compoundref="cJSON_8c" startline="1824" endline="1845">cJSON_GetArraySize</referencedby>
+        <referencedby refid="cJSON_8c_1aeb5d79aa96b3440181bfe67323239770" compoundref="cJSON_8c" startline="3102" endline="3105">cJSON_malloc</referencedby>
+        <referencedby refid="cjson__add_8c_1a24ea6f6e3b14ce44e3690a590cf915dd" compoundref="cjson__add_8c" startline="31" endline="35">failing_malloc</referencedby>
+        <referencedby refid="misc__tests_8c_1a9d96d9aa45616af5a102e63eb2517efc" compoundref="misc__tests_8c" startline="438" endline="443">failing_realloc</referencedby>
+        <referencedby refid="cjson__read__fuzzer_8c_1a91ce7c16e9840492202299da2b451e60" compoundref="cjson__read__fuzzer_8c" startline="13" endline="72">LLVMFuzzerTestOneInput</referencedby>
+        <referencedby refid="unity__fixture__malloc__overrides_8h_1a55e86effa9aaf4a111d6b47684a05369" compoundref="unity__fixture_8c" startline="260" endline="266">unity_calloc</referencedby>
+        <referencedby refid="unity__fixture__malloc__overrides_8h_1a93ff6fda0f975eb47b8d828bd084f411" compoundref="unity__fixture_8c" startline="181" endline="216">unity_malloc</referencedby>
+        <referencedby refid="unity__output__Spy_8h_1a85e56ca3f8f83e96e1e2bbfbb4a15a2f" compoundref="unity__output__Spy_8c" startline="20" endline="28">UnityOutputCharSpy_Create</referencedby>
+        <referencedby refid="unity__output__Spy_8h_1a0915ac11fce4fd69d1c961c7cd050f8e" compoundref="unity__output__Spy_8c" startline="30" endline="34">UnityOutputCharSpy_Destroy</referencedby>
+        <referencedby refid="unity__output__Spy_8h_1a4b35b5d169eba72055b3b487b3579ddf" compoundref="unity__output__Spy_8c" startline="36" endline="47">UnityOutputCharSpy_OutputChar</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="unity__output__Spy_8c_1ad43c3812e6d13e0518d9f8b8f463ffcf" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/unity_output_Spy.c" line="16" column="12" bodyfile="tests/unity/extras/fixture/test/unity_output_Spy.c" bodystart="16" bodyend="-1"/>
+        <referencedby refid="cJSON_8c_1a04cb41ee475a68bd2ee63e92d8534049" compoundref="cJSON_8c" startline="2616" endline="2654">cJSON_CreateDoubleArray</referencedby>
+        <referencedby refid="cJSON_8c_1a328fe12c04efcf2073b218bbf35ac6ec" compoundref="cJSON_8c" startline="2576" endline="2614">cJSON_CreateFloatArray</referencedby>
+        <referencedby refid="cJSON_8c_1a12576edcea9baca64be6fe7a6ae8d4fa" compoundref="cJSON_8c" startline="2536" endline="2574">cJSON_CreateIntArray</referencedby>
+        <referencedby refid="cJSON_8c_1a1419ae039480a44d0bf2fcfe30d75cc6" compoundref="cJSON_8c" startline="2656" endline="2694">cJSON_CreateStringArray</referencedby>
+        <referencedby refid="unity__output__Spy_8h_1a85e56ca3f8f83e96e1e2bbfbb4a15a2f" compoundref="unity__output__Spy_8c" startline="20" endline="28">UnityOutputCharSpy_Create</referencedby>
+        <referencedby refid="unity__output__Spy_8h_1a4b35b5d169eba72055b3b487b3579ddf" compoundref="unity__output__Spy_8c" startline="36" endline="47">UnityOutputCharSpy_OutputChar</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" prot="public" static="yes" mutable="no">
+        <type>char *</type>
+        <definition>char* buffer</definition>
+        <argsstring></argsstring>
+        <name>buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/unity_output_Spy.c" line="17" column="13" bodyfile="tests/unity/extras/fixture/test/unity_output_Spy.c" bodystart="17" bodyend="-1"/>
+        <referencedby refid="parse__array_8c_1ab2c6686d29bdffb007af20b488809169" compoundref="parse__array_8c" startline="45" endline="54">assert_not_array</referencedby>
+        <referencedby refid="parse__string_8c_1a9538a84c38b404f5a10d06634dae7c3f" compoundref="parse__string_8c" startline="60" endline="69">assert_not_parse_string</referencedby>
+        <referencedby refid="parse__array_8c_1a643a34e3765ad0861b82fcf9c20dbfd6" compoundref="parse__array_8c" startline="56" endline="65">assert_parse_array</referencedby>
+        <referencedby refid="parse__number_8c_1a53a9722e174d2afdbf82fc8d0fd5fd38" compoundref="parse__number_8c" startline="46" endline="56">assert_parse_number</referencedby>
+        <referencedby refid="parse__string_8c_1aebe3846b5d833bb64c6ece9513489d57" compoundref="parse__string_8c" startline="46" endline="58">assert_parse_string</referencedby>
+        <referencedby refid="parse__value_8c_1a3a6f8d773faff442ee6e100712cb554d" compoundref="parse__value_8c" startline="44" endline="53">assert_parse_value</referencedby>
+        <referencedby refid="print__number_8c_1ac714f74960acd14060febd437f0764ac" compoundref="print__number_8c" startline="27" endline="63">assert_print_number</referencedby>
+        <referencedby refid="print__string_8c_1a10810e1b6b0a21085f01010807e3088a" compoundref="print__string_8c" startline="27" endline="39">assert_print_string</referencedby>
+        <referencedby refid="print__value_8c_1abfbe32805a2d50bc6a85c911525f152d" compoundref="print__value_8c" startline="31" endline="55">assert_print_value</referencedby>
+        <referencedby refid="cJSON_8c_1a029a2c33fa2744a7cc5cf061f28d2cfc" compoundref="cJSON_8c" startline="1034" endline="1057">buffer_skip_whitespace</referencedby>
+        <referencedby refid="misc__tests_8c_1a8db8916ca66092c6f9924456953fbf8f" compoundref="misc__tests_8c" startline="352" endline="436">cjson_functions_should_not_crash_with_null_pointers</referencedby>
+        <referencedby refid="minify__tests_8c_1a10f3d30e494600e717641b12b6effe6d" compoundref="minify__tests_8c" startline="100" endline="153">cjson_minify_should_minify_json</referencedby>
+        <referencedby refid="cJSON_8c_1af72a0b4e3c59e7053859c0c0fe4fcda3" compoundref="cJSON_8c" startline="1091" endline="1168">cJSON_ParseWithLengthOpts</referencedby>
+        <referencedby refid="cJSON_8c_1afc7c06663cbfb2acf82d6db5f1436fbd" compoundref="cJSON_8c" startline="1288" endline="1305">cJSON_PrintPreallocated</referencedby>
+        <referencedby refid="misc__tests_8c_1a742891f0f9814d7a149121d59da5bb11" compoundref="misc__tests_8c" startline="445" endline="452">ensure_should_fail_on_failed_realloc</referencedby>
+        <referencedby refid="cJSON_8c_1ae71e2aec89bf140e6430cb7d5ca417c5" compoundref="cJSON_8c" startline="1183" endline="1245">print</referencedby>
+        <referencedby refid="cJSON_8c_1a13b2d9f17c3b80a8878405f2782cd916" compoundref="cJSON_8c" startline="1060" endline="1073">skip_utf8_bom</referencedby>
+        <referencedby refid="misc__tests_8c_1aaa54a6f0b84327a5262ca0b44a0ff273" compoundref="misc__tests_8c" startline="466" endline="476">skip_utf8_bom_should_not_skip_bom_if_not_at_beginning</referencedby>
+        <referencedby refid="misc__tests_8c_1a166961a221072362ff4df8264917ef0a" compoundref="misc__tests_8c" startline="454" endline="464">skip_utf8_bom_should_skip_bom</referencedby>
+        <referencedby refid="unity__output__Spy_8h_1a85e56ca3f8f83e96e1e2bbfbb4a15a2f" compoundref="unity__output__Spy_8c" startline="20" endline="28">UnityOutputCharSpy_Create</referencedby>
+        <referencedby refid="unity__output__Spy_8h_1a0915ac11fce4fd69d1c961c7cd050f8e" compoundref="unity__output__Spy_8c" startline="30" endline="34">UnityOutputCharSpy_Destroy</referencedby>
+        <referencedby refid="unity__output__Spy_8h_1a014a3109626a78fb0c9ffeec76846e35" compoundref="unity__output__Spy_8c" startline="49" endline="52">UnityOutputCharSpy_Get</referencedby>
+        <referencedby refid="unity__output__Spy_8h_1a4b35b5d169eba72055b3b487b3579ddf" compoundref="unity__output__Spy_8c" startline="36" endline="47">UnityOutputCharSpy_OutputChar</referencedby>
+        <referencedby refid="cJSON_8c_1af5fb173126786c1e3f90b6df6e2500c5" compoundref="cJSON_8c" startline="525" endline="535">update_offset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="unity__output__Spy_8c_1ad979992bfbe72e0c950e5112dc52c310" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int spy_enable</definition>
+        <argsstring></argsstring>
+        <name>spy_enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/unity_output_Spy.c" line="18" column="12" bodyfile="tests/unity/extras/fixture/test/unity_output_Spy.c" bodystart="18" bodyend="-1"/>
+        <referencedby refid="unity__output__Spy_8h_1a85e56ca3f8f83e96e1e2bbfbb4a15a2f" compoundref="unity__output__Spy_8c" startline="20" endline="28">UnityOutputCharSpy_Create</referencedby>
+        <referencedby refid="unity__output__Spy_8h_1a5a5b8c2fe4d1edd31559deb7000c7d7f" compoundref="unity__output__Spy_8c" startline="54" endline="57">UnityOutputCharSpy_Enable</referencedby>
+        <referencedby refid="unity__output__Spy_8h_1a4b35b5d169eba72055b3b487b3579ddf" compoundref="unity__output__Spy_8c" startline="36" endline="47">UnityOutputCharSpy_OutputChar</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="unity__output__Spy_8c_1a85e56ca3f8f83e96e1e2bbfbb4a15a2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityOutputCharSpy_Create</definition>
+        <argsstring>(int s)</argsstring>
+        <name>UnityOutputCharSpy_Create</name>
+        <param>
+          <type>int</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/unity_output_Spy.c" line="20" column="6" bodyfile="tests/unity/extras/fixture/test/unity_output_Spy.c" bodystart="20" bodyend="28"/>
+        <references refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" compoundref="unity__output__Spy_8c" startline="17">buffer</references>
+        <references refid="unity__output__Spy_8c_1ad43c3812e6d13e0518d9f8b8f463ffcf" compoundref="unity__output__Spy_8c" startline="16">count</references>
+        <references refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" compoundref="unity__output__Spy_8c" startline="15">size</references>
+        <references refid="unity__output__Spy_8c_1ad979992bfbe72e0c950e5112dc52c310" compoundref="unity__output__Spy_8c" startline="18">spy_enable</references>
+        <referencedby refid="unity__fixture__Test_8c_1af2d0b5ac70317359323c93b4934d3d55" compoundref="unity__fixture__Test_8c" startline="319" endline="326">TEST_SETUP</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="unity__output__Spy_8c_1a0915ac11fce4fd69d1c961c7cd050f8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityOutputCharSpy_Destroy</definition>
+        <argsstring>(void)</argsstring>
+        <name>UnityOutputCharSpy_Destroy</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/unity_output_Spy.c" line="30" column="6" bodyfile="tests/unity/extras/fixture/test/unity_output_Spy.c" bodystart="30" bodyend="34"/>
+        <references refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" compoundref="unity__output__Spy_8c" startline="17">buffer</references>
+        <references refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" compoundref="unity__output__Spy_8c" startline="15">size</references>
+        <references refid="unity__fixture__malloc__overrides_8h_1a34d61a21a177a63f9681e1d89653cc74" compoundref="unity__fixture_8c" startline="243" endline="258">unity_free</references>
+        <referencedby refid="unity__fixture__Test_8c_1ad972c8040600694b118a0947a6dbb466" compoundref="unity__fixture__Test_8c" startline="328" endline="331">TEST_TEAR_DOWN</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="unity__output__Spy_8c_1a4b35b5d169eba72055b3b487b3579ddf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityOutputCharSpy_OutputChar</definition>
+        <argsstring>(int c)</argsstring>
+        <name>UnityOutputCharSpy_OutputChar</name>
+        <param>
+          <type>int</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/unity_output_Spy.c" line="36" column="6" bodyfile="tests/unity/extras/fixture/test/unity_output_Spy.c" bodystart="36" bodyend="47"/>
+        <references refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" compoundref="unity__output__Spy_8c" startline="17">buffer</references>
+        <references refid="unity__output__Spy_8c_1ad43c3812e6d13e0518d9f8b8f463ffcf" compoundref="unity__output__Spy_8c" startline="16">count</references>
+        <references refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" compoundref="unity__output__Spy_8c" startline="15">size</references>
+        <references refid="unity__output__Spy_8c_1ad979992bfbe72e0c950e5112dc52c310" compoundref="unity__output__Spy_8c" startline="18">spy_enable</references>
+      </memberdef>
+      <memberdef kind="function" id="unity__output__Spy_8c_1a014a3109626a78fb0c9ffeec76846e35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* UnityOutputCharSpy_Get</definition>
+        <argsstring>(void)</argsstring>
+        <name>UnityOutputCharSpy_Get</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/unity_output_Spy.c" line="49" column="13" bodyfile="tests/unity/extras/fixture/test/unity_output_Spy.c" bodystart="49" bodyend="52"/>
+        <references refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" compoundref="unity__output__Spy_8c" startline="17">buffer</references>
+        <referencedby refid="unity__fixture__Test_8c_1a208061503ab84a839975c9c189ba7998" compoundref="unity__fixture__Test_8c" startline="367" endline="383">TEST</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="unity__output__Spy_8c_1a5a5b8c2fe4d1edd31559deb7000c7d7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityOutputCharSpy_Enable</definition>
+        <argsstring>(int enable)</argsstring>
+        <name>UnityOutputCharSpy_Enable</name>
+        <param>
+          <type>int</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/extras/fixture/test/unity_output_Spy.c" line="54" column="6" bodyfile="tests/unity/extras/fixture/test/unity_output_Spy.c" bodystart="54" bodyend="57"/>
+        <references refid="unity__output__Spy_8c_1ad979992bfbe72e0c950e5112dc52c310" compoundref="unity__output__Spy_8c" startline="18">spy_enable</references>
+        <referencedby refid="unity__fixture__Test_8c_1acee2e4a8922cfc7f9ac37e2df0fd94ac" compoundref="unity__fixture__Test_8c" startline="139" endline="153">TEST</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>Copyright<sp/>(c)<sp/>2010<sp/>James<sp/>Grenning<sp/>and<sp/>Contributed<sp/>to<sp/>Unity<sp/>Project</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>==========================================</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/>Unity<sp/>Project<sp/>-<sp/>A<sp/>Test<sp/>Framework<sp/>for<sp/>C</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Copyright<sp/>(c)<sp/>2007<sp/>Mike<sp/>Karlesky,<sp/>Mark<sp/>VanderVoord,<sp/>Greg<sp/>Williams</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/>[Released<sp/>under<sp/>MIT<sp/>License.<sp/>Please<sp/>refer<sp/>to<sp/>license.txt<sp/>for<sp/>details]</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>==========================================<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity__output__Spy_8h" kindref="compound">unity_output_Spy.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity__fixture_8h" kindref="compound">unity_fixture.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" kindref="member">size</ref>;</highlight></codeline>
+<codeline lineno="16" refid="unity__output__Spy_8c_1ad43c3812e6d13e0518d9f8b8f463ffcf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="unity__output__Spy_8c_1ad43c3812e6d13e0518d9f8b8f463ffcf" kindref="member">count</ref>;</highlight></codeline>
+<codeline lineno="17" refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref>;</highlight></codeline>
+<codeline lineno="18" refid="unity__output__Spy_8c_1ad979992bfbe72e0c950e5112dc52c310" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="unity__output__Spy_8c_1ad979992bfbe72e0c950e5112dc52c310" kindref="member">spy_enable</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="unity__output__Spy_8h_1a85e56ca3f8f83e96e1e2bbfbb4a15a2f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="unity__output__Spy_8c_1a85e56ca3f8f83e96e1e2bbfbb4a15a2f" kindref="member">UnityOutputCharSpy_Create</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>s)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" kindref="member">size</ref><sp/>=<sp/>(s<sp/>&gt;<sp/>0)<sp/>?<sp/>s<sp/>:<sp/>0;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__output__Spy_8c_1ad43c3812e6d13e0518d9f8b8f463ffcf" kindref="member">count</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__output__Spy_8c_1ad979992bfbe72e0c950e5112dc52c310" kindref="member">spy_enable</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref><sp/>=<sp/><ref refid="unity__fixture__malloc__overrides_8h_1acf143577800376dd931c059ecc61ba06" kindref="member">malloc</ref>((</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)<ref refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" kindref="member">size</ref>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" kindref="member">TEST_ASSERT_NOT_NULL_MESSAGE</ref>(<ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Internal<sp/>malloc<sp/>failed<sp/>in<sp/>Spy<sp/>Create():&quot;</highlight><highlight class="normal"><sp/>__FILE__);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>memset(<ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref>,<sp/>0,<sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)<ref refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" kindref="member">size</ref>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="unity__output__Spy_8h_1a0915ac11fce4fd69d1c961c7cd050f8e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="unity__output__Spy_8c_1a0915ac11fce4fd69d1c961c7cd050f8e" kindref="member">UnityOutputCharSpy_Destroy</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" kindref="member">size</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(<ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref>);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="unity__output__Spy_8h_1a4b35b5d169eba72055b3b487b3579ddf" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="unity__output__Spy_8c_1a4b35b5d169eba72055b3b487b3579ddf" kindref="member">UnityOutputCharSpy_OutputChar</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="unity__output__Spy_8c_1ad979992bfbe72e0c950e5112dc52c310" kindref="member">spy_enable</ref>)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="unity__output__Spy_8c_1ad43c3812e6d13e0518d9f8b8f463ffcf" kindref="member">count</ref><sp/>&lt;<sp/>(<ref refid="unity__output__Spy_8c_1a439227feff9d7f55384e8780cfc2eb82" kindref="member">size</ref>-1))</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref>[<ref refid="unity__output__Spy_8c_1ad43c3812e6d13e0518d9f8b8f463ffcf" kindref="member">count</ref>++]<sp/>=<sp/>(char)c;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>putchar(c);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="unity__output__Spy_8h_1a014a3109626a78fb0c9ffeec76846e35" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="unity__output__Spy_8c_1a014a3109626a78fb0c9ffeec76846e35" kindref="member">UnityOutputCharSpy_Get</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="unity__output__Spy_8c_1aff2566f4c366b48d73479bef43ee4d2e" kindref="member">buffer</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="unity__output__Spy_8h_1a5a5b8c2fe4d1edd31559deb7000c7d7f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="unity__output__Spy_8c_1a5a5b8c2fe4d1edd31559deb7000c7d7f" kindref="member">UnityOutputCharSpy_Enable</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>enable)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__output__Spy_8c_1ad979992bfbe72e0c950e5112dc52c310" kindref="member">spy_enable</ref><sp/>=<sp/>enable;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/extras/fixture/test/unity_output_Spy.c"/>
+  </compounddef>
+</doxygen>

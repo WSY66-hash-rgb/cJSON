@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structUNITY__STORAGE__T" kind="struct" language="C++" prot="public">
+    <compoundname>UNITY_STORAGE_T</compoundname>
+    <includes local="no">unity_internals.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structUNITY__STORAGE__T_1a69613e2d9945fc1ce5a4848613828a1f" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* UNITY_STORAGE_T::TestFile</definition>
+        <argsstring></argsstring>
+        <name>TestFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/src/unity_internals.h" line="385" column="16" bodyfile="tests/unity/src/unity_internals.h" bodystart="385" bodyend="-1"/>
+        <referencedby refid="unity__internals_8h_1aed50601fbdaea8fc0fef0c61cf877809" compoundref="unity_8c" startline="1349" endline="1362">UnityBegin</referencedby>
+        <referencedby refid="unity__internals_8h_1a44f03f0124e59f6996da61946cc2a58e" compoundref="unity_8c" startline="376" endline="396">UnityConcludeTest</referencedby>
+        <referencedby refid="unity__internals_8h_1a37e729cc670c13ddc148d0bbf4255d7d" compoundref="unity_8c" startline="1280" endline="1311">UnityFail</referencedby>
+        <referencedby refid="unity__internals_8h_1a65cb63407f65e4f71f29ab4907f78734" compoundref="unity_8c" startline="1314" endline="1327">UnityIgnore</referencedby>
+        <referencedby refid="unity_8c_1a5600fe7afa30db3a4eb95f8917a403a0" compoundref="unity_8c" startline="368" endline="373">UnityTestResultsFailBegin</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1aae64fa6f0f5b87191a67ad858f95ca89" compoundref="unity__fixture_8c" startline="68" endline="113">UnityTestRunner</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structUNITY__STORAGE__T_1a0d7f8bf6c8a95ebe237d411f1fc7e345" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* UNITY_STORAGE_T::CurrentTestName</definition>
+        <argsstring></argsstring>
+        <name>CurrentTestName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/src/unity_internals.h" line="386" column="16" bodyfile="tests/unity/src/unity_internals.h" bodystart="386" bodyend="-1"/>
+        <referencedby refid="unity__internals_8h_1aed50601fbdaea8fc0fef0c61cf877809" compoundref="unity_8c" startline="1349" endline="1362">UnityBegin</referencedby>
+        <referencedby refid="unity__internals_8h_1ae3c8272eef0f0b6228ca47b9dd1aa2af" compoundref="unity_8c" startline="1330" endline="1346">UnityDefaultTestRun</referencedby>
+        <referencedby refid="unity_8c_1aed932d2a71bfd9bb481def3bb03233f9" compoundref="unity_8c" startline="357" endline="365">UnityTestResultsBegin</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1aae64fa6f0f5b87191a67ad858f95ca89" compoundref="unity__fixture_8c" startline="68" endline="113">UnityTestRunner</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structUNITY__STORAGE__T_1a21674715adf3d4d1ac7f0c459887cf9d" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* UNITY_STORAGE_T::CurrentDetail1</definition>
+        <argsstring></argsstring>
+        <name>CurrentDetail1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/src/unity_internals.h" line="388" column="16" bodyfile="tests/unity/src/unity_internals.h" bodystart="388" bodyend="-1"/>
+        <referencedby refid="unity_8c_1af0db89aa4947c98a55a44bae2a7035d7" compoundref="unity_8c" startline="399" endline="419">UnityAddMsgIfSpecified</referencedby>
+        <referencedby refid="unity__internals_8h_1a37e729cc670c13ddc148d0bbf4255d7d" compoundref="unity_8c" startline="1280" endline="1311">UnityFail</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structUNITY__STORAGE__T_1a9d821447e216e215911e8726aa986eec" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* UNITY_STORAGE_T::CurrentDetail2</definition>
+        <argsstring></argsstring>
+        <name>CurrentDetail2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/src/unity_internals.h" line="389" column="16" bodyfile="tests/unity/src/unity_internals.h" bodystart="389" bodyend="-1"/>
+        <referencedby refid="unity_8c_1af0db89aa4947c98a55a44bae2a7035d7" compoundref="unity_8c" startline="399" endline="419">UnityAddMsgIfSpecified</referencedby>
+        <referencedby refid="unity__internals_8h_1a37e729cc670c13ddc148d0bbf4255d7d" compoundref="unity_8c" startline="1280" endline="1311">UnityFail</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structUNITY__STORAGE__T_1aeb87d29c27b7befe4a1dc98e4c0df985" prot="public" static="no" mutable="no">
+        <type><ref refid="unity__internals_8h_1abb5d2d06855829696244db2ff89290bd" kindref="member">UNITY_UINT</ref></type>
+        <definition>UNITY_UINT UNITY_STORAGE_T::CurrentTestLineNumber</definition>
+        <argsstring></argsstring>
+        <name>CurrentTestLineNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/src/unity_internals.h" line="391" column="18" bodyfile="tests/unity/src/unity_internals.h" bodystart="391" bodyend="-1"/>
+        <referencedby refid="unity__fixture__malloc__overrides_8h_1a34d61a21a177a63f9681e1d89653cc74" compoundref="unity__fixture_8c" startline="243" endline="258">unity_free</referencedby>
+        <referencedby refid="unity__internals_8h_1aed50601fbdaea8fc0fef0c61cf877809" compoundref="unity_8c" startline="1349" endline="1362">UnityBegin</referencedby>
+        <referencedby refid="unity__internals_8h_1a44f03f0124e59f6996da61946cc2a58e" compoundref="unity_8c" startline="376" endline="396">UnityConcludeTest</referencedby>
+        <referencedby refid="unity__internals_8h_1ae3c8272eef0f0b6228ca47b9dd1aa2af" compoundref="unity_8c" startline="1330" endline="1346">UnityDefaultTestRun</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1a44409b47989dd823f395d62ba759032a" compoundref="unity__fixture_8c" startline="144" endline="151">UnityMalloc_EndTest</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1aae64fa6f0f5b87191a67ad858f95ca89" compoundref="unity__fixture_8c" startline="68" endline="113">UnityTestRunner</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structUNITY__STORAGE__T_1ae4df45c5af47cc35eb0aedc57816d2ef" prot="public" static="no" mutable="no">
+        <type><ref refid="unity__internals_8h_1abb5d2d06855829696244db2ff89290bd" kindref="member">UNITY_UINT</ref></type>
+        <definition>UNITY_UINT UNITY_STORAGE_T::NumberOfTests</definition>
+        <argsstring></argsstring>
+        <name>NumberOfTests</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/src/unity_internals.h" line="392" column="18" bodyfile="tests/unity/src/unity_internals.h" bodystart="392" bodyend="-1"/>
+        <referencedby refid="unity__fixture__Test_8c_1af8a572f34dfa6d3411718d0bc3cc40ef" compoundref="unity__fixture__Test_8c" startline="302" endline="308">TEST</referencedby>
+        <referencedby refid="testRunnerGeneratorWithMocks_8c_1a77ecdb5246db5687be932e5ffd2db094" compoundref="testRunnerGeneratorWithMocks_8c" startline="184" endline="191">test_ShouldCallMockInitAndVerifyFunctionsForEachTest</referencedby>
+        <referencedby refid="unity__internals_8h_1aed50601fbdaea8fc0fef0c61cf877809" compoundref="unity_8c" startline="1349" endline="1362">UnityBegin</referencedby>
+        <referencedby refid="unity__internals_8h_1ae3c8272eef0f0b6228ca47b9dd1aa2af" compoundref="unity_8c" startline="1330" endline="1346">UnityDefaultTestRun</referencedby>
+        <referencedby refid="unity__internals_8h_1a4820ba04ff5e9a474fe38ab6633d30a0" compoundref="unity_8c" startline="1365" endline="1392">UnityEnd</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1a0979b54fd6b64e3d44c2adc91fe2c80e" compoundref="unity__fixture_8c" startline="115" endline="129">UnityIgnoreTest</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1aae64fa6f0f5b87191a67ad858f95ca89" compoundref="unity__fixture_8c" startline="68" endline="113">UnityTestRunner</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structUNITY__STORAGE__T_1a2b309a6c4639312ba6f3b030cfd55ce4" prot="public" static="no" mutable="no">
+        <type><ref refid="unity__internals_8h_1abb5d2d06855829696244db2ff89290bd" kindref="member">UNITY_UINT</ref></type>
+        <definition>UNITY_UINT UNITY_STORAGE_T::TestFailures</definition>
+        <argsstring></argsstring>
+        <name>TestFailures</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/src/unity_internals.h" line="393" column="18" bodyfile="tests/unity/src/unity_internals.h" bodystart="393" bodyend="-1"/>
+        <referencedby refid="unity__fixture__Test_8c_1acee2e4a8922cfc7f9ac37e2df0fd94ac" compoundref="unity__fixture__Test_8c" startline="139" endline="153">TEST</referencedby>
+        <referencedby refid="testRunnerGeneratorWithMocks_8c_1a77ecdb5246db5687be932e5ffd2db094" compoundref="testRunnerGeneratorWithMocks_8c" startline="184" endline="191">test_ShouldCallMockInitAndVerifyFunctionsForEachTest</referencedby>
+        <referencedby refid="unity__internals_8h_1aed50601fbdaea8fc0fef0c61cf877809" compoundref="unity_8c" startline="1349" endline="1362">UnityBegin</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1a1ae5ed8b684e16585dd4bd0cb07f51eb" compoundref="unity__fixture_8c" startline="409" endline="432">UnityConcludeFixtureTest</referencedby>
+        <referencedby refid="unity__internals_8h_1a44f03f0124e59f6996da61946cc2a58e" compoundref="unity_8c" startline="376" endline="396">UnityConcludeTest</referencedby>
+        <referencedby refid="unity__internals_8h_1a4820ba04ff5e9a474fe38ab6633d30a0" compoundref="unity_8c" startline="1365" endline="1392">UnityEnd</referencedby>
+        <referencedby refid="unity__fixture_8h_1a58ec279183697abbd5d3efea3442d4e5" compoundref="unity__fixture_8c" startline="32" endline="49">UnityMain</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structUNITY__STORAGE__T_1a75c4a690faa55da67e6c2079ad74cd6e" prot="public" static="no" mutable="no">
+        <type><ref refid="unity__internals_8h_1abb5d2d06855829696244db2ff89290bd" kindref="member">UNITY_UINT</ref></type>
+        <definition>UNITY_UINT UNITY_STORAGE_T::TestIgnores</definition>
+        <argsstring></argsstring>
+        <name>TestIgnores</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/src/unity_internals.h" line="394" column="18" bodyfile="tests/unity/src/unity_internals.h" bodystart="394" bodyend="-1"/>
+        <referencedby refid="unity__fixture__Test_8c_1acee2e4a8922cfc7f9ac37e2df0fd94ac" compoundref="unity__fixture__Test_8c" startline="139" endline="153">TEST</referencedby>
+        <referencedby refid="unity__internals_8h_1aed50601fbdaea8fc0fef0c61cf877809" compoundref="unity_8c" startline="1349" endline="1362">UnityBegin</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1a1ae5ed8b684e16585dd4bd0cb07f51eb" compoundref="unity__fixture_8c" startline="409" endline="432">UnityConcludeFixtureTest</referencedby>
+        <referencedby refid="unity__internals_8h_1a44f03f0124e59f6996da61946cc2a58e" compoundref="unity_8c" startline="376" endline="396">UnityConcludeTest</referencedby>
+        <referencedby refid="unity__internals_8h_1a4820ba04ff5e9a474fe38ab6633d30a0" compoundref="unity_8c" startline="1365" endline="1392">UnityEnd</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1a0979b54fd6b64e3d44c2adc91fe2c80e" compoundref="unity__fixture_8c" startline="115" endline="129">UnityIgnoreTest</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structUNITY__STORAGE__T_1a4eeda402afb14c612b7ea86f35697c12" prot="public" static="no" mutable="no">
+        <type><ref refid="unity__internals_8h_1abb5d2d06855829696244db2ff89290bd" kindref="member">UNITY_UINT</ref></type>
+        <definition>UNITY_UINT UNITY_STORAGE_T::CurrentTestFailed</definition>
+        <argsstring></argsstring>
+        <name>CurrentTestFailed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/src/unity_internals.h" line="395" column="18" bodyfile="tests/unity/src/unity_internals.h" bodystart="395" bodyend="-1"/>
+        <referencedby refid="testparameterized_8c_1a9909011e5fea0c018842eec4d93d0662" compoundref="testparameterized_8c" startline="53">tearDown</referencedby>
+        <referencedby refid="unity__fixture__Test_8c_1acee2e4a8922cfc7f9ac37e2df0fd94ac" compoundref="unity__fixture__Test_8c" startline="139" endline="153">TEST</referencedby>
+        <referencedby refid="unity__internals_8h_1ac2901e8d0e2c26074462d616736e808f" compoundref="unity_8c" startline="1004" endline="1040">UnityAssertEqualString</referencedby>
+        <referencedby refid="unity__internals_8h_1a2255be5a89ed1551deedd6732e917915" compoundref="unity_8c" startline="1083" endline="1159">UnityAssertEqualStringArray</referencedby>
+        <referencedby refid="unity__internals_8h_1acdb5ad99e8015b63ae4f7963cbacef81" compoundref="unity_8c" startline="1043" endline="1080">UnityAssertEqualStringLen</referencedby>
+        <referencedby refid="unity__internals_8h_1a3d3285ee7b70e57956b95b8e318842eb" compoundref="unity_8c" startline="965" endline="1001">UnityAssertNumbersWithin</referencedby>
+        <referencedby refid="unity__internals_8h_1aed50601fbdaea8fc0fef0c61cf877809" compoundref="unity_8c" startline="1349" endline="1362">UnityBegin</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1a1ae5ed8b684e16585dd4bd0cb07f51eb" compoundref="unity__fixture_8c" startline="409" endline="432">UnityConcludeFixtureTest</referencedby>
+        <referencedby refid="unity__internals_8h_1a44f03f0124e59f6996da61946cc2a58e" compoundref="unity_8c" startline="376" endline="396">UnityConcludeTest</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1aae64fa6f0f5b87191a67ad858f95ca89" compoundref="unity__fixture_8c" startline="68" endline="113">UnityTestRunner</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structUNITY__STORAGE__T_1afdcdd2259f9ae537c0a89c44a227a793" prot="public" static="no" mutable="no">
+        <type><ref refid="unity__internals_8h_1abb5d2d06855829696244db2ff89290bd" kindref="member">UNITY_UINT</ref></type>
+        <definition>UNITY_UINT UNITY_STORAGE_T::CurrentTestIgnored</definition>
+        <argsstring></argsstring>
+        <name>CurrentTestIgnored</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/src/unity_internals.h" line="396" column="18" bodyfile="tests/unity/src/unity_internals.h" bodystart="396" bodyend="-1"/>
+        <referencedby refid="unity__fixture__Test_8c_1acee2e4a8922cfc7f9ac37e2df0fd94ac" compoundref="unity__fixture__Test_8c" startline="139" endline="153">TEST</referencedby>
+        <referencedby refid="unity__internals_8h_1aed50601fbdaea8fc0fef0c61cf877809" compoundref="unity_8c" startline="1349" endline="1362">UnityBegin</referencedby>
+        <referencedby refid="unity__fixture__internals_8h_1a1ae5ed8b684e16585dd4bd0cb07f51eb" compoundref="unity__fixture_8c" startline="409" endline="432">UnityConcludeFixtureTest</referencedby>
+        <referencedby refid="unity__internals_8h_1a44f03f0124e59f6996da61946cc2a58e" compoundref="unity_8c" startline="376" endline="396">UnityConcludeTest</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structUNITY__STORAGE__T_1a4456e2d39fb2858a0406594a1606d21c" prot="public" static="no" mutable="no">
+        <type>jmp_buf</type>
+        <definition>jmp_buf UNITY_STORAGE_T::AbortFrame</definition>
+        <argsstring></argsstring>
+        <name>AbortFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/src/unity_internals.h" line="398" column="13" bodyfile="tests/unity/src/unity_internals.h" bodystart="398" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>UNITY_STORAGE_T</label>
+        <link refid="structUNITY__STORAGE__T"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>AbortFrame</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>CurrentTestFailed</edgelabel>
+          <edgelabel>CurrentTestIgnored</edgelabel>
+          <edgelabel>CurrentTestLineNumber</edgelabel>
+          <edgelabel>NumberOfTests</edgelabel>
+          <edgelabel>TestFailures</edgelabel>
+          <edgelabel>TestIgnores</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>CurrentDetail1</edgelabel>
+          <edgelabel>CurrentDetail2</edgelabel>
+          <edgelabel>CurrentTestName</edgelabel>
+          <edgelabel>TestFile</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>const char *</label>
+      </node>
+      <node id="3">
+        <label>UNITY_UINT32</label>
+      </node>
+      <node id="2">
+        <label>jmp_buf</label>
+      </node>
+    </collaborationgraph>
+    <location file="tests/unity/src/unity_internals.h" line="383" column="1" bodyfile="tests/unity/src/unity_internals.h" bodystart="384" bodyend="400"/>
+    <listofallmembers>
+      <member refid="structUNITY__STORAGE__T_1a4456e2d39fb2858a0406594a1606d21c" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>AbortFrame</name></member>
+      <member refid="structUNITY__STORAGE__T_1a21674715adf3d4d1ac7f0c459887cf9d" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>CurrentDetail1</name></member>
+      <member refid="structUNITY__STORAGE__T_1a9d821447e216e215911e8726aa986eec" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>CurrentDetail2</name></member>
+      <member refid="structUNITY__STORAGE__T_1a4eeda402afb14c612b7ea86f35697c12" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>CurrentTestFailed</name></member>
+      <member refid="structUNITY__STORAGE__T_1afdcdd2259f9ae537c0a89c44a227a793" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>CurrentTestIgnored</name></member>
+      <member refid="structUNITY__STORAGE__T_1aeb87d29c27b7befe4a1dc98e4c0df985" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>CurrentTestLineNumber</name></member>
+      <member refid="structUNITY__STORAGE__T_1a0d7f8bf6c8a95ebe237d411f1fc7e345" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>CurrentTestName</name></member>
+      <member refid="structUNITY__STORAGE__T_1ae4df45c5af47cc35eb0aedc57816d2ef" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>NumberOfTests</name></member>
+      <member refid="structUNITY__STORAGE__T_1a2b309a6c4639312ba6f3b030cfd55ce4" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>TestFailures</name></member>
+      <member refid="structUNITY__STORAGE__T_1a69613e2d9945fc1ce5a4848613828a1f" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>TestFile</name></member>
+      <member refid="structUNITY__STORAGE__T_1a75c4a690faa55da67e6c2079ad74cd6e" prot="public" virt="non-virtual"><scope>UNITY_STORAGE_T</scope><name>TestIgnores</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

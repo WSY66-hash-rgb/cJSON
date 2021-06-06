@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="example__2_2test_2test__runners_2TestProductionCode__Runner_8c" kind="file" language="C++">
+    <compoundname>TestProductionCode_Runner.c</compoundname>
+    <includes refid="unity_8h" local="yes">unity.h</includes>
+    <includes refid="unity__fixture_8h" local="yes">unity_fixture.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>tests/unity/examples/example_2/test/test_runners/TestProductionCode_Runner.c</label>
+        <link refid="example__2_2test_2test__runners_2TestProductionCode__Runner_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>stdint.h</label>
+      </node>
+      <node id="13">
+        <label>stdlib.h</label>
+      </node>
+      <node id="5">
+        <label>setjmp.h</label>
+      </node>
+      <node id="12">
+        <label>stddef.h</label>
+      </node>
+      <node id="8">
+        <label>limits.h</label>
+      </node>
+      <node id="11">
+        <label>unity_fixture_malloc_overrides.h</label>
+        <link refid="unity__fixture__malloc__overrides_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>unity_fixture_internals.h</label>
+        <link refid="unity__fixture__internals_8h"/>
+      </node>
+      <node id="4">
+        <label>../examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="6">
+        <label>math.h</label>
+      </node>
+      <node id="3">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>stdio.h</label>
+      </node>
+      <node id="10">
+        <label>unity_fixture.h</label>
+        <link refid="unity__fixture_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="example__2_2test_2test__runners_2TestProductionCode__Runner_8c_1a5ceae5b7f588a6740b314dc6eee5f2b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_GROUP_RUNNER</definition>
+        <argsstring>(ProductionCode)</argsstring>
+        <name>TEST_GROUP_RUNNER</name>
+        <param>
+          <type>ProductionCode</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_2/test/test_runners/TestProductionCode_Runner.c" line="4" column="1" bodyfile="tests/unity/examples/example_2/test/test_runners/TestProductionCode_Runner.c" bodystart="4" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity_8h" kindref="compound">unity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity__fixture_8h" kindref="compound">unity_fixture.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="example__2_2test_2test__runners_2TestProductionCode__Runner_8c_1a5ceae5b7f588a6740b314dc6eee5f2b9" refkind="member"><highlight class="normal"><ref refid="example__2_2test_2test__runners_2TestProductionCode__Runner_8c_1a5ceae5b7f588a6740b314dc6eee5f2b9" kindref="member">TEST_GROUP_RUNNER</ref>(ProductionCode)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><ref refid="unity__fixture_8h_1adc2b732a34781cebd1432e413f4ccfbc" kindref="member">RUN_TEST_CASE</ref>(ProductionCode,<sp/>FindFunction_WhichIsBroken_ShouldReturnZeroIfItemIsNotInList_WhichWorksEvenInOurBrokenCode);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><ref refid="unity__fixture_8h_1adc2b732a34781cebd1432e413f4ccfbc" kindref="member">RUN_TEST_CASE</ref>(ProductionCode,<sp/>FindFunction_WhichIsBroken_ShouldReturnTheIndexForItemsInList_WhichWillFailBecauseOurFunctionUnderTestIsBroken);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><ref refid="unity__fixture_8h_1adc2b732a34781cebd1432e413f4ccfbc" kindref="member">RUN_TEST_CASE</ref>(ProductionCode,<sp/>FunctionWhichReturnsLocalVariable_ShouldReturnTheCurrentCounterValue);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><ref refid="unity__fixture_8h_1adc2b732a34781cebd1432e413f4ccfbc" kindref="member">RUN_TEST_CASE</ref>(ProductionCode,<sp/>FunctionWhichReturnsLocalVariable_ShouldReturnTheCurrentCounterValueAgain);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><ref refid="unity__fixture_8h_1adc2b732a34781cebd1432e413f4ccfbc" kindref="member">RUN_TEST_CASE</ref>(ProductionCode,<sp/>FunctionWhichReturnsLocalVariable_ShouldReturnCurrentCounter_ButFailsBecauseThisTestIsActuallyFlawed);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/examples/example_2/test/test_runners/TestProductionCode_Runner.c"/>
+  </compounddef>
+</doxygen>

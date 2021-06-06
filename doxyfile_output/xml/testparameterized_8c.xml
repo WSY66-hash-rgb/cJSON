@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="testparameterized_8c" kind="file" language="C++">
+    <compoundname>testparameterized.c</compoundname>
+    <includes local="no">setjmp.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes refid="unity_8h" local="yes">unity.h</includes>
+    <incdepgraph>
+      <node id="8">
+        <label>stdint.h</label>
+      </node>
+      <node id="2">
+        <label>setjmp.h</label>
+      </node>
+      <node id="1">
+        <label>tests/unity/test/tests/testparameterized.c</label>
+        <link refid="testparameterized_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>limits.h</label>
+      </node>
+      <node id="6">
+        <label>../examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="7">
+        <label>math.h</label>
+      </node>
+      <node id="5">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="testparameterized_8c_1abd6e2aec703006b3da62cf7860c9808f" prot="public" static="no">
+        <name>TEST_CASE</name>
+        <param><defname>...</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/tests/testparameterized.c" line="13" column="9" bodyfile="tests/unity/test/tests/testparameterized.c" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="testparameterized_8c_1a85bc005380b1bef3aa55f24f75c2297a" prot="public" static="no">
+        <name>EXPECT_ABORT_BEGIN</name>
+        <initializer>    if (<ref refid="unity__internals_8h_1a61d21043921ebc1c2ee49543fc100f9a" kindref="member">TEST_PROTECT</ref>())    \
+    {</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/tests/testparameterized.c" line="15" column="9" bodyfile="tests/unity/test/tests/testparameterized.c" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="testparameterized_8c_1a80f860c4c602808fbfff8f3867acb480" prot="public" static="no">
+        <name>VERIFY_FAILS_END</name>
+        <initializer>    }                                                                          \
+    Unity.CurrentTestFailed = (Unity.CurrentTestFailed != 0) ? 0 : 1;          \
+    if (Unity.CurrentTestFailed == 1) {                                        \
+      <ref refid="testunity_8c_1a693436790a56c50f8e4421748a395172" kindref="member">SetToOneMeanWeAlreadyCheckedThisGuy</ref> = 1;                                 \
+      <ref refid="unity_8c_1a3ef388786e9a8e769d13af2601b592dc" kindref="member">UnityPrintNumberUnsigned</ref>(Unity.CurrentTestLineNumber);                   \
+      <ref refid="unity__internals_8h_1a7f32cab7edafc4634a8faa14b3e0042c" kindref="member">UNITY_OUTPUT_CHAR</ref>(&apos;:&apos;);                                                  \
+      <ref refid="unity_8c_1accff2eb4cfd0273e8ad62c37639d3e3c" kindref="member">UnityPrint</ref>(Unity.CurrentTestName);                                       \
+      <ref refid="unity_8c_1accff2eb4cfd0273e8ad62c37639d3e3c" kindref="member">UnityPrint</ref>(&quot;:FAIL: [[[[ Test Should Have Failed But Did Not ]]]]&quot;);      \
+      UNITY_OUTPUT_CHAR(&apos;\n&apos;);                                                 \
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/tests/testparameterized.c" line="19" column="9" bodyfile="tests/unity/test/tests/testparameterized.c" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="testparameterized_8c_1ab17bbadc271482ac2b25ebaf9f11bfca" prot="public" static="no">
+        <name>VERIFY_IGNORES_END</name>
+        <initializer>    }                                                                          \
+    Unity.CurrentTestFailed = (Unity.CurrentTestIgnored != 0) ? 0 : 1;         \
+    Unity.CurrentTestIgnored = 0;                                              \
+    if (Unity.CurrentTestFailed == 1) {                                        \
+      <ref refid="testunity_8c_1a693436790a56c50f8e4421748a395172" kindref="member">SetToOneMeanWeAlreadyCheckedThisGuy</ref> = 1;                                 \
+      <ref refid="unity_8c_1a3ef388786e9a8e769d13af2601b592dc" kindref="member">UnityPrintNumberUnsigned</ref>(Unity.CurrentTestLineNumber);                   \
+      <ref refid="unity__internals_8h_1a7f32cab7edafc4634a8faa14b3e0042c" kindref="member">UNITY_OUTPUT_CHAR</ref>(&apos;:&apos;);                                                  \
+      <ref refid="unity_8c_1accff2eb4cfd0273e8ad62c37639d3e3c" kindref="member">UnityPrint</ref>(Unity.CurrentTestName);                                       \
+      <ref refid="unity_8c_1accff2eb4cfd0273e8ad62c37639d3e3c" kindref="member">UnityPrint</ref>(&quot;:FAIL: [[[[ Test Should Have Ignored But Did Not ]]]]&quot;);     \
+      UNITY_OUTPUT_CHAR(&apos;\n&apos;);                                                 \
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/tests/testparameterized.c" line="31" column="9" bodyfile="tests/unity/test/tests/testparameterized.c" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="testparameterized_8c_1afe2bc525a23147c7c3d36cf24aa58fcb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SetToOneToFailInTearDown</definition>
+        <argsstring></argsstring>
+        <name>SetToOneToFailInTearDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/tests/testparameterized.c" line="44" column="5" bodyfile="tests/unity/test/tests/testparameterized.c" bodystart="44" bodyend="-1"/>
+        <referencedby refid="testparameterized_8c_1a95c834d6178047ce9e1bce7cbfea2836" compoundref="testparameterized_8c" startline="47" endline="51">setUp</referencedby>
+        <referencedby refid="testparameterized_8c_1a9909011e5fea0c018842eec4d93d0662" compoundref="testparameterized_8c" startline="53">tearDown</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="testparameterized_8c_1a693436790a56c50f8e4421748a395172" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SetToOneMeanWeAlreadyCheckedThisGuy</definition>
+        <argsstring></argsstring>
+        <name>SetToOneMeanWeAlreadyCheckedThisGuy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/tests/testparameterized.c" line="45" column="5" bodyfile="tests/unity/test/tests/testparameterized.c" bodystart="45" bodyend="-1"/>
+        <referencedby refid="testparameterized_8c_1a95c834d6178047ce9e1bce7cbfea2836" compoundref="testparameterized_8c" startline="47" endline="51">setUp</referencedby>
+        <referencedby refid="testparameterized_8c_1a9909011e5fea0c018842eec4d93d0662" compoundref="testparameterized_8c" startline="53">tearDown</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="testparameterized_8c_1a08a0cd52d73781ede109f0c6da276031" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void putcharSpy</definition>
+        <argsstring>(int c)</argsstring>
+        <name>putcharSpy</name>
+        <param>
+          <type>int</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/tests/testparameterized.c" line="11" column="6" bodyfile="tests/unity/test/tests/testparameterized.c" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="testparameterized_8c_1a95c834d6178047ce9e1bce7cbfea2836" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void setUp</definition>
+        <argsstring>(void)</argsstring>
+        <name>setUp</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/tests/testparameterized.c" line="47" column="6" bodyfile="tests/unity/test/tests/testparameterized.c" bodystart="47" bodyend="51"/>
+        <references refid="testparameterized_8c_1a693436790a56c50f8e4421748a395172" compoundref="testparameterized_8c" startline="45">SetToOneMeanWeAlreadyCheckedThisGuy</references>
+        <references refid="testparameterized_8c_1afe2bc525a23147c7c3d36cf24aa58fcb" compoundref="testparameterized_8c" startline="44">SetToOneToFailInTearDown</references>
+      </memberdef>
+      <memberdef kind="function" id="testparameterized_8c_1a9909011e5fea0c018842eec4d93d0662" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tearDown</definition>
+        <argsstring>(void)</argsstring>
+        <name>tearDown</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/test/tests/testparameterized.c" line="53" column="6" bodyfile="tests/unity/test/tests/testparameterized.c" bodystart="53" bodyend="-1"/>
+        <references refid="structUNITY__STORAGE__T_1a4eeda402afb14c612b7ea86f35697c12" compoundref="unity__internals_8h" startline="395">UNITY_STORAGE_T::CurrentTestFailed</references>
+        <references refid="testparameterized_8c_1a693436790a56c50f8e4421748a395172" compoundref="testparameterized_8c" startline="45">SetToOneMeanWeAlreadyCheckedThisGuy</references>
+        <references refid="testparameterized_8c_1afe2bc525a23147c7c3d36cf24aa58fcb" compoundref="testparameterized_8c" startline="44">SetToOneToFailInTearDown</references>
+        <references refid="unity__internals_8h_1aad738f665f16eb2336b8bc33f432d0da" compoundref="unity_8c" startline="21">Unity</references>
+        <references refid="unity__internals_8h_1accff2eb4cfd0273e8ad62c37639d3e3c" compoundref="unity_8c" startline="70" endline="117">UnityPrint</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>==========================================</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/>Unity<sp/>Project<sp/>-<sp/>A<sp/>Test<sp/>Framework<sp/>for<sp/>C</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>2007<sp/>Mike<sp/>Karlesky,<sp/>Mark<sp/>VanderVoord,<sp/>Greg<sp/>Williams</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>[Released<sp/>under<sp/>MIT<sp/>License.<sp/>Please<sp/>refer<sp/>to<sp/>license.txt<sp/>for<sp/>details]</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">==========================================<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;setjmp.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity_8h" kindref="compound">unity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="testparameterized_8c_1a08a0cd52d73781ede109f0c6da276031" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testparameterized_8c_1a08a0cd52d73781ede109f0c6da276031" kindref="member">putcharSpy</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c)<sp/>{<sp/>(void)putchar(c);}<sp/></highlight><highlight class="comment">//<sp/>include<sp/>passthrough<sp/>for<sp/>linking<sp/>tests</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="testparameterized_8c_1abd6e2aec703006b3da62cf7860c9808f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEST_CASE(...)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="testparameterized_8c_1a85bc005380b1bef3aa55f24f75c2297a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXPECT_ABORT_BEGIN<sp/>\</highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>if<sp/>(TEST_PROTECT())<sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="testparameterized_8c_1a80f860c4c602808fbfff8f3867acb480" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VERIFY_FAILS_END<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>Unity.CurrentTestFailed<sp/>=<sp/>(Unity.CurrentTestFailed<sp/>!=<sp/>0)<sp/>?<sp/>0<sp/>:<sp/>1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>if<sp/>(Unity.CurrentTestFailed<sp/>==<sp/>1)<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>SetToOneMeanWeAlreadyCheckedThisGuy<sp/>=<sp/>1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>UnityPrintNumberUnsigned(Unity.CurrentTestLineNumber);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>UNITY_OUTPUT_CHAR(&apos;:&apos;);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="26"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>UnityPrint(Unity.CurrentTestName);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="27"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>UnityPrint(&quot;:FAIL:<sp/>[[[[<sp/>Test<sp/>Should<sp/>Have<sp/>Failed<sp/>But<sp/>Did<sp/>Not<sp/>]]]]&quot;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>UNITY_OUTPUT_CHAR(&apos;\n&apos;);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="testparameterized_8c_1ab17bbadc271482ac2b25ebaf9f11bfca" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VERIFY_IGNORES_END<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="32"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="33"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>Unity.CurrentTestFailed<sp/>=<sp/>(Unity.CurrentTestIgnored<sp/>!=<sp/>0)<sp/>?<sp/>0<sp/>:<sp/>1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>Unity.CurrentTestIgnored<sp/>=<sp/>0;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="35"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>if<sp/>(Unity.CurrentTestFailed<sp/>==<sp/>1)<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="36"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>SetToOneMeanWeAlreadyCheckedThisGuy<sp/>=<sp/>1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="37"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>UnityPrintNumberUnsigned(Unity.CurrentTestLineNumber);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="38"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>UNITY_OUTPUT_CHAR(&apos;:&apos;);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>UnityPrint(Unity.CurrentTestName);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="40"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>UnityPrint(&quot;:FAIL:<sp/>[[[[<sp/>Test<sp/>Should<sp/>Have<sp/>Ignored<sp/>But<sp/>Did<sp/>Not<sp/>]]]]&quot;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>UNITY_OUTPUT_CHAR(&apos;\n&apos;);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="testparameterized_8c_1afe2bc525a23147c7c3d36cf24aa58fcb" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="testparameterized_8c_1afe2bc525a23147c7c3d36cf24aa58fcb" kindref="member">SetToOneToFailInTearDown</ref>;</highlight></codeline>
+<codeline lineno="45" refid="testparameterized_8c_1a693436790a56c50f8e4421748a395172" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="testparameterized_8c_1a693436790a56c50f8e4421748a395172" kindref="member">SetToOneMeanWeAlreadyCheckedThisGuy</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="testparameterized_8c_1a95c834d6178047ce9e1bce7cbfea2836" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testparameterized_8c_1a95c834d6178047ce9e1bce7cbfea2836" kindref="member">setUp</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><ref refid="testparameterized_8c_1afe2bc525a23147c7c3d36cf24aa58fcb" kindref="member">SetToOneToFailInTearDown</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><ref refid="testparameterized_8c_1a693436790a56c50f8e4421748a395172" kindref="member">SetToOneMeanWeAlreadyCheckedThisGuy</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="testparameterized_8c_1a9909011e5fea0c018842eec4d93d0662" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="testparameterized_8c_1a9909011e5fea0c018842eec4d93d0662" kindref="member">tearDown</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="testparameterized_8c_1afe2bc525a23147c7c3d36cf24aa58fcb" kindref="member">SetToOneToFailInTearDown</ref><sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a0482e12e17ae7cbfb8116ed6b1ed10ed" kindref="member">TEST_FAIL_MESSAGE</ref>(</highlight><highlight class="stringliteral">&quot;&lt;=<sp/>Failed<sp/>in<sp/>tearDown&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((<ref refid="testparameterized_8c_1a693436790a56c50f8e4421748a395172" kindref="member">SetToOneMeanWeAlreadyCheckedThisGuy</ref><sp/>==<sp/>0)<sp/>&amp;&amp;<sp/>(<ref refid="unity__internals_8h_1aad738f665f16eb2336b8bc33f432d0da" kindref="member">Unity</ref>.<ref refid="structUNITY__STORAGE__T_1a4eeda402afb14c612b7ea86f35697c12" kindref="member">CurrentTestFailed</ref><sp/>&gt;<sp/>0))</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__internals_8h_1accff2eb4cfd0273e8ad62c37639d3e3c" kindref="member">UnityPrint</ref>(</highlight><highlight class="stringliteral">&quot;:<sp/>[[[[<sp/>Test<sp/>Should<sp/>Have<sp/>Passed<sp/>But<sp/>Did<sp/>Not<sp/>]]]]&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__internals_8h_1a7f32cab7edafc4634a8faa14b3e0042c" kindref="member">UNITY_OUTPUT_CHAR</ref>(</highlight><highlight class="charliteral">&apos;\n&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><ref refid="testparameterized_8c_1abd6e2aec703006b3da62cf7860c9808f" kindref="member">TEST_CASE</ref>(0)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><ref refid="testparameterized_8c_1abd6e2aec703006b3da62cf7860c9808f" kindref="member">TEST_CASE</ref>(44)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><ref refid="testparameterized_8c_1abd6e2aec703006b3da62cf7860c9808f" kindref="member">TEST_CASE</ref>((90)+9)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>test_TheseShouldAllPass(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Num)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a6a0527f090dfc0b5ce9724415e51ebe5" kindref="member">TEST_ASSERT_TRUE</ref>(Num<sp/>&lt;<sp/>100);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><ref refid="testparameterized_8c_1abd6e2aec703006b3da62cf7860c9808f" kindref="member">TEST_CASE</ref>(3)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><ref refid="testparameterized_8c_1abd6e2aec703006b3da62cf7860c9808f" kindref="member">TEST_CASE</ref>(77)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><ref refid="testparameterized_8c_1abd6e2aec703006b3da62cf7860c9808f" kindref="member">TEST_CASE</ref>(<sp/>(99)<sp/>+<sp/>1<sp/>-<sp/>(1))</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>test_TheseShouldAllFail(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Num)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testparameterized_8c_1a85bc005380b1bef3aa55f24f75c2297a" kindref="member">EXPECT_ABORT_BEGIN</ref></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a6a0527f090dfc0b5ce9724415e51ebe5" kindref="member">TEST_ASSERT_TRUE</ref>(Num<sp/>&gt;<sp/>100);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testparameterized_8c_1a80f860c4c602808fbfff8f3867acb480" kindref="member">VERIFY_FAILS_END</ref></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><ref refid="testparameterized_8c_1abd6e2aec703006b3da62cf7860c9808f" kindref="member">TEST_CASE</ref>(1)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><ref refid="testparameterized_8c_1abd6e2aec703006b3da62cf7860c9808f" kindref="member">TEST_CASE</ref>(44)</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><ref refid="testparameterized_8c_1abd6e2aec703006b3da62cf7860c9808f" kindref="member">TEST_CASE</ref>(99)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><ref refid="testparameterized_8c_1abd6e2aec703006b3da62cf7860c9808f" kindref="member">TEST_CASE</ref>(98)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>test_TheseAreEveryOther(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Num)</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Num<sp/>&amp;<sp/>1)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="testparameterized_8c_1a85bc005380b1bef3aa55f24f75c2297a" kindref="member">EXPECT_ABORT_BEGIN</ref></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a6a0527f090dfc0b5ce9724415e51ebe5" kindref="member">TEST_ASSERT_TRUE</ref>(Num<sp/>&gt;<sp/>100);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="testparameterized_8c_1a80f860c4c602808fbfff8f3867acb480" kindref="member">VERIFY_FAILS_END</ref></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a6a0527f090dfc0b5ce9724415e51ebe5" kindref="member">TEST_ASSERT_TRUE</ref>(Num<sp/>&lt;<sp/>100);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>test_NormalPassesStillWork(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a6a0527f090dfc0b5ce9724415e51ebe5" kindref="member">TEST_ASSERT_TRUE</ref>(1);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>test_NormalFailsStillWork(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testparameterized_8c_1a85bc005380b1bef3aa55f24f75c2297a" kindref="member">EXPECT_ABORT_BEGIN</ref></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a6a0527f090dfc0b5ce9724415e51ebe5" kindref="member">TEST_ASSERT_TRUE</ref>(0);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testparameterized_8c_1a80f860c4c602808fbfff8f3867acb480" kindref="member">VERIFY_FAILS_END</ref></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/test/tests/testparameterized.c"/>
+  </compounddef>
+</doxygen>

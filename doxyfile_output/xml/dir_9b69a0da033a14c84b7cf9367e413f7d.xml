@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_9b69a0da033a14c84b7cf9367e413f7d" kind="dir">
+    <compoundname>tests/unity/src</compoundname>
+    <innerfile refid="unity_8c">unity.c</innerfile>
+    <innerfile refid="unity_8h">unity.h</innerfile>
+    <innerfile refid="unity__internals_8h">unity_internals.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="tests/unity/src/"/>
+  </compounddef>
+</doxygen>

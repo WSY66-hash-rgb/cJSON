@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="example__1_2src_2ProductionCode2_8c" kind="file" language="C++">
+    <compoundname>ProductionCode2.c</compoundname>
+    <includes refid="example__1_2src_2ProductionCode2_8h" local="yes">ProductionCode2.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>tests/unity/examples/example_1/src/ProductionCode2.c</label>
+        <link refid="example__1_2src_2ProductionCode2_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ProductionCode2.h</label>
+        <link refid="example__1_2src_2ProductionCode2_8h"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="example__1_2src_2ProductionCode2_8c_1a6955e99a0dd839349a63871f04c97277" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* ThisFunctionHasNotBeenTested</definition>
+        <argsstring>(int Poor, char *LittleFunction)</argsstring>
+        <name>ThisFunctionHasNotBeenTested</name>
+        <param>
+          <type>int</type>
+          <declname>Poor</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>LittleFunction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_1/src/ProductionCode2.c" line="4" column="6" bodyfile="tests/unity/examples/example_1/src/ProductionCode2.c" bodystart="4" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="example__3_2src_2ProductionCode2_8h" kindref="compound">ProductionCode2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="example__1_2src_2ProductionCode2_8c_1a6955e99a0dd839349a63871f04c97277" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="example__1_2src_2ProductionCode2_8c_1a6955e99a0dd839349a63871f04c97277" kindref="member">ThisFunctionHasNotBeenTested</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Poor,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>LittleFunction)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/>(void)Poor;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/>(void)LittleFunction;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Since<sp/>There<sp/>Are<sp/>No<sp/>Tests<sp/>Yet,<sp/>This<sp/>Function<sp/>Could<sp/>Be<sp/>Empty<sp/>For<sp/>All<sp/>We<sp/>Know.</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/><sp/>*<sp/>Which<sp/>isn&apos;t<sp/>terribly<sp/>useful...<sp/>but<sp/>at<sp/>least<sp/>we<sp/>put<sp/>in<sp/>a<sp/>TEST_IGNORE<sp/>so<sp/>we<sp/>won&apos;t<sp/>forget<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)0;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/examples/example_1/src/ProductionCode2.c"/>
+  </compounddef>
+</doxygen>

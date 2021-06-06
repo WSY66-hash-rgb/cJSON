@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="example__2_2test_2TestProductionCode2_8c" kind="file" language="C++">
+    <compoundname>TestProductionCode2.c</compoundname>
+    <includes local="yes">ProductionCode2.h</includes>
+    <includes refid="unity_8h" local="yes">unity.h</includes>
+    <includes refid="unity__fixture_8h" local="yes">unity_fixture.h</includes>
+    <incdepgraph>
+      <node id="8">
+        <label>stdint.h</label>
+      </node>
+      <node id="14">
+        <label>stdlib.h</label>
+      </node>
+      <node id="6">
+        <label>setjmp.h</label>
+      </node>
+      <node id="2">
+        <label>ProductionCode2.h</label>
+      </node>
+      <node id="13">
+        <label>stddef.h</label>
+      </node>
+      <node id="9">
+        <label>limits.h</label>
+      </node>
+      <node id="12">
+        <label>unity_fixture_malloc_overrides.h</label>
+        <link refid="unity__fixture__malloc__overrides_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>unity_fixture_internals.h</label>
+        <link refid="unity__fixture__internals_8h"/>
+      </node>
+      <node id="5">
+        <label>../examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="7">
+        <label>math.h</label>
+      </node>
+      <node id="4">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>tests/unity/examples/example_2/test/TestProductionCode2.c</label>
+        <link refid="example__2_2test_2TestProductionCode2_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>stdio.h</label>
+      </node>
+      <node id="11">
+        <label>unity_fixture.h</label>
+        <link refid="unity__fixture_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="example__2_2test_2TestProductionCode2_8c_1ac5b921abcfed89674529998bfcdd964c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_GROUP</definition>
+        <argsstring>(ProductionCode2)</argsstring>
+        <name>TEST_GROUP</name>
+        <param>
+          <type>ProductionCode2</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_2/test/TestProductionCode2.c" line="5" column="1" declfile="tests/unity/examples/example_2/test/TestProductionCode2.c" declline="5" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="example__2_2test_2TestProductionCode2_8c_1a6184bb96414cc2065c2db9a9b89542bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_SETUP</definition>
+        <argsstring>(ProductionCode2)</argsstring>
+        <name>TEST_SETUP</name>
+        <param>
+          <type>ProductionCode2</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_2/test/TestProductionCode2.c" line="12" column="1" bodyfile="tests/unity/examples/example_2/test/TestProductionCode2.c" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="example__2_2test_2TestProductionCode2_8c_1adde0bcb5b804d1cec6e0658403ba1efa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_TEAR_DOWN</definition>
+        <argsstring>(ProductionCode2)</argsstring>
+        <name>TEST_TEAR_DOWN</name>
+        <param>
+          <type>ProductionCode2</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_2/test/TestProductionCode2.c" line="16" column="1" bodyfile="tests/unity/examples/example_2/test/TestProductionCode2.c" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="example__2_2test_2TestProductionCode2_8c_1abe45f0fc3535b8a94f61b7d7cff8facd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(ProductionCode2, IgnoredTest)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>ProductionCode2</type>
+        </param>
+        <param>
+          <type>IgnoredTest</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_2/test/TestProductionCode2.c" line="20" column="1" bodyfile="tests/unity/examples/example_2/test/TestProductionCode2.c" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="example__2_2test_2TestProductionCode2_8c_1ad85ddc508a0eff224ad892d7c4169744" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(ProductionCode2, AnotherIgnoredTest)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>ProductionCode2</type>
+        </param>
+        <param>
+          <type>AnotherIgnoredTest</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_2/test/TestProductionCode2.c" line="25" column="1" bodyfile="tests/unity/examples/example_2/test/TestProductionCode2.c" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="example__2_2test_2TestProductionCode2_8c_1a1b661927dcace68042a0a0c943b21ee0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(ProductionCode2, ThisFunctionHasNotBeenTested_NeedsToBeImplemented)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>ProductionCode2</type>
+        </param>
+        <param>
+          <type>ThisFunctionHasNotBeenTested_NeedsToBeImplemented</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_2/test/TestProductionCode2.c" line="30" column="1" bodyfile="tests/unity/examples/example_2/test/TestProductionCode2.c" bodystart="30" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;ProductionCode2.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity_8h" kindref="compound">unity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity__fixture_8h" kindref="compound">unity_fixture.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="example__2_2test_2TestProductionCode2_8c_1ac5b921abcfed89674529998bfcdd964c" refkind="member"><highlight class="normal"><ref refid="example__2_2test_2TestProductionCode2_8c_1ac5b921abcfed89674529998bfcdd964c" kindref="member">TEST_GROUP</ref>(ProductionCode2);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>These<sp/>should<sp/>be<sp/>ignored<sp/>because<sp/>they<sp/>are<sp/>commented<sp/>out<sp/>in<sp/>various<sp/>ways:</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">#include<sp/>&quot;whatever.h&quot;</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;somethingelse.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="example__2_2test_2TestProductionCode2_8c_1a6184bb96414cc2065c2db9a9b89542bb" refkind="member"><highlight class="normal"><ref refid="example__2_2test_2TestProductionCode2_8c_1a6184bb96414cc2065c2db9a9b89542bb" kindref="member">TEST_SETUP</ref>(ProductionCode2)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="example__2_2test_2TestProductionCode2_8c_1adde0bcb5b804d1cec6e0658403ba1efa" refkind="member"><highlight class="normal"><ref refid="example__2_2test_2TestProductionCode2_8c_1adde0bcb5b804d1cec6e0658403ba1efa" kindref="member">TEST_TEAR_DOWN</ref>(ProductionCode2)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="example__2_2test_2TestProductionCode2_8c_1abe45f0fc3535b8a94f61b7d7cff8facd" refkind="member"><highlight class="normal"><ref refid="example__2_2test_2TestProductionCode2_8c_1abe45f0fc3535b8a94f61b7d7cff8facd" kindref="member">TEST</ref>(ProductionCode2,<sp/>IgnoredTest)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1aca1a170cd0581bacd7c918574f6838de" kindref="member">TEST_IGNORE_MESSAGE</ref>(</highlight><highlight class="stringliteral">&quot;This<sp/>Test<sp/>Was<sp/>Ignored<sp/>On<sp/>Purpose&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="example__2_2test_2TestProductionCode2_8c_1ad85ddc508a0eff224ad892d7c4169744" refkind="member"><highlight class="normal"><ref refid="example__2_2test_2TestProductionCode2_8c_1abe45f0fc3535b8a94f61b7d7cff8facd" kindref="member">TEST</ref>(ProductionCode2,<sp/>AnotherIgnoredTest)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1aca1a170cd0581bacd7c918574f6838de" kindref="member">TEST_IGNORE_MESSAGE</ref>(</highlight><highlight class="stringliteral">&quot;These<sp/>Can<sp/>Be<sp/>Useful<sp/>For<sp/>Leaving<sp/>Yourself<sp/>Notes<sp/>On<sp/>What<sp/>You<sp/>Need<sp/>To<sp/>Do<sp/>Yet&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="example__2_2test_2TestProductionCode2_8c_1a1b661927dcace68042a0a0c943b21ee0" refkind="member"><highlight class="normal"><ref refid="example__2_2test_2TestProductionCode2_8c_1abe45f0fc3535b8a94f61b7d7cff8facd" kindref="member">TEST</ref>(ProductionCode2,<sp/>ThisFunctionHasNotBeenTested_NeedsToBeImplemented)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ad18f9e51b4a85dcb5e3a07c54eaf4019" kindref="member">TEST_IGNORE</ref>();<sp/></highlight><highlight class="comment">//Like<sp/>This</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/examples/example_2/test/TestProductionCode2.c"/>
+  </compounddef>
+</doxygen>

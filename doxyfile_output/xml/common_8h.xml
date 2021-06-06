@@ -1,0 +1,556 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="common_8h" kind="file" language="C++">
+    <compoundname>common.h</compoundname>
+    <includes refid="cJSON_8c" local="yes">../cJSON.c</includes>
+    <includedby refid="cjson__add_8c" local="yes">tests/cjson_add.c</includedby>
+    <includedby refid="compare__tests_8c" local="yes">tests/compare_tests.c</includedby>
+    <includedby refid="json__patch__tests_8c" local="yes">tests/json_patch_tests.c</includedby>
+    <includedby refid="minify__tests_8c" local="yes">tests/minify_tests.c</includedby>
+    <includedby refid="misc__tests_8c" local="yes">tests/misc_tests.c</includedby>
+    <includedby refid="misc__utils__tests_8c" local="yes">tests/misc_utils_tests.c</includedby>
+    <includedby refid="old__utils__tests_8c" local="yes">tests/old_utils_tests.c</includedby>
+    <includedby refid="parse__array_8c" local="yes">tests/parse_array.c</includedby>
+    <includedby refid="parse__examples_8c" local="yes">tests/parse_examples.c</includedby>
+    <includedby refid="parse__hex4_8c" local="yes">tests/parse_hex4.c</includedby>
+    <includedby refid="parse__number_8c" local="yes">tests/parse_number.c</includedby>
+    <includedby refid="parse__object_8c" local="yes">tests/parse_object.c</includedby>
+    <includedby refid="parse__string_8c" local="yes">tests/parse_string.c</includedby>
+    <includedby refid="parse__value_8c" local="yes">tests/parse_value.c</includedby>
+    <includedby refid="parse__with__opts_8c" local="yes">tests/parse_with_opts.c</includedby>
+    <includedby refid="print__array_8c" local="yes">tests/print_array.c</includedby>
+    <includedby refid="print__number_8c" local="yes">tests/print_number.c</includedby>
+    <includedby refid="print__object_8c" local="yes">tests/print_object.c</includedby>
+    <includedby refid="print__string_8c" local="yes">tests/print_string.c</includedby>
+    <includedby refid="print__value_8c" local="yes">tests/print_value.c</includedby>
+    <includedby refid="readme__examples_8c" local="yes">tests/readme_examples.c</includedby>
+    <incdepgraph>
+      <node id="9">
+        <label>float.h</label>
+      </node>
+      <node id="2">
+        <label>../cJSON.c</label>
+        <link refid="cJSON_8c"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>cJSON.h</label>
+        <link refid="cJSON_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1">
+        <label>tests/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>stddef.h</label>
+      </node>
+      <node id="7">
+        <label>limits.h</label>
+      </node>
+      <node id="3">
+        <label>string.h</label>
+      </node>
+      <node id="5">
+        <label>math.h</label>
+      </node>
+      <node id="8">
+        <label>ctype.h</label>
+      </node>
+      <node id="4">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="16">
+        <label>tests/parse_with_opts.c</label>
+        <link refid="parse__with__opts_8c"/>
+      </node>
+      <node id="21">
+        <label>tests/print_value.c</label>
+        <link refid="print__value_8c"/>
+      </node>
+      <node id="4">
+        <label>tests/json_patch_tests.c</label>
+        <link refid="json__patch__tests_8c"/>
+      </node>
+      <node id="20">
+        <label>tests/print_string.c</label>
+        <link refid="print__string_8c"/>
+      </node>
+      <node id="8">
+        <label>tests/old_utils_tests.c</label>
+        <link refid="old__utils__tests_8c"/>
+      </node>
+      <node id="14">
+        <label>tests/parse_string.c</label>
+        <link refid="parse__string_8c"/>
+      </node>
+      <node id="17">
+        <label>tests/print_array.c</label>
+        <link refid="print__array_8c"/>
+      </node>
+      <node id="1">
+        <label>tests/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tests/cjson_add.c</label>
+        <link refid="cjson__add_8c"/>
+      </node>
+      <node id="13">
+        <label>tests/parse_object.c</label>
+        <link refid="parse__object_8c"/>
+      </node>
+      <node id="10">
+        <label>tests/parse_examples.c</label>
+        <link refid="parse__examples_8c"/>
+      </node>
+      <node id="7">
+        <label>tests/misc_utils_tests.c</label>
+        <link refid="misc__utils__tests_8c"/>
+      </node>
+      <node id="9">
+        <label>tests/parse_array.c</label>
+        <link refid="parse__array_8c"/>
+      </node>
+      <node id="15">
+        <label>tests/parse_value.c</label>
+        <link refid="parse__value_8c"/>
+      </node>
+      <node id="6">
+        <label>tests/misc_tests.c</label>
+        <link refid="misc__tests_8c"/>
+      </node>
+      <node id="12">
+        <label>tests/parse_number.c</label>
+        <link refid="parse__number_8c"/>
+      </node>
+      <node id="5">
+        <label>tests/minify_tests.c</label>
+        <link refid="minify__tests_8c"/>
+      </node>
+      <node id="11">
+        <label>tests/parse_hex4.c</label>
+        <link refid="parse__hex4_8c"/>
+      </node>
+      <node id="19">
+        <label>tests/print_object.c</label>
+        <link refid="print__object_8c"/>
+      </node>
+      <node id="3">
+        <label>tests/compare_tests.c</label>
+        <link refid="compare__tests_8c"/>
+      </node>
+      <node id="18">
+        <label>tests/print_number.c</label>
+        <link refid="print__number_8c"/>
+      </node>
+      <node id="22">
+        <label>tests/readme_examples.c</label>
+        <link refid="readme__examples_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="common_8h_1ace49ab08deaebb78ba9be3240d621aeb" prot="public" static="no">
+        <name>assert_has_type</name>
+        <param><defname>item</defname></param>
+        <param><defname>item_type</defname></param>
+        <initializer><ref refid="unity_8h_1a075ff6fffdc96695933c7e6d85b12328" kindref="member">TEST_ASSERT_BITS_MESSAGE</ref>(0xFF, item_type, <ref refid="parse__value_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;type, &quot;Item doesn&apos;t have expected type.&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/common.h" line="103" column="9" bodyfile="tests/common.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="common_8h_1a1a6e62df3c208d5c52b7ac5a43c691a2" prot="public" static="no">
+        <name>assert_has_no_reference</name>
+        <param><defname>item</defname></param>
+        <initializer><ref refid="unity_8h_1a075ff6fffdc96695933c7e6d85b12328" kindref="member">TEST_ASSERT_BITS_MESSAGE</ref>(<ref refid="cJSON_8h_1ad3d18116aae3bfa46f13bcfd7fd6d4e7" kindref="member">cJSON_IsReference</ref>, 0, <ref refid="parse__value_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;type, &quot;Item should not have a string as reference.&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/common.h" line="104" column="9" bodyfile="tests/common.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="common_8h_1a72c7484cb26a1f6575e20febbdc69b12" prot="public" static="no">
+        <name>assert_has_no_const_string</name>
+        <param><defname>item</defname></param>
+        <initializer><ref refid="unity_8h_1a075ff6fffdc96695933c7e6d85b12328" kindref="member">TEST_ASSERT_BITS_MESSAGE</ref>(<ref refid="cJSON_8h_1a491c3484a36f3915cc4710088f55971f" kindref="member">cJSON_StringIsConst</ref>, 0, <ref refid="parse__value_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;type, &quot;Item should not have a const string.&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/common.h" line="105" column="9" bodyfile="tests/common.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="common_8h_1af15785a0369ce424005cb37a886827b2" prot="public" static="no">
+        <name>assert_has_valuestring</name>
+        <param><defname>item</defname></param>
+        <initializer><ref refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" kindref="member">TEST_ASSERT_NOT_NULL_MESSAGE</ref>(<ref refid="parse__value_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;valuestring, &quot;Valuestring is NULL.&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/common.h" line="106" column="9" bodyfile="tests/common.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="common_8h_1a1e8af304fb1faa1122841764ea1ac7bb" prot="public" static="no">
+        <name>assert_has_no_valuestring</name>
+        <param><defname>item</defname></param>
+        <initializer><ref refid="unity_8h_1ab746c90e815f62172a58898247fd6b0a" kindref="member">TEST_ASSERT_NULL_MESSAGE</ref>(<ref refid="parse__value_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;valuestring, &quot;Valuestring is not NULL.&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/common.h" line="107" column="9" bodyfile="tests/common.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="common_8h_1a319d6cecf2015e7f73e2152fb45f835c" prot="public" static="no">
+        <name>assert_has_string</name>
+        <param><defname>item</defname></param>
+        <initializer><ref refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" kindref="member">TEST_ASSERT_NOT_NULL_MESSAGE</ref>(<ref refid="parse__value_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;string, &quot;String is NULL&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/common.h" line="108" column="9" bodyfile="tests/common.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="common_8h_1aabd3d6d1e1cd513025780693b223f279" prot="public" static="no">
+        <name>assert_has_no_string</name>
+        <param><defname>item</defname></param>
+        <initializer><ref refid="unity_8h_1ab746c90e815f62172a58898247fd6b0a" kindref="member">TEST_ASSERT_NULL_MESSAGE</ref>(<ref refid="parse__value_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;string, &quot;String is not NULL.&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/common.h" line="109" column="9" bodyfile="tests/common.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="common_8h_1a2c8688f23b1d3dc9584d95cbb2779612" prot="public" static="no">
+        <name>assert_not_in_list</name>
+        <param><defname>item</defname></param>
+        <initializer>	<ref refid="unity_8h_1ab746c90e815f62172a58898247fd6b0a" kindref="member">TEST_ASSERT_NULL_MESSAGE</ref>(<ref refid="parse__value_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;next, &quot;Linked list next pointer is not NULL.&quot;);\
+	TEST_ASSERT_NULL_MESSAGE(<ref refid="parse__value_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;prev, &quot;Linked list previous pointer is not NULL.&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/common.h" line="110" column="9" bodyfile="tests/common.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="common_8h_1a4f8ad015d9e00be85794d582da34d41c" prot="public" static="no">
+        <name>assert_has_child</name>
+        <param><defname>item</defname></param>
+        <initializer><ref refid="unity_8h_1ab29f13f0eaebfc7cd26c0b9360f66e92" kindref="member">TEST_ASSERT_NOT_NULL_MESSAGE</ref>(<ref refid="parse__value_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;child, &quot;Item doesn&apos;t have a child.&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/common.h" line="113" column="9" bodyfile="tests/common.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="common_8h_1a740922f131411646171056003b2cb526" prot="public" static="no">
+        <name>assert_has_no_child</name>
+        <param><defname>item</defname></param>
+        <initializer><ref refid="unity_8h_1ab746c90e815f62172a58898247fd6b0a" kindref="member">TEST_ASSERT_NULL_MESSAGE</ref>(<ref refid="parse__value_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;child, &quot;Item has a child.&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/common.h" line="114" column="9" bodyfile="tests/common.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="common_8h_1a040a3b994f988d83f9b30b5f7b621155" prot="public" static="no">
+        <name>assert_is_invalid</name>
+        <param><defname>item</defname></param>
+        <initializer>	<ref refid="common_8h_1ace49ab08deaebb78ba9be3240d621aeb" kindref="member">assert_has_type</ref>(<ref refid="parse__value_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>, <ref refid="cJSON_8h_1a80c36e86d8d65b697bc623fe28027668" kindref="member">cJSON_Invalid</ref>);\
+	<ref refid="common_8h_1a2c8688f23b1d3dc9584d95cbb2779612" kindref="member">assert_not_in_list</ref>(<ref refid="parse__value_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);\
+	<ref refid="common_8h_1a740922f131411646171056003b2cb526" kindref="member">assert_has_no_child</ref>(<ref refid="parse__value_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);\
+	<ref refid="common_8h_1aabd3d6d1e1cd513025780693b223f279" kindref="member">assert_has_no_string</ref>(<ref refid="parse__value_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);\
+	<ref refid="common_8h_1a1e8af304fb1faa1122841764ea1ac7bb" kindref="member">assert_has_no_valuestring</ref>(<ref refid="parse__value_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/common.h" line="115" column="9" bodyfile="tests/common.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void reset</definition>
+        <argsstring>(cJSON *item)</argsstring>
+        <name>reset</name>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/common.h" line="29" column="6" bodyfile="tests/common.h" bodystart="29" bodyend="44" declfile="tests/common.h" declline="28" declcolumn="6"/>
+        <references refid="structcJSON_1a401b274c2da358dac5c23ab8b2c71f85" compoundref="cJSON_8h" startline="109">cJSON::child</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="structinternal__hooks_1a183ba09ef4a15f75fec90d3a14ff587e" compoundref="cJSON_8c" startline="159">internal_hooks::deallocate</references>
+        <references refid="cJSON_8c_1a855c7241e836a5b2d87577df8c113faf" compoundref="cJSON_8c" startline="186">global_hooks</references>
+        <references refid="structcJSON_1aa6b47e9a4b0e0a26f519b1a2b6739983" compoundref="cJSON_8h" startline="122">cJSON::string</references>
+        <references refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" compoundref="cJSON_8h" startline="112">cJSON::type</references>
+        <references refid="structcJSON_1ad43f8de2571e504c4c5ce0a36990e6e1" compoundref="cJSON_8h" startline="115">cJSON::valuestring</references>
+        <referencedby refid="parse__object_8c_1a62a5d733d5d71ebc05e8c416ecbbd10f" compoundref="parse__object_8c" startline="53" endline="63">assert_not_object</referencedby>
+        <referencedby refid="print__array_8c_1a81b9f9d0a07e1c254db1710201c08eb7" compoundref="print__array_8c" startline="27" endline="68">assert_print_array</referencedby>
+        <referencedby refid="print__object_8c_1a91697b5911579b3ff34114ad9b914f4b" compoundref="print__object_8c" startline="27" endline="69">assert_print_object</referencedby>
+        <referencedby refid="print__value_8c_1abfbe32805a2d50bc6a85c911525f152d" compoundref="print__value_8c" startline="31" endline="55">assert_print_value</referencedby>
+        <referencedby refid="parse__array_8c_1a5f15cf96ecc1d962b9ac16cc1ec6396e" compoundref="parse__array_8c" startline="104" endline="143">parse_array_should_parse_arrays_with_multiple_elements</referencedby>
+        <referencedby refid="parse__array_8c_1a70a390289c7d6092fedaab0dc681fe95" compoundref="parse__array_8c" startline="77" endline="102">parse_array_should_parse_arrays_with_one_element</referencedby>
+        <referencedby refid="parse__object_8c_1a5f7fb289b156ff91a7ef4ac5a85068ae" compoundref="parse__object_8c" startline="76" endline="85">parse_object_should_parse_empty_objects</referencedby>
+        <referencedby refid="parse__object_8c_1a615b678c5f8dde5fe3b6c7740191415e" compoundref="parse__object_8c" startline="107" endline="152">parse_object_should_parse_objects_with_multiple_elements</referencedby>
+        <referencedby refid="parse__object_8c_1abec8d9fed0cc2ebae8156df16b448e2f" compoundref="parse__object_8c" startline="87" endline="105">parse_object_should_parse_objects_with_one_element</referencedby>
+        <referencedby refid="parse__string_8c_1ade6210a40c420c0a14eef99cd37c58c3" compoundref="parse__string_8c" startline="109" endline="113">parse_string_should_not_overflow_with_closing_backslash</referencedby>
+        <referencedby refid="parse__string_8c_1a8cd0d6e26e1673dbf2bf81505e839bb7" compoundref="parse__string_8c" startline="101" endline="107">parse_string_should_not_parse_invalid_backslash</referencedby>
+        <referencedby refid="parse__string_8c_1ad0938d843c87286d6a70fcb37cf7cb28" compoundref="parse__string_8c" startline="93" endline="99">parse_string_should_not_parse_non_strings</referencedby>
+        <referencedby refid="parse__string_8c_1aac34fc0edeb39fa1859d91b2bf5abe31" compoundref="parse__string_8c" startline="115" endline="120">parse_string_should_parse_bug_94</referencedby>
+        <referencedby refid="parse__string_8c_1a954afd5f12ab1e31e8c653e79d72551f" compoundref="parse__string_8c" startline="73" endline="85">parse_string_should_parse_strings</referencedby>
+        <referencedby refid="parse__string_8c_1a5ec06a9079e5fa76a8c8982c5261a018" compoundref="parse__string_8c" startline="87" endline="91">parse_string_should_parse_utf16_surrogate_pairs</referencedby>
+        <referencedby refid="parse__value_8c_1aecb90cb0c456f125a9517fe4989dbed3" compoundref="parse__value_8c" startline="87" endline="91">parse_value_should_parse_array</referencedby>
+        <referencedby refid="parse__value_8c_1af9f1608e35cd8bcfd0a0793a91cfe2c4" compoundref="parse__value_8c" startline="67" endline="71">parse_value_should_parse_false</referencedby>
+        <referencedby refid="parse__value_8c_1a8f1a85344a931e2e90ecec1b47cdbd62" compoundref="parse__value_8c" startline="55" endline="59">parse_value_should_parse_null</referencedby>
+        <referencedby refid="parse__value_8c_1a77360794217de0d54cc0611bf4adfc64" compoundref="parse__value_8c" startline="73" endline="77">parse_value_should_parse_number</referencedby>
+        <referencedby refid="parse__value_8c_1a7409528206bddc9b6fa588bc8a84c205" compoundref="parse__value_8c" startline="93" endline="97">parse_value_should_parse_object</referencedby>
+        <referencedby refid="parse__value_8c_1af8afd2fbcde2f0f7acf47af65ef8edce" compoundref="parse__value_8c" startline="79" endline="85">parse_value_should_parse_string</referencedby>
+        <referencedby refid="parse__value_8c_1a33efc965f3444c226179f722ed088120" compoundref="parse__value_8c" startline="61" endline="65">parse_value_should_parse_true</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1ab5e8b6289c8d0f065872cbe531443692" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * read_file</definition>
+        <argsstring>(const char *filename)</argsstring>
+        <name>read_file</name>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/common.h" line="47" column="6" bodyfile="tests/common.h" bodystart="47" bodyend="100" declfile="tests/common.h" declline="46" declcolumn="6"/>
+        <referencedby refid="parse__examples_8c_1a4fbda33e341c1283f821d7282319ee73" compoundref="parse__examples_8c" startline="46" endline="107">do_test</referencedby>
+        <referencedby refid="parse__examples_8c_1a4c9096820a56c3fc969b25e159e34c83" compoundref="parse__examples_8c" startline="134" endline="155">file_test6_should_not_be_parsed</referencedby>
+        <referencedby refid="parse__examples_8c_1adc2b507bbba1e5488db139e84db16b49" compoundref="parse__examples_8c" startline="31" endline="44">parse_file</referencedby>
+        <referencedby refid="json__patch__tests_8c_1a9ae7df22687b441f77b603d26e50cf93" compoundref="json__patch__tests_8c" startline="32" endline="47">parse_test_file</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/>Copyright<sp/>(c)<sp/>2009-2017<sp/>Dave<sp/>Gamble<sp/>and<sp/>cJSON<sp/>contributors</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"></highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>CJSON_TESTS_COMMON_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CJSON_TESTS_COMMON_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../cJSON.c&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" kindref="member">reset</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>);</highlight></codeline>
+<codeline lineno="29" refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a1dbe1f08dd3011edc95b056ae945417d" kindref="member">reset</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref><sp/>!=<sp/>NULL)<sp/>&amp;&amp;<sp/>(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;<ref refid="structcJSON_1a401b274c2da358dac5c23ab8b2c71f85" kindref="member">child</ref><sp/>!=<sp/>NULL))</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;<ref refid="structcJSON_1a401b274c2da358dac5c23ab8b2c71f85" kindref="member">child</ref>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;<ref refid="structcJSON_1ad43f8de2571e504c4c5ce0a36990e6e1" kindref="member">valuestring</ref><sp/>!=<sp/>NULL)<sp/>&amp;&amp;<sp/>!(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;<ref refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" kindref="member">type</ref><sp/>&amp;<sp/><ref refid="cJSON_8h_1ad3d18116aae3bfa46f13bcfd7fd6d4e7" kindref="member">cJSON_IsReference</ref>))</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a855c7241e836a5b2d87577df8c113faf" kindref="member">global_hooks</ref>.<ref refid="structinternal__hooks_1a183ba09ef4a15f75fec90d3a14ff587e" kindref="member">deallocate</ref>(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;<ref refid="structcJSON_1ad43f8de2571e504c4c5ce0a36990e6e1" kindref="member">valuestring</ref>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;<ref refid="structcJSON_1aa6b47e9a4b0e0a26f519b1a2b6739983" kindref="member">string</ref><sp/>!=<sp/>NULL)<sp/>&amp;&amp;<sp/>!(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;<ref refid="structcJSON_1ab13084c574681593b12f6e0a3db0dcfc" kindref="member">type</ref><sp/>&amp;<sp/><ref refid="cJSON_8h_1a491c3484a36f3915cc4710088f55971f" kindref="member">cJSON_StringIsConst</ref>))</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a855c7241e836a5b2d87577df8c113faf" kindref="member">global_hooks</ref>.<ref refid="structinternal__hooks_1a183ba09ef4a15f75fec90d3a14ff587e" kindref="member">deallocate</ref>(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>-&gt;<ref refid="structcJSON_1aa6b47e9a4b0e0a26f519b1a2b6739983" kindref="member">string</ref>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>memset(<ref refid="parse__array_8c_1a2fb18e347d685a61044e15509c5b7318" kindref="member">item</ref>,<sp/>0,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="structcJSON" kindref="compound">cJSON</ref>));</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="common_8h_1ab5e8b6289c8d0f065872cbe531443692" kindref="member">read_file</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
+<codeline lineno="47" refid="common_8h_1ab5e8b6289c8d0f065872cbe531443692" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="common_8h_1ab5e8b6289c8d0f065872cbe531443692" kindref="member">read_file</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename)<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*file<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>length<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*content<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>read_chars<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>open<sp/>in<sp/>read<sp/>binary<sp/>mode<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>file<sp/>=<sp/>fopen(filename,<sp/></highlight><highlight class="stringliteral">&quot;rb&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(file<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>cleanup;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>get<sp/>the<sp/>length<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fseek(file,<sp/>0,<sp/>SEEK_END)<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>cleanup;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>length<sp/>=<sp/>ftell(file);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(length<sp/>&lt;<sp/>0)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>cleanup;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fseek(file,<sp/>0,<sp/>SEEK_SET)<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>cleanup;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>allocate<sp/>content<sp/>buffer<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>content<sp/>=<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)<ref refid="unity__fixture__malloc__overrides_8h_1acf143577800376dd931c059ecc61ba06" kindref="member">malloc</ref>((</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)length<sp/>+<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(content<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>cleanup;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>read<sp/>the<sp/>file<sp/>into<sp/>memory<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>read_chars<sp/>=<sp/>fread(content,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">),<sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)length,<sp/>file);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)read_chars<sp/>!=<sp/>length)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(content);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>content<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>cleanup;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>content[read_chars]<sp/>=<sp/></highlight><highlight class="charliteral">&apos;\0&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">cleanup:</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(file<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fclose(file);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>content;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>assertion<sp/>helper<sp/>macros<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="common_8h_1ace49ab08deaebb78ba9be3240d621aeb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>assert_has_type(item,<sp/>item_type)<sp/>TEST_ASSERT_BITS_MESSAGE(0xFF,<sp/>item_type,<sp/>item-&gt;type,<sp/>&quot;Item<sp/>doesn&apos;t<sp/>have<sp/>expected<sp/>type.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="104" refid="common_8h_1a1a6e62df3c208d5c52b7ac5a43c691a2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>assert_has_no_reference(item)<sp/>TEST_ASSERT_BITS_MESSAGE(cJSON_IsReference,<sp/>0,<sp/>item-&gt;type,<sp/>&quot;Item<sp/>should<sp/>not<sp/>have<sp/>a<sp/>string<sp/>as<sp/>reference.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="105" refid="common_8h_1a72c7484cb26a1f6575e20febbdc69b12" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>assert_has_no_const_string(item)<sp/>TEST_ASSERT_BITS_MESSAGE(cJSON_StringIsConst,<sp/>0,<sp/>item-&gt;type,<sp/>&quot;Item<sp/>should<sp/>not<sp/>have<sp/>a<sp/>const<sp/>string.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="106" refid="common_8h_1af15785a0369ce424005cb37a886827b2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>assert_has_valuestring(item)<sp/>TEST_ASSERT_NOT_NULL_MESSAGE(item-&gt;valuestring,<sp/>&quot;Valuestring<sp/>is<sp/>NULL.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="107" refid="common_8h_1a1e8af304fb1faa1122841764ea1ac7bb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>assert_has_no_valuestring(item)<sp/>TEST_ASSERT_NULL_MESSAGE(item-&gt;valuestring,<sp/>&quot;Valuestring<sp/>is<sp/>not<sp/>NULL.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="108" refid="common_8h_1a319d6cecf2015e7f73e2152fb45f835c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>assert_has_string(item)<sp/>TEST_ASSERT_NOT_NULL_MESSAGE(item-&gt;string,<sp/>&quot;String<sp/>is<sp/>NULL&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="109" refid="common_8h_1aabd3d6d1e1cd513025780693b223f279" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>assert_has_no_string(item)<sp/>TEST_ASSERT_NULL_MESSAGE(item-&gt;string,<sp/>&quot;String<sp/>is<sp/>not<sp/>NULL.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="110" refid="common_8h_1a2c8688f23b1d3dc9584d95cbb2779612" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>assert_not_in_list(item)<sp/>\</highlight></codeline>
+<codeline lineno="111"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>TEST_ASSERT_NULL_MESSAGE(item-&gt;next,<sp/>&quot;Linked<sp/>list<sp/>next<sp/>pointer<sp/>is<sp/>not<sp/>NULL.&quot;</highlight><highlight class="normal">);\</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>TEST_ASSERT_NULL_MESSAGE(item-&gt;prev,<sp/>&quot;Linked<sp/>list<sp/>previous<sp/>pointer<sp/>is<sp/>not<sp/>NULL.&quot;)</highlight></codeline>
+<codeline lineno="113" refid="common_8h_1a4f8ad015d9e00be85794d582da34d41c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>assert_has_child(item)<sp/>TEST_ASSERT_NOT_NULL_MESSAGE(item-&gt;child,<sp/>&quot;Item<sp/>doesn&apos;t<sp/>have<sp/>a<sp/>child.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="114" refid="common_8h_1a740922f131411646171056003b2cb526" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>assert_has_no_child(item)<sp/>TEST_ASSERT_NULL_MESSAGE(item-&gt;child,<sp/>&quot;Item<sp/>has<sp/>a<sp/>child.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="115" refid="common_8h_1a040a3b994f988d83f9b30b5f7b621155" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>assert_is_invalid(item)<sp/>\</highlight></codeline>
+<codeline lineno="116"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>assert_has_type(item,<sp/>cJSON_Invalid);\</highlight></codeline>
+<codeline lineno="117"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>assert_not_in_list(item);\</highlight></codeline>
+<codeline lineno="118"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>assert_has_no_child(item);\</highlight></codeline>
+<codeline lineno="119"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>assert_has_no_string(item);\</highlight></codeline>
+<codeline lineno="120"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>assert_has_no_valuestring(item)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="tests/common.h"/>
+  </compounddef>
+</doxygen>

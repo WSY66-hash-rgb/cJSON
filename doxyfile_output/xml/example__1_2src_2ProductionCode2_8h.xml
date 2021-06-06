@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="example__1_2src_2ProductionCode2_8h" kind="file" language="C++">
+    <compoundname>ProductionCode2.h</compoundname>
+    <includedby refid="example__1_2src_2ProductionCode2_8c" local="yes">tests/unity/examples/example_1/src/ProductionCode2.c</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>tests/unity/examples/example_1/src/ProductionCode2.c</label>
+        <link refid="example__1_2src_2ProductionCode2_8c"/>
+      </node>
+      <node id="1">
+        <label>tests/unity/examples/example_1/src/ProductionCode2.h</label>
+        <link refid="example__1_2src_2ProductionCode2_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="example__1_2src_2ProductionCode2_8h_1a6955e99a0dd839349a63871f04c97277" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* ThisFunctionHasNotBeenTested</definition>
+        <argsstring>(int Poor, char *LittleFunction)</argsstring>
+        <name>ThisFunctionHasNotBeenTested</name>
+        <param>
+          <type>int</type>
+          <declname>Poor</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>LittleFunction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_1/src/ProductionCode2.h" line="2" column="6" bodyfile="tests/unity/examples/example_1/src/ProductionCode2.c" bodystart="4" bodyend="11" declfile="tests/unity/examples/example_1/src/ProductionCode2.h" declline="2" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="example__1_2src_2ProductionCode2_8h_1a6955e99a0dd839349a63871f04c97277" kindref="member">ThisFunctionHasNotBeenTested</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Poor,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>LittleFunction);</highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/examples/example_1/src/ProductionCode2.h"/>
+  </compounddef>
+</doxygen>

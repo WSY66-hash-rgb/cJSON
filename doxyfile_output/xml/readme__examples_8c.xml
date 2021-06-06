@@ -1,0 +1,579 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="readme__examples_8c" kind="file" language="C++">
+    <compoundname>readme_examples.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes refid="unity__config_8h" local="yes">unity/examples/unity_config.h</includes>
+    <includes refid="unity_8h" local="yes">unity/src/unity.h</includes>
+    <includes refid="common_8h" local="yes">common.h</includes>
+    <incdepgraph>
+      <node id="15">
+        <label>float.h</label>
+      </node>
+      <node id="13">
+        <label>../cJSON.c</label>
+        <link refid="cJSON_8c"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>cJSON.h</label>
+        <link refid="cJSON_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>stdint.h</label>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="8">
+        <label>setjmp.h</label>
+      </node>
+      <node id="12">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>stddef.h</label>
+      </node>
+      <node id="11">
+        <label>limits.h</label>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+      <node id="5">
+        <label>unity/examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="9">
+        <label>math.h</label>
+      </node>
+      <node id="7">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>unity/src/unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>ctype.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+      <node id="1">
+        <label>tests/readme_examples.c</label>
+        <link refid="readme__examples_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="readme__examples_8c_1a4dd85a1ffd4add568eb3b646e857eadc" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* json</definition>
+        <argsstring></argsstring>
+        <name>json</name>
+        <initializer>= &quot;{\n\
+\t\&quot;name\&quot;:\t\&quot;Awesome 4K\&quot;,\n\
+\t\&quot;resolutions\&quot;:\t[{\n\
+\t\t\t\&quot;width\&quot;:\t1280,\n\
+\t\t\t\&quot;height\&quot;:\t720\n\
+\t\t}, {\n\
+\t\t\t\&quot;width\&quot;:\t1920,\n\
+\t\t\t\&quot;height\&quot;:\t1080\n\
+\t\t}, {\n\
+\t\t\t\&quot;width\&quot;:\t3840,\n\
+\t\t\t\&quot;height\&quot;:\t2160\n\
+\t\t}]\n\
+}&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/readme_examples.c" line="31" column="19" bodyfile="tests/readme_examples.c" bodystart="31" bodyend="-1"/>
+        <referencedby refid="parse__array_8c_1ab2c6686d29bdffb007af20b488809169" compoundref="parse__array_8c" startline="45" endline="54">assert_not_array</referencedby>
+        <referencedby refid="parse__object_8c_1a62a5d733d5d71ebc05e8c416ecbbd10f" compoundref="parse__object_8c" startline="53" endline="63">assert_not_object</referencedby>
+        <referencedby refid="parse__array_8c_1a643a34e3765ad0861b82fcf9c20dbfd6" compoundref="parse__array_8c" startline="56" endline="65">assert_parse_array</referencedby>
+        <referencedby refid="parse__object_8c_1a04cdd90b8d021cdd933415be47296375" compoundref="parse__object_8c" startline="65" endline="74">assert_parse_object</referencedby>
+        <referencedby refid="cJSON_8c_1afd416be779f90b6369a189437d3bcc05" compoundref="cJSON_8c" startline="2829" endline="2875">cJSON_Minify</referencedby>
+        <referencedby refid="readme__examples_8c_1a88bbbc5bac5cc30255298f29cea9c6bd" compoundref="readme__examples_8c" startline="217" endline="224">create_monitor_should_create_a_monitor</referencedby>
+        <referencedby refid="readme__examples_8c_1a9900a534cd3b107f082f495595b8a16b" compoundref="readme__examples_8c" startline="226" endline="233">create_monitor_with_helpers_should_create_a_monitor</referencedby>
+        <referencedby refid="old__utils__tests_8c_1a5b450637565a7e09b4fc5cbf6bad28e2" compoundref="old__utils__tests_8c" startline="52" endline="86">json_pointer_tests</referencedby>
+        <referencedby refid="cjson__read__fuzzer_8c_1a91ce7c16e9840492202299da2b451e60" compoundref="cjson__read__fuzzer_8c" startline="13" endline="72">LLVMFuzzerTestOneInput</referencedby>
+        <referencedby refid="afl_8c_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="afl_8c" startline="85" endline="176">main</referencedby>
+        <referencedby refid="json__patch__tests_8c_1a9ae7df22687b441f77b603d26e50cf93" compoundref="json__patch__tests_8c" startline="32" endline="47">parse_test_file</referencedby>
+        <referencedby refid="parse__with__opts_8c_1a206139bc647d25a319796c17e34aaaa2" compoundref="parse__with__opts_8c" startline="52" endline="60">parse_with_opts_should_handle_incomplete_json</referencedby>
+        <referencedby refid="parse__with__opts_8c_1ae9d7543cb34dd5b96a4d5ba2a3ef7610" compoundref="parse__with__opts_8c" startline="73" endline="82">parse_with_opts_should_return_parse_end</referencedby>
+        <referencedby refid="readme__examples_8c_1a220e0c996a24a3bf16fc44c168bc789a" compoundref="readme__examples_8c" startline="235" endline="247">supports_full_hd_should_check_for_full_hd_support</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="readme__examples_8c_1ab10b3b636031ab2ee2c74f1718760d03" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>static char* create_monitor</definition>
+        <argsstring>(void)</argsstring>
+        <name>create_monitor</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/readme_examples.c" line="45" column="13" bodyfile="tests/readme_examples.c" bodystart="45" bodyend="115"/>
+        <references refid="cJSON_8c_1afdbbb05c681bab6cf6bd7fc856ed0f31" compoundref="cJSON_8c" startline="1986" endline="1989">cJSON_AddItemToArray</references>
+        <references refid="cJSON_8c_1abd37b2dd120f7852123dd51af5ff9d78" compoundref="cJSON_8c" startline="2044" endline="2047">cJSON_AddItemToObject</references>
+        <references refid="cJSON_8c_1a29e5808c66c1cf1f3edbf117babe07b3" compoundref="cJSON_8c" startline="2513" endline="2522">cJSON_CreateArray</references>
+        <references refid="cJSON_8c_1a220d076d7d3a309049d6889be6d4904a" compoundref="cJSON_8c" startline="2420" endline="2444">cJSON_CreateNumber</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a5987bbc1c94d9f602d719a4015ff0e6c" compoundref="cJSON_8c" startline="2446" endline="2461">cJSON_CreateString</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1ae2177acac9871b89531e722b49f14925" compoundref="cJSON_8c" startline="1248" endline="1251">cJSON_Print</references>
+        <referencedby refid="readme__examples_8c_1a88bbbc5bac5cc30255298f29cea9c6bd" compoundref="readme__examples_8c" startline="217" endline="224">create_monitor_should_create_a_monitor</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="readme__examples_8c_1a3df44a6d83f425696bde276722b71b5f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>static char* create_monitor_with_helpers</definition>
+        <argsstring>(void)</argsstring>
+        <name>create_monitor_with_helpers</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/readme_examples.c" line="117" column="13" bodyfile="tests/readme_examples.c" bodystart="117" bodyend="166"/>
+        <references refid="cJSON_8c_1a9aee370d9aa8997e5a39f76a643792ed" compoundref="cJSON_8c" startline="2171" endline="2181">cJSON_AddArrayToObject</references>
+        <references refid="cJSON_8c_1afdbbb05c681bab6cf6bd7fc856ed0f31" compoundref="cJSON_8c" startline="1986" endline="1989">cJSON_AddItemToArray</references>
+        <references refid="cJSON_8c_1a27a7a4fb786cb7fa289dbf83889f3c99" compoundref="cJSON_8c" startline="2123" endline="2133">cJSON_AddNumberToObject</references>
+        <references refid="cJSON_8c_1aec47eaefc2d022a9d53d172899e27a2e" compoundref="cJSON_8c" startline="2135" endline="2145">cJSON_AddStringToObject</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1ae2177acac9871b89531e722b49f14925" compoundref="cJSON_8c" startline="1248" endline="1251">cJSON_Print</references>
+        <referencedby refid="readme__examples_8c_1a9900a534cd3b107f082f495595b8a16b" compoundref="readme__examples_8c" startline="226" endline="233">create_monitor_with_helpers_should_create_a_monitor</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="readme__examples_8c_1aac8a48367d8eb50de4be9aa823415b34" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int supports_full_hd</definition>
+        <argsstring>(const char *const monitor)</argsstring>
+        <name>supports_full_hd</name>
+        <param>
+          <type>const char *const</type>
+          <declname>monitor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/readme_examples.c" line="169" column="12" bodyfile="tests/readme_examples.c" bodystart="169" bodyend="215"/>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="cJSON_8c_1a5e81ffc372644963c759103865b0cad1" compoundref="cJSON_8c" startline="94" endline="97">cJSON_GetErrorPtr</references>
+        <references refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" compoundref="cJSON_8c" startline="1913" endline="1916">cJSON_GetObjectItemCaseSensitive</references>
+        <references refid="cJSON_8c_1a04148f2da6d47885c7498cfbf521a74d" compoundref="cJSON_8c" startline="2927" endline="2935">cJSON_IsNumber</references>
+        <references refid="cJSON_8c_1a87b7cb8032c9a552995e006f65f49cb5" compoundref="cJSON_8c" startline="2937" endline="2945">cJSON_IsString</references>
+        <references refid="cJSON_8c_1ad3df5f943457d4befebe4109d48e4a50" compoundref="cJSON_8c" startline="1171" endline="1174">cJSON_Parse</references>
+        <references refid="cJSON_8c_1aa7a85b63f1830e7e666e1f56872d5d3e" compoundref="cJSON_8c" startline="538" endline="542">compare_double</references>
+        <references refid="structcJSON_1a4b21817d0fd2919901abadac73214e7f" compoundref="cJSON_8h" startline="119">cJSON::valuedouble</references>
+        <references refid="structcJSON_1ad43f8de2571e504c4c5ce0a36990e6e1" compoundref="cJSON_8h" startline="115">cJSON::valuestring</references>
+        <referencedby refid="readme__examples_8c_1a220e0c996a24a3bf16fc44c168bc789a" compoundref="readme__examples_8c" startline="235" endline="247">supports_full_hd_should_check_for_full_hd_support</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="readme__examples_8c_1a88bbbc5bac5cc30255298f29cea9c6bd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void create_monitor_should_create_a_monitor</definition>
+        <argsstring>(void)</argsstring>
+        <name>create_monitor_should_create_a_monitor</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/readme_examples.c" line="217" column="13" bodyfile="tests/readme_examples.c" bodystart="217" bodyend="224"/>
+        <references refid="readme__examples_8c_1ab10b3b636031ab2ee2c74f1718760d03" compoundref="readme__examples_8c" startline="45" endline="115">create_monitor</references>
+        <references refid="readme__examples_8c_1a4dd85a1ffd4add568eb3b646e857eadc" compoundref="readme__examples_8c" startline="31">json</references>
+        <referencedby refid="readme__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="readme__examples_8c" startline="249" endline="258">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="readme__examples_8c_1a9900a534cd3b107f082f495595b8a16b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void create_monitor_with_helpers_should_create_a_monitor</definition>
+        <argsstring>(void)</argsstring>
+        <name>create_monitor_with_helpers_should_create_a_monitor</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/readme_examples.c" line="226" column="13" bodyfile="tests/readme_examples.c" bodystart="226" bodyend="233"/>
+        <references refid="readme__examples_8c_1a3df44a6d83f425696bde276722b71b5f" compoundref="readme__examples_8c" startline="117" endline="166">create_monitor_with_helpers</references>
+        <references refid="readme__examples_8c_1a4dd85a1ffd4add568eb3b646e857eadc" compoundref="readme__examples_8c" startline="31">json</references>
+        <referencedby refid="readme__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="readme__examples_8c" startline="249" endline="258">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="readme__examples_8c_1a220e0c996a24a3bf16fc44c168bc789a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void supports_full_hd_should_check_for_full_hd_support</definition>
+        <argsstring>(void)</argsstring>
+        <name>supports_full_hd_should_check_for_full_hd_support</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/readme_examples.c" line="235" column="13" bodyfile="tests/readme_examples.c" bodystart="235" bodyend="247"/>
+        <references refid="readme__examples_8c_1a4dd85a1ffd4add568eb3b646e857eadc" compoundref="readme__examples_8c" startline="31">json</references>
+        <references refid="readme__examples_8c_1aac8a48367d8eb50de4be9aa823415b34" compoundref="readme__examples_8c" startline="169" endline="215">supports_full_hd</references>
+        <referencedby refid="readme__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="readme__examples_8c" startline="249" endline="258">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="readme__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(void)</argsstring>
+        <name>main</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/readme_examples.c" line="249" column="8" bodyfile="tests/readme_examples.c" bodystart="249" bodyend="258"/>
+        <references refid="readme__examples_8c_1a88bbbc5bac5cc30255298f29cea9c6bd" compoundref="readme__examples_8c" startline="217" endline="224">create_monitor_should_create_a_monitor</references>
+        <references refid="readme__examples_8c_1a9900a534cd3b107f082f495595b8a16b" compoundref="readme__examples_8c" startline="226" endline="233">create_monitor_with_helpers_should_create_a_monitor</references>
+        <references refid="readme__examples_8c_1a220e0c996a24a3bf16fc44c168bc789a" compoundref="readme__examples_8c" startline="235" endline="247">supports_full_hd_should_check_for_full_hd_support</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/>Copyright<sp/>(c)<sp/>2009-2017<sp/>Dave<sp/>Gamble<sp/>and<sp/>cJSON<sp/>contributors</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"></highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity__config_8h" kindref="compound">unity/examples/unity_config.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity_8h" kindref="compound">unity/src/unity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="common_8h" kindref="compound">common.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="readme__examples_8c_1a4dd85a1ffd4add568eb3b646e857eadc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="readme__examples_8c_1a4dd85a1ffd4add568eb3b646e857eadc" kindref="member">json</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;{\n\</highlight></codeline>
+<codeline lineno="32"><highlight class="stringliteral">\t\&quot;name\&quot;:\t\&quot;Awesome<sp/>4K\&quot;,\n\</highlight></codeline>
+<codeline lineno="33"><highlight class="stringliteral">\t\&quot;resolutions\&quot;:\t[{\n\</highlight></codeline>
+<codeline lineno="34"><highlight class="stringliteral">\t\t\t\&quot;width\&quot;:\t1280,\n\</highlight></codeline>
+<codeline lineno="35"><highlight class="stringliteral">\t\t\t\&quot;height\&quot;:\t720\n\</highlight></codeline>
+<codeline lineno="36"><highlight class="stringliteral">\t\t},<sp/>{\n\</highlight></codeline>
+<codeline lineno="37"><highlight class="stringliteral">\t\t\t\&quot;width\&quot;:\t1920,\n\</highlight></codeline>
+<codeline lineno="38"><highlight class="stringliteral">\t\t\t\&quot;height\&quot;:\t1080\n\</highlight></codeline>
+<codeline lineno="39"><highlight class="stringliteral">\t\t},<sp/>{\n\</highlight></codeline>
+<codeline lineno="40"><highlight class="stringliteral">\t\t\t\&quot;width\&quot;:\t3840,\n\</highlight></codeline>
+<codeline lineno="41"><highlight class="stringliteral">\t\t\t\&quot;height\&quot;:\t2160\n\</highlight></codeline>
+<codeline lineno="42"><highlight class="stringliteral">\t\t}]\n\</highlight></codeline>
+<codeline lineno="43"><highlight class="stringliteral">}&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="readme__examples_8c_1ab10b3b636031ab2ee2c74f1718760d03" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="readme__examples_8c_1ab10b3b636031ab2ee2c74f1718760d03" kindref="member">create_monitor</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>resolution_numbers[3][2]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{1280,<sp/>720},</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{1920,<sp/>1080},</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{3840,<sp/>2160}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*resolutions<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*resolution<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*width<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*height<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>index<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*monitor<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(monitor<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/><ref refid="unity__fixture_8c_1acc28e141c890270905160748bebdc3ed" kindref="member">end</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref><sp/>=<sp/><ref refid="cJSON_8c_1a5987bbc1c94d9f602d719a4015ff0e6c" kindref="member">cJSON_CreateString</ref>(</highlight><highlight class="stringliteral">&quot;Awesome<sp/>4K&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref><sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/><ref refid="unity__fixture_8c_1acc28e141c890270905160748bebdc3ed" kindref="member">end</ref>;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>after<sp/>creation<sp/>was<sp/>successful,<sp/>immediately<sp/>add<sp/>it<sp/>to<sp/>the<sp/>monitor,</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>thereby<sp/>transferring<sp/>ownership<sp/>of<sp/>the<sp/>pointer<sp/>to<sp/>it<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1abd37b2dd120f7852123dd51af5ff9d78" kindref="member">cJSON_AddItemToObject</ref>(monitor,<sp/></highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">,<sp/><ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>resolutions<sp/>=<sp/><ref refid="cJSON_8c_1a29e5808c66c1cf1f3edbf117babe07b3" kindref="member">cJSON_CreateArray</ref>();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(resolutions<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/><ref refid="unity__fixture_8c_1acc28e141c890270905160748bebdc3ed" kindref="member">end</ref>;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1abd37b2dd120f7852123dd51af5ff9d78" kindref="member">cJSON_AddItemToObject</ref>(monitor,<sp/></highlight><highlight class="stringliteral">&quot;resolutions&quot;</highlight><highlight class="normal">,<sp/>resolutions);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(index<sp/>=<sp/>0;<sp/>index<sp/>&lt;<sp/>(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(resolution_numbers)<sp/>/<sp/>(2<sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)));<sp/>++index)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>resolution<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(resolution<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/><ref refid="unity__fixture_8c_1acc28e141c890270905160748bebdc3ed" kindref="member">end</ref>;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1afdbbb05c681bab6cf6bd7fc856ed0f31" kindref="member">cJSON_AddItemToArray</ref>(resolutions,<sp/>resolution);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>width<sp/>=<sp/><ref refid="cJSON_8c_1a220d076d7d3a309049d6889be6d4904a" kindref="member">cJSON_CreateNumber</ref>(resolution_numbers[index][0]);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(width<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/><ref refid="unity__fixture_8c_1acc28e141c890270905160748bebdc3ed" kindref="member">end</ref>;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1abd37b2dd120f7852123dd51af5ff9d78" kindref="member">cJSON_AddItemToObject</ref>(resolution,<sp/></highlight><highlight class="stringliteral">&quot;width&quot;</highlight><highlight class="normal">,<sp/>width);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>height<sp/>=<sp/><ref refid="cJSON_8c_1a220d076d7d3a309049d6889be6d4904a" kindref="member">cJSON_CreateNumber</ref>(resolution_numbers[index][1]);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(height<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/><ref refid="unity__fixture_8c_1acc28e141c890270905160748bebdc3ed" kindref="member">end</ref>;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1abd37b2dd120f7852123dd51af5ff9d78" kindref="member">cJSON_AddItemToObject</ref>(resolution,<sp/></highlight><highlight class="stringliteral">&quot;height&quot;</highlight><highlight class="normal">,<sp/>height);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>=<sp/><ref refid="cJSON_8c_1ae2177acac9871b89531e722b49f14925" kindref="member">cJSON_Print</ref>(monitor);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>print<sp/>monitor.\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><ref refid="unity__fixture_8c_1acc28e141c890270905160748bebdc3ed" kindref="member">end</ref>:</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(monitor);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>string;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="readme__examples_8c_1a3df44a6d83f425696bde276722b71b5f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="readme__examples_8c_1a3df44a6d83f425696bde276722b71b5f" kindref="member">create_monitor_with_helpers</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>resolution_numbers[3][2]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{1280,<sp/>720},</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{1920,<sp/>1080},</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{3840,<sp/>2160}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*resolutions<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>index<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*monitor<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="cJSON_8c_1aec47eaefc2d022a9d53d172899e27a2e" kindref="member">cJSON_AddStringToObject</ref>(monitor,<sp/></highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Awesome<sp/>4K&quot;</highlight><highlight class="normal">)<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/><ref refid="unity__fixture_8c_1acc28e141c890270905160748bebdc3ed" kindref="member">end</ref>;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>resolutions<sp/>=<sp/><ref refid="cJSON_8c_1a9aee370d9aa8997e5a39f76a643792ed" kindref="member">cJSON_AddArrayToObject</ref>(monitor,<sp/></highlight><highlight class="stringliteral">&quot;resolutions&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(resolutions<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/><ref refid="unity__fixture_8c_1acc28e141c890270905160748bebdc3ed" kindref="member">end</ref>;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(index<sp/>=<sp/>0;<sp/>index<sp/>&lt;<sp/>(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(resolution_numbers)<sp/>/<sp/>(2<sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)));<sp/>++index)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*resolution<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="cJSON_8c_1a27a7a4fb786cb7fa289dbf83889f3c99" kindref="member">cJSON_AddNumberToObject</ref>(resolution,<sp/></highlight><highlight class="stringliteral">&quot;width&quot;</highlight><highlight class="normal">,<sp/>resolution_numbers[index][0])<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/><ref refid="unity__fixture_8c_1acc28e141c890270905160748bebdc3ed" kindref="member">end</ref>;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="cJSON_8c_1a27a7a4fb786cb7fa289dbf83889f3c99" kindref="member">cJSON_AddNumberToObject</ref>(resolution,<sp/></highlight><highlight class="stringliteral">&quot;height&quot;</highlight><highlight class="normal">,<sp/>resolution_numbers[index][1])<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/><ref refid="unity__fixture_8c_1acc28e141c890270905160748bebdc3ed" kindref="member">end</ref>;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1afdbbb05c681bab6cf6bd7fc856ed0f31" kindref="member">cJSON_AddItemToArray</ref>(resolutions,<sp/>resolution);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>=<sp/><ref refid="cJSON_8c_1ae2177acac9871b89531e722b49f14925" kindref="member">cJSON_Print</ref>(monitor);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>==<sp/>NULL)<sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>print<sp/>monitor.\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><ref refid="unity__fixture_8c_1acc28e141c890270905160748bebdc3ed" kindref="member">end</ref>:</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(monitor);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>string;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>return<sp/>1<sp/>if<sp/>the<sp/>monitor<sp/>supports<sp/>full<sp/>hd,<sp/>0<sp/>otherwise<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="readme__examples_8c_1aac8a48367d8eb50de4be9aa823415b34" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="readme__examples_8c_1aac8a48367d8eb50de4be9aa823415b34" kindref="member">supports_full_hd</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>monitor)</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*resolution<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*resolutions<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>status<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*monitor_json<sp/>=<sp/><ref refid="cJSON_8c_1ad3df5f943457d4befebe4109d48e4a50" kindref="member">cJSON_Parse</ref>(monitor);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(monitor_json<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*error_ptr<sp/>=<sp/><ref refid="cJSON_8c_1a5e81ffc372644963c759103865b0cad1" kindref="member">cJSON_GetErrorPtr</ref>();</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(error_ptr<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Error<sp/>before:<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>error_ptr);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>status<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/><ref refid="unity__fixture_8c_1acc28e141c890270905160748bebdc3ed" kindref="member">end</ref>;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref><sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(monitor_json,<sp/></highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="cJSON_8c_1a87b7cb8032c9a552995e006f65f49cb5" kindref="member">cJSON_IsString</ref>(<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref>)<sp/>&amp;&amp;<sp/>(<ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref>-&gt;valuestring<sp/>!=<sp/>NULL))</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Checking<sp/>monitor<sp/>\&quot;%s\&quot;\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="unity__fixture__Test_8c_1a8ad72759d07f18eaf8f6690e5dfb747c" kindref="member">name</ref>-&gt;valuestring);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>resolutions<sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(monitor_json,<sp/></highlight><highlight class="stringliteral">&quot;resolutions&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8h_1ac3d6e5782fb4bb3c7a25c7c5b1868f06" kindref="member">cJSON_ArrayForEach</ref>(resolution,<sp/>resolutions)</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*width<sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(resolution,<sp/></highlight><highlight class="stringliteral">&quot;width&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*height<sp/>=<sp/><ref refid="cJSON_8c_1a8be913fd1cb9ccf9672afcc3cdac35d5" kindref="member">cJSON_GetObjectItemCaseSensitive</ref>(resolution,<sp/></highlight><highlight class="stringliteral">&quot;height&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="cJSON_8c_1a04148f2da6d47885c7498cfbf521a74d" kindref="member">cJSON_IsNumber</ref>(width)<sp/>||<sp/>!<ref refid="cJSON_8c_1a04148f2da6d47885c7498cfbf521a74d" kindref="member">cJSON_IsNumber</ref>(height))</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>status<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/><ref refid="unity__fixture_8c_1acc28e141c890270905160748bebdc3ed" kindref="member">end</ref>;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="cJSON_8c_1aa7a85b63f1830e7e666e1f56872d5d3e" kindref="member">compare_double</ref>(width-&gt;<ref refid="structcJSON_1a4b21817d0fd2919901abadac73214e7f" kindref="member">valuedouble</ref>,<sp/>1920)<sp/>&amp;&amp;<sp/><ref refid="cJSON_8c_1aa7a85b63f1830e7e666e1f56872d5d3e" kindref="member">compare_double</ref>(height-&gt;<ref refid="structcJSON_1a4b21817d0fd2919901abadac73214e7f" kindref="member">valuedouble</ref>,<sp/>1080))</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>status<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/><ref refid="unity__fixture_8c_1acc28e141c890270905160748bebdc3ed" kindref="member">end</ref>;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><ref refid="unity__fixture_8c_1acc28e141c890270905160748bebdc3ed" kindref="member">end</ref>:</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(monitor_json);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>status;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="readme__examples_8c_1a88bbbc5bac5cc30255298f29cea9c6bd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="readme__examples_8c_1a88bbbc5bac5cc30255298f29cea9c6bd" kindref="member">create_monitor_should_create_a_monitor</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="218"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*monitor<sp/>=<sp/><ref refid="readme__examples_8c_1ab10b3b636031ab2ee2c74f1718760d03" kindref="member">create_monitor</ref>();</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a1432f008fb6fb923371d4d0402571bf6" kindref="member">TEST_ASSERT_EQUAL_STRING</ref>(monitor,<sp/><ref refid="readme__examples_8c_1a4dd85a1ffd4add568eb3b646e857eadc" kindref="member">json</ref>);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(monitor);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226" refid="readme__examples_8c_1a9900a534cd3b107f082f495595b8a16b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="readme__examples_8c_1a9900a534cd3b107f082f495595b8a16b" kindref="member">create_monitor_with_helpers_should_create_a_monitor</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="227"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*monitor<sp/>=<sp/><ref refid="readme__examples_8c_1a3df44a6d83f425696bde276722b71b5f" kindref="member">create_monitor_with_helpers</ref>();</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a1432f008fb6fb923371d4d0402571bf6" kindref="member">TEST_ASSERT_EQUAL_STRING</ref>(<ref refid="readme__examples_8c_1a4dd85a1ffd4add568eb3b646e857eadc" kindref="member">json</ref>,<sp/>monitor);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(monitor);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="readme__examples_8c_1a220e0c996a24a3bf16fc44c168bc789a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="readme__examples_8c_1a220e0c996a24a3bf16fc44c168bc789a" kindref="member">supports_full_hd_should_check_for_full_hd_support</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="236"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*monitor_without_hd<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;{\n\</highlight></codeline>
+<codeline lineno="238"><highlight class="stringliteral">\t\t\&quot;name\&quot;:<sp/>\&quot;lame<sp/>monitor\&quot;,\n\</highlight></codeline>
+<codeline lineno="239"><highlight class="stringliteral">\t\t\&quot;resolutions\&quot;:\t[{\n\</highlight></codeline>
+<codeline lineno="240"><highlight class="stringliteral">\t\t\t\&quot;width\&quot;:\t640,\n\</highlight></codeline>
+<codeline lineno="241"><highlight class="stringliteral">\t\t\t\&quot;height\&quot;:\t480\n\</highlight></codeline>
+<codeline lineno="242"><highlight class="stringliteral">\t\t}]\n\</highlight></codeline>
+<codeline lineno="243"><highlight class="stringliteral">}&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ae0a72bc174ac97e90c4a711e5e52d540" kindref="member">TEST_ASSERT</ref>(<ref refid="readme__examples_8c_1aac8a48367d8eb50de4be9aa823415b34" kindref="member">supports_full_hd</ref>(<ref refid="readme__examples_8c_1a4dd85a1ffd4add568eb3b646e857eadc" kindref="member">json</ref>));</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1a9d18ac80652af344ba355a6a9fed1c30" kindref="member">TEST_ASSERT_FALSE</ref>(<ref refid="readme__examples_8c_1aac8a48367d8eb50de4be9aa823415b34" kindref="member">supports_full_hd</ref>(monitor_without_hd));</highlight></codeline>
+<codeline lineno="247"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249" refid="readme__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="cJSON_8h_1a79203c3ba406ffd5736627cc1e082e38" kindref="member">CJSON_CDECL</ref><sp/><ref refid="readme__examples_8c_1a840291bc02cba5474a4cb46a9b9566fe" kindref="member">main</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="250"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__internals_8h_1aaad15a5d10e50a412d0a6851d0e5091a" kindref="member">UNITY_BEGIN</ref>();</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="readme__examples_8c_1a88bbbc5bac5cc30255298f29cea9c6bd" kindref="member">create_monitor_should_create_a_monitor</ref>);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="readme__examples_8c_1a9900a534cd3b107f082f495595b8a16b" kindref="member">create_monitor_with_helpers_should_create_a_monitor</ref>);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1af3a9b37ea192d5f498c7d699d65ad530" kindref="member">RUN_TEST</ref>(<ref refid="readme__examples_8c_1a220e0c996a24a3bf16fc44c168bc789a" kindref="member">supports_full_hd_should_check_for_full_hd_support</ref>);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="unity__internals_8h_1aa519129d3af737eb796fc91720fae26a" kindref="member">UNITY_END</ref>();</highlight></codeline>
+<codeline lineno="258"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="tests/readme_examples.c"/>
+  </compounddef>
+</doxygen>

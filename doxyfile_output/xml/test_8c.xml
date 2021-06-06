@@ -1,0 +1,395 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="test_8c" kind="file" language="C++">
+    <compoundname>test.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes refid="cJSON_8h" local="yes">cJSON.h</includes>
+    <incdepgraph>
+      <node id="5">
+        <label>cJSON.h</label>
+        <link refid="cJSON_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1">
+        <label>test.c</label>
+        <link refid="test_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structrecord" prot="public">record</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="test_8c_1a53f7a0ea107b3ead17e29ce78540b9f1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int print_preallocated</definition>
+        <argsstring>(cJSON *root)</argsstring>
+        <name>print_preallocated</name>
+        <param>
+          <type><ref refid="structcJSON" kindref="compound">cJSON</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.c" line="43" column="12" bodyfile="test.c" bodystart="43" bodyend="106"/>
+        <references refid="cJSON_8c_1ae2177acac9871b89531e722b49f14925" compoundref="cJSON_8c" startline="1248" endline="1251">cJSON_Print</references>
+        <references refid="cJSON_8c_1afc7c06663cbfb2acf82d6db5f1436fbd" compoundref="cJSON_8c" startline="1288" endline="1305">cJSON_PrintPreallocated</references>
+        <referencedby refid="test_8c_1af04b0068a43be07ead5dcfb1f3f01aed" compoundref="test_8c" startline="109" endline="257">create_objects</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="test_8c_1af04b0068a43be07ead5dcfb1f3f01aed" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void create_objects</definition>
+        <argsstring>(void)</argsstring>
+        <name>create_objects</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.c" line="109" column="13" bodyfile="test.c" bodystart="109" bodyend="257"/>
+        <references refid="structrecord_1abfdcc46d8017e680b8dc1bc373cc988e" compoundref="test_8c" startline="34">record::address</references>
+        <references refid="structrecord_1a14039bf4a0520076003f1494832f7776" compoundref="test_8c" startline="35">record::city</references>
+        <references refid="cJSON_8c_1ad162d48e83915525082bcbeed6262d91" compoundref="cJSON_8c" startline="2099" endline="2109">cJSON_AddFalseToObject</references>
+        <references refid="cJSON_8c_1afdbbb05c681bab6cf6bd7fc856ed0f31" compoundref="cJSON_8c" startline="1986" endline="1989">cJSON_AddItemToArray</references>
+        <references refid="cJSON_8c_1abd37b2dd120f7852123dd51af5ff9d78" compoundref="cJSON_8c" startline="2044" endline="2047">cJSON_AddItemToObject</references>
+        <references refid="cJSON_8c_1a27a7a4fb786cb7fa289dbf83889f3c99" compoundref="cJSON_8c" startline="2123" endline="2133">cJSON_AddNumberToObject</references>
+        <references refid="cJSON_8c_1aec47eaefc2d022a9d53d172899e27a2e" compoundref="cJSON_8c" startline="2135" endline="2145">cJSON_AddStringToObject</references>
+        <references refid="cJSON_8c_1a29e5808c66c1cf1f3edbf117babe07b3" compoundref="cJSON_8c" startline="2513" endline="2522">cJSON_CreateArray</references>
+        <references refid="cJSON_8c_1a12576edcea9baca64be6fe7a6ae8d4fa" compoundref="cJSON_8c" startline="2536" endline="2574">cJSON_CreateIntArray</references>
+        <references refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" compoundref="cJSON_8c" startline="2524" endline="2533">cJSON_CreateObject</references>
+        <references refid="cJSON_8c_1a5987bbc1c94d9f602d719a4015ff0e6c" compoundref="cJSON_8c" startline="2446" endline="2461">cJSON_CreateString</references>
+        <references refid="cJSON_8c_1a1419ae039480a44d0bf2fcfe30d75cc6" compoundref="cJSON_8c" startline="2656" endline="2694">cJSON_CreateStringArray</references>
+        <references refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" compoundref="cJSON_8c" startline="253" endline="274">cJSON_Delete</references>
+        <references refid="structrecord_1afcec0e174404ecb1d9f60b0796bdb316" compoundref="test_8c" startline="38">record::country</references>
+        <references refid="structrecord_1aead5d6a207526cb625d716c030fa3d4d" compoundref="test_8c" startline="32">record::lat</references>
+        <references refid="structrecord_1a36c8c25419ba59e1288560da3dd6bfd0" compoundref="test_8c" startline="33">record::lon</references>
+        <references refid="structrecord_1a1a2c753f8662ba3b36c6724bd68a79e6" compoundref="test_8c" startline="31">record::precision</references>
+        <references refid="test_8c_1a53f7a0ea107b3ead17e29ce78540b9f1" compoundref="test_8c" startline="43" endline="106">print_preallocated</references>
+        <references refid="structrecord_1a5c25c1774d401255c03eddb9476bd3f4" compoundref="test_8c" startline="36">record::state</references>
+        <references refid="structrecord_1a351a82e368a89d7ff90ef9ece2520aa8" compoundref="test_8c" startline="37">record::zip</references>
+        <referencedby refid="test_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="test_8c" startline="259" endline="268">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="test_8c_1a840291bc02cba5474a4cb46a9b9566fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(void)</argsstring>
+        <name>main</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.c" line="259" column="8" bodyfile="test.c" bodystart="259" bodyend="268"/>
+        <references refid="cJSON_8c_1ade07c00ada9acf6ffc5d33907d36cb8e" compoundref="cJSON_8c" startline="124" endline="130">cJSON_Version</references>
+        <references refid="test_8c_1af04b0068a43be07ead5dcfb1f3f01aed" compoundref="test_8c" startline="109" endline="257">create_objects</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/>Copyright<sp/>(c)<sp/>2009-2017<sp/>Dave<sp/>Gamble<sp/>and<sp/>cJSON<sp/>contributors</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"></highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cJSON_8h" kindref="compound">cJSON.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Used<sp/>by<sp/>some<sp/>code<sp/>below<sp/>as<sp/>an<sp/>example<sp/>datatype.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="structrecord" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structrecord" kindref="compound">record</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31" refid="structrecord_1a1a2c753f8662ba3b36c6724bd68a79e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structrecord_1a1a2c753f8662ba3b36c6724bd68a79e6" kindref="member">precision</ref>;</highlight></codeline>
+<codeline lineno="32" refid="structrecord_1aead5d6a207526cb625d716c030fa3d4d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structrecord_1aead5d6a207526cb625d716c030fa3d4d" kindref="member">lat</ref>;</highlight></codeline>
+<codeline lineno="33" refid="structrecord_1a36c8c25419ba59e1288560da3dd6bfd0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structrecord_1a36c8c25419ba59e1288560da3dd6bfd0" kindref="member">lon</ref>;</highlight></codeline>
+<codeline lineno="34" refid="structrecord_1abfdcc46d8017e680b8dc1bc373cc988e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structrecord_1abfdcc46d8017e680b8dc1bc373cc988e" kindref="member">address</ref>;</highlight></codeline>
+<codeline lineno="35" refid="structrecord_1a14039bf4a0520076003f1494832f7776" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structrecord_1a14039bf4a0520076003f1494832f7776" kindref="member">city</ref>;</highlight></codeline>
+<codeline lineno="36" refid="structrecord_1a5c25c1774d401255c03eddb9476bd3f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structrecord_1a5c25c1774d401255c03eddb9476bd3f4" kindref="member">state</ref>;</highlight></codeline>
+<codeline lineno="37" refid="structrecord_1a351a82e368a89d7ff90ef9ece2520aa8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structrecord_1a351a82e368a89d7ff90ef9ece2520aa8" kindref="member">zip</ref>;</highlight></codeline>
+<codeline lineno="38" refid="structrecord_1afcec0e174404ecb1d9f60b0796bdb316" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structrecord_1afcec0e174404ecb1d9f60b0796bdb316" kindref="member">country</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Create<sp/>a<sp/>bunch<sp/>of<sp/>objects<sp/>as<sp/>demonstration.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="test_8c_1a53f7a0ea107b3ead17e29ce78540b9f1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="test_8c_1a53f7a0ea107b3ead17e29ce78540b9f1" kindref="member">print_preallocated</ref>(<ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>declarations<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*out<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buf<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buf_fail<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len_fail<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>formatted<sp/>print<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>out<sp/>=<sp/><ref refid="cJSON_8c_1ae2177acac9871b89531e722b49f14925" kindref="member">cJSON_Print</ref>(root);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>create<sp/>buffer<sp/>to<sp/>succeed<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>the<sp/>extra<sp/>5<sp/>bytes<sp/>are<sp/>because<sp/>of<sp/>inaccuracies<sp/>when<sp/>reserving<sp/>memory<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>len<sp/>=<sp/>strlen(out)<sp/>+<sp/>5;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>buf<sp/>=<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)<ref refid="unity__fixture__malloc__overrides_8h_1acf143577800376dd931c059ecc61ba06" kindref="member">malloc</ref>(len);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(buf<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>allocate<sp/>memory.\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(1);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>create<sp/>buffer<sp/>to<sp/>fail<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>len_fail<sp/>=<sp/>strlen(out);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>buf_fail<sp/>=<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)<ref refid="unity__fixture__malloc__overrides_8h_1acf143577800376dd931c059ecc61ba06" kindref="member">malloc</ref>(len_fail);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(buf_fail<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>allocate<sp/>memory.\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(1);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Print<sp/>to<sp/>buffer<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="cJSON_8c_1afc7c06663cbfb2acf82d6db5f1436fbd" kindref="member">cJSON_PrintPreallocated</ref>(root,<sp/>buf,<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)len,<sp/>1))<sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;cJSON_PrintPreallocated<sp/>failed!\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strcmp(out,<sp/>buf)<sp/>!=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;cJSON_PrintPreallocated<sp/>not<sp/>the<sp/>same<sp/>as<sp/>cJSON_Print!\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;cJSON_Print<sp/>result:\n%s\n&quot;</highlight><highlight class="normal">,<sp/>out);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;cJSON_PrintPreallocated<sp/>result:\n%s\n&quot;</highlight><highlight class="normal">,<sp/>buf);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(out);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(buf_fail);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(buf);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>success<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,<sp/>buf);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>force<sp/>it<sp/>to<sp/>fail<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="cJSON_8c_1afc7c06663cbfb2acf82d6db5f1436fbd" kindref="member">cJSON_PrintPreallocated</ref>(root,<sp/>buf_fail,<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)len_fail,<sp/>1))<sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;cJSON_PrintPreallocated<sp/>failed<sp/>to<sp/>show<sp/>error<sp/>with<sp/>insufficient<sp/>memory!\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;cJSON_Print<sp/>result:\n%s\n&quot;</highlight><highlight class="normal">,<sp/>out);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;cJSON_PrintPreallocated<sp/>result:\n%s\n&quot;</highlight><highlight class="normal">,<sp/>buf_fail);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(out);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(buf_fail);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(buf);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(out);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(buf_fail);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity__fixture__malloc__overrides_8h_1a2c6efa7679f8cd9f61af96e105017560" kindref="member">free</ref>(buf);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Create<sp/>a<sp/>bunch<sp/>of<sp/>objects<sp/>as<sp/>demonstration.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="test_8c_1af04b0068a43be07ead5dcfb1f3f01aed" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="test_8c_1af04b0068a43be07ead5dcfb1f3f01aed" kindref="member">create_objects</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>declare<sp/>a<sp/>few.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*root<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*fmt<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*img<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*thm<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcJSON" kindref="compound">cJSON</ref><sp/>*fld<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Our<sp/>&quot;days<sp/>of<sp/>the<sp/>week&quot;<sp/>array:<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*strings[7]<sp/>=</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Sunday&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Monday&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Tuesday&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Wednesday&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Thursday&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Friday&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Saturday&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Our<sp/>matrix:<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numbers[3][3]<sp/>=</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{0,<sp/>-1,<sp/>0},</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{1,<sp/>0,<sp/>0},</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{0<sp/>,0,<sp/>1}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Our<sp/>&quot;gallery&quot;<sp/>item:<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ids[4]<sp/>=<sp/>{<sp/>116,<sp/>943,<sp/>234,<sp/>38793<sp/>};</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Our<sp/>array<sp/>of<sp/>&quot;records&quot;:<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structrecord" kindref="compound">record</ref><sp/>fields[2]<sp/>=</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;zip&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>37.7668,</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-1.223959e+2,</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;SAN<sp/>FRANCISCO&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;CA&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;94107&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;US&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;zip&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>37.371991,</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-1.22026e+2,</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;SUNNYVALE&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;CA&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;94085&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;US&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>zero<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Here<sp/>we<sp/>construct<sp/>some<sp/>JSON<sp/>standards,<sp/>from<sp/>the<sp/>JSON<sp/>site.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Our<sp/>&quot;Video&quot;<sp/>datatype:<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1abd37b2dd120f7852123dd51af5ff9d78" kindref="member">cJSON_AddItemToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">,<sp/><ref refid="cJSON_8c_1a5987bbc1c94d9f602d719a4015ff0e6c" kindref="member">cJSON_CreateString</ref>(</highlight><highlight class="stringliteral">&quot;Jack<sp/>(\&quot;Bee\&quot;)<sp/>Nimble&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1abd37b2dd120f7852123dd51af5ff9d78" kindref="member">cJSON_AddItemToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;format&quot;</highlight><highlight class="normal">,<sp/>fmt<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>());</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1aec47eaefc2d022a9d53d172899e27a2e" kindref="member">cJSON_AddStringToObject</ref>(fmt,<sp/></highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;rect&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a27a7a4fb786cb7fa289dbf83889f3c99" kindref="member">cJSON_AddNumberToObject</ref>(fmt,<sp/></highlight><highlight class="stringliteral">&quot;width&quot;</highlight><highlight class="normal">,<sp/>1920);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a27a7a4fb786cb7fa289dbf83889f3c99" kindref="member">cJSON_AddNumberToObject</ref>(fmt,<sp/></highlight><highlight class="stringliteral">&quot;height&quot;</highlight><highlight class="normal">,<sp/>1080);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1ad162d48e83915525082bcbeed6262d91" kindref="member">cJSON_AddFalseToObject</ref><sp/>(fmt,<sp/></highlight><highlight class="stringliteral">&quot;interlace&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a27a7a4fb786cb7fa289dbf83889f3c99" kindref="member">cJSON_AddNumberToObject</ref>(fmt,<sp/></highlight><highlight class="stringliteral">&quot;frame<sp/>rate&quot;</highlight><highlight class="normal">,<sp/>24);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Print<sp/>to<sp/>text<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="test_8c_1a53f7a0ea107b3ead17e29ce78540b9f1" kindref="member">print_preallocated</ref>(root)<sp/>!=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(EXIT_FAILURE);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Our<sp/>&quot;days<sp/>of<sp/>the<sp/>week&quot;<sp/>array:<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>root<sp/>=<sp/><ref refid="cJSON_8c_1a1419ae039480a44d0bf2fcfe30d75cc6" kindref="member">cJSON_CreateStringArray</ref>(strings,<sp/>7);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="test_8c_1a53f7a0ea107b3ead17e29ce78540b9f1" kindref="member">print_preallocated</ref>(root)<sp/>!=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(EXIT_FAILURE);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Our<sp/>matrix:<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>root<sp/>=<sp/><ref refid="cJSON_8c_1a29e5808c66c1cf1f3edbf117babe07b3" kindref="member">cJSON_CreateArray</ref>();</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>3;<sp/>i++)</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1afdbbb05c681bab6cf6bd7fc856ed0f31" kindref="member">cJSON_AddItemToArray</ref>(root,<sp/><ref refid="cJSON_8c_1a12576edcea9baca64be6fe7a6ae8d4fa" kindref="member">cJSON_CreateIntArray</ref>(numbers[i],<sp/>3));</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>cJSON_ReplaceItemInArray(root,<sp/>1,<sp/>cJSON_CreateString(&quot;Replacement&quot;));<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="test_8c_1a53f7a0ea107b3ead17e29ce78540b9f1" kindref="member">print_preallocated</ref>(root)<sp/>!=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(EXIT_FAILURE);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Our<sp/>&quot;gallery&quot;<sp/>item:<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1abd37b2dd120f7852123dd51af5ff9d78" kindref="member">cJSON_AddItemToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;Image&quot;</highlight><highlight class="normal">,<sp/>img<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>());</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a27a7a4fb786cb7fa289dbf83889f3c99" kindref="member">cJSON_AddNumberToObject</ref>(img,<sp/></highlight><highlight class="stringliteral">&quot;Width&quot;</highlight><highlight class="normal">,<sp/>800);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a27a7a4fb786cb7fa289dbf83889f3c99" kindref="member">cJSON_AddNumberToObject</ref>(img,<sp/></highlight><highlight class="stringliteral">&quot;Height&quot;</highlight><highlight class="normal">,<sp/>600);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1aec47eaefc2d022a9d53d172899e27a2e" kindref="member">cJSON_AddStringToObject</ref>(img,<sp/></highlight><highlight class="stringliteral">&quot;Title&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;View<sp/>from<sp/>15th<sp/>Floor&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1abd37b2dd120f7852123dd51af5ff9d78" kindref="member">cJSON_AddItemToObject</ref>(img,<sp/></highlight><highlight class="stringliteral">&quot;Thumbnail&quot;</highlight><highlight class="normal">,<sp/>thm<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>());</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1aec47eaefc2d022a9d53d172899e27a2e" kindref="member">cJSON_AddStringToObject</ref>(thm,<sp/></highlight><highlight class="stringliteral">&quot;Url&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;http:/*www.example.com/image/481989943&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a27a7a4fb786cb7fa289dbf83889f3c99" kindref="member">cJSON_AddNumberToObject</ref>(thm,<sp/></highlight><highlight class="stringliteral">&quot;Height&quot;</highlight><highlight class="normal">,<sp/>125);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1aec47eaefc2d022a9d53d172899e27a2e" kindref="member">cJSON_AddStringToObject</ref>(thm,<sp/></highlight><highlight class="stringliteral">&quot;Width&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;100&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1abd37b2dd120f7852123dd51af5ff9d78" kindref="member">cJSON_AddItemToObject</ref>(img,<sp/></highlight><highlight class="stringliteral">&quot;IDs&quot;</highlight><highlight class="normal">,<sp/><ref refid="cJSON_8c_1a12576edcea9baca64be6fe7a6ae8d4fa" kindref="member">cJSON_CreateIntArray</ref>(ids,<sp/>4));</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="test_8c_1a53f7a0ea107b3ead17e29ce78540b9f1" kindref="member">print_preallocated</ref>(root)<sp/>!=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(EXIT_FAILURE);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Our<sp/>array<sp/>of<sp/>&quot;records&quot;:<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>root<sp/>=<sp/><ref refid="cJSON_8c_1a29e5808c66c1cf1f3edbf117babe07b3" kindref="member">cJSON_CreateArray</ref>();</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>2;<sp/>i++)</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1afdbbb05c681bab6cf6bd7fc856ed0f31" kindref="member">cJSON_AddItemToArray</ref>(root,<sp/>fld<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>());</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1aec47eaefc2d022a9d53d172899e27a2e" kindref="member">cJSON_AddStringToObject</ref>(fld,<sp/></highlight><highlight class="stringliteral">&quot;precision&quot;</highlight><highlight class="normal">,<sp/>fields[i].<ref refid="structrecord_1a1a2c753f8662ba3b36c6724bd68a79e6" kindref="member">precision</ref>);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a27a7a4fb786cb7fa289dbf83889f3c99" kindref="member">cJSON_AddNumberToObject</ref>(fld,<sp/></highlight><highlight class="stringliteral">&quot;Latitude&quot;</highlight><highlight class="normal">,<sp/>fields[i].<ref refid="structrecord_1aead5d6a207526cb625d716c030fa3d4d" kindref="member">lat</ref>);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a27a7a4fb786cb7fa289dbf83889f3c99" kindref="member">cJSON_AddNumberToObject</ref>(fld,<sp/></highlight><highlight class="stringliteral">&quot;Longitude&quot;</highlight><highlight class="normal">,<sp/>fields[i].<ref refid="structrecord_1a36c8c25419ba59e1288560da3dd6bfd0" kindref="member">lon</ref>);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1aec47eaefc2d022a9d53d172899e27a2e" kindref="member">cJSON_AddStringToObject</ref>(fld,<sp/></highlight><highlight class="stringliteral">&quot;Address&quot;</highlight><highlight class="normal">,<sp/>fields[i].<ref refid="structrecord_1abfdcc46d8017e680b8dc1bc373cc988e" kindref="member">address</ref>);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1aec47eaefc2d022a9d53d172899e27a2e" kindref="member">cJSON_AddStringToObject</ref>(fld,<sp/></highlight><highlight class="stringliteral">&quot;City&quot;</highlight><highlight class="normal">,<sp/>fields[i].<ref refid="structrecord_1a14039bf4a0520076003f1494832f7776" kindref="member">city</ref>);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1aec47eaefc2d022a9d53d172899e27a2e" kindref="member">cJSON_AddStringToObject</ref>(fld,<sp/></highlight><highlight class="stringliteral">&quot;State&quot;</highlight><highlight class="normal">,<sp/>fields[i].<ref refid="structrecord_1a5c25c1774d401255c03eddb9476bd3f4" kindref="member">state</ref>);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1aec47eaefc2d022a9d53d172899e27a2e" kindref="member">cJSON_AddStringToObject</ref>(fld,<sp/></highlight><highlight class="stringliteral">&quot;Zip&quot;</highlight><highlight class="normal">,<sp/>fields[i].<ref refid="structrecord_1a351a82e368a89d7ff90ef9ece2520aa8" kindref="member">zip</ref>);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1aec47eaefc2d022a9d53d172899e27a2e" kindref="member">cJSON_AddStringToObject</ref>(fld,<sp/></highlight><highlight class="stringliteral">&quot;Country&quot;</highlight><highlight class="normal">,<sp/>fields[i].<ref refid="structrecord_1afcec0e174404ecb1d9f60b0796bdb316" kindref="member">country</ref>);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>cJSON_ReplaceItemInObject(cJSON_GetArrayItem(root,<sp/>1),<sp/>&quot;City&quot;,<sp/>cJSON_CreateIntArray(ids,<sp/>4));<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="test_8c_1a53f7a0ea107b3ead17e29ce78540b9f1" kindref="member">print_preallocated</ref>(root)<sp/>!=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(EXIT_FAILURE);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>root<sp/>=<sp/><ref refid="cJSON_8c_1a9c5f44afdd781b16dead90042fe74085" kindref="member">cJSON_CreateObject</ref>();</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a27a7a4fb786cb7fa289dbf83889f3c99" kindref="member">cJSON_AddNumberToObject</ref>(root,<sp/></highlight><highlight class="stringliteral">&quot;number&quot;</highlight><highlight class="normal">,<sp/>1.0<sp/>/<sp/>zero);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="test_8c_1a53f7a0ea107b3ead17e29ce78540b9f1" kindref="member">print_preallocated</ref>(root)<sp/>!=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(EXIT_FAILURE);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="cJSON_8c_1a927f7b148cc30fc17210a4511f724cb0" kindref="member">cJSON_Delete</ref>(root);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259" refid="test_8c_1a840291bc02cba5474a4cb46a9b9566fe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="cJSON_8h_1a79203c3ba406ffd5736627cc1e082e38" kindref="member">CJSON_CDECL</ref><sp/><ref refid="test_8c_1a840291bc02cba5474a4cb46a9b9566fe" kindref="member">main</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="260"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>print<sp/>the<sp/>version<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Version:<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="cJSON_8c_1ade07c00ada9acf6ffc5d33907d36cb8e" kindref="member">cJSON_Version</ref>());</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Now<sp/>some<sp/>samplecode<sp/>for<sp/>building<sp/>objects<sp/>concisely:<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="test_8c_1af04b0068a43be07ead5dcfb1f3f01aed" kindref="member">create_objects</ref>();</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="268"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="test.c"/>
+  </compounddef>
+</doxygen>

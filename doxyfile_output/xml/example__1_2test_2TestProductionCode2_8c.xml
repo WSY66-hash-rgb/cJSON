@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="example__1_2test_2TestProductionCode2_8c" kind="file" language="C++">
+    <compoundname>TestProductionCode2.c</compoundname>
+    <includes local="yes">ProductionCode2.h</includes>
+    <includes refid="unity_8h" local="yes">unity.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>tests/unity/examples/example_1/test/TestProductionCode2.c</label>
+        <link refid="example__1_2test_2TestProductionCode2_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>setjmp.h</label>
+      </node>
+      <node id="2">
+        <label>ProductionCode2.h</label>
+      </node>
+      <node id="9">
+        <label>limits.h</label>
+      </node>
+      <node id="5">
+        <label>../examples/unity_config.h</label>
+        <link refid="unity__config_8h"/>
+      </node>
+      <node id="7">
+        <label>math.h</label>
+      </node>
+      <node id="4">
+        <label>unity_internals.h</label>
+        <link refid="unity__internals_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>unity.h</label>
+        <link refid="unity_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="example__1_2test_2TestProductionCode2_8c_1a95c834d6178047ce9e1bce7cbfea2836" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void setUp</definition>
+        <argsstring>(void)</argsstring>
+        <name>setUp</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_1/test/TestProductionCode2.c" line="10" column="6" bodyfile="tests/unity/examples/example_1/test/TestProductionCode2.c" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="example__1_2test_2TestProductionCode2_8c_1a9909011e5fea0c018842eec4d93d0662" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tearDown</definition>
+        <argsstring>(void)</argsstring>
+        <name>tearDown</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_1/test/TestProductionCode2.c" line="14" column="6" bodyfile="tests/unity/examples/example_1/test/TestProductionCode2.c" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="example__1_2test_2TestProductionCode2_8c_1a65541f73460fe081dd6dfc3be9767a7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void test_IgnoredTest</definition>
+        <argsstring>(void)</argsstring>
+        <name>test_IgnoredTest</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_1/test/TestProductionCode2.c" line="18" column="6" bodyfile="tests/unity/examples/example_1/test/TestProductionCode2.c" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="example__1_2test_2TestProductionCode2_8c_1ad80aaa9b02b40532fa33ed7313010081" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void test_AnotherIgnoredTest</definition>
+        <argsstring>(void)</argsstring>
+        <name>test_AnotherIgnoredTest</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_1/test/TestProductionCode2.c" line="23" column="6" bodyfile="tests/unity/examples/example_1/test/TestProductionCode2.c" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="example__1_2test_2TestProductionCode2_8c_1ad7b328b8360b0f1672df66b25ba34a0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void test_ThisFunctionHasNotBeenTested_NeedsToBeImplemented</definition>
+        <argsstring>(void)</argsstring>
+        <name>test_ThisFunctionHasNotBeenTested_NeedsToBeImplemented</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tests/unity/examples/example_1/test/TestProductionCode2.c" line="28" column="6" bodyfile="tests/unity/examples/example_1/test/TestProductionCode2.c" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ProductionCode2.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unity_8h" kindref="compound">unity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>These<sp/>should<sp/>be<sp/>ignored<sp/>because<sp/>they<sp/>are<sp/>commented<sp/>out<sp/>in<sp/>various<sp/>ways:</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">#include<sp/>&quot;whatever.h&quot;<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment">#include<sp/>&quot;somethingelse.h&quot;</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="example__1_2test_2TestProductionCode2_8c_1a95c834d6178047ce9e1bce7cbfea2836" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="example__1_2test_2TestProductionCode2_8c_1a95c834d6178047ce9e1bce7cbfea2836" kindref="member">setUp</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="example__1_2test_2TestProductionCode2_8c_1a9909011e5fea0c018842eec4d93d0662" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="example__1_2test_2TestProductionCode2_8c_1a9909011e5fea0c018842eec4d93d0662" kindref="member">tearDown</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1a65541f73460fe081dd6dfc3be9767a7d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="example__1_2test_2TestProductionCode2_8c_1a65541f73460fe081dd6dfc3be9767a7d" kindref="member">test_IgnoredTest</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1aca1a170cd0581bacd7c918574f6838de" kindref="member">TEST_IGNORE_MESSAGE</ref>(</highlight><highlight class="stringliteral">&quot;This<sp/>Test<sp/>Was<sp/>Ignored<sp/>On<sp/>Purpose&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1ad80aaa9b02b40532fa33ed7313010081" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="example__1_2test_2TestProductionCode2_8c_1ad80aaa9b02b40532fa33ed7313010081" kindref="member">test_AnotherIgnoredTest</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1aca1a170cd0581bacd7c918574f6838de" kindref="member">TEST_IGNORE_MESSAGE</ref>(</highlight><highlight class="stringliteral">&quot;These<sp/>Can<sp/>Be<sp/>Useful<sp/>For<sp/>Leaving<sp/>Yourself<sp/>Notes<sp/>On<sp/>What<sp/>You<sp/>Need<sp/>To<sp/>Do<sp/>Yet&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="example__1_2test_2test__runners_2TestProductionCode2__Runner_8c_1ad7b328b8360b0f1672df66b25ba34a0d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="example__1_2test_2TestProductionCode2_8c_1ad7b328b8360b0f1672df66b25ba34a0d" kindref="member">test_ThisFunctionHasNotBeenTested_NeedsToBeImplemented</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unity_8h_1ad18f9e51b4a85dcb5e3a07c54eaf4019" kindref="member">TEST_IGNORE</ref>();<sp/></highlight><highlight class="comment">/*<sp/>Like<sp/>This<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="tests/unity/examples/example_1/test/TestProductionCode2.c"/>
+  </compounddef>
+</doxygen>
